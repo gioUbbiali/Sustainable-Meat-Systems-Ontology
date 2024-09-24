@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository maintains the Sustainable Meat Systems Ontology (SuMSO). SuMSO is a domain ontology addressing meat systems sustainability. SuMSO extends [Sustainability Core <Ontology (SCO)](https://github.com/gioUbbiali/Sustainability-Core-Ontology) and nd [Basic Formal Ontology (BFO)](https://github.com/BFO-ontology/BFO-2020).
+This repository maintains the Sustainable Meat Systems Ontology (SuMSO). SuMSO is a domain ontology addressing meat systems sustainability. SuMSO extends [Sustainability Core Ontology (SCO)](https://github.com/gioUbbiali/Sustainability-Core-Ontology) and nd [Basic Formal Ontology (BFO)](https://github.com/BFO-ontology/BFO-2020).
 
 ## Material
 
