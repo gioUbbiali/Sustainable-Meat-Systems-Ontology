@@ -21,7 +21,7 @@
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal>We removed the “information content entity” class from this import. 
-Exxtending SCO, SuMSO V1.0.0 already covers the class “information content entity” from the Common Core Ontologies (CCO) Suite. IAO and CCO classes correspond. Thus, SuMSO V1.0.0 only imports IAO “information content entity” subclasses under the CCO one. We included the reference to the original IAO superclass.
+Extending SCO, SuMSO V1.0.0 already covers the class “information content entity” from the Common Core Ontologies (CCO) Suite. IAO and CCO classes correspond. Thus, SuMSO V1.0.0 only imports IAO “information content entity” subclasses under the CCO one. We included the reference to the original IAO superclass.
 IAO “information content entity” class: http://purl.obolibrary.org/obo/IAO_0000030 
 CCO “information content entity” class: http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity</Literal>
     </Annotation>
