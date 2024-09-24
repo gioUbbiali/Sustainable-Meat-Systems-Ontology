@@ -1,4 +1,4 @@
-## Sustainable Meat Systems Ontology
+# Sustainable Meat Systems Ontology
 
 ## Description
 
