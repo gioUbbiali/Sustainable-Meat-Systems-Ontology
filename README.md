@@ -13,12 +13,12 @@ SuMSO V1.0.0 is the first version and the current release of SuMSO OM. It is for
 
 SuMSO OM materials can be found here:
 
-- [SuMSO OM materials-total.]
-- [SuMSO V1.0.0 current release. ](
-- [SuMSO V1.0.0 final draft version prior to release. ](
-- [SuMSO V1.0.0 imports from other ontologies. ](
+- [SuMSO OM materials-total.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO)
+  SuMSO V1.0.0 current release.
+- SuMSO V1.0.0 final draft version prior to release.
+- SuMSO V1.0.0 imports from other ontologies. 
 
-[SuMSO V1.0.0]( is implemented  in [OWL/XML](https://www.w3.org/TR/owl2-overview/), [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/), and [Terse RDF Triple Language](https://www.w3.org/TR/turtle/). 
+SuMSO V1.0.0 is implemented  in [OWL/XML](https://www.w3.org/TR/owl2-overview/), [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/), and [Terse RDF Triple Language](https://www.w3.org/TR/turtle/). 
 
 The publication provided in the “Publications and Documentation” section presents the process of development of SuMSO V1.0.0. Materials have been organized considering a possible future migration of this repo to the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
 
