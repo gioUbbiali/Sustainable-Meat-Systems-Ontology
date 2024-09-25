@@ -17,6 +17,7 @@ SuMSO OM materials can be found here:
 - [SuMSO V1.0.0 current release.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO)
 - [SuMSO V1.0.0 final draft version prior to release.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO/src/ontology)
 - [SuMSO V1.0.0 imports from external ontologies. ](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO/src/ontology/imports)
+- [Material for implementation.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO/materials%20for%20implementation)
 
 SuMSO V1.0.0 is implemented  in [OWL/XML](https://www.w3.org/TR/owl2-overview/), [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/), and [Terse RDF Triple Language](https://www.w3.org/TR/turtle/). 
 
