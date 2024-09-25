@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/24-09-24/obi-iao_import.ofn" uri="imports/obi-iao_imports.ofn"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-24obi&amp;iao_import.ofn" uri="a.owx"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/24-09-24/obi-iao_import.ofn" uri="https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO/src/ontology/imports/obi-iao_imports.ofn?token=GHSAT0AAAAAACRL25O2FFT7JOMRQYQKDYAGZXSWI5Q"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-24/obi-iao_import.ofn" uri="https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO/src/ontology/imports/obi-iao-imports.owl?token=GHSAT0AAAAAACRL25O3TI6ZPI5JRGZP5K3UZXSUUVQ"/>

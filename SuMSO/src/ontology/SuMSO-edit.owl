@@ -22,6 +22,7 @@
     <Prefix name="AnnotationVocabulary" IRI="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"/>
     <Prefix name="CommonCoreOntologies" IRI="http://www.ontologyrepository.com/CommonCoreOntologies/"/>
     <Import>http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/sumso/imports/24-09-24/obi-iao_import.ofn</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:creator"/>
         <Literal>Giorgio A. Ubbiali</Literal>
