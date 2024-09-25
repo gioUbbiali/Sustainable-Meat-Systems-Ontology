@@ -1702,6 +1702,21 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <Literal xml:lang="en">complex system activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
+        <Literal xml:lang="en">See for possible implementations and alignments:
+
+https://www.ebi.ac.uk/ols4/ontologies/prov/classes/http%253A%252F%252Fwww.w3.org%252Fns%252Fprov%2523Activity 
+
+http://purl.obolibrary.org/obo/NCIT_C43431
+
+http://purl.obolibrary.org/obo/NCIT_C25404
+
+https://bioportal.bioontology.org/ontologies/STY?p=classes&amp;conceptid=T052 
+
+https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3A%2F%2Fwww.projecthalo.com%2Faura%23Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000044</IRI>
         <Literal xml:lang="en">food system activity</Literal>
