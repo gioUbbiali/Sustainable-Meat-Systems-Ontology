@@ -26,7 +26,7 @@ The publication provided in the “Publications and Documentation” section pre
 
 The most recent version of SuMSO can be always found [here]( https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology) .
 
-##  SuMSO developer   
+##  SuMSO Developer   
 
 [Giorgio A.Ubbiali](https://orcid.org/0000-0001-7872-1770)
 
