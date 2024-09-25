@@ -1043,7 +1043,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000045"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000043"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000044"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000046"/>
@@ -1051,11 +1051,11 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000045"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000046"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
-        <Class abbreviatedIRI="obo:BFO_0000015"/>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000049"/>
@@ -1698,6 +1698,21 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <Literal xml:lang="en">meat system environment component perspective information content entity&apos;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
+        <Literal xml:lang="en">An activity could (but not necessarily) be a planned process. Currently, SuMSO does not hierarchically position “activity” classes as subclasses of the “planned process” one. The position of the class in the hierarchy requires revision. We envision having discussions with subject matter experts to improve it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
+        <Literal xml:lang="en">SuMSO must implement to cover classes representing the corresponding spatio-temporal regions and temporal intervals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
+        <Literal xml:lang="en">This definition requires revision. We envision having discussions with subject matter experts to improve it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
         <Literal xml:lang="en">complex system activity</Literal>
@@ -1718,9 +1733,29 @@ https://bioportal.bioontology.org/ontologies/STY?p=classes&amp;conceptid=T052
 https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3A%2F%2Fwww.projecthalo.com%2Faura%23Activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
+        <Literal xml:lang="en">A process that has as proper occurrent parts at least two interactions among complex system components, interactions among complex system environment components, or interactions between complex system components and complex system environment components that are causally concatenated to (seeks to) obtain a certain (often planned/desired) output/fulfill a certain (often planned/desired) function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000044</IRI>
         <Literal xml:lang="en">food system activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000044</IRI>
+        <Literal xml:lang="en">A complex system activity that has as proper occurrent parts at least two interactions among food system components, interactions among food system environment components, or interactions between food system components and food system environment components.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000044</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1728,9 +1763,29 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
         <Literal xml:lang="en">meat system activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000045</IRI>
+        <Literal xml:lang="en">A food system activity that has as proper occurrent parts at least two interactions among meat system components, interactions among meat system environment components, or interactions between meat system components and meat system environment components.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000045</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000046</IRI>
         <Literal xml:lang="en">food supply chain activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000046</IRI>
+        <Literal>A food activity that is a proper occurrent part of a food supply chain (flow).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000046</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1738,14 +1793,39 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
         <Literal xml:lang="en">meat supply chain activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000047</IRI>
+        <Literal xml:lang="en">A food supply chain activity that is a proper occurrent part of a meat supply chain (flow).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000047</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000048</IRI>
         <Literal xml:lang="en">food supply chain (flow)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000048</IRI>
+        <Literal xml:lang="en">A planned process that has as proper occurrent parts at least two food system activities that are causally concatenated to and realize the plan that concretizes the plan specification that generically depends on at lest one food system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows in time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000048</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000049</IRI>
         <Literal xml:lang="en">meat supply chain (flow)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000049</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
