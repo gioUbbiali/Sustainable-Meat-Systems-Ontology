@@ -197,6 +197,15 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000049"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000050"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasVersion"/>
     </Declaration>
     <EquivalentClasses>
@@ -237,6 +246,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
                     <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000015"/>
                 </ObjectUnionOf>
             </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000006"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000046"/>
+            </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -414,6 +433,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000036"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000024"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000046"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000037"/>
         <ObjectIntersectionOf>
             <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000023"/>
@@ -454,6 +483,105 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000218"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000019"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000046"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000044"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000138"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000045"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000138"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000049"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000050"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:BFO_0000059"/>
+                    <ObjectIntersectionOf>
+                        <Class abbreviatedIRI="obo:IAO_0000104"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty abbreviatedIRI="obo:BFO_0000084"/>
+                            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000024"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000118"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000046"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000049"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:BFO_0000059"/>
+                    <ObjectIntersectionOf>
+                        <Class abbreviatedIRI="obo:IAO_0000104"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty abbreviatedIRI="obo:BFO_0000084"/>
+                            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000118"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000050"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:OBI_0000011"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000055"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty abbreviatedIRI="obo:BFO_0000059"/>
+                    <ObjectIntersectionOf>
+                        <Class abbreviatedIRI="obo:IAO_0000104"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty abbreviatedIRI="obo:BFO_0000084"/>
+                            <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000028"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000118"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000051"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000051"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000043"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000138"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000050"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -1035,19 +1163,58 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000043"/>
-        <Class abbreviatedIRI="obo:BFO_0000015"/>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000043"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:OBI_0000011"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000117"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000020"/>
+                    <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000022"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000044"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000043"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000044"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000043"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000117"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000027"/>
+                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000029"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000045"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000044"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000045"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000044"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000117"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
+                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000015"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000046"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000044"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000051"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
@@ -1055,11 +1222,39 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000050"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000036"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000049"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000049"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000006"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000050"/>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000051"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000043"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
@@ -1093,6 +1288,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000039"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000040"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000007"/>
+        <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
+    </ClassAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sco/SCO_0000003</IRI>
@@ -1720,7 +1919,14 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
-        <Literal xml:lang="en">An activity could (but not necessarily) be a planned process. Currently, SuMSO does not hierarchically position “activity” classes as subclasses of the “planned process” one. The position of the class in the hierarchy requires revision. We envision having discussions with subject matter experts to improve it.</Literal>
+        <Literal xml:lang="en">Currently, SuMSO hierarchically position “activity” classes as subclasses of the “planned process” one. It also describes an activity having interactions as occurrent parts(at least one).
+
+The position of the class in the hierarchy and the definition require revision. We envision having discussions with subject matter experts about whether an activity is not necessarily planned. We also plan to discuss if an activity requires to have at least two interactions as occurrent parts, to exist or if one is enough. Similarly, we aim to converse regarding the possibility of introducing the term “action”. Our genuine understanding is that activities have actions as occurrent  parts that have interactions as occurrent  parts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
+        <Literal xml:lang="en">Currently, we include the possibility that an activity has as occurrent part (up to solely consist of) only one interaction. We leave open the discussion considering whether an activity requires to have as occurrent parts at least two interactions to exist instead of one.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1755,7 +1961,7 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
-        <Literal xml:lang="en">A process that has as proper occurrent parts at least two interactions among complex system components, interactions among complex system environment components, or interactions between complex system components and complex system environment components that are causally concatenated to (seeks to) obtain a certain (often planned/desired) output/fulfill a certain (often planned/desired) function.</Literal>
+        <Literal xml:lang="en">A planned process that has as occurrent parts some (at least one) interactions among complex system components or interactions between complex system components and complex system environment components that are causally concatenated to (seeks to) obtain a certain (often planned/desired) output/fulfill a certain (often planned/desired) function.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -1770,7 +1976,7 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000044</IRI>
-        <Literal xml:lang="en">A complex system activity that has as proper occurrent parts at least two interactions among food system components, interactions among food system environment components, or interactions between food system components and food system environment components.</Literal>
+        <Literal xml:lang="en">A complex system activity that has as occurrent parts some (at least one) interactions among food system components or interactions between food system components and food system environment components.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -1785,7 +1991,7 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000045</IRI>
-        <Literal xml:lang="en">A food system activity that has as proper occurrent parts at least two interactions among meat system components, interactions among meat system environment components, or interactions between meat system components and meat system environment components.</Literal>
+        <Literal xml:lang="en">A food system activity that has as occurrent parts some (at least one) interactions among meat system components or interactions between meat system components and meat system environment components.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -1800,7 +2006,7 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000046</IRI>
-        <Literal>A food activity that is a proper occurrent part of a food supply chain (flow).</Literal>
+        <Literal>A food system activity that is a proper occurrent part of a food supply chain (flow).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -1815,19 +2021,12 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000047</IRI>
-        <Literal xml:lang="en">A food supply chain activity that is a proper occurrent part of a meat supply chain (flow).</Literal>
+        <Literal xml:lang="en">A meat system activity that is a proper occurrent part of a meat supply chain (flow).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000047</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000048</IRI>
-        <Literal xml:lang="en">This definition requires revision. We envision having discussions with subject matter experts to improve it.
-
-Currently, SuMSO reuse classes addressing plan, plan specification, and planned process from the Ontology for Biomedical Investigations ((OBI) and the Information Artifact Ontology (IAO). The Industrial Ontology Foundry (IOF) and Common Core Ontologies (CCO) provide slightly different representations. We plan a deep revision of SuMSO-OBI-IAO representation, envisioning also alignment with those pertaining to IOF and CCO.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1837,7 +2036,7 @@ Currently, SuMSO reuse classes addressing plan, plan specification, and planned 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000048</IRI>
-        <Literal xml:lang="en">A planned process that has as proper occurrent parts at least two food system activities that are causally concatenated to and realize the plan that concretizes the plan specification that generically depends on at lest one food system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows in time.</Literal>
+        <Literal xml:lang="en">A supply chain that has as proper occurrent parts some (at least one) food supply chain activities and and realize the plan that concretizes the plan specification that generically depends on at least one food system component.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -1852,7 +2051,7 @@ Currently, SuMSO reuse classes addressing plan, plan specification, and planned 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000049</IRI>
-        <Literal xml:lang="en">A food supply chain that has as proper occurrent parts at least two meat system activities.</Literal>
+        <Literal xml:lang="en">A food supply chain that has as proper occurrent parts some (at least one) meat supply chain activities and and realize the plan that concretizes the plan specification that generically depends on at least one meat system component.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -1861,21 +2060,101 @@ Currently, SuMSO reuse classes addressing plan, plan specification, and planned 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000050</IRI>
+        <Literal xml:lang="en">Currently, SuMSO reuse classes addressing plan, plan specification, and planned process from the Ontology for Biomedical Investigations ((OBI) and the Information Artifact Ontology (IAO). The Industrial Ontology Foundry (IOF) and Common Core Ontologies (CCO) provide slightly different representations. We plan a deep revision of SuMSO-OBI-IAO representation, envisioning also alignment with those pertaining to IOF and CCO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000050</IRI>
+        <Literal xml:lang="en">Currently, we include the possibility that a supply chain has as occurrent part (up to solely consist of) only one interaction. We leave open the discussion considering whether a supply chain requires to have as occurrent parts at least two activities to exist instead of one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000050</IRI>
+        <Literal xml:lang="en">SuMSO must implement to cover classes representing the corresponding spatio-temporal regions and temporal intervals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000050</IRI>
+        <Literal xml:lang="en">supply chain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000050</IRI>
+        <Literal xml:lang="en">A planned process that has as proper occurrent parts some (at least one) supply chain activities that are causally concatenated and realize the plan that concretizes the plan specification that generically depends on at lest one complex system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000050</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000051</IRI>
+        <Literal xml:lang="en">supply chain activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000051</IRI>
+        <Literal xml:lang="en">A complex system activity that is an occurent part of a supply chain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000051</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        <Literal xml:lang="en">For more details regarding the embraced perspective see also https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology and the following publications (coming soon).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        <Literal xml:lang="en">This individual instantiates the class “meat system stakeholder perspective” as we consider ourselves stakeholders of these systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        <Literal xml:lang="en">We use this individual to track our perspective in developing this ontology. We aim to disambiguate situations in which different perspectives may lead to different interpretations and organization of the ontology hierarchy, e.g. identifying the possible meat systems stakeholders.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        <Literal xml:lang="en">SuMSO authors perspective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        <Literal>https://www.ggrass.org/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        <Literal xml:lang="en">2024-09-25</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        <Literal xml:lang="en">The perspective of the SuMSO authors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:IAO_0000104</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
-see comment under &quot;complex system activity&quot; class.</Literal>
+see comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:OBI_0000011</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
-ssee comments under &quot;complex system activity&quot; and &quot;food supply chain&quot; classes.</Literal>
+see comments under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:OBI_0000260</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
-see the comment under &quot;complex system activity&quot; class.</Literal>
+see the comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
