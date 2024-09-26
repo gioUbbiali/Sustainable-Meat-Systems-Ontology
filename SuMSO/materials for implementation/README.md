@@ -2,6 +2,6 @@
 
 This folder contains the materials for implementing SuMSO, including:
 
-- A non-exaustive list of competency questions.
+- A non-exaustive list of competency questions CQs (Word and PDF formats).
 -
 -
