@@ -24,6 +24,7 @@
     <Import>http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-24/obi-iao_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn</Import>
+    <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:creator"/>
         <Literal>Giorgio A. Ubbiali</Literal>
@@ -1284,6 +1285,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
         <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.bioassayontology.org/bao#BAO_0000605"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
