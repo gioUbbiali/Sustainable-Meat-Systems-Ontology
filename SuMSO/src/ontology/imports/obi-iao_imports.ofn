@@ -8,14 +8,14 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/sumso/imports/obi-iao_import.ofn>
-<http://purl.obolibrary.org/obo/sumso/imports/24-09-24/obi-iao_import.ofn>
+<http://purl.obolibrary.org/obo/sumso/imports/2024-09-24/obi-iao_import.ofn>
 Annotation(rdfs:comment "This file contains the imports fetched from the Ontology for Biomedical Investigations (OBI) and Information Artifact Ontology (IAO) via OntoFox (https://ontofox.hegroup.org/index.php). Imports have been subjected to manual revision."@en)
 Annotation(rdfs:comment "This import included the  IAO “information content entity” class. Extending SCO, however, SuMSO V1.0.0 already covers the class “information content entity” from the Common Core Ontologies (CCO) Suite. IAO and CCO classes correspond. Thus, we removed the IAO “information content entity” class from this import and sustitute it with the corresponding CCO one. 
 
 IAO “information content entity” class: http://purl.obolibrary.org/obo/IAO_0000030 
 CCO “information content entity” class: http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity")
 Annotation(rdfs:seeAlso "See also the corresponding OntoFox text input file."@en)
-Annotation(owl:versionInfo "24-09-24"@en)
+Annotation(owl:versionInfo "2024-09-24"@en)
 
 Declaration(Class(obo:BFO_0000001))
 Declaration(Class(obo:BFO_0000015))
