@@ -12,6 +12,8 @@ http://purl.obolibrary.org/obo/NCBITaxon_2759 #eukaryota
 http://purl.obolibrary.org/obo/NCBITaxon_9605 #homo
 http://purl.obolibrary.org/obo/NCBITaxon_2157 #archea
 http://purl.obolibrary.org/obo/NCBITaxon_9913 #bos taurus
+http://purl.obolibrary.org/obo/NCBITaxon_4751 #fungi
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_131567 #cellular organism

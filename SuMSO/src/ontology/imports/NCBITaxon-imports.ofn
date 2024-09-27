@@ -41,6 +41,9 @@
         <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_4751"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
     </Declaration>
     <Declaration>
@@ -81,6 +84,10 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
         <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_4751"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
@@ -614,6 +621,51 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:NCBITaxon_2759</AbbreviatedIRI>
         <Literal>Eukaryota</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:NCBITaxon_4751</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ncbitaxon.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ncbitaxon:has_rank"/>
+        <AbbreviatedIRI>obo:NCBITaxon_4751</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:NCBITaxon_kingdom</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:NCBITaxon_4751</AbbreviatedIRI>
+        <Literal>GC_ID:1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:NCBITaxon_4751</AbbreviatedIRI>
+        <Literal>PMID:11062127</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:NCBITaxon_4751</AbbreviatedIRI>
+        <Literal>PMID:12684019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:NCBITaxon_4751</AbbreviatedIRI>
+        <Literal>ncbi_taxonomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_4751</AbbreviatedIRI>
+        <Literal>Mycota</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_4751</AbbreviatedIRI>
+        <Literal>fungi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCBITaxon_4751</AbbreviatedIRI>
+        <Literal>Fungi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>

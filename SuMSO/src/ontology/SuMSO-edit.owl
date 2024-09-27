@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://gioUbbiali.github.io/sumso/sumso.owl"
-     versionIRI="http://gioUbbiali.github.io/sumso/v1.0.0/24-09-25/sumso.owl">
+     versionIRI="http://gioUbbiali.github.io/sumso/v1.0.0/2024-09-27/sumso.owl">
     <Prefix name="" IRI="http://gioUbbiali.github.io/sumso/sumso.owl/"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
@@ -22,6 +22,7 @@
     <Prefix name="AnnotationVocabulary" IRI="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"/>
     <Prefix name="CommonCoreOntologies" IRI="http://www.ontologyrepository.com/CommonCoreOntologies/"/>
     <Import>http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/24-09-24/obi-iao_import.ofn</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:creator"/>
@@ -1280,6 +1281,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000055"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000002"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
+        <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000014"/>
@@ -2266,6 +2271,24 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
         <AbbreviatedIRI>obo:IAO_0000104</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
 see comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9605</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+human</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9605</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9913</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+cow and bull, cattle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
