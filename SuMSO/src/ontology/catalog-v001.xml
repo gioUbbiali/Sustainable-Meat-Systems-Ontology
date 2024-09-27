@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-24/obi-iao_import.ofn" uri="imports/obi-iao_imports.ofn"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn" uri="imports/NCBITaxon-imports.ofn"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/24-09-24/obi-iao_import.ofn" uri="imports/obi-iao_imports.ofn"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-24obi&amp;iao_import.ofn" uri="a.owx"/>
@@ -16,7 +17,8 @@
     <uri id="Imports Wizard Entry" name="http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl" uri="https://raw.githubusercontent.com/gioUbbiali/Sustainability-Core-Ontology/refs/heads/main/SCO/SCO.owl"/>
     <uri id="Imports Wizard Entry" name="http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl" uri="https://raw.githubusercontent.com/gioUbbiali/Sustainability-Core-Ontology/main/SCO/SCO.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1727342782408" name="http://gioUbbiali.github.io/sco/sco.owl" uri="imports/SCO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1727342782408" name="http://gioUbbiali.github.io/sumso/sumso.owl" uri="SuMSO-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1727465309893" name="http://gioUbbiali.github.io/sco/sco.owl" uri="imports/SCO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1727465309893" name="http://gioUbbiali.github.io/sumso/sumso.owl" uri="SuMSO-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1727465309893" name="http://purl.obolibrary.org/obo/sumso/imports/NCBITaxon_import.ofn" uri="imports/NCBITaxon-imports.ofn"/>
     </group>
 </catalog>
