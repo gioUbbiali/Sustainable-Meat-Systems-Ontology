@@ -203,7 +203,19 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000051"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000055"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000056"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasVersion"/>
@@ -1236,7 +1248,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000049"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000051"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000049"/>
@@ -1255,6 +1267,18 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000051"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000043"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000053"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000055"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000002"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
@@ -1291,6 +1315,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <ClassAssertion>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000007"/>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000007"/>
+        <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000056"/>
     </ClassAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1926,6 +1954,11 @@ The position of the class in the hierarchy and the definition require revision. 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
+        <Literal xml:lang="en">Currently, SuMSO reuse classes addressing plan, plan specification, and planned process from the Ontology for Biomedical Investigations ((OBI) and the Information Artifact Ontology (IAO). The Industrial Ontology Foundry (IOF) and Common Core Ontologies (CCO) provide slightly different representations. We plan a deep revision of SuMSO-OBI-IAO representation, envisioning also alignment with those pertaining to IOF and CCO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
         <Literal xml:lang="en">Currently, we include the possibility that an activity has as occurrent part (up to solely consist of) only one interaction. We leave open the discussion considering whether an activity requires to have as occurrent parts at least two interactions to exist instead of one.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1956,7 +1989,11 @@ http://purl.obolibrary.org/obo/NCIT_C25404
 
 https://bioportal.bioontology.org/ontologies/STY?p=classes&amp;conceptid=T052 
 
-https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3A%2F%2Fwww.projecthalo.com%2Faura%23Activity</Literal>
+https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3A%2F%2Fwww.projecthalo.com%2Faura%23Activity
+
+https://spec.industrialontologies.org/ontology/core/Core/PlannedProcess 
+and subclasses in supply chain ontology and maintenance ontology (IOF ontologies), especially
+https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyChainProcess</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
@@ -2079,6 +2116,12 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
         <Literal xml:lang="en">supply chain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000050</IRI>
+        <Literal xml:lang="en">See also:
+https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyChainProcess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000050</IRI>
         <Literal xml:lang="en">A planned process that has as proper occurrent parts some (at least one) supply chain activities that are causally concatenated and realize the plan that concretizes the plan specification that generically depends on at lest one complex system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows.</Literal>
@@ -2131,7 +2174,7 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
-        <Literal xml:lang="en">2024-09-25</Literal>
+        <Literal>2024-09-25</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
@@ -2139,10 +2182,96 @@ https://bioportal.bioontology.org/ontologies/AURA?p=classes&amp;conceptid=http%3
         <Literal xml:lang="en">The perspective of the SuMSO authors.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000053</IRI>
+        <Literal xml:lang="en">product-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000053</IRI>
+        <Literal>https://spec.industrialontologies.org/ontology/core/Core/MaterialProductRole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000054</IRI>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasVersion"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000054</IRI>
+        <Literal xml:lang="en">24-09-27</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000054</IRI>
+        <Literal xml:lang="en">Do not use this class directly. This class is constructed as a grouping to identify stakeholders according to a particular perspective.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000054</IRI>
+        <Literal xml:lang="en">meat system stakeholder - authors perspective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000055</IRI>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000056</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasVersion"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000055</IRI>
+        <Literal xml:lang="en">24-09-27</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000055</IRI>
+        <Literal xml:lang="en">Do not use this class directly. This class is constructed as a grouping to identify  stakeholders according to a particular perspective.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000055</IRI>
+        <Literal xml:lang="en">meat system stakeholder - GGRASS perspective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000056</IRI>
+        <Literal xml:lang="en">This individual instantiates the class “meat system stakeholder perspective” as we consider GGRASS participants stakeholders of these systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000056</IRI>
+        <Literal xml:lang="en">We use this individual to track GGRASS participants&apos; perspective in developing this ontology. We aim to disambiguate situations in which different perspectives may lead to different interpretations and organization of the ontology hierarchy, e.g. identifying the possible meat systems stakeholders.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000056</IRI>
+        <Literal xml:lang="en">GGRASS participants perspective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000056</IRI>
+        <Literal>https://www.ggrass.org/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000056</IRI>
+        <Literal>2024-09-27</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000056</IRI>
+        <Literal xml:lang="en">The perspective of the GGRASS participants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:IAO_0000104</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
 see comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:OBI_0000011</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO creator comment:
+see also https://spec.industrialontologies.org/ontology/core/Core/PlannedProcess</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
