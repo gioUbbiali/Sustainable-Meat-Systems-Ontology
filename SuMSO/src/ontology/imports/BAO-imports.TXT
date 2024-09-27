@@ -1,0 +1,17 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/sumso/imports/bao_import.ofn
+
+[Source ontology]
+BAO
+[Low level source term URIs]
+
+# terms
+http://www.bioassayontology.org/bao#BAO_0000605
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################
