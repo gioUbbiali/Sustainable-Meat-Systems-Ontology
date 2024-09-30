@@ -214,6 +214,18 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000055"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000060"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
     </Declaration>
     <Declaration>
@@ -596,6 +608,46 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000138"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000050"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000057"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:NCBITaxon_4751"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000058"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.bioassayontology.org/bao#BAO_0000605"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000059"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:NCBITaxon_2"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000060"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:NCBITaxon_2157"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -1283,8 +1335,36 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000002"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000057"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000058"/>
+        <Class IRI="http://www.bioassayontology.org/bao#BAO_0000605"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000059"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000060"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
         <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.bioassayontology.org/bao#BAO_0000605"/>
@@ -2273,6 +2353,90 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000057</IRI>
+        <Literal xml:lang="en">The class fungi is too general and broad. Not all fungi may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. future implementation will deprecate this class and include the specific ones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000057</IRI>
+        <Literal xml:lang="en">fungi- meat system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000057</IRI>
+        <Literal xml:lang="en">For class definition, see the upper-level class &quot;fungi&quot;.
+http://purl.obolibrary.org/obo/NCBITaxon_4751</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000057</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000058</IRI>
+        <Literal xml:lang="en">The class plant is too general and broad. Not all plants may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. future implementation will deprecate this class and include the specific ones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000058</IRI>
+        <Literal xml:lang="en">plant-meat system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000058</IRI>
+        <Literal xml:lang="en">For class definition, see the upper-level class &quot;plant&quot;.
+http://www.bioassayontology.org/bao#BAO_0000605</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000058</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000059</IRI>
+        <Literal xml:lang="en">The class bacteria is too general and broad. Not all bacteria may belong to meat systems.Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. future implementation will deprecate this class and include the specific ones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000059</IRI>
+        <Literal xml:lang="en">bacteria-meat system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000059</IRI>
+        <Literal xml:lang="en">For class definition, see the upper-level class &quot;bacteria&quot;.
+http://purl.obolibrary.org/obo/NCBITaxon_2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000059</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000060</IRI>
+        <Literal xml:lang="en">The class archaea is too general and broad. Not all archea may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. future implementation will deprecate this class and include the specific ones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000060</IRI>
+        <Literal xml:lang="en">archaea-meat system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000060</IRI>
+        <Literal xml:lang="en">For class definition, see the upper-level class &quot;archaea&quot;.
+http://purl.obolibrary.org/obo/NCBITaxon_2157</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000060</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:IAO_0000104</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
 see comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
@@ -2290,10 +2454,16 @@ human</Literal>
 person</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9605</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+We initially dedicated attention to humans and cows due to the primary role played in meat systems. Future implementations will include other specific subclasses to account for additional eucaryotes that are possibly involved in meat systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:NCBITaxon_9913</AbbreviatedIRI>
-        <Literal xml:lang="en">SuMSO:
-cow and bull, cattle</Literal>
+        <Literal xml:lang="en">SuMSO developer comment:
+We initially dedicated attention to humans and cows due to the primary role played in meat systems. Future implementations will include other specific subclasses to account for additional eucaryotes that are possibly involved in meat systems.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
