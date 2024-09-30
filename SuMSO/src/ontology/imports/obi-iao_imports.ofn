@@ -18,14 +18,18 @@ Annotation(rdfs:seeAlso "See also the corresponding OntoFox text input file."@en
 Annotation(owl:versionInfo "2024-09-24"@en)
 
 Declaration(Class(obo:BFO_0000001))
+Declaration(Class(obo:BFO_0000002))
+Declaration(Class(obo:BFO_0000004))
 Declaration(Class(obo:BFO_0000015))
 Declaration(Class(obo:BFO_0000017))
 Declaration(Class(obo:BFO_0000031))
+Declaration(Class(obo:BFO_0000040))
 Declaration(Class(obo:IAO_0000005))
 Declaration(Class(obo:IAO_0000007))
 Declaration(Class(obo:IAO_0000033))
 Declaration(Class(obo:IAO_0000104))
 Declaration(Class(obo:OBI_0000011))
+Declaration(Class(obo:OBI_0000245))
 Declaration(Class(obo:OBI_0000260))
 Declaration(Class(<http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity>))
 Declaration(ObjectProperty(obo:BFO_0000051))
@@ -48,6 +52,7 @@ Declaration(AnnotationProperty(obo:IAO_0000412))
 Declaration(AnnotationProperty(obo:IAO_0000600))
 Declaration(AnnotationProperty(obo:IAO_0000601))
 Declaration(AnnotationProperty(obo:IAO_0000602))
+Declaration(AnnotationProperty(obo:IAO_0010000))
 Declaration(AnnotationProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label>))
 Declaration(AnnotationProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/definition>))
 Declaration(AnnotationProperty(<http://www.ontologyrepository.com/CommonCoreOntologies/definition_source>))
@@ -279,6 +284,69 @@ AnnotationAssertion(rdfs:label obo:RO_0000059 "concretizes"@en)
 
 AnnotationAssertion(rdfs:label obo:BFO_0000001 "entity"@en)
 
+# Class: obo:BFO_0000002 (continuant)
+
+AnnotationAssertion(obo:BFO_0000179 obo:BFO_0000002 "continuant")
+AnnotationAssertion(obo:BFO_0000180 obo:BFO_0000002 "Continuant")
+AnnotationAssertion(obo:IAO_0000111 obo:BFO_0000002 "continuant"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:BFO_0000002 "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en)
+AnnotationAssertion(obo:IAO_0000116 obo:BFO_0000002 "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240"@en)
+AnnotationAssertion(obo:IAO_0000116 obo:BFO_0000002 "Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/0000007>) obo:IAO_0000116 obo:BFO_0000002 "Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants"@en)
+AnnotationAssertion(obo:IAO_0000412 obo:BFO_0000002 obo:iao.owl)
+AnnotationAssertion(obo:IAO_0000412 obo:BFO_0000002 obo:obi.owl)
+AnnotationAssertion(obo:IAO_0000600 obo:BFO_0000002 "A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/008-002>) obo:IAO_0000600 obo:BFO_0000002 "A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])"@en)
+AnnotationAssertion(obo:IAO_0000601 obo:BFO_0000002 "if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/126-001>) obo:IAO_0000601 obo:BFO_0000002 "if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])"@en)
+AnnotationAssertion(obo:IAO_0000601 obo:BFO_0000002 "if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/009-002>) obo:IAO_0000601 obo:BFO_0000002 "if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])"@en)
+AnnotationAssertion(obo:IAO_0000601 obo:BFO_0000002 "if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/011-002>) obo:IAO_0000601 obo:BFO_0000002 "if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])"@en)
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000002 "(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/009-002>) obo:IAO_0000602 obo:BFO_0000002 "(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] ")
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000002 "(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/126-001>) obo:IAO_0000602 obo:BFO_0000002 "(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] ")
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000002 "(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/008-002>) obo:IAO_0000602 obo:BFO_0000002 "(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] ")
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000002 "(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/011-002>) obo:IAO_0000602 obo:BFO_0000002 "(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] ")
+AnnotationAssertion(rdfs:isDefinedBy obo:BFO_0000002 obo:bfo.owl)
+AnnotationAssertion(rdfs:label obo:BFO_0000002 "continuant"@en)
+SubClassOf(obo:BFO_0000002 obo:BFO_0000001)
+
+# Class: obo:BFO_0000004 (independent continuant)
+
+AnnotationAssertion(obo:BFO_0000179 obo:BFO_0000004 "ic")
+AnnotationAssertion(obo:BFO_0000180 obo:BFO_0000004 "IndependentContinuant")
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "a chair"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "a heart"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "a leg"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "a molecule"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "a spatial region"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "an atom"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "an orchestra."@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "an organism"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "the bottom right portion of a human torso"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000004 "the interior of your mouth"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:BFO_0000004 "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."@en)
+AnnotationAssertion(obo:IAO_0000115 obo:BFO_0000004 "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/017-002>) obo:IAO_0000115 obo:BFO_0000004 "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en)
+AnnotationAssertion(obo:IAO_0000412 obo:BFO_0000004 obo:obi.owl)
+AnnotationAssertion(obo:IAO_0000601 obo:BFO_0000004 "For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/134-001>) obo:IAO_0000601 obo:BFO_0000004 "For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])"@en)
+AnnotationAssertion(obo:IAO_0000601 obo:BFO_0000004 "For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/018-002>) obo:IAO_0000601 obo:BFO_0000004 "For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])"@en)
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000004 "(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/134-001>) obo:IAO_0000602 obo:BFO_0000004 "(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] ")
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000004 "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/018-002>) obo:IAO_0000602 obo:BFO_0000004 "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] ")
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000004 "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/017-002>) obo:IAO_0000602 obo:BFO_0000004 "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] ")
+AnnotationAssertion(rdfs:isDefinedBy obo:BFO_0000004 obo:bfo.owl)
+AnnotationAssertion(rdfs:label obo:BFO_0000004 "independent continuant"@en)
+SubClassOf(obo:BFO_0000004 obo:BFO_0000002)
+
 # Class: obo:BFO_0000015 (process)
 
 AnnotationAssertion(obo:BFO_0000179 obo:BFO_0000015 "process")
@@ -328,6 +396,47 @@ AnnotationAssertion(obo:IAO_0000412 obo:BFO_0000031 obo:iao.owl)
 AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000031 "(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] ")
 AnnotationAssertion(rdfs:isDefinedBy obo:BFO_0000031 obo:bfo.owl)
 AnnotationAssertion(rdfs:label obo:BFO_0000031 "generically dependent continuant"@en)
+
+# Class: obo:BFO_0000040 (material entity)
+
+AnnotationAssertion(obo:BFO_0000179 obo:BFO_0000040 "material")
+AnnotationAssertion(obo:BFO_0000180 obo:BFO_0000040 "MaterialEntity")
+AnnotationAssertion(obo:IAO_0000111 obo:BFO_0000040 "material entity"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "a flame"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "a forest fire"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "a human being"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "a hurricane"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "a photon"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "a puff of smoke"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "a sea wave"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "a tornado"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "an aggregate of human beings."@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "an energy wave"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "an epidemic"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:BFO_0000040 "the undetached arm of a human being"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:BFO_0000040 "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
+AnnotationAssertion(obo:IAO_0000116 obo:BFO_0000040 "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"@en)
+AnnotationAssertion(obo:IAO_0000116 obo:BFO_0000040 "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."@en)
+AnnotationAssertion(obo:IAO_0000116 obo:BFO_0000040 "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."@en)
+AnnotationAssertion(obo:IAO_0000412 obo:BFO_0000040 obo:cl.owl)
+AnnotationAssertion(obo:IAO_0000412 obo:BFO_0000040 obo:ido.owl)
+AnnotationAssertion(obo:IAO_0000412 obo:BFO_0000040 obo:obi.owl)
+AnnotationAssertion(obo:IAO_0000412 obo:BFO_0000040 obo:uberon.owl)
+AnnotationAssertion(obo:IAO_0000600 obo:BFO_0000040 "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/019-002>) obo:IAO_0000600 obo:BFO_0000040 "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"@en)
+AnnotationAssertion(obo:IAO_0000601 obo:BFO_0000040 "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/020-002>) obo:IAO_0000601 obo:BFO_0000040 "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"@en)
+AnnotationAssertion(obo:IAO_0000601 obo:BFO_0000040 "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"@en)
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/021-002>) obo:IAO_0000601 obo:BFO_0000040 "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"@en)
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000040 "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/019-002>) obo:IAO_0000602 obo:BFO_0000040 "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] ")
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000040 "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/021-002>) obo:IAO_0000602 obo:BFO_0000040 "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] ")
+AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000040 "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] ")
+AnnotationAssertion(Annotation(obo:IAO_0010000 <http://purl.obolibrary.org/obo/bfo/axiom/020-002>) obo:IAO_0000602 obo:BFO_0000040 "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] ")
+AnnotationAssertion(rdfs:isDefinedBy obo:BFO_0000040 obo:bfo.owl)
+AnnotationAssertion(rdfs:label obo:BFO_0000040 "material entity"@en)
+SubClassOf(obo:BFO_0000040 obo:BFO_0000004)
 
 # Class: obo:IAO_0000005 (objective specification)
 
@@ -415,6 +524,48 @@ AnnotationAssertion(obo:IAO_0000412 obo:OBI_0000011 obo:obi.owl)
 AnnotationAssertion(rdfs:label obo:OBI_0000011 "planned process"@en)
 EquivalentClasses(obo:OBI_0000011 ObjectSomeValuesFrom(obo:BFO_0000055 ObjectSomeValuesFrom(obo:RO_0000059 obo:IAO_0000104)))
 SubClassOf(obo:OBI_0000011 obo:BFO_0000015)
+
+# Class: obo:OBI_0000245 (organization)
+
+AnnotationAssertion(obo:IAO_0000111 obo:OBI_0000245 "organization"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:OBI_0000245 "PMID: 16353909.AAPS J. 2005 Sep 22;7(2):E274-80. Review. The joint food and agriculture organization of the United Nations/World Health Organization Expert Committee on Food Additives and its role in the evaluation of the safety of veterinary drug residues in foods."@en)
+AnnotationAssertion(obo:IAO_0000114 obo:OBI_0000245 obo:IAO_0000122)
+AnnotationAssertion(obo:IAO_0000115 obo:OBI_0000245 "An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members."@en)
+AnnotationAssertion(obo:IAO_0000116 obo:OBI_0000245 "BP: The definition summarizes long email discussions on the OBI developer, roles, biomaterial and denrie branches. It leaves open if an organization is a material entity or a dependent continuant, as no consensus was reached on that.  The current placement as material is therefore temporary, in order to move forward with development. Here is the entire email summary, on which the definition is based:
+
+1) there are organization_member_roles (president, treasurer, branch
+editor), with individual persons as bearers
+
+2) there are organization_roles (employer, owner, vendor, patent holder)
+
+3) an organization has a charter / rules / bylaws, which specify what roles
+there are, how they should be realized, and how to modify the
+charter/rules/bylaws themselves.
+
+It is debatable what the organization itself is (some kind of dependent
+continuant or an aggregate of people). This also determines who/what the
+bearer of organization_roles' are. My personal favorite is still to define
+organization as a kind of 'legal entity', but thinking it through leads to
+all kinds of questions that are clearly outside the scope of OBI.
+
+Interestingly enough, it does not seem to matter much where we place
+organization itself, as long as we can subclass it (University, Corporation,
+Government Agency, Hospital), instantiate it (Affymetrix, NCBI, NIH, ISO,
+W3C, University of Oklahoma), and have it play roles.
+
+This leads to my proposal: We define organization through the statements 1 -
+3 above, but without an 'is a' statement for now. We can leave it in its
+current place in the is_a hierarchy (material entity) or move it up to
+'continuant'. We leave further clarifications to BFO, and close this issue
+for now."@en)
+AnnotationAssertion(obo:IAO_0000117 obo:OBI_0000245 "PERSON: Alan Ruttenberg")
+AnnotationAssertion(obo:IAO_0000117 obo:OBI_0000245 "PERSON: Bjoern Peters")
+AnnotationAssertion(obo:IAO_0000117 obo:OBI_0000245 "PERSON: Philippe Rocca-Serra")
+AnnotationAssertion(obo:IAO_0000117 obo:OBI_0000245 "PERSON: Susanna Sansone")
+AnnotationAssertion(obo:IAO_0000119 obo:OBI_0000245 "GROUP: OBI")
+AnnotationAssertion(obo:IAO_0000412 obo:OBI_0000245 obo:obi.owl)
+AnnotationAssertion(rdfs:label obo:OBI_0000245 "organization"@en)
+SubClassOf(obo:OBI_0000245 obo:BFO_0000040)
 
 # Class: obo:OBI_0000260 (plan)
 

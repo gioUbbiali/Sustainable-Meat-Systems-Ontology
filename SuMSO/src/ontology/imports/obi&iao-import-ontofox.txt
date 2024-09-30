@@ -8,6 +8,7 @@ OBI
 # terms
 http://purl.obolibrary.org/obo/OBI_0000011 #planned process 
 http://purl.obolibrary.org/obo/OBI_0000260 #plan
+http://purl.obolibrary.org/obo/OBI_0000245 #organization
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000015 # process
