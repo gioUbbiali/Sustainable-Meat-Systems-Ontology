@@ -81,7 +81,7 @@ AnnotationAssertion(obo:IAO_0000232 obo:BFO_0000180 "Really of interest to devel
 AnnotationAssertion(rdfs:label obo:BFO_0000180 "BFO CLIF specification label"@en)
 SubAnnotationPropertyOf(obo:BFO_0000180 rdfs:label)
 
-# Annotation Property: obo:IAO_0000111 (editor preferred label)
+# Annotation Property: obo:IAO_0000111 (编辑首选术语~编辑首选标签)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label"@en)
@@ -115,7 +115,7 @@ AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Bill Bug"@en)
 AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Melanie Courtot"@en)
 AnnotationAssertion(rdfs:label obo:IAO_0000114 "has curation status"@en)
 
-# Annotation Property: obo:IAO_0000115 (textual definition)
+# Annotation Property: obo:IAO_0000115 (定义)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition"@en)
