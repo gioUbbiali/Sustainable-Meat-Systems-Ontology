@@ -90,9 +90,12 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0000245"/>
+    </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:VO_0000299"/>
-        <Class abbreviatedIRI="obo:BFO_0000040"/>
+        <Class abbreviatedIRI="obo:OBI_0000245"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>

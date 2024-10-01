@@ -19,9 +19,10 @@
     <uri id="Imports Wizard Entry" name="http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl" uri="https://raw.githubusercontent.com/gioUbbiali/Sustainability-Core-Ontology/refs/heads/main/SCO/SCO.owl"/>
     <uri id="Imports Wizard Entry" name="http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl" uri="https://raw.githubusercontent.com/gioUbbiali/Sustainability-Core-Ontology/main/SCO/SCO.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1727724012589" name="http://gioUbbiali.github.io/sco/sco.owl" uri="imports/SCO.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1727724012589" name="http://gioUbbiali.github.io/sumso/sumso.owl" uri="SuMSO-edit.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1727724012589" name="http://purl.obolibrary.org/obo/sumso/imports/NCBITaxon_import.ofn" uri="imports/NCBITaxon-imports.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1727724012589" name="http://purl.obolibrary.org/obo/sumso/imports/bao_import.ofn" uri="imports/bao-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1727797287407" name="http://gioUbbiali.github.io/sco/sco.owl" uri="imports/SCO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1727797287407" name="http://gioUbbiali.github.io/sumso/sumso.owl" uri="SuMSO-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1727797287407" name="http://purl.obolibrary.org/obo/sumso/imports/NCBITaxon_import.ofn" uri="imports/NCBITaxon-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1727797287407" name="http://purl.obolibrary.org/obo/sumso/imports/bao_import.ofn" uri="imports/bao-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1727797287407" name="http://purl.obolibrary.org/obo/sumso/imports/vo_import.ofn" uri="imports/vo-imports.ofn"/>
     </group>
 </catalog>
