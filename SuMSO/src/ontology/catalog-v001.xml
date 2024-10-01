@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn" uri="imports/vo-imports.ofn"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn" uri="imports/bao-imports.ofn"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-24/obi-iao_import.ofn" uri="imports/obi-iao_imports.ofn"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn" uri="imports/NCBITaxon-imports.ofn"/>

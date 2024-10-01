@@ -22,6 +22,7 @@
     <Prefix name="AnnotationVocabulary" IRI="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"/>
     <Prefix name="CommonCoreOntologies" IRI="http://www.ontologyrepository.com/CommonCoreOntologies/"/>
     <Import>http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-24/obi-iao_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn</Import>
@@ -239,6 +240,12 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </Declaration>
     <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000067"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
@@ -693,6 +700,26 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000052"/>
                 <Class abbreviatedIRI="obo:OBI_0000245"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000066"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:VO_0000299"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000004"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000067"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000066"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -1430,6 +1457,14 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
         <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000066"/>
+        <Class abbreviatedIRI="obo:VO_0000299"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000067"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000066"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
@@ -2583,7 +2618,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_2157</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000061</IRI>
-        <Literal xml:lang="en">An organization that is part of a food system.</Literal>
+        <Literal xml:lang="en">An organization that belongs to a food system.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -2598,7 +2633,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_2157</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000062</IRI>
-        <Literal xml:lang="en">A food system organization that is part of a meat system.</Literal>
+        <Literal xml:lang="en">A food system organization that belongs to a meat system.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -2641,6 +2676,36 @@ http://purl.obolibrary.org/obo/OMRSE_00000051</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000065</IRI>
         <Literal xml:lang="en">worker-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000066</IRI>
+        <Literal xml:lang="en">food system company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000066</IRI>
+        <Literal xml:lang="en">A company that belongs to a food system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000066</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000067</IRI>
+        <Literal xml:lang="en">meat system company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000067</IRI>
+        <Literal xml:lang="en">A food system company that belongs to a meat system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000067</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2697,6 +2762,12 @@ http://www.ontologyrepository.com/CommonCoreOntologies/Organization</Literal>
         <AbbreviatedIRI>obo:OBI_0000260</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
 see the comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer:
+see also http://purl.obolibrary.org/obo/NCIT_C54131</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
