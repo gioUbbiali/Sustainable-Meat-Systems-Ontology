@@ -1,0 +1,20 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/sumso/imports/VO_import.ofn
+
+[Source ontology]
+VO
+
+[Low level source term URIs]
+# terms
+http://purl.obolibrary.org/obo/VO_0000299 #company
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################

@@ -235,6 +235,12 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
     </Declaration>
     <Declaration>
@@ -1418,6 +1424,14 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class abbreviatedIRI="obo:BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000064"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
         <Class abbreviatedIRI="obo:BFO_0000030"/>
     </SubClassOf>
@@ -1432,7 +1446,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <ObjectUnionOf>
@@ -1449,7 +1463,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <ObjectUnionOf>
@@ -2608,9 +2622,25 @@ http://purl.obolibrary.org/obo/NCBITaxon_2157</Literal>
         <Literal xml:lang="en">A role that is bearered by an organization.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000063</IRI>
+        <Literal>http://www.ebi.ac.uk/efo/EFO_0002012 
+http://purl.obolibrary.org/obo/OMRSE_00000051</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000063</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000064</IRI>
+        <Literal xml:lang="en">meat aggregator-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000065</IRI>
+        <Literal xml:lang="en">worker-role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

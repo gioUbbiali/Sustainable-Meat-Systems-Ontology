@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/sumso/imports/vo_import.ofn"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/sumso/imports/vo_import.ofn"
+     versionIRI="http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/sumso/imports/VO_import.ofn#"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This file contains the imports fetched from the Vaccine ontology (VO) via OntoFox (https://ontofox.hegroup.org/index.php). Imports have been subjected to manual revision.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal xml:lang="en">See also the corresponding OntoFox text input file.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal xml:lang="en">2024-10-01</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VO_0000299"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="obo:IAO_0000122"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="obo:IAO_0000125"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000601"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VO_0000299"/>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal>material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal>MaterialEntity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">a flame</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">a forest fire</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">a human being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">a hurricane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">a photon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">a puff of smoke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">a sea wave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">a tornado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">an aggregate of human beings.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">an energy wave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">an epidemic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">the undetached arm of a human being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:vo.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000601"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000601"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal>(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000602"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:bfo.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000040</AbbreviatedIRI>
+        <Literal xml:lang="en">material entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:BFO_0000179</AbbreviatedIRI>
+        <Literal xml:lang="en">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:BFO_0000179</AbbreviatedIRI>
+        <Literal xml:lang="en">Really of interest to developers only</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000179</AbbreviatedIRI>
+        <Literal xml:lang="en">BFO OWL specification label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:BFO_0000180</AbbreviatedIRI>
+        <Literal xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:BFO_0000180</AbbreviatedIRI>
+        <Literal>Person:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000232"/>
+        <AbbreviatedIRI>obo:BFO_0000180</AbbreviatedIRI>
+        <Literal xml:lang="en">Really of interest to developers only</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:BFO_0000180</AbbreviatedIRI>
+        <Literal xml:lang="en">BFO CLIF specification label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">editor preferred term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Daniel Schober</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
+        <Literal xml:lang="en">editor preferred term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <Literal xml:lang="en">example of usage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <Literal xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Daniel Schober</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <Literal xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
+        <Literal xml:lang="en">example of usage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">has curation status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Bill Bug</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Melanie Courtot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal xml:lang="en">has curation status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal xml:lang="en">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &apos;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&apos;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&apos;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&apos;t have definitions of &apos;meaning&apos; or &apos;expression&apos; or &apos;property&apos;. For &apos;reference&apos; in the intended sense I think we use the term &apos;denotation&apos;. For &apos;expression&apos;, I think we you mean symbol, or identifier. For &apos;meaning&apos; it differs for class and property. For class we want documentation that let&apos;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&apos;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &apos;intended reader&apos; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Daniel Schober</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal xml:lang="en">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal xml:lang="en">editor note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Daniel Schober</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal xml:lang="en">editor note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <Literal xml:lang="en">term editor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <Literal xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <Literal xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Daniel Schober</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <Literal xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <Literal xml:lang="en">term editor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en">definition source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Daniel Schober</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en">definition source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+        <Literal xml:lang="en">ready for release</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000125</AbbreviatedIRI>
+        <Literal xml:lang="en">pending final vetting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000232</AbbreviatedIRI>
+        <Literal xml:lang="en">curator note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:IAO_0000232</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000232</AbbreviatedIRI>
+        <Literal xml:lang="en">An administrative note of use for a curator but of no use for a user</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000232</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000232</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000232</AbbreviatedIRI>
+        <Literal xml:lang="en">curator note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal xml:lang="en">imported from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:IAO_0000125</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal xml:lang="en">For external terms/classes, the ontology from which the term was imported</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal xml:lang="en">PERSON:Melanie Courtot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal xml:lang="en">imported from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000600</AbbreviatedIRI>
+        <Literal xml:lang="en">elucidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000600</AbbreviatedIRI>
+        <Literal xml:lang="en">person:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000600</AbbreviatedIRI>
+        <Literal xml:lang="en">Person:Barry Smith</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:IAO_0000600</AbbreviatedIRI>
+        <Literal xml:lang="en">Primitive terms in a highest-level ontology such as BFO are terms which are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000600</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000600</AbbreviatedIRI>
+        <Literal xml:lang="en">elucidation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000601</AbbreviatedIRI>
+        <Literal xml:lang="en">has associated axiom(nl)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000601</AbbreviatedIRI>
+        <Literal xml:lang="en">Person:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000601</AbbreviatedIRI>
+        <Literal xml:lang="en">Person:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:IAO_0000601</AbbreviatedIRI>
+        <Literal xml:lang="en">An axiom associated with a term expressed using natural language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000601</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000601</AbbreviatedIRI>
+        <Literal xml:lang="en">has associated axiom(nl)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
+        <AbbreviatedIRI>obo:IAO_0000602</AbbreviatedIRI>
+        <Literal xml:lang="en">has associated axiom(fol)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:IAO_0000602</AbbreviatedIRI>
+        <Literal xml:lang="en">Person:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000602</AbbreviatedIRI>
+        <Literal xml:lang="en">Person:Alan Ruttenberg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000600"/>
+        <AbbreviatedIRI>obo:IAO_0000602</AbbreviatedIRI>
+        <Literal xml:lang="en">An axiom expressed in first order logic using CLIF syntax</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>obo:IAO_0000602</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000602</AbbreviatedIRI>
+        <Literal xml:lang="en">has associated axiom(fol)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
+        <Literal>A legal organization that represents an association of people with a specific objective.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
+        <Literal>YH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
+        <Literal>https://en.wikipedia.org/wiki/Company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:vo.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
+        <Literal>material entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
+        <Literal>company</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000179"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="obo:BFO_0000180"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
