@@ -47,6 +47,9 @@
         <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
     </Declaration>
     <Declaration>
@@ -92,6 +95,10 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
         <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
@@ -696,6 +703,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:NCBITaxon_9605</AbbreviatedIRI>
         <Literal>Homo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9606</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ncbitaxon.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ncbitaxon:has_rank"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9606</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:NCBITaxon_species</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9606</AbbreviatedIRI>
+        <Literal>GC_ID:1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9606</AbbreviatedIRI>
+        <Literal>human</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9606</AbbreviatedIRI>
+        <Literal>ncbi_taxonomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9606</AbbreviatedIRI>
+        <Literal>Homo sapiens</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
