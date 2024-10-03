@@ -236,9 +236,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000064"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
     </Declaration>
     <Declaration>
@@ -248,10 +245,91 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000067"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000091"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000093"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000056"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000064"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasVersion"/>
@@ -1451,10 +1529,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class abbreviatedIRI="obo:BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000064"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
         <Class abbreviatedIRI="obo:BFO_0000023"/>
     </SubClassOf>
@@ -1465,6 +1539,110 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000067"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000068"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000069"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000071"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000072"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000071"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000073"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000074"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000068"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000075"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000076"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000077"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000078"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000079"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000067"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000080"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000081"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000067"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000082"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000083"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000067"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000084"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000085"/>
+        <Class abbreviatedIRI="obo:IAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000086"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000088"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000089"/>
+        <Class abbreviatedIRI="obo:BFO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000090"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000089"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000091"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000092"/>
+        <Class abbreviatedIRI="CommonCoreOntologies:InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000093"/>
+        <Class abbreviatedIRI="CommonCoreOntologies:InformationContentEntity"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
@@ -2670,7 +2848,12 @@ http://purl.obolibrary.org/obo/OMRSE_00000051</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000064</IRI>
-        <Literal xml:lang="en">meat aggregator-role</Literal>
+        <Literal xml:lang="en">capability approach</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000064</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2706,6 +2889,136 @@ http://purl.obolibrary.org/obo/OMRSE_00000051</Literal>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000067</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000068</IRI>
+        <Literal xml:lang="en">worker role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000069</IRI>
+        <Literal xml:lang="en">farmer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000070</IRI>
+        <Literal xml:lang="en">rancher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000071</IRI>
+        <Literal xml:lang="en">farmer-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000072</IRI>
+        <Literal xml:lang="en">rancher-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000073</IRI>
+        <Literal xml:lang="en">processor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000074</IRI>
+        <Literal xml:lang="en">processor-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000075</IRI>
+        <Literal xml:lang="en">slaughterer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000076</IRI>
+        <Literal xml:lang="en">slaughterer role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000077</IRI>
+        <Literal xml:lang="en">tanner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000078</IRI>
+        <Literal xml:lang="en">tanner role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000079</IRI>
+        <Literal xml:lang="en">meat aggregator company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000080</IRI>
+        <Literal xml:lang="en">meat aggregator organization-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000081</IRI>
+        <Literal xml:lang="en">verifier company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000082</IRI>
+        <Literal xml:lang="en">verifier-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000083</IRI>
+        <Literal xml:lang="en">certifier company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000084</IRI>
+        <Literal xml:lang="en">certifier- role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000085</IRI>
+        <Literal xml:lang="en">impact area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000086</IRI>
+        <Literal xml:lang="en">complex system component well-being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
+        <Literal xml:lang="en">animal welfare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000088</IRI>
+        <Literal xml:lang="en">cow welfare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000089</IRI>
+        <Literal xml:lang="en">complex system well-being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000090</IRI>
+        <Literal xml:lang="en">food system well-being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000091</IRI>
+        <Literal xml:lang="en">meat system well-being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000092</IRI>
+        <Literal xml:lang="en">complex system well-being information content entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000093</IRI>
+        <Literal xml:lang="en">complex system component well-being information content entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2767,7 +3080,9 @@ see also http://purl.obolibrary.org/obo/NCIT_C54131</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>CommonCoreOntologies:InformationContentEntity</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
-Extending SCO, SuMSO V1.0.0 already covers the class “information content entity” from the Common Core Ontologies (CCO) Suite. IAO and CCO classes correspond. Thus, SuMSO V1.0.0 only imports IAO “information content entity” subclasses under the CCO one. See SeeAlso annotation to refer to the IAO class.</Literal>
+Extending SCO, SuMSO V1.0.0 already covers the class “information content entity” from the Common Core Ontologies (CCO) Suite. IAO and CCO classes correspond. Thus, SuMSO V1.0.0 only imports IAO “information content entity” subclasses under the CCO one. See SeeAlso annotation to refer to the IAO class.
+
+We envision harmonization of CCO and IAO classes and subclasses.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>

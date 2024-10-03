@@ -8,7 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/sumso/imports/obi-iao_import.ofn>
-<http://purl.obolibrary.org/obo/sumso/imports/2024-09-24/obi-iao_import.ofn>
+<http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/obi-iao_import.ofn>
 Annotation(rdfs:comment "This file contains the imports fetched from the Ontology for Biomedical Investigations (OBI) and Information Artifact Ontology (IAO) via OntoFox (https://ontofox.hegroup.org/index.php). Imports have been subjected to manual revision."@en)
 Annotation(rdfs:comment "This import included the  IAO “information content entity” class. Extending SCO, however, SuMSO V1.0.0 already covers the class “information content entity” from the Common Core Ontologies (CCO) Suite. IAO and CCO classes correspond. Thus, we removed the IAO “information content entity” class from this import and sustitute it with the corresponding CCO one. 
 
@@ -26,6 +26,7 @@ Declaration(Class(obo:BFO_0000031))
 Declaration(Class(obo:BFO_0000040))
 Declaration(Class(obo:IAO_0000005))
 Declaration(Class(obo:IAO_0000007))
+Declaration(Class(obo:IAO_0000027))
 Declaration(Class(obo:IAO_0000033))
 Declaration(Class(obo:IAO_0000104))
 Declaration(Class(obo:OBI_0000011))
@@ -81,7 +82,7 @@ AnnotationAssertion(obo:IAO_0000232 obo:BFO_0000180 "Really of interest to devel
 AnnotationAssertion(rdfs:label obo:BFO_0000180 "BFO CLIF specification label"@en)
 SubAnnotationPropertyOf(obo:BFO_0000180 rdfs:label)
 
-# Annotation Property: obo:IAO_0000111 (编辑首选术语~编辑首选标签)
+# Annotation Property: obo:IAO_0000111 (editor preferred term)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label"@en)
@@ -115,7 +116,7 @@ AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Bill Bug"@en)
 AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Melanie Courtot"@en)
 AnnotationAssertion(rdfs:label obo:IAO_0000114 "has curation status"@en)
 
-# Annotation Property: obo:IAO_0000115 (定义)
+# Annotation Property: obo:IAO_0000115 (definition)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition"@en)
@@ -466,6 +467,31 @@ AnnotationAssertion(obo:IAO_0000119 obo:IAO_0000007 "OBI Plan and Planned Proces
 AnnotationAssertion(obo:IAO_0000412 obo:IAO_0000007 obo:iao.owl)
 AnnotationAssertion(rdfs:label obo:IAO_0000007 "action specification"@en)
 SubClassOf(obo:IAO_0000007 obo:IAO_0000033)
+
+# Class: obo:IAO_0000027 (data item)
+
+AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000027 "data item"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:IAO_0000027 "Data items include counts of things, analyte concentrations, and statistical summaries."@en)
+AnnotationAssertion(obo:IAO_0000114 obo:IAO_0000027 obo:IAO_0000125)
+AnnotationAssertion(obo:IAO_0000115 obo:IAO_0000027 "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements."@en)
+AnnotationAssertion(obo:IAO_0000116 obo:IAO_0000027 "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers."@en)
+AnnotationAssertion(obo:IAO_0000116 obo:IAO_0000027 "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum."@en)
+AnnotationAssertion(obo:IAO_0000116 obo:IAO_0000027 "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym."@en)
+AnnotationAssertion(obo:IAO_0000116 obo:IAO_0000027 "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/")
+AnnotationAssertion(obo:IAO_0000116 obo:IAO_0000027 "JAR: datum     -- well, this will be very tricky to define, but maybe some 
+information-like stuff that might be put into a computer and that is 
+meant, by someone, to denote and/or to be interpreted by some 
+process... I would include lists, tables, sentences... I think I might 
+defer to Barry, or to Brian Cantwell Smith
+
+JAR: A data item is an approximately justified approximately true approximate belief"@en)
+AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000027 "PERSON: Alan Ruttenberg"@en)
+AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000027 "PERSON: Chris Stoeckert"@en)
+AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000027 "PERSON: Jonathan Rees"@en)
+AnnotationAssertion(obo:IAO_0000118 obo:IAO_0000027 "data"@en)
+AnnotationAssertion(obo:IAO_0000412 obo:IAO_0000027 obo:iao.owl)
+AnnotationAssertion(rdfs:label obo:IAO_0000027 "data item"@en)
+SubClassOf(obo:IAO_0000027 <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity>)
 
 # Class: obo:IAO_0000033 (directive information entity)
 
