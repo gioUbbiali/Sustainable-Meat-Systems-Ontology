@@ -146,6 +146,9 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
+    </Declaration>
     <EquivalentClasses>
         <Class abbreviatedIRI="obo:AGRO_00002071"/>
         <ObjectSomeValuesFrom>
@@ -199,11 +202,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:AGRO_00002071"/>
-        <Class abbreviatedIRI="obo:BFO_0000003"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:BFO_0000003"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:BFO_0000003"/>
@@ -468,12 +467,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:BFO_0000003</AbbreviatedIRI>
-        <Literal xml:lang="en">An entity that has temporal parts and that happens, unfolds or develops through time.</Literal>
+        <Literal>An entity that has temporal parts and that happens, unfolds or develops through time.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:BFO_0000003</AbbreviatedIRI>
-        <Literal>An entity that has temporal parts and that happens, unfolds or develops through time.</Literal>
+        <Literal xml:lang="en">An entity that has temporal parts and that happens, unfolds or develops through time.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
@@ -946,7 +945,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2148872683"/>
+        <AnonymousIndividual nodeID="_:genid2148872685"/>
         <AbbreviatedIRI>obo:agro.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
