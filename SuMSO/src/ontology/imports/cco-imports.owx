@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://gioUbbiali.github.io/sumso/cco.imports.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://gioUbbiali.github.io/sumso/cco.imports.owl"
+     versionIRI="http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/gaubb/ontologies/2024/9/untitled-ontology-147/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <Literal xml:lang="en">This file contains SuMSO imports from the Common Core Ontology suite (CCO). Imports were manually collected and revised.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal>https://github.com/CommonCoreOntology/CommonCoreOntologies/tree/develop</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>2024-10-07</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
+        <Literal xml:lang="en">Directive ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
+        <Literal xml:lang="en">An Information Content Entity that consists of a set of propositions or images (as in the case of a blueprint) that prescribe some Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
+        <Literal xml:lang="en">Directive Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by</IRI>
+        <Literal xml:lang="en">x prescribed_by y iff y is an instance of Information Content Entity and x is an instance of Entity, such that y serves as a rule or guide for x if x is an Occurrent, or y serves as a model for x if x is a Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by</IRI>
+        <Literal xml:lang="en">prescribed by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal xml:lang="en">x prescribes y iff x is an instance of Information Content Entity and y is an instance of Entity, such that x serves as a rule or guide for y if y an Occurrent, or x serves as a model for y if y is a Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal>a blueprint serves as a model of some Artifact or Facility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal>a professional code of conduct serves as a set of rules to be followed while acting in a role within that profession</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal>an Operations Plan serves as a guide for the tasks that need to be performed to achieve the Objectives of the Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal xml:lang="en">prescribes</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
