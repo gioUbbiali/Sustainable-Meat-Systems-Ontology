@@ -41,6 +41,9 @@
         <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:NCBITaxon_4751"/>
     </Declaration>
     <Declaration>
@@ -89,12 +92,16 @@
         <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_4751"/>
         <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
-        <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
@@ -102,7 +109,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
-        <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -628,6 +635,51 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:NCBITaxon_2759</AbbreviatedIRI>
         <Literal>Eukaryota</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:NCBITaxon_33208</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ncbitaxon.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="ncbitaxon:has_rank"/>
+        <AbbreviatedIRI>obo:NCBITaxon_33208</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:NCBITaxon_kingdom</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:NCBITaxon_33208</AbbreviatedIRI>
+        <Literal>GC_ID:1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_33208</AbbreviatedIRI>
+        <Literal>metazoans</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_33208</AbbreviatedIRI>
+        <Literal>multicellular animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:NCBITaxon_33208</AbbreviatedIRI>
+        <Literal>ncbi_taxonomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_33208</AbbreviatedIRI>
+        <Literal>Animalia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <AbbreviatedIRI>obo:NCBITaxon_33208</AbbreviatedIRI>
+        <Literal>animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCBITaxon_33208</AbbreviatedIRI>
+        <Literal>Metazoa</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
