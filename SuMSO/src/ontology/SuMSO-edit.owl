@@ -254,9 +254,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000071"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000072"/>
     </Declaration>
     <Declaration>
@@ -330,6 +327,9 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </Declaration>
     <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000098"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
@@ -1558,12 +1558,8 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000069"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000071"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000072"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000071"/>
+        <Class abbreviatedIRI="obo:AGRO_00000372"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000073"/>
@@ -1660,6 +1656,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000097"/>
         <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000098"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000086"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03530005"/>
@@ -2876,6 +2876,21 @@ http://purl.obolibrary.org/obo/OMRSE_00000051</Literal>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000064</IRI>
+        <Literal>https://doi.org/10.1016/0047-2727(74)90006-1
+https://doi.org/10.2307/3439966 
+https://tannerlectures.utah.edu/_resources/documents/a-to-z/s/sen80.pdf 
+https://doi.org/10.1093/0198287976.001.0001
+https://scholar.harvard.edu/sen/publications/development-capability-expansion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000064</IRI>
+        <Literal xml:lang="en">The Capability Approach is one of the existing theories on well-being. Currently, we included an individual instance for referring to the Capability Approach perspective on well-being. 
+Future implementations may address including classes to represent theories, related information and their relation with the perspectives of their authors. This will support representing and integrating the Capability Approach perspective with other different views on well-being and formalizing them in terms of theories on well-being.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000064</IRI>
         <Literal xml:lang="en">capability approach</Literal>
@@ -2957,7 +2972,12 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000069</IRI>
-        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000070</IRI>
+        <Literal xml:lang="en">producer.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2965,9 +2985,14 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">rancher</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000071</IRI>
-        <Literal xml:lang="en">farmer-role</Literal>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000070</IRI>
+        <Literal xml:lang="en">A farmer with a rancher role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000070</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2975,9 +3000,29 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">rancher-role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000072</IRI>
+        <Literal xml:lang="en">A farmer-role that inheres in a rancher by virtue of engaging in supply chain activities concerning livestock grazing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000072</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000073</IRI>
         <Literal xml:lang="en">processor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000073</IRI>
+        <Literal xml:lang="en">A human with a processor role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000073</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2985,9 +3030,34 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">processor-role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000074</IRI>
+        <Literal xml:lang="en">A role that inheres in a human by virtue of engaging in supply chain activities concerning preparing products for marketing or distribution.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000074</IRI>
+        <Literal>http://purl.obolibrary.org/obo/NCIT_C92651</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000074</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000075</IRI>
         <Literal xml:lang="en">slaughterer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000075</IRI>
+        <Literal xml:lang="en">A processor with a slaughterer role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000075</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2995,9 +3065,44 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">slaughterer role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000076</IRI>
+        <Literal xml:lang="en">See also:
+http://purl.obolibrary.org/obo/IDO_0100592
+http://purl.obolibrary.org/obo/OCCO_51302000 
+http://snomed.info/id/69919006 
+http://snomed.info/id/106440009 
+http://snomed.info/id/69919006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000076</IRI>
+        <Literal xml:lang="en">A processor role that inheres in a human by virtue of engaging in supply chain activities concerning the processing and preparation of animal carcasses, including cutting into meat portions for consumption by humans.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000076</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OCCO_51302300</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000076</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000077</IRI>
         <Literal xml:lang="en">tanner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000077</IRI>
+        <Literal xml:lang="en">A processor with a tanner role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000077</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3005,9 +3110,45 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">tanner role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000078</IRI>
+        <Literal xml:lang="en">See also: 
+http://snomed.info/id/106434002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000078</IRI>
+        <Literal xml:lang="en">A processor role that inheres in a human by virtue of engaging in supply chain activities concerning tanning animal hides to obtain leather.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000078</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000079</IRI>
         <Literal xml:lang="en">meat aggregator company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000079</IRI>
+        <Literal xml:lang="en">A company with a meat aggregator organization role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000079</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000080</IRI>
+        <Literal xml:lang="en">A  “meat aggregator worker role” class can be created to track the people who work at the company to buy and sell animals, on necessity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000080</IRI>
+        <Literal xml:lang="en">We envision the possibility to include a smallholder farmer/rancher class and to change the class label.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3015,9 +3156,36 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">meat aggregator organization-role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000080</IRI>
+        <Literal xml:lang="en">An organization-role that inheres in a company by virtue of engaging in supply chain activities concerning the purchase of animals from smallholders for resale in large quantities to some supply chain actors or companies that participate in the downstream supply chain activities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000080</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000081</IRI>
         <Literal xml:lang="en">verifier company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000081</IRI>
+        <Literal xml:lang="en">A company with a verifier role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000081</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000082</IRI>
+        <Literal xml:lang="en">A corresponding meat verifier worker role can be created to track the people who perform the verification, on necessity.
+
+We envision including additional details regarding the type of compliance and type of entity concerned, e.g a certain activity, protocol, product, etc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3025,9 +3193,37 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">verifier-role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000082</IRI>
+        <Literal xml:lang="en">See also:
+ http://purl.obolibrary.org/obo/OCCO_00000118  and subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000082</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000083</IRI>
         <Literal xml:lang="en">certifier company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000083</IRI>
+        <Literal xml:lang="en">A company with a certifier- role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000083</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000084</IRI>
+        <Literal xml:lang="en">A corresponding meat certifier worker role can be created to track the people who produce and release the certification, on necessity. 
+
+We envision including additional details regarding the type of compliance and type of entity concerned, e.g a certain activity, protocol, product, etc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3035,9 +3231,69 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">certifier- role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000084</IRI>
+        <Literal xml:lang="en">See also:
+http://purl.obolibrary.org/obo/OCCO_00000118 and subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000084</IRI>
+        <Literal xml:lang="en">An organization-role that inheres in a company by virtue of engaging in supply chain activities concerning attesting compliance with a specified benchmark (criteria) prescribed by a certain certification.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000084</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000085</IRI>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000056</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000085</IRI>
+        <Literal xml:lang="en">We envision conversations with subject matter experts to further detail this definition. Possible topics of discussion will cover the relation with plans and activities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000085</IRI>
         <Literal xml:lang="en">impact area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000085</IRI>
+        <Literal xml:lang="en">An objective specification that generically depends on some complex system component or complex system environment component and describes an intended process endpoint concerning the change that the complex system component or complex system environment component wishes to see in the related complex system, according to its perspective.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000085</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000086</IRI>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000064</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000086</IRI>
+        <Literal>https://doi.org/10.1016/0047-2727(74)90006-1 
+https://doi.org/10.2307/3439966  
+https://tannerlectures.utah.edu/_resources/documents/a-to-z/s/sen80.pdf  
+https://doi.org/10.1093/0198287976.001.0001 
+https://scholar.harvard.edu/sen/publications/development-capability-expansion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000086</IRI>
+        <Literal xml:lang="en">well-being, wellbeing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000086</IRI>
+        <Literal xml:lang="en">welfare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3045,9 +3301,62 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">complex system component well-being</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000086</IRI>
+        <Literal xml:lang="en">A disposition whose realization leads the complex system component to freely choose among alternative combinations of valuable and considered-valuable functionings (doings and beings) that owns and among which it can opt to live a life worthy of value and that has the motive to value as a part of the complex system to which it belongs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000086</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000056</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
+        <Literal xml:lang="en">animal well-being, animal wellbeing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
         <Literal xml:lang="en">animal welfare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
+        <Literal>http://purl.obolibrary.org/obo/OMIT_0002232 
+http://opendata.inra.fr/Triphase/ID_0000301 
+http://aims.fao.org/aos/agrovoc/xDef_2a5186fd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
+        <Literal>https://www.ggrass.org/ 
+https://regenscore.org/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
+        <Literal xml:lang="en">A complex system component well-being that is bearered by an animal. Features related to animal welfare include freedom from hunger, thirst, discomfort, and any sort of harm or disease, access to adequate and salutary living spaces, clean water, and safe and nutritious food, freedom to express proper instinctive behaviors, freedom from distress and fear, absence of treatment with prohibited medications and substances, and a minimally painful demise.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000088</IRI>
+        <Literal xml:lang="en">cow well-being, cow wellbeing,</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3055,9 +3364,53 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">cow welfare</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000088</IRI>
+        <Literal xml:lang="en">A animal welfare that is bearered by a cow.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000088</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000089</IRI>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000089</IRI>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000064</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000089</IRI>
+        <Literal xml:lang="en">https://doi.org/10.1016/0047-2727(74)90006-1
+https://doi.org/10.2307/3439966 
+https://tannerlectures.utah.edu/_resources/documents/a-to-z/s/sen80.pdf 
+https://doi.org/10.1093/0198287976.001.0001
+https://scholar.harvard.edu/sen/publications/development-capability-expansion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000089</IRI>
+        <Literal xml:lang="en">Here, the well-being of a whole complex system is seen as more than the simple sum of the well-being of all its parts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000089</IRI>
         <Literal xml:lang="en">complex system well-being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000089</IRI>
+        <Literal xml:lang="en">A disposition whose realization leads all complex system components to choose freely and in an integrable manner among alternative combinations of valuable and considered-valuable functionings (doings and beings) that they interdependently own and among which they can opt to live a life worthy of value and that has the motive to value as a part of the complex system to which they belong.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000089</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3065,9 +3418,34 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">food system well-being</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000090</IRI>
+        <Literal xml:lang="en">A complex system well-being that is bearered by a food system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000090</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000091</IRI>
         <Literal xml:lang="en">meat system well-being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000091</IRI>
+        <Literal xml:lang="en">A food system well-being that is bearered by a meat system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000091</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000092</IRI>
+        <Literal xml:lang="en">We envision to consider dependence on complex system components.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3075,9 +3453,34 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">complex system well-being information content entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000092</IRI>
+        <Literal xml:lang="en">An information content entity that generically depends on some complex system and is about the complex system well-being (that concretizes it) of that complex system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000092</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000093</IRI>
         <Literal xml:lang="en">complex system component well-being information content entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000093</IRI>
+        <Literal xml:lang="en">An information content entity that generically depends on some complex system component and is about the well-being (that concretizes it) of that complex system component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000093</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000095</IRI>
+        <Literal xml:lang="en">Further details are required to specify this characterization. Additional subclasses may be required.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3085,9 +3488,34 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <Literal xml:lang="en">meat supply chain verifier company</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000095</IRI>
+        <Literal xml:lang="en">A verifier company that engages in activities of verifying and assessing compliance with regard to meat supply chains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000095</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000096</IRI>
+        <Literal xml:lang="en">Further details are required to specify this characterization. Additional subclasses may be required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000096</IRI>
         <Literal xml:lang="en">meat supply chain certifier company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000096</IRI>
+        <Literal xml:lang="en">A certifier company that engages in activities of verifying compliance with regard to meat supply chains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000096</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3103,6 +3531,33 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000097</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000098</IRI>
+        <Literal xml:lang="en">human well-being</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000098</IRI>
+        <Literal xml:lang="en">A well-being that is bearered by a human.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000098</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:AGRO_00000426</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer:
+managed grazing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:FOODON_03601066</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer:
+grass-fed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
