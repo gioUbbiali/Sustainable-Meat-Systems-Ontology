@@ -33,6 +33,9 @@
         <Literal>2024-10-03</Literal>
     </Annotation>
     <Declaration>
+        <Class abbreviatedIRI="obo:AGRO_00000372"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:AGRO_00000426"/>
     </Declaration>
     <Declaration>
@@ -70,6 +73,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:BFO_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:ENVO_00000114"/>
@@ -146,9 +152,6 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
-    <Declaration>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
-    </Declaration>
     <EquivalentClasses>
         <Class abbreviatedIRI="obo:AGRO_00002071"/>
         <ObjectSomeValuesFrom>
@@ -156,6 +159,10 @@
             <Class abbreviatedIRI="obo:ENVO_00000114"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:AGRO_00000372"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:AGRO_00000426"/>
         <Class abbreviatedIRI="obo:AGRO_00002071"/>
@@ -202,7 +209,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:AGRO_00002071"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
+        <Class abbreviatedIRI="obo:BFO_0000003"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:BFO_0000003"/>
@@ -214,6 +221,21 @@
     <TransitiveObjectProperty>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
     </TransitiveObjectProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:AGRO_00000372</AbbreviatedIRI>
+        <Literal xml:lang="en">A person engaged in agriculture, raising living organisms for food or raw materials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:AGRO_00000372</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:agro.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:AGRO_00000372</AbbreviatedIRI>
+        <Literal xml:lang="en">farmer</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:AGRO_00000426</AbbreviatedIRI>
@@ -945,7 +967,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2148872685"/>
+        <AnonymousIndividual nodeID="_:genid2148886123"/>
         <AbbreviatedIRI>obo:agro.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
