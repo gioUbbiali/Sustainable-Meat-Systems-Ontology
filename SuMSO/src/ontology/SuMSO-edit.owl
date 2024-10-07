@@ -22,6 +22,7 @@
     <Prefix name="AnnotationVocabulary" IRI="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"/>
     <Prefix name="CommonCoreOntologies" IRI="http://www.ontologyrepository.com/CommonCoreOntologies/"/>
     <Import>http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl</Import>
+    <Import>http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn</Import>
@@ -927,6 +928,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000093"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:IAO_0000033"/>
+        <Class abbreviatedIRI="CommonCoreOntologies:DirectiveInformationContentEntity"/>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
@@ -3823,6 +3828,14 @@ grass-fed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:IAO_0000033</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO comment:
+Both CCO and IAO cover a “directive information (content) entity” class. Despite being in line, the class definitions present slight differences. For reasons of practicality, we assumed that the two classes correspond and are equivalent. Future works will require more discussion regarding the alignment of the two classes.
+http://purl.obolibrary.org/obo/IAO_0000033
+http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:IAO_0000104</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
 see comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
@@ -3876,6 +3889,14 @@ see the comment under &quot;complex system activity&quot; and &quot;supply chain
         <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer:
 see also http://purl.obolibrary.org/obo/NCIT_C54131</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>CommonCoreOntologies:DirectiveInformationContentEntity</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO comment:
+Both CCO and IAO cover a “directive information (content) entity” class. Despite being in line, the class definitions present slight differences. For reasons of practicality, we assumed that the two classes correspond and are equivalent. Future works will require more discussion regarding the alignment of the two classes.
+http://purl.obolibrary.org/obo/IAO_0000033
+http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
