@@ -8,10 +8,14 @@ AGRO
 http://purl.obolibrary.org/obo/AGRO_00000426 #regulation of grazing
 includeAllChildren 
 http://purl.obolibrary.org/obo/AGRO_00002071 #agricultural process
+http://purl.obolibrary.org/obo/AGRO_00000372 #farmer
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/AGRO_00000426
 subClassOf http://purl.obolibrary.org/obo/AGRO_00002071
+http://purl.obolibrary.org/obo/AGRO_00000372
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
 
 [Source term retrieval setting]
 includeNoIntermediates
