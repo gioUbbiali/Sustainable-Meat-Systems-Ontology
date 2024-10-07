@@ -1,0 +1,835 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://gioUbbiali.github.io/sumso/cco.imports.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://gioUbbiali.github.io/sumso/cco.imports.owl"
+     versionIRI="http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/gaubb/ontologies/2024/9/untitled-ontology-147/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <Literal xml:lang="en">This file contains SuMSO imports from the Common Core Ontology suite (CCO).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal>https://github.com/CommonCoreOntology/CommonCoreOntologies/tree/develop</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>2024-10-07</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/described_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/describes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/designated_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/designates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_measured_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_permitted_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_prohibited_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_required_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/permits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prohibits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/represented_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/requires"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/represents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/designates"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/represents"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/described_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/describes"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/designated_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/designates"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/describes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_measured_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/described_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_permitted_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_prohibited_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_required_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/permits"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prohibits"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/represented_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/requires"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/described_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/describes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/designated_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/designates"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_measured_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_permitted_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/permits"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_prohibited_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prohibits"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_required_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/requires"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/represented_by"/>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/represents"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/describes"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/designates"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_permitted_by"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_prohibited_by"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_required_by"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/permits"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prohibits"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/requires"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/described_by"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/designated_by"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_measured_by"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_permitted_by"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_prohibited_by"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_required_by"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/permits"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prohibits"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/represented_by"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/requires"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation</IRI>
+        <Literal xml:lang="en">A Directive Information Content Entity that prescribes an Act as required, prohibited, or permitted, and is the output of an Act which realizes some Authority Role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/ActionRegulation</IRI>
+        <Literal xml:lang="en">Action Regulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity</IRI>
+        <Literal xml:lang="en">Descriptive ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity</IRI>
+        <Literal xml:lang="en">An Information Content Entity that consists of a set of propositions that describe some Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DescriptiveInformationContentEntity</IRI>
+        <Literal xml:lang="en">Descriptive Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity</IRI>
+        <Literal xml:lang="en">Designative ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity</IRI>
+        <Literal xml:lang="en">An Information Content Entity that consists of a set of symbols that denote some Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DesignativeInformationContentEntity</IRI>
+        <Literal xml:lang="en">Designative Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
+        <Literal xml:lang="en">Directive ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
+        <Literal xml:lang="en">An Information Content Entity that consists of a set of propositions or images (as in the case of a blueprint) that prescribe some Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
+        <Literal xml:lang="en">Directive Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity</IRI>
+        <Literal xml:lang="en">Measurement ICE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity</IRI>
+        <Literal xml:lang="en">A Descriptive Information Content Entity that describes the extent, dimensions, quantity, or quality of an Entity relative to some standard.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/MeasurementInformationContentEntity</IRI>
+        <Literal xml:lang="en">Measurement Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity</IRI>
+        <Literal xml:lang="en">An Information Content Entity that represents some Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity</IRI>
+        <Literal>the content of a court transcript represents a courtroom proceeding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity</IRI>
+        <Literal>the content of a photograph of the Statue of Liberty represents the Statue of Liberty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity</IRI>
+        <Literal>the content of a video of a sporting event represents that sporting event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/RepresentationalInformationContentEntity</IRI>
+        <Literal xml:lang="en">Representational Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/described_by</IRI>
+        <Literal xml:lang="en">x described_by y iff y is an instance of Information Content Entity, and x is an instance of Entity, such that y is about the characteristics by which y can be recognized or visualized.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/described_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/described_by</IRI>
+        <Literal xml:lang="en">described by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/describes</IRI>
+        <Literal xml:lang="en">x describes y iff x is an instance of Information Content Entity, and y is an instance of Entity, such that x is about the characteristics by which y can be recognized or visualized.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/describes</IRI>
+        <Literal>the content of a newspaper article describes some current event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/describes</IRI>
+        <Literal>the content of a visitor&apos;s log describes some facility visit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/describes</IRI>
+        <Literal>the content of an accident report describes some accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/describes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/describes</IRI>
+        <Literal xml:lang="en">It is possible that this relation should be a functional property, that is for all x, y, z if x describes y and x describes z then y = z. For example, if a financial report x describes the quarterly results of a company y and that same financial report describes the quarterly results of a company z, then it should be inferred that companies y and z are the same. We refrained from classifying the relation as a functional property on the concern that descriptions are multifaceted and so consequently it may be that the same report would contain descriptions of multiple entities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/describes</IRI>
+        <Literal xml:lang="en">describes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designated_by</IRI>
+        <Literal xml:lang="en">x designated_by y iff y is an instance of Information Content Entity and x is an instance of Entity, such that given some context, y uniquely distinguishes x from other entities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designated_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designated_by</IRI>
+        <Literal xml:lang="en">designated by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designates</IRI>
+        <Literal xml:lang="en">x designates y iff x is an instance of an Information Content Entity, and y is an instance of an Entity, such that given some context, x uniquely distinguishes y from other entities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designates</IRI>
+        <Literal>a URL designates the location of a Web Page on the internet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designates</IRI>
+        <Literal>a person&apos;s name designates that person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designates</IRI>
+        <Literal>a vehicle identification number designates some vehicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designates</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designates</IRI>
+        <Literal xml:lang="en">designates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/designates</IRI>
+        <Literal xml:lang="en">Given a stronger temporal interpretation, this property may be functional. For more info please refer to https://github.com/BFO-ontology/BFO-2020/tree/master/src/owl/temporal%20extensions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of</IRI>
+        <Literal xml:lang="en">x is_a_measurement_of y iff x is an instance of Information Content Entity and y is an instance of Entity, such that x describes some attribute of y relative to some scale or classification scheme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of</IRI>
+        <Literal xml:lang="en">This object property, as well as all of its children are typified as functional properties. This means that for instances x, y, and z if x is a measurement of y and x is a measurement of z, then y = z.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of</IRI>
+        <Literal xml:lang="en">is a measurement of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of</IRI>
+        <Literal xml:lang="en">Given a stronger temporal interpretation, this property may be functional. For more info please refer to https://github.com/BFO-ontology/BFO-2020/tree/master/src/owl/temporal%20extensions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_measured_by</IRI>
+        <Literal xml:lang="en">y is_measured_by x iff x is an instance of Information Content Entity and y is an instance of Entity, such that x describes some attribute of y relative to some scale or classification scheme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_measured_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_measured_by</IRI>
+        <Literal xml:lang="en">is measured by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_permitted_by</IRI>
+        <Literal xml:lang="en">y is_permitted_by x at t iff: x is an instance of Action Regulation at time t, and y is an instance of Act at time t, and x prescribes that some agent may be agent in y.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_permitted_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_permitted_by</IRI>
+        <Literal xml:lang="en">is permitted by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_permitted_by</IRI>
+        <Literal xml:lang="en">Given a stronger temporal interpretation, this property may be asymmetric and irreflexive. For more info please refer to https://github.com/BFO-ontology/BFO-2020/tree/master/src/owl/temporal%20extensions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_prohibited_by</IRI>
+        <Literal xml:lang="en">y is_prohibited_by y at t iff: x is an instance of Action Regulation at time t, and y is an instance of Act at time t, and x prescribes that some agent must not be agent in y.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_prohibited_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_prohibited_by</IRI>
+        <Literal xml:lang="en">is prohibited by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_prohibited_by</IRI>
+        <Literal xml:lang="en">Given a stronger temporal interpretation, this property may be asymmetric and irreflexive. For more info please refer to https://github.com/BFO-ontology/BFO-2020/tree/master/src/owl/temporal%20extensions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_required_by</IRI>
+        <Literal xml:lang="en">y is_required_by x at t iff: x is an instance of Action Regulation at time t, and y is an instance of Act at time t, and x prescribes that some agent must be agent in y.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_required_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_required_by</IRI>
+        <Literal xml:lang="en">is required by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/is_required_by</IRI>
+        <Literal xml:lang="en">Given a stronger temporal interpretation, this property may be asymmetric and irreflexive. For more info please refer to https://github.com/BFO-ontology/BFO-2020/tree/master/src/owl/temporal%20extensions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/permits</IRI>
+        <Literal xml:lang="en">x permits y at t iff: x is an instance of Action Regulation at time t, and y is an instance of Act at time t, and x prescribes that some agent may be agent in y.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/permits</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/permits</IRI>
+        <Literal xml:lang="en">permits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/permits</IRI>
+        <Literal xml:lang="en">Given a stronger temporal interpretation, this property may be asymmetric and irreflexive. For more info please refer to https://github.com/BFO-ontology/BFO-2020/tree/master/src/owl/temporal%20extensions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by</IRI>
+        <Literal xml:lang="en">x prescribed_by y iff y is an instance of Information Content Entity and x is an instance of Entity, such that y serves as a rule or guide for x if x is an Occurrent, or y serves as a model for x if x is a Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by</IRI>
+        <Literal xml:lang="en">prescribed by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal xml:lang="en">x prescribes y iff x is an instance of Information Content Entity and y is an instance of Entity, such that x serves as a rule or guide for y if y an Occurrent, or x serves as a model for y if y is a Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal>a blueprint serves as a model of some Artifact or Facility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal>a professional code of conduct serves as a set of rules to be followed while acting in a role within that profession</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/example_of_usage"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal>an Operations Plan serves as a guide for the tasks that need to be performed to achieve the Objectives of the Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prescribes</IRI>
+        <Literal xml:lang="en">prescribes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prohibits</IRI>
+        <Literal xml:lang="en">x prohibits y at t iff: x is an instance of Action Regulation at time t, and y is an instance of Act at time t, and x prescribes that some agent must not be agent in y.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prohibits</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prohibits</IRI>
+        <Literal xml:lang="en">prohibits</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/prohibits</IRI>
+        <Literal xml:lang="en">Given a stronger temporal interpretation, this property may be asymmetric and irreflexive. For more info please refer to https://github.com/BFO-ontology/BFO-2020/tree/master/src/owl/temporal%20extensions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/represented_by</IRI>
+        <Literal xml:lang="en">y represented_by x iff x is an instance of Information Content Entity, and y is an instance of Entity, and z is carrier of x, such that x is about y in virtue of there existing an isomorphism between characteristics of z and y.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/represented_by</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/represented_by</IRI>
+        <Literal>See notes for inverse property.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/represented_by</IRI>
+        <Literal xml:lang="en">represented by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/requires</IRI>
+        <Literal xml:lang="en">x requires y at t iff: x is an instance of Action Regulation at time t, and y is an instance of Act at time t, and x prescribes that some agent must be agent in y.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/requires</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/AgentOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/requires</IRI>
+        <Literal xml:lang="en">requires</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/requires</IRI>
+        <Literal xml:lang="en">Given a stronger temporal interpretation, this property may be asymmetric and irreflexive. For more info please refer to https://github.com/BFO-ontology/BFO-2020/tree/master/src/owl/temporal%20extensions.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

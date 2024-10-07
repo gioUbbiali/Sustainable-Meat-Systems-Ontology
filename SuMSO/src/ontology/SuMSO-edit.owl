@@ -820,7 +820,12 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000218"/>
-                <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
+                <ObjectIntersectionOf>
+                    <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
+                    <ObjectComplementOf>
+                        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+                    </ObjectComplementOf>
+                </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="CommonCoreOntologies:is_subject_of"/>
@@ -905,7 +910,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <EquivalentClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000098"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000086"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000059"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000093"/>
@@ -1850,7 +1855,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000098"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000086"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03530005"/>
@@ -3515,6 +3520,11 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
         <Literal xml:lang="en">animal well-being, animal wellbeing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000087</IRI>
+        <Literal xml:lang="en">Despite humans are animals, the term &quot;animal welfare&quot; is primarily used excluding reference to humans. We kept track of this feature, creating a separated class for human wellbeing. Possible revision of these classes may be required.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
