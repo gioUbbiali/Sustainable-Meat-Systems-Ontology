@@ -14,6 +14,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_9606 #homo sapiens
 http://purl.obolibrary.org/obo/NCBITaxon_2157 #archea
 http://purl.obolibrary.org/obo/NCBITaxon_9913 #bos taurus
 http://purl.obolibrary.org/obo/NCBITaxon_4751 #fungi
+http://purl.obolibrary.org/obo/NCBITaxon_33208 #metazoa
 
 
 [Top level source term URIs and target direct superclass URIs]
