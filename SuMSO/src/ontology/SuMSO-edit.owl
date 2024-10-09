@@ -177,9 +177,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000040"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000041"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000042"/>
     </Declaration>
     <Declaration>
@@ -249,10 +246,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000067"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000068"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000069"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000071"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000072"/>
@@ -321,6 +324,9 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000093"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000094"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000095"/>
     </Declaration>
     <Declaration>
@@ -334,6 +340,15 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </Declaration>
     <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000102"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
@@ -458,16 +473,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000012"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000020"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000004"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="CommonCoreOntologies:is_about"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000038"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -942,20 +947,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000026"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000002"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000101"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000008"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000127"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000007"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000004"/>
     </SubClassOf>
@@ -1075,25 +1066,11 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000008"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000021"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000097"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000009"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000020"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000009"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000020"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000058"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000039"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000084"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000097"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000010"/>
@@ -1237,25 +1214,11 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000020"/>
-        <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000004"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000020"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000004"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000058"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000038"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000084"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000024"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000068"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000021"/>
-        <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000040"/>
+        <Class abbreviatedIRI="obo:VO_0000299"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000022"/>
@@ -1276,20 +1239,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000026"/>
         <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000036"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000026"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000024"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000101"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000021"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000127"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000035"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000027"/>
@@ -1502,12 +1451,8 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000041"/>
-        <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000004"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000042"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000041"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000102"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000043"/>
@@ -1673,12 +1618,20 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000062"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000068"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000097"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000069"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000097"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000069"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000071"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000021"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000072"/>
@@ -1694,11 +1647,11 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000075"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000073"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000100"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000076"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000074"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000101"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000077"/>
@@ -1714,7 +1667,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000080"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000081"/>
@@ -1722,7 +1675,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000082"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000083"/>
@@ -1730,7 +1683,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000084"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000085"/>
@@ -1890,6 +1843,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000094"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000009"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000095"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000081"/>
     </SubClassOf>
@@ -1918,6 +1875,18 @@ Currently, this resource provides the core ontological module of SuMSO that deal
                 <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000100"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000101"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000074"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000102"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000021"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03530005"/>
@@ -1965,7 +1934,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <ObjectUnionOf>
@@ -2051,6 +2020,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <ClassAssertion>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000007"/>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000056"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000007"/>
+        <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000064"/>
     </ClassAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2214,12 +2187,22 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000008</IRI>
-        <Literal xml:lang="en">meat system stakeholder perspective information content entity</Literal>
+        <Literal xml:lang="en">meat aggregator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000008</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000009</IRI>
-        <Literal xml:lang="en">meat system component perspective information content entity</Literal>
+        <Literal xml:lang="en">verifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000009</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2374,12 +2357,22 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000020</IRI>
-        <Literal xml:lang="en">food system component perspective information content entity</Literal>
+        <Literal xml:lang="en">meat supply chain certifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000020</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000021</IRI>
-        <Literal xml:lang="en">food system stakeholder perspective information content entity</Literal>
+        <Literal xml:lang="en">processor company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000021</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2668,13 +2661,13 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000041</IRI>
-        <Literal xml:lang="en">food system environment component perspective information content entity</Literal>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000042</IRI>
+        <Literal xml:lang="en">slaughterer company</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000042</IRI>
-        <Literal xml:lang="en">meat system environment component perspective information content entity&apos;</Literal>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3119,6 +3112,11 @@ http://purl.obolibrary.org/obo/NCBITaxon_2157</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000063</IRI>
+        <Literal xml:lang="en">Currently, SuMSO position roles correlated with involvement in supply chains, such as processor role, as both subclasses of “organization-role” and “worker-role” classes. This is because these roles apply to both humans and organizations that are involved in the supply chains. We leave open the discussion of whether we need two different hierarchy branches to distinguish specifically such roles for organizations and humans. In this case, class definitions must be revised accordingly. We envision having discussions with subject matter experts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000063</IRI>
         <Literal xml:lang="en">For details, see comments under the &quot;organization&quot; class.
  http://purl.obolibrary.org/obo/OBI_0000245</Literal>
     </AnnotationAssertion>
@@ -3167,6 +3165,11 @@ Future implementations may address including classes to represent theories, rela
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000064</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000065</IRI>
+        <Literal xml:lang="en">Currently, SuMSO position roles correlated with involvement in supply chains, such as processor role, as both subclasses of “organization-role” and “worker-role” classes. This is because these roles apply to both humans and organizations that are involved in the supply chains. We leave open the discussion of whether we need two different hierarchy branches to distinguish specifically such roles for organizations and humans. In this case, class definitions must be revised accordingly. We envision having discussions with subject matter experts.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -3220,6 +3223,16 @@ Future implementations may address including classes to represent theories, rela
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000068</IRI>
+        <Literal xml:lang="en">certifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000068</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000069</IRI>
         <Literal xml:lang="en">farmer</Literal>
     </AnnotationAssertion>
@@ -3264,6 +3277,16 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000071</IRI>
+        <Literal xml:lang="en">tanner company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000071</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000072</IRI>
         <Literal xml:lang="en">rancher-role</Literal>
     </AnnotationAssertion>
@@ -3300,7 +3323,7 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000074</IRI>
-        <Literal xml:lang="en">A role that inheres in a human by virtue of engaging in supply chain activities concerning preparing products for marketing or distribution.</Literal>
+        <Literal xml:lang="en">A role that inheres in a human or company by virtue of engaging in supply chain activities concerning preparing items for marketing or distribution.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
@@ -3345,7 +3368,7 @@ http://snomed.info/id/69919006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000076</IRI>
-        <Literal xml:lang="en">A processor role that inheres in a human by virtue of engaging in supply chain activities concerning the processing and preparation of animal carcasses, including cutting into meat portions for consumption by humans.</Literal>
+        <Literal xml:lang="en">A processor role that inheres in a human or company by virtue of engaging in supply chain activities concerning the processing and preparation of animal carcasses, including cutting into meat portions for consumption by humans.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
@@ -3411,22 +3434,17 @@ http://snomed.info/id/106434002</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000080</IRI>
-        <Literal xml:lang="en">A  “meat aggregator worker role” class can be created to track the people who work at the company to buy and sell animals, on necessity.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000080</IRI>
         <Literal xml:lang="en">We envision the possibility to include a smallholder farmer/rancher class and to change the class label.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000080</IRI>
-        <Literal xml:lang="en">meat aggregator organization-role</Literal>
+        <Literal xml:lang="en">meat aggregator-role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000080</IRI>
-        <Literal xml:lang="en">An organization-role that inheres in a company by virtue of engaging in supply chain activities concerning the purchase of animals from smallholders for resale in large quantities to some supply chain actors or companies that participate in the downstream supply chain activities.</Literal>
+        <Literal xml:lang="en">An role that inheres in a human or company by virtue of engaging in supply chain activities concerning the purchase of animals from smallholders for resale in large quantities to some supply chain actors or companies that participate in the downstream supply chain activities.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -3451,9 +3469,7 @@ http://snomed.info/id/106434002</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000082</IRI>
-        <Literal xml:lang="en">A corresponding meat verifier worker role can be created to track the people who perform the verification, on necessity.
-
-We envision including additional details regarding the type of compliance and type of entity concerned, e.g a certain activity, protocol, product, etc.</Literal>
+        <Literal xml:lang="en">We envision including additional details regarding the type of compliance and type of entity concerned, e.g a certain activity, protocol, product, etc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3465,6 +3481,11 @@ We envision including additional details regarding the type of compliance and ty
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000082</IRI>
         <Literal xml:lang="en">See also:
  http://purl.obolibrary.org/obo/OCCO_00000118  and subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000082</IRI>
+        <Literal xml:lang="en">A role that inheres in a human or company by virtue of engaging in supply chain activities concerning verifying and assessing compliance with a specified benchmark (criteria) prescribed by a certain certification.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -3489,9 +3510,7 @@ We envision including additional details regarding the type of compliance and ty
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000084</IRI>
-        <Literal xml:lang="en">A corresponding meat certifier worker role can be created to track the people who produce and release the certification, on necessity. 
-
-We envision including additional details regarding the type of compliance and type of entity concerned, e.g a certain activity, protocol, product, etc.</Literal>
+        <Literal xml:lang="en">We envision including additional details regarding the type of compliance and type of entity concerned, e.g a certain activity, protocol, product, etc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3507,7 +3526,7 @@ http://purl.obolibrary.org/obo/OCCO_00000118 and subclasses.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000084</IRI>
-        <Literal xml:lang="en">An organization-role that inheres in a company by virtue of engaging in supply chain activities concerning attesting compliance with a specified benchmark (criteria) prescribed by a certain certification.</Literal>
+        <Literal xml:lang="en">A role that inheres in a human or company by virtue of engaging in supply chain activities concerning attesting compliance with a specified benchmark (criteria) prescribed by a certain certification.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -3751,6 +3770,16 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000094</IRI>
+        <Literal xml:lang="en">meat supply chain verifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000094</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000095</IRI>
         <Literal xml:lang="en">Further details are required to specify this characterization. Additional subclasses may be required.</Literal>
@@ -3838,6 +3867,46 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000099</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000100</IRI>
+        <Literal xml:lang="en">meat processor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000100</IRI>
+        <Literal xml:lang="en">A human with a meat processor role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000100</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000101</IRI>
+        <Literal xml:lang="en">meat processor-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000101</IRI>
+        <Literal xml:lang="en">A role that inheres in a human or company by virtue of engaging in supply chain activities concerning preparing meat itmes for marketing or distribution.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000101</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000102</IRI>
+        <Literal xml:lang="en">meat processor company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000102</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
