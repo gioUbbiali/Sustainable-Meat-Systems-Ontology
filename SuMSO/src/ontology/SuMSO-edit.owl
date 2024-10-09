@@ -2190,6 +2190,11 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <Literal xml:lang="en">meat aggregator</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000008</IRI>
+        <Literal xml:lang="en">A human with a meat aggregator role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000008</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
@@ -2198,6 +2203,11 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000009</IRI>
         <Literal xml:lang="en">verifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000009</IRI>
+        <Literal xml:lang="en">A human with a verifier role.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -2360,6 +2370,11 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <Literal xml:lang="en">meat supply chain certifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000020</IRI>
+        <Literal xml:lang="en">A certifier that engages in activities of verifying compliance with regard to meat supply chains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000020</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
@@ -2368,6 +2383,11 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000021</IRI>
         <Literal xml:lang="en">processor company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000021</IRI>
+        <Literal xml:lang="en">A company with a processor role.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -2663,6 +2683,11 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000042</IRI>
         <Literal xml:lang="en">slaughterer company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000042</IRI>
+        <Literal xml:lang="en">A meat processor company with a slaughterer role.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -3227,6 +3252,11 @@ Future implementations may address including classes to represent theories, rela
         <Literal xml:lang="en">certifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000068</IRI>
+        <Literal xml:lang="en">A human with a certifier role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000068</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
@@ -3279,6 +3309,11 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000071</IRI>
         <Literal xml:lang="en">tanner company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000071</IRI>
+        <Literal xml:lang="en">A processor company with a tanner role.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -3343,7 +3378,7 @@ http://purl.obolibrary.org/obo/OCCO_45000000</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000075</IRI>
-        <Literal xml:lang="en">A processor with a slaughterer role.</Literal>
+        <Literal xml:lang="en">A meat processor with a slaughterer role.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -3424,7 +3459,7 @@ http://snomed.info/id/106434002</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000079</IRI>
-        <Literal xml:lang="en">A company with a meat aggregator organization role.</Literal>
+        <Literal xml:lang="en">A company with a meat aggregator role.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -3775,6 +3810,11 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
         <Literal xml:lang="en">meat supply chain verifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000094</IRI>
+        <Literal xml:lang="en">A verifier that engages in activities of verifying and assessing compliance with regard to meat supply chains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000094</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
@@ -3903,6 +3943,11 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000102</IRI>
         <Literal xml:lang="en">meat processor company</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000102</IRI>
+        <Literal xml:lang="en">A processor company with a meat processor role.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
