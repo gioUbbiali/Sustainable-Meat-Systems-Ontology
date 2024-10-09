@@ -1947,17 +1947,17 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_0000245"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:BFO_0000040"/>
+            <Class abbreviatedIRI="obo:BFO_0000027"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000115"/>
-                <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
+                <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_0000245"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:BFO_0000040"/>
+            <Class abbreviatedIRI="obo:BFO_0000027"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <ObjectUnionOf>
@@ -1970,7 +1970,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_0000245"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:BFO_0000040"/>
+            <Class abbreviatedIRI="obo:BFO_0000027"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
@@ -2365,6 +2365,11 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000020</IRI>
+        <Literal xml:lang="en">The class certifier is too general and broad. Not all verifiers may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We did not create a corresponding role. We opted for this solution for reasons of practicality. Future implementations will deprecate this class and include the specific ones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000020</IRI>
         <Literal xml:lang="en">meat supply chain certifier</Literal>
@@ -2377,7 +2382,7 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000020</IRI>
-        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3023,7 +3028,7 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000057</IRI>
-        <Literal xml:lang="en">The class fungi is too general and broad. Not all fungi may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. future implementation will deprecate this class and include the specific ones.</Literal>
+        <Literal xml:lang="en">The class fungi is too general and broad. Not all fungi may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. Future implementations will deprecate this class and include the specific ones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3065,7 +3070,7 @@ http://www.bioassayontology.org/bao#BAO_0000605</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000059</IRI>
-        <Literal xml:lang="en">The class bacteria is too general and broad. Not all bacteria may belong to meat systems.Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. future implementation will deprecate this class and include the specific ones.</Literal>
+        <Literal xml:lang="en">The class bacteria is too general and broad. Not all bacteria may belong to meat systems.Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. Future implementations will deprecate this class and include the specific ones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3086,7 +3091,7 @@ http://purl.obolibrary.org/obo/NCBITaxon_2</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000060</IRI>
-        <Literal xml:lang="en">The class archaea is too general and broad. Not all archea may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. future implementation will deprecate this class and include the specific ones.</Literal>
+        <Literal xml:lang="en">The class archaea is too general and broad. Not all archea may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific biological species distinctions is needed. Future implementations will deprecate this class and include the specific ones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3403,7 +3408,7 @@ http://snomed.info/id/69919006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000076</IRI>
-        <Literal xml:lang="en">A processor role that inheres in a human or company by virtue of engaging in supply chain activities concerning the processing and preparation of animal carcasses, including cutting into meat portions for consumption by humans.</Literal>
+        <Literal xml:lang="en">A meat processor role that inheres in a human or company by virtue of engaging in supply chain activities concerning the processing and preparation of animal carcasses, including cutting into meat portions for consumption by humans.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
@@ -3805,6 +3810,11 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000094</IRI>
+        <Literal xml:lang="en">The class verifier is too general and broad. Not all verifiers may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We did not create a corresponding role. We opted for this solution for reasons of practicality. Future implementations will deprecate this class and include the specific ones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000094</IRI>
         <Literal xml:lang="en">meat supply chain verifier</Literal>
@@ -3817,12 +3827,17 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000094</IRI>
-        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000095</IRI>
         <Literal xml:lang="en">Further details are required to specify this characterization. Additional subclasses may be required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000095</IRI>
+        <Literal xml:lang="en">The class verifier company is too general and broad. Not all verifiers may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We did not create a corresponding role. We opted for this solution for reasons of practicality. Future implementations will deprecate this class and include the specific ones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3843,6 +3858,11 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000096</IRI>
         <Literal xml:lang="en">Further details are required to specify this characterization. Additional subclasses may be required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000096</IRI>
+        <Literal xml:lang="en">The class certifier company is too general and broad. Not all verifiers may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We did not create a corresponding role. We opted for this solution for reasons of practicality. Future implementations will deprecate this class and include the specific ones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3917,7 +3937,7 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000100</IRI>
-        <Literal xml:lang="en">A human with a meat processor role.</Literal>
+        <Literal xml:lang="en">A processor with a meat processor role.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -3932,7 +3952,7 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000101</IRI>
-        <Literal xml:lang="en">A role that inheres in a human or company by virtue of engaging in supply chain activities concerning preparing meat itmes for marketing or distribution.</Literal>
+        <Literal xml:lang="en">A processor role that inheres in a human or company by virtue of engaging in supply chain activities concerning preparing meat itmes for marketing or distribution.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -4009,6 +4029,12 @@ see also https://spec.industrialontologies.org/ontology/core/Core/PlannedProcess
         <AbbreviatedIRI>obo:OBI_0000011</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO creator comment:
 see comments under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:OBI_0000245</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO comment:
+according to CCO and IOF, we positioned this class as a subclass of the class &quot;object aggregate&quot;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
