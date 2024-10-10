@@ -1,0 +1,550 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/sumso/imports/NCIT_import.ofn"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/sumso/imports/NCIT_import.ofn"
+     versionIRI="http://purl.obolibrary.org/obo/sumso/imports/2024-10-10/NCIT_import.ofn">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/sumso/imports/NCIT_import.ofn#"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This file contains the imports fetched from the NCI Thesaurus OBO Edition (NCIT) via OntoFox (https://ontofox.hegroup.org/index.php).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal xml:lang="en">See also the corresponding OntoFox text input file.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>2024-10-10</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C53568"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="protege:readOnly"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P107"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P207"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P322"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P366"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P98"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="obo:NCIT_Contributing_Source-enum"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="obo:NCIT_Semantic_Type-enum"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal>DEFINITION</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal>definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal xml:lang="en">imported from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>A person who uses goods or services.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ncit.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>C53568</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>Human</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>Consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P207"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>C1707496</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P322"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>FDA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P366"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>Consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>CONSUMER/CONCERNED CITIZEN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>Consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <IRI>http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54447</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <IRI>http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C54587</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal>Consumer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="protege:readOnly"/>
+        <AbbreviatedIRI>obo:NCIT_NHC0</AbbreviatedIRI>
+        <Literal>true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_NHC0</AbbreviatedIRI>
+        <Literal>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&apos;s NCI Thesaurus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>obo:NCIT_NHC0</AbbreviatedIRI>
+        <Literal>NHC0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_NHC0</AbbreviatedIRI>
+        <Literal>Conceptual Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>obo:NCIT_NHC0</AbbreviatedIRI>
+        <Literal>code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_NHC0</AbbreviatedIRI>
+        <Literal>code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCIT_NHC0</AbbreviatedIRI>
+        <Literal>code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_P106</AbbreviatedIRI>
+        <Literal>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>obo:NCIT_P106</AbbreviatedIRI>
+        <Literal>P106</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_P106</AbbreviatedIRI>
+        <Literal>Conceptual Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P107"/>
+        <AbbreviatedIRI>obo:NCIT_P106</AbbreviatedIRI>
+        <Literal>Semantic Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>obo:NCIT_P106</AbbreviatedIRI>
+        <Literal>Semantic_Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P98"/>
+        <AbbreviatedIRI>obo:NCIT_P106</AbbreviatedIRI>
+        <Literal>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P106</AbbreviatedIRI>
+        <Literal>Semantic_Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCIT_P106</AbbreviatedIRI>
+        <Literal>Semantic_Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_P107</AbbreviatedIRI>
+        <Literal>A property representing an alternative Preferred Name for use in some NCI systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>obo:NCIT_P107</AbbreviatedIRI>
+        <Literal>P107</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_P107</AbbreviatedIRI>
+        <Literal>Conceptual Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P107"/>
+        <AbbreviatedIRI>obo:NCIT_P107</AbbreviatedIRI>
+        <Literal>Display Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>obo:NCIT_P107</AbbreviatedIRI>
+        <Literal>Display_Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P107</AbbreviatedIRI>
+        <Literal>Display Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P107</AbbreviatedIRI>
+        <Literal>Display_Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCIT_P107</AbbreviatedIRI>
+        <Literal>Display_Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_P108</AbbreviatedIRI>
+        <Literal>A property representing the word or phrase that NCI uses by preference to refer to the concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>obo:NCIT_P108</AbbreviatedIRI>
+        <Literal>P108</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_P108</AbbreviatedIRI>
+        <Literal>Conceptual Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P107"/>
+        <AbbreviatedIRI>obo:NCIT_P108</AbbreviatedIRI>
+        <Literal>Preferred Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>obo:NCIT_P108</AbbreviatedIRI>
+        <Literal>Preferred_Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P108</AbbreviatedIRI>
+        <Literal>Preferred Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P108</AbbreviatedIRI>
+        <Literal>Preferred Term</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P108</AbbreviatedIRI>
+        <Literal>Preferred_Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCIT_P108</AbbreviatedIRI>
+        <Literal>Preferred_Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_P207</AbbreviatedIRI>
+        <Literal>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>obo:NCIT_P207</AbbreviatedIRI>
+        <Literal>P207</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_P207</AbbreviatedIRI>
+        <Literal>Conceptual Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P107"/>
+        <AbbreviatedIRI>obo:NCIT_P207</AbbreviatedIRI>
+        <Literal>UMLS CUI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>obo:NCIT_P207</AbbreviatedIRI>
+        <Literal>UMLS_CUI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P207</AbbreviatedIRI>
+        <Literal>UMLS_CUI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCIT_P207</AbbreviatedIRI>
+        <Literal>UMLS_CUI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_P322</AbbreviatedIRI>
+        <Literal>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>obo:NCIT_P322</AbbreviatedIRI>
+        <Literal>P322</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_P322</AbbreviatedIRI>
+        <Literal>Conceptual Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P107"/>
+        <AbbreviatedIRI>obo:NCIT_P322</AbbreviatedIRI>
+        <Literal>Contributing Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>obo:NCIT_P322</AbbreviatedIRI>
+        <Literal>Contributing_Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P322</AbbreviatedIRI>
+        <Literal>Contributing_Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCIT_P322</AbbreviatedIRI>
+        <Literal>Contributing_Source</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="protege:readOnly"/>
+        <AbbreviatedIRI>obo:NCIT_P366</AbbreviatedIRI>
+        <Literal>true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_P366</AbbreviatedIRI>
+        <Literal>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>obo:NCIT_P366</AbbreviatedIRI>
+        <Literal>P366</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_P366</AbbreviatedIRI>
+        <Literal>Conceptual Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>obo:NCIT_P366</AbbreviatedIRI>
+        <Literal>Legacy Concept Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P366</AbbreviatedIRI>
+        <Literal>Legacy Concept Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P366</AbbreviatedIRI>
+        <Literal>Legacy_Concept_Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCIT_P366</AbbreviatedIRI>
+        <Literal>Legacy Concept Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_P98</AbbreviatedIRI>
+        <Literal>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>obo:NCIT_P98</AbbreviatedIRI>
+        <Literal>P98</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_P98</AbbreviatedIRI>
+        <Literal>Conceptual Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P107"/>
+        <AbbreviatedIRI>obo:NCIT_P98</AbbreviatedIRI>
+        <Literal>DesignNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>obo:NCIT_P98</AbbreviatedIRI>
+        <Literal>DesignNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_P98</AbbreviatedIRI>
+        <Literal>DesignNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:NCIT_P98</AbbreviatedIRI>
+        <Literal>DesignNote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
+        <Literal>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
+        <Literal>FULL_SYN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
+        <Literal>Synonym with Source Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
+        <Literal>has exact synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>oboInOwl:inSubset</AbbreviatedIRI>
+        <Literal>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>oboInOwl:inSubset</AbbreviatedIRI>
+        <Literal>Concept_In_Subset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:inSubset</AbbreviatedIRI>
+        <Literal>in subset</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+        <Literal>label</Literal>
+    </AnnotationAssertion>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="protege:readOnly"/>
+        <AbbreviatedIRI>xsd:boolean</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_NHC0"/>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P106"/>
+        <AbbreviatedIRI>obo:NCIT_Semantic_Type-enum</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P107"/>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P108"/>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P207"/>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P322"/>
+        <AbbreviatedIRI>obo:NCIT_Contributing_Source-enum</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P366"/>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="obo:NCIT_P98"/>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
