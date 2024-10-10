@@ -30,6 +30,7 @@
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/envo_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/foodon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/obi-iao_import.ofn</Import>
+    <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-10/NCIT_import.ofn</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:creator"/>
         <Literal>Giorgio A. Ubbiali</Literal>
@@ -1043,6 +1044,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <EquivalentClasses>
         <Class abbreviatedIRI="obo:IAO_0000033"/>
         <Class abbreviatedIRI="CommonCoreOntologies:DirectiveInformationContentEntity"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:NCIT_C53568"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000103"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
@@ -2181,28 +2192,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000103"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000103"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000055"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000103"/>
-        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000103"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
-                <ObjectUnionOf>
-                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
-                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000015"/>
-                </ObjectUnionOf>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_00000114"/>
@@ -2297,6 +2287,31 @@ Currently, this resource provides the core ontological module of SuMSO that deal
                 <ObjectUnionOf>
                     <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000012"/>
                     <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C53568"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C53568"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000055"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C53568"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C53568"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
+                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000015"/>
                 </ObjectUnionOf>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -2515,6 +2530,11 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000006</IRI>
         <Literal xml:lang="en">meat system actor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000006</IRI>
+        <Literal>https://spec.industrialontologies.org/ontology/core/Core/Supplier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
@@ -2970,6 +2990,11 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000036</IRI>
         <Literal xml:lang="en">food system actor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000036</IRI>
+        <Literal>https://spec.industrialontologies.org/ontology/core/Core/Supplier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
@@ -4347,9 +4372,29 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000103</IRI>
+        <Literal xml:lang="en">Future implementation may cover refernce to products, by-products, and waste as well as to people awareness concerning consumption features.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000103</IRI>
+        <Literal xml:lang="en">Implementation may cover refernce to products, by-products, and waste as well as to people awareness concerning consumption features. To also consider possible corresponding dispositions to consume.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000103</IRI>
-        <Literal xml:lang="en">consumer</Literal>
+        <Literal xml:lang="en">consumer-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000103</IRI>
+        <Literal xml:lang="en">A role that inheres in a human by virtue of engaging in some supply chain activities concerning buying and using items produced along this supply chain. These activities are typically regarded as the final stages of a supply chain, occurring prior to waste disposal and recycling.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000103</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -4400,6 +4445,12 @@ We initially dedicated attention to humans and cows due to the primary role play
         <AbbreviatedIRI>obo:NCBITaxon_9913</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
 We initially dedicated attention to humans and cows due to the primary role played in meat systems. Future implementations will include other specific subclasses to account for additional eucaryotes that are possibly involved in meat systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+we envision revisions of this definition. See the corresponding “role” class we created.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
