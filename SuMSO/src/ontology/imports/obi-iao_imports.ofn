@@ -22,6 +22,7 @@ Declaration(Class(obo:BFO_0000002))
 Declaration(Class(obo:BFO_0000004))
 Declaration(Class(obo:BFO_0000015))
 Declaration(Class(obo:BFO_0000017))
+Declaration(Class(obo:BFO_0000027))
 Declaration(Class(obo:BFO_0000031))
 Declaration(Class(obo:BFO_0000040))
 Declaration(Class(obo:IAO_0000005))
@@ -82,7 +83,7 @@ AnnotationAssertion(obo:IAO_0000232 obo:BFO_0000180 "Really of interest to devel
 AnnotationAssertion(rdfs:label obo:BFO_0000180 "BFO CLIF specification label"@en)
 SubAnnotationPropertyOf(obo:BFO_0000180 rdfs:label)
 
-# Annotation Property: obo:IAO_0000111 (editor preferred term)
+# Annotation Property: obo:IAO_0000111 (editor preferred label)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label"@en)
@@ -116,7 +117,7 @@ AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Bill Bug"@en)
 AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Melanie Courtot"@en)
 AnnotationAssertion(rdfs:label obo:IAO_0000114 "has curation status"@en)
 
-# Annotation Property: obo:IAO_0000115 (definition)
+# Annotation Property: obo:IAO_0000115 (textual definition)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition"@en)
@@ -591,7 +592,7 @@ AnnotationAssertion(obo:IAO_0000117 obo:OBI_0000245 "PERSON: Susanna Sansone")
 AnnotationAssertion(obo:IAO_0000119 obo:OBI_0000245 "GROUP: OBI")
 AnnotationAssertion(obo:IAO_0000412 obo:OBI_0000245 obo:obi.owl)
 AnnotationAssertion(rdfs:label obo:OBI_0000245 "organization"@en)
-SubClassOf(obo:OBI_0000245 obo:BFO_0000040)
+SubClassOf(obo:OBI_0000245 obo:BFO_0000027)
 
 # Class: obo:OBI_0000260 (plan)
 
