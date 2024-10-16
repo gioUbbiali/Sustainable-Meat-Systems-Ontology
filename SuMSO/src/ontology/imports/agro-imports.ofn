@@ -84,6 +84,9 @@
         <Class abbreviatedIRI="obo:ENVO_00000114"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="owl:Thing"/>
     </Declaration>
     <Declaration>
@@ -212,7 +215,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:AGRO_00002071"/>
-        <Class abbreviatedIRI="obo:BFO_0000003"/>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:BFO_0000003"/>
@@ -965,7 +968,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2148892794"/>
+        <AnonymousIndividual nodeID="_:genid2148894935"/>
         <AbbreviatedIRI>obo:agro.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
