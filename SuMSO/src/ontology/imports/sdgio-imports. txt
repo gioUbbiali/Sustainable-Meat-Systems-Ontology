@@ -1,0 +1,27 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/sumso/imports/sdgio_import.ofn
+
+[Source ontology]
+SDGIO
+
+[Low level source term URIs]
+# terms
+http://purl.unep.org/sdg/SDGIO_00000014 #exposure process
+http://purl.unep.org/sdg/SDGIO_00010021 #resilience
+http://purl.unep.org/sdg/SDGIO_00000024 #vulnerability
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.unep.org/sdg/SDGIO_00000014
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.unep.org/sdg/SDGIO_00010021 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://purl.unep.org/sdg/SDGIO_00000024
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################

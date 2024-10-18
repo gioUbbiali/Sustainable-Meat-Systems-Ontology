@@ -469,6 +469,9 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000144"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000146"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
     </Declaration>
     <Declaration>
@@ -1536,6 +1539,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000089"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:RO_0002577"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000146"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -3553,6 +3566,20 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000144"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000146"/>
+        <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000146"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:BFO_0000016"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000092"/>
+                <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Annotation>
@@ -6561,6 +6588,47 @@ This class and related subclasses also require axiomatizations to cover referenc
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000144</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000146</IRI>
+        <Literal>1-55963-856-7  
+https://pure.iiasa.ac.at/id/eprint/26/1/RP-73-003.pdf  
+https://pure.iiasa.ac.at/id/eprint/13667/?template=default_internal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000146</IRI>
+        <Literal xml:lang="en">Further classes are needed to represent system states and perturbations. Implementations will cover these aspects.Revisions will be carried out in accordance with SCO implementations regarding system behaviors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000146</IRI>
+        <Literal xml:lang="en">This term must be included within SCO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000146</IRI>
+        <Literal xml:lang="en">system stability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000146</IRI>
+        <Literal xml:lang="en">http://purl.obolibrary.org/obo/PATO_0015026 
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54072 
+http://www.eionet.europa.eu/gemet/concept/15139 
+http://aims.fao.org/aos/agrovoc/c_36930 
+http://id.agrisemantics.org/gacs/C3602</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000146</IRI>
+        <Literal xml:lang="en">A disposition whose realization leads the system to express sensitivity over resilience to a certain perturbation to which it is exposed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000146</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
