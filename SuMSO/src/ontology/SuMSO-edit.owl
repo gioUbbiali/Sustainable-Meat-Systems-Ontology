@@ -6839,7 +6839,10 @@ We decided to include the SDGIO class as judged adequate to represent system vul
 http://humanbehaviourchange.org/ontology/BCIO_015160 
 http://aims.fao.org/aos/agrovoc/c_306b9cc8
 http://purl.unep.org/sdg/SDGIO_00000020 and subclasses
-http://purl.unep.org/sdg/SDGIO_00000014 and subclasses</Literal>
+http://purl.unep.org/sdg/SDGIO_00000014 and subclasses
+
+https://github.com/CTDbase/exposure-ontology
+https://github.com/EnvironmentOntology/environmental-exposure-ontology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
