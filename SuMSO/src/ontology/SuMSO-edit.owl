@@ -23,6 +23,7 @@
     <Prefix name="CommonCoreOntologies" IRI="http://www.ontologyrepository.com/CommonCoreOntologies/"/>
     <Import>http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl</Import>
+    <Import>http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn</Import>
@@ -1549,6 +1550,26 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000146"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:RO_0002577"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
+                <Class IRI="http://purl.unep.org/sdg/SDGIO_00000024"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:RO_0002577"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
+                <Class IRI="http://purl.unep.org/sdg/SDGIO_00010021"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -3787,6 +3808,34 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000144"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.unep.org/sdg/SDGIO_00000024"/>
+        <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.unep.org/sdg/SDGIO_00000024"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:BFO_0000016"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000092"/>
+                <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.unep.org/sdg/SDGIO_00010021"/>
+        <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.unep.org/sdg/SDGIO_00010021"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:BFO_0000016"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000092"/>
+                <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -6740,6 +6789,127 @@ see also http://purl.obolibrary.org/obo/NCIT_C54131</Literal>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
         <Literal xml:lang="en">We consider this definition improvable. We envision discussions with subject matter expert to revise it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+            <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
+        <Literal xml:lang="en">system vulnerability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
+        <Literal xml:lang="en">SuMSO definition sources:
+1-55963-856-7 
+https://pure.iiasa.ac.at/id/eprint/26/1/RP-73-003.pdf 
+https://pure.iiasa.ac.at/id/eprint/13667/?template=default_internal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Currently, we focused on complex systems but this class may be refer directly to systems. Once more, this will be cover into SCO implementations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Further classes are needed to represent sensitivity and perturbations. Implementations will cover these aspects.
+Revisions will be carried out in accordance with SCO implementations regarding system behaviors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+This term must be included within SCO.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+We decided to include the SDGIO class as judged adequate to represent system vulnerability. We, however, decided to provide an alternative definition, more focused on complex systems as considered useful in the context of sustainability and complexity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
+        <Literal xml:lang="en">SuMSO developer suggestions:
+http://humanbehaviourchange.org/ontology/BCIO_015160 
+http://aims.fao.org/aos/agrovoc/c_306b9cc8
+http://purl.unep.org/sdg/SDGIO_00000020 and subclasses
+http://purl.unep.org/sdg/SDGIO_00000014 and subclasses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
+        <Literal xml:lang="en">SuMSO developer suggestions:
+http://purl.unep.org/sdg/SDGIO_00000067
+http://purl.unep.org/sdg/SDGIO_00000020 and subclasses 
+http://purl.unep.org/sdg/SDGIO_00000014 and subclasses 
+http://purl.obolibrary.org/obo/ID_0000015 
+http://purl.bioontology.org/ontology/MESH/D055500 
+http://www.eionet.europa.eu/gemet/concept/15275 
+http://aims.fao.org/aos/agrovoc/c_1374480530924 
+http://data.loterre.fr/ark:/67375/BLH-RNSMBMMC-V 
+http://opendata.inrae.fr/thesaurusINRAE/c_9065</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+            <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
+        <Literal xml:lang="en">SUmSO definition:
+A disposition whose realization leads the system to express sensitivity over resilience to a certain perturbation to which it is exposed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+            <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00010021</IRI>
+        <Literal xml:lang="en">system resilience</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="terms:source"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00010021</IRI>
+        <Literal xml:lang="en">SuMSO definition sources:
+1-55963-856-7 
+https://pure.iiasa.ac.at/id/eprint/26/1/RP-73-003.pdf 
+https://pure.iiasa.ac.at/id/eprint/13667/?template=default_internal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00010021</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Currently, we focused on complex systems but this class may be refer directly to systems. Once more, this will be cover into SCO implementations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00010021</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Further classes are needed to represent system states and perturbations. Implementations will cover these aspects.
+Revisions will be carried out in accordance with SCO implementations regarding system behaviors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00010021</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+We decided to include the SDGIO class as judged adequate to represent system resilience. We, however, decided to provide an alternative definition, more focused on complex systems as considered useful in the context of sustainability and complexity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+            <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://purl.unep.org/sdg/SDGIO_00010021</IRI>
+        <Literal xml:lang="en">SuMSO definition:
+A disposition whose realization leads the system to persist in its stable state of equilibrium in response to a perturbation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

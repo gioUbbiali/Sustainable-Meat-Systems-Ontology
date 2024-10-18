@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl" uri="imports/sdgio-imports.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-10-10/NCIT_import.ofn" uri="imports/ncit-imports.owl"/>
     <uri id="Imports Wizard Entry" name="http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl" uri="imports/cco-imports.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/agro_import.ofn" uri="imports/agro-imports.ofn"/>
