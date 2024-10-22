@@ -5429,7 +5429,7 @@ http://snomed.info/id/69919006</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000076</IRI>
-        <Literal xml:lang="en">A meat processor role that inheres in a human by virtue of engaging in supply chain activities concerning the processing and preparation of animal carcasses, including cutting into meat portions for consumption by humans.</Literal>
+        <Literal xml:lang="en">A meat processor role that inheres in a human by virtue of engaging in supply chain activities concerning killing of animals and the (generally initial) processing and preparation of their carcasses, including cutting into meat portions for consumption by humans.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
@@ -6549,7 +6549,7 @@ http://purl.obolibrary.org/obo/OCCO_00000118 and subclasses.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000139</IRI>
-        <Literal xml:lang="en">A role that inheres in a company by virtue of its commitment to processing and preparation of animal carcasses, including cutting into meat portions for consumption by humans, thereby requiring employing workers to engage in meat supply chain activities necessary to fulfill its commitment.</Literal>
+        <Literal xml:lang="en">A role that inheres in a company by virtue of its commitment to killing of animals and (generally initial) processing and preparation of  their carcasses, including cutting into meat portions for consumption by humans, thereby requiring employing workers to engage in meat supply chain activities necessary to fulfill its commitment.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
