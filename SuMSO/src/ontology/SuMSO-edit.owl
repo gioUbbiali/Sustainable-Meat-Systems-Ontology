@@ -24,6 +24,7 @@
     <Import>http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl</Import>
+    <Import>http://gioUbbiali.github.io/sumso/2024-10-24/trasformonpo2.imports.owl</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn</Import>
@@ -3795,6 +3796,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:AGRO_00000372"/>
         <ObjectIntersectionOf>
             <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000065"/>
@@ -7061,6 +7066,64 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000156</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+We proposed a definition for this class due to the absence of such in PO2/TrasformON. We equally included supplementary information, such as labels and external references.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="en">animal slaughtering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="en">SuMSO:
+See also http://opendata.inrae.fr/ThViande/C461</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="en">SuMSO definition:
+A meat processing that involves killing animals and preparing related carcasses for further (possible) processing and distribution for human consumption.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="en">SuMSO:
+cattle slaughtering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="en">SuMSO :
+cow slaughtering.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+We proposed a definition for this class due to the absence of such in PO2/TrasformON. We equally included supplementary information, such as labels and external references.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="en">bovine slaughtering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="en">SuMSO:
+See also http://opendata.inrae.fr/ThViande/C461</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="en">SuMSO definition:
+Animal slaughtering that specifically regards cows.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
