@@ -24,7 +24,7 @@
     <Import>http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl</Import>
-    <Import>http://gioUbbiali.github.io/sumso/2024-10-24/trasformonpo2.imports.owl</Import>
+    <Import>http://gioUbbiali.github.io/sumso/2024-10-24/trasformon.imports.owl</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn</Import>
@@ -502,6 +502,12 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </Declaration>
     <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000160"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
@@ -3796,6 +3802,14 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000159"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000160"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
         <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
@@ -4093,6 +4107,14 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000075"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000053"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000159"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000053"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000160"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000068"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000083"/>
     </DisjointClasses>
@@ -4155,6 +4177,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <DisjointClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000108"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000134"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000159"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000160"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
@@ -5160,9 +5186,29 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
         <Literal xml:lang="en">product-role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000053</IRI>
+        <Literal>http://purl.allotrope.org/ontologies/role#AFRL_0000018 
+http://addictovocab.org/ADDICTO_0001113 
+http://addictovocab.org/ADDICTO_0001114</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000053</IRI>
+        <Literal xml:lang="en">A role that inheres in a material entity by virtue of realizing in some supply chain activity wherein the bearer is a desired output of that supply chain activity according to the perspective of some corresponding supply chain(s) participants. A product is generally available for sale or purchase along those supply chains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000053</IRI>
-        <Literal>https://spec.industrialontologies.org/ontology/core/Core/MaterialProductRole</Literal>
+        <Literal>https://spec.industrialontologies.org/ontology/core/Core/MaterialProductRole
+http://addictovocab.org/ADDICTO_0001112 
+http://purl.allotrope.org/ontologies/role#AFRL_0000360 
+http://purl.allotrope.org/ontologies/role#AFRL_0000543</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000053</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
@@ -7065,6 +7111,46 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000156</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000159</IRI>
+        <Literal xml:lang="en">by-product-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000159</IRI>
+        <Literal xml:lang="en">A role that inheres in a material entity by virtue of realizing in some supply chain activity wherein the bearer is an output of that supply chain activity and is perceived as lacking primary relevance according to the perspective of some corresponding supply chain(s) participants. A product may be available for sale or purchase along the corresponding supply chain(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000159</IRI>
+        <Literal>http://purl.allotrope.org/ontologies/role#AFRL_0000359</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000159</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000160</IRI>
+        <Literal xml:lang="en">waste-role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000160</IRI>
+        <Literal xml:lang="en">A role that inheres in a material entity by virtue of realizing in some supply chain activity wherein the bearer is an output of that supply chain activity and is discarded or not utilized further along the corresponding supply chain(s) because deemed undesirable or perceived as lacking utility or dangerous, according to the perspective of some participants of those supply chains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000160</IRI>
+        <Literal>http://purl.obolibrary.org/obo/ENVO_01000665</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000160</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>

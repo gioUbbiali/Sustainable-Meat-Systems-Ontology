@@ -1,0 +1,34 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/sumso/imports/OccO_import.ofn
+
+[Source ontology]
+OCCO
+
+[Low level source term URIs]
+# terms
+http://purl.obolibrary.org/obo/OCCO_00000118 #credential
+http://purl.obolibrary.org/obo/OCCO_00000124 #certification
+http://purl.obolibrary.org/obo/OCCO_00000119 #occupational credential
+http://purl.obolibrary.org/obo/OCCO_00000126 #license
+http://purl.obolibrary.org/obo/OCCO_00000123 #certificate
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OCCO_00000124 #certification
+subClassOf http://purl.obolibrary.org/obo/OCCO_00000118 #credential
+http://purl.obolibrary.org/obo/OCCO_00000119 #occupational credential
+subClassOf http://purl.obolibrary.org/obo/OCCO_00000118 #credential
+http://purl.obolibrary.org/obo/OCCO_00000126 #license
+subClassOf http://purl.obolibrary.org/obo/OCCO_00000118 #credential
+http://purl.obolibrary.org/obo/OCCO_00000123 #certificate
+subClassOf http://purl.obolibrary.org/obo/OCCO_00000118 #credential
+http://purl.obolibrary.org/obo/OCCO_00000118 #credential
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #GDC
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################
