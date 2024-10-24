@@ -30,6 +30,7 @@ Declaration(Class(obo:IAO_0000007))
 Declaration(Class(obo:IAO_0000027))
 Declaration(Class(obo:IAO_0000033))
 Declaration(Class(obo:IAO_0000104))
+Declaration(Class(obo:IAO_0000310))
 Declaration(Class(obo:OBI_0000011))
 Declaration(Class(obo:OBI_0000245))
 Declaration(Class(obo:OBI_0000260))
@@ -534,6 +535,17 @@ AnnotationAssertion(rdfs:seeAlso obo:IAO_0000104 "https://github.com/information
 SubClassOf(obo:IAO_0000104 obo:IAO_0000033)
 SubClassOf(obo:IAO_0000104 ObjectSomeValuesFrom(obo:BFO_0000051 obo:IAO_0000005))
 SubClassOf(obo:IAO_0000104 ObjectSomeValuesFrom(obo:BFO_0000051 obo:IAO_0000007))
+
+# Class: obo:IAO_0000310 (document)
+
+AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000310 "document"@en)
+AnnotationAssertion(obo:IAO_0000112 obo:IAO_0000310 "A journal article, patent application, laboratory notebook, or a book"@en)
+AnnotationAssertion(obo:IAO_0000114 obo:IAO_0000310 obo:IAO_0000120)
+AnnotationAssertion(obo:IAO_0000115 obo:IAO_0000310 "A collection of information content entities intended to be understood together as a whole"@en)
+AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000310 "PERSON: Lawrence Hunter"@en)
+AnnotationAssertion(obo:IAO_0000412 obo:IAO_0000310 obo:iao.owl)
+AnnotationAssertion(rdfs:label obo:IAO_0000310 "document"@en)
+SubClassOf(obo:IAO_0000310 <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity>)
 
 # Class: obo:OBI_0000011 (planned process)
 
