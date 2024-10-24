@@ -7,15 +7,19 @@ ENVO
 # terms
 http://purl.obolibrary.org/obo/ENVO_01000352 #field
 http://purl.obolibrary.org/obo/ENVO_00000114 #agricultural field
+http://purl.obolibrary.org/obo/ENVO_03501300 #manure
+includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ENVO_01000352 
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 http://purl.obolibrary.org/obo/ENVO_00000114 
 subClassOf http://purl.obolibrary.org/obo/ENVO_01000352 
+http://purl.obolibrary.org/obo/ENVO_03501300 #manure
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeNoIntermediates
 
 [Source annotation URIs]
 includeAllAxioms
