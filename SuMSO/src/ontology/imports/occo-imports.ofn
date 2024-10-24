@@ -45,6 +45,9 @@
         <Class abbreviatedIRI="obo:OCCO_00000126"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual abbreviatedIRI="obo:IAO_0000122"/>
     </Declaration>
     <Declaration>
@@ -81,11 +84,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+        <Class abbreviatedIRI="obo:IAO_0000310"/>
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OCCO_00000118"/>
-        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+        <Class abbreviatedIRI="obo:IAO_0000310"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OCCO_00000119"/>

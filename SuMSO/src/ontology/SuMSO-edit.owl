@@ -7313,6 +7313,23 @@ http://www.ontologyrepository.com/CommonCoreOntologies/Organization</Literal>
 see the comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:OCCO_00000124</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+We included the other document subclasses for possible SuMSO implementations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:OCCO_00000124</AbbreviatedIRI>
+        <Literal>SuMSO:
+http://schema.org/Certification 
+http://purl.obolibrary.org/obo/OMIT_0003897 
+http://purl.obolibrary.org/obo/NCIT_C43610 
+http://purl.bioontology.org/ontology/MESH/D002568 
+http://id.agrisemantics.org/gacs/C9271 
+http://aims.fao.org/aos/agrovoc/c_35702</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <AbbreviatedIRI>obo:VO_0000299</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer:
