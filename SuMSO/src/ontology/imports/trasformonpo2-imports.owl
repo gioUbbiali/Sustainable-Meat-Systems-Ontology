@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://gioUbbiali.github.io/sumso/trasformonpo2.imports.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://gioUbbiali.github.io/sumso/trasformonpo2.imports.owl"
+     versionIRI="http://gioUbbiali.github.io/sumso/2024-10-24/trasformonpo2.imports.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/gaubb/ontologies/2024/9/untitled-ontology-156/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This file contains the imports from TransformON_V9.0. Currently, these imports have been collected and revised manually .</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>2024-10-24</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#note"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
+        <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/ConceptScheme/Main</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#note"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="de"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="es"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="it"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="fr">procédé d&apos;abattage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="en">slaughtering process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#inScheme"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/ConceptScheme/Main</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#note"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="de"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="es"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="it"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="fr">abattage de bovins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="en">bovine slaughtering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
