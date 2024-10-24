@@ -33,6 +33,7 @@
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/foodon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/obi-iao_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-10/NCIT_import.ofn</Import>
+    <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-24/OccO_import.ofn</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:creator"/>
         <Literal>Giorgio A. Ubbiali</Literal>

@@ -80,9 +80,12 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OCCO_00000118"/>
-        <Class abbreviatedIRI="obo:BFO_0000031"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OCCO_00000119"/>
