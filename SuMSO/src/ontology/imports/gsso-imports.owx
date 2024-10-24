@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/sumso/imports/GSSO_import.ofn"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.obolibrary.org/obo/sumso/imports/GSSO_import.ofn"
+     versionIRI="http://purl.obolibrary.org/obo/sumso/2024-10-24/imports/GSSO_import.ofn">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/sumso/imports/GSSO_import.ofn#"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="wiki" IRI="https://www.wikidata.org/wiki/"/>
+    <Prefix name="schema" IRI="https://schema.org/"/>
+    <Prefix name="Property" IRI="https://www.wikidata.org/wiki/Property:"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Prefix name="owlready_ontology" IRI="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This file contains the imports fetched from the Gender, Sex, and Sexual Orientation (GSSO) ontology via OntoFox (https://ontofox.hegroup.org/index.php).</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <Literal xml:lang="en">See also the correspoding OntoFox text imput file.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>2024-10-24</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GSSO_008727"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GSSO_008728"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasBroadSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="owl:equivalentProperty"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="schema:alternateName"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="wiki:Q1823134"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="Property:P1149"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="Property:P1382"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="Property:P1813"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="Property:P214"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="Property:P2561"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="Property:P361"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="Property:P5191"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="Property:P5806"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="Property:P703"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GSSO_008727"/>
+        <Class abbreviatedIRI="obo:BFO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GSSO_008728"/>
+        <Class abbreviatedIRI="obo:GSSO_008727"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal xml:lang="en">An animal skin treated for human use.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:gsso.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasBroadSynonym"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal xml:lang="en">hides and skins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Hides</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Hide_(skin)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q3291230</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal xml:lang="en">animal hide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="schema:alternateName"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal xml:lang="en">animal hides</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="Property:P1813"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal xml:lang="en">hide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="Property:P5191"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <IRI>http://purl.bioontology.org/ontology/STY/T008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="Property:P5806"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.bioontology.org/ontology/SNOMEDCT/421332005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="Property:P703"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <IRI>http://purl.bioontology.org/ontology/STY/T008</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <Literal xml:lang="en">A durable and flexible material created by tanning animal rawhide and skins. The most common raw material is cattle hide. It can be produced at manufacturing scales ranging from artisan to modern industrial scale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:gsso.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Category:Leather</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Leather</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.wikidata.org/wiki/Q286</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonym"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <Literal xml:lang="en">leather</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <Literal xml:lang="en">leather hide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="schema:alternateName"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <Literal xml:lang="en">leather hides</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="wiki:Q1823134"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/authorities/subjects/sh85075573</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="Property:P1149"/>
+        <AbbreviatedIRI>obo:GSSO_008728</AbbreviatedIRI>
+        <Literal>TS940-TS1043</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal xml:lang="en">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000412</AbbreviatedIRI>
+        <Literal xml:lang="en">imported from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasBroadSynonym</AbbreviatedIRI>
+        <Literal xml:lang="en">has broad synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasDbXref</AbbreviatedIRI>
+        <Literal xml:lang="en">has database cross reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasSynonym</AbbreviatedIRI>
+        <Literal xml:lang="en">has synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>rdfs:comment</AbbreviatedIRI>
+        <Literal xml:lang="en">comment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+        <Literal xml:lang="en">A human-readable name for the subject.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+        <Literal xml:lang="en">label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:equivalentProperty</AbbreviatedIRI>
+        <Literal xml:lang="en">equivalent property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>schema:alternateName</AbbreviatedIRI>
+        <Literal xml:lang="en">alternate name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>wiki:Q1823134</AbbreviatedIRI>
+        <Literal xml:lang="en">library_of_congress_subject_headings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>wiki:Q1823134</AbbreviatedIRI>
+        <Literal xml:lang="en">Library of Congress Subject Headings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:equivalentProperty"/>
+        <AbbreviatedIRI>wiki:Q1823134</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://purl.org/dc/terms/LCSH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="Property:P214"/>
+        <AbbreviatedIRI>wiki:Q1823134</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://viaf.org/viaf/174475040</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>Property:P1149</AbbreviatedIRI>
+        <Literal xml:lang="en">library_of_congress_classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>Property:P1149</AbbreviatedIRI>
+        <Literal xml:lang="en">Library of Congress Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>Property:P1382</AbbreviatedIRI>
+        <Literal xml:lang="en">partially_coincident_with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>Property:P1382</AbbreviatedIRI>
+        <Literal xml:lang="en">partially coincident with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>Property:P1813</AbbreviatedIRI>
+        <Literal xml:lang="en">short_name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>Property:P1813</AbbreviatedIRI>
+        <Literal xml:lang="en">short name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>Property:P214</AbbreviatedIRI>
+        <Literal xml:lang="en">viaf_id</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>Property:P214</AbbreviatedIRI>
+        <Literal xml:lang="en">VIAF ID</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>Property:P2561</AbbreviatedIRI>
+        <Literal xml:lang="en">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>Property:P2561</AbbreviatedIRI>
+        <Literal xml:lang="en">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>Property:P361</AbbreviatedIRI>
+        <Literal xml:lang="en">part_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>Property:P361</AbbreviatedIRI>
+        <Literal xml:lang="en">part of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>Property:P5191</AbbreviatedIRI>
+        <Literal xml:lang="en">derived_from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>Property:P5191</AbbreviatedIRI>
+        <Literal xml:lang="en">derived from</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>Property:P5806</AbbreviatedIRI>
+        <Literal xml:lang="en">snomed_ct_identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>Property:P5806</AbbreviatedIRI>
+        <Literal xml:lang="en">SNOMED CT Identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owlready_ontology:python_name"/>
+        <AbbreviatedIRI>Property:P703</AbbreviatedIRI>
+        <Literal xml:lang="en">found_in_taxon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>Property:P703</AbbreviatedIRI>
+        <Literal xml:lang="en">found in taxon</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="Property:P1813"/>
+        <AnnotationProperty abbreviatedIRI="Property:P2561"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="Property:P361"/>
+        <AnnotationProperty abbreviatedIRI="Property:P1382"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty abbreviatedIRI="Property:P703"/>
+        <AnnotationProperty abbreviatedIRI="Property:P361"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

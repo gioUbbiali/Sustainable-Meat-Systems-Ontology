@@ -1,0 +1,26 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/sumso/imports/GSSO_import.ofn
+
+[Source ontology]
+GSSO
+
+[Low level source term URIs]
+# terms
+http://purl.obolibrary.org/obo/GSSO_008727 #hide
+http://purl.obolibrary.org/obo/GSSO_008728 #leather
+
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GSSO_008728 #leather
+subClassOf http://purl.obolibrary.org/obo/GSSO_008727 #hide
+http://purl.obolibrary.org/obo/GSSO_008727 #hide
+subClassOf http://purl.obolibrary.org/obo/BFO_0000030 #object
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################
