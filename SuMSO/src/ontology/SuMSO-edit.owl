@@ -25,6 +25,7 @@
     <Import>http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-24/trasformon.imports.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/sumso/2024-10-24/imports/GSSO_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn</Import>
@@ -509,6 +510,12 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </Declaration>
     <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000162"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
@@ -3809,6 +3816,14 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000160"/>
         <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000161"/>
+        <Class abbreviatedIRI="obo:GSSO_008727"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000162"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000161"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
@@ -7152,6 +7167,46 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000160</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000161</IRI>
+        <Literal xml:lang="en">cow hide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000161</IRI>
+        <Literal xml:lang="en">cattle hide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000161</IRI>
+        <Literal xml:lang="en">An animal hide that is derived from cows.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000161</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000162</IRI>
+        <Literal xml:lang="en">cow leather</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000162</IRI>
+        <Literal xml:lang="en">cattle leather</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000162</IRI>
+        <Literal xml:lang="en">An animal leather that is obtained from tanning cattle hides.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000162</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
