@@ -3902,12 +3902,8 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
-        <Class abbreviatedIRI="obo:BFO_0000030"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:BFO_0000030"/>
+            <Class abbreviatedIRI="obo:BFO_0000040"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <ObjectUnionOf>

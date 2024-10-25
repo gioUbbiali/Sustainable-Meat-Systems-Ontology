@@ -6,11 +6,110 @@ FOODON
 [Low level source term URIs]
 # terms
 http://purl.obolibrary.org/obo/FOODON_03601066 
+http://purl.obolibrary.org/obo/FOODON_03414381 #bovid
+http://purl.obolibrary.org/obo/FOODON_03414374 #bovide + some subclasses
+http://purl.obolibrary.org/obo/FOODON_00000015
+http://purl.obolibrary.org/obo/FOODON_00002531
+http://purl.obolibrary.org/obo/FOODON_00004292
+http://purl.obolibrary.org/obo/FOODON_00004293
+http://purl.obolibrary.org/obo/FOODON_00004296
+http://purl.obolibrary.org/obo/FOODON_00002518
+http://purl.obolibrary.org/obo/FOODON_00003251
+http://purl.obolibrary.org/obo/FOODON_00004294
+http://purl.obolibrary.org/obo/FOODON_00002507
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_00004295
+http://purl.obolibrary.org/obo/FOODON_03413367
+http://purl.obolibrary.org/obo/FOODON_02020892
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_02010020  #animal carcass
+http://purl.obolibrary.org/obo/FOODON_02010021
+http://purl.obolibrary.org/obo/FOODON_02020894
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_03305517
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_03530005 #food datum + subclasses
+http://purl.obolibrary.org/obo/FOODON_03602001
+http://purl.obolibrary.org/obo/FOODON_03601066
+http://purl.obolibrary.org/obo/FOODON_03420116 #organism material
+http://purl.obolibrary.org/obo/FOODON_03420164 #animal material
+http://purl.obolibrary.org/obo/FOODON_02020889 #cow material
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_00001134  #bovine meat food product
+http://purl.obolibrary.org/obo/FOODON_00001041  #cow meat food product
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_00003156
+http://purl.obolibrary.org/obo/FOODON_00001010 #processed meat food product
+http://purl.obolibrary.org/obo/FOODON_00001039
+http://purl.obolibrary.org/obo/FOODON_00001039
+http://purl.obolibrary.org/obo/FOODON_00001696
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_00001007
+http://purl.obolibrary.org/obo/FOODON_00001605
+http://purl.obolibrary.org/obo/FOODON_03317282
+http://purl.obolibrary.org/obo/FOODON_00001566 #pre-evisceration carcass
+http://purl.obolibrary.org/obo/FOODON_00001565 #post-evisceration carcass
+http://purl.obolibrary.org/obo/FOODON_03317264
+http://purl.obolibrary.org/obo/FOODON_00002837
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_03317170  #meat(whole or pieces)
+includeAllChildren #we will manually select only cow related ones for inclusion into current SuMSO version.
+http://purl.obolibrary.org/obo/FOODON_00001041  #cow food product
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_00001010 #processed meat food product
+http://purl.obolibrary.org/obo/FOODON_03420127 #animal(whole or parts)
+includeAllChildren #we will manually select only cow related ones for inclusion into current SuMSO version.
 
+http://purl.obolibrary.org/obo/FOODON_03301293 #fodder
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_03413358 #plant used as fooder
+includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/FOODON_03530005 #food datum
 
+http://purl.obolibrary.org/obo/FOODON_03602001
+subClassOf http://purl.obolibrary.org/obo/FOODON_03530005 #food datum
+http://purl.obolibrary.org/obo/FOODON_03601066
+subClassOf http://purl.obolibrary.org/obo/FOODON_03602001
+
+http://purl.obolibrary.org/obo/FOODON_03414374
+subClassOf http://purl.obolibrary.org/obo/FOODON_03414381
+
+http://purl.obolibrary.org/obo/FOODON_02010020  #animal carcass
+subClassOf http://purl.obolibrary.org/obo/UBERON_0008979
+
+http://purl.obolibrary.org/obo/FOODON_03420164 #animal material
+subClassOf http://purl.obolibrary.org/obo/FOODON_03420116 #organism material
+http://purl.obolibrary.org/obo/FOODON_02020889 #cow material
+subClassOf http://purl.obolibrary.org/obo/FOODON_03420164 #animal material
+
+http://purl.obolibrary.org/obo/FOODON_00001041  #cow food product
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001134  #bovine meat food product
+http://purl.obolibrary.org/obo/FOODON_00001134  #bovine meat food product
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+
+http://purl.obolibrary.org/obo/FOODON_00003156
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+http://purl.obolibrary.org/obo/FOODON_00001010
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+
+http://purl.obolibrary.org/obo/FOODON_03317170 #meat(whole or pieces)
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+http://purl.obolibrary.org/obo/FOODON_03317264
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+http://purl.obolibrary.org/obo/FOODON_00002837
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+http://purl.obolibrary.org/obo/FOODON_00001010 #processed meat food product 
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+
+http://purl.obolibrary.org/obo/FOODON_03420127 #animal(whole or parts)
+subClassOf http://purl.obolibrary.org/obo/FOODON_03420116
+
+http://purl.obolibrary.org/obo/FOODON_03301293 #fodder
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+
+http://purl.obolibrary.org/obo/FOODON_03413358 #plant used as fooder
+subClassOf http://purl.obolibrary.org/obo/PO_0000003 #we included this class for reasons of class retrieval. We will exclude it and reposition the "plant as fodder" class under the adequate SuMSO one.
 
 [Source term retrieval setting]
 includeAllIntermediates
