@@ -1,0 +1,54 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/sumso/imports1/foodon_import.ofn
+[Source ontology]
+FOODON
+
+[Low level source term URIs]
+# terms
+http://purl.obolibrary.org/obo/FOODON_03530005 #food datum + subclasses
+http://purl.obolibrary.org/obo/FOODON_03602001
+http://purl.obolibrary.org/obo/FOODON_03601066
+
+http://purl.obolibrary.org/obo/FOODON_02010020  #animal carcass
+http://purl.obolibrary.org/obo/FOODON_02010021
+http://purl.obolibrary.org/obo/FOODON_02020894
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_03305517
+includeAllChildren
+
+http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+http://purl.obolibrary.org/obo/FOODON_00001261 #vegetable food product
+http://purl.obolibrary.org/obo/FOODON_00004172 #feedstuff
+http://purl.obolibrary.org/obo/FOODON_03301293 #fodder
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_03413358 #plant used as fooder
+includeAllChildren
+
+
+[Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/FOODON_03602001
+subClassOf http://purl.obolibrary.org/obo/FOODON_03530005 #food datum
+http://purl.obolibrary.org/obo/FOODON_03601066
+subClassOf http://purl.obolibrary.org/obo/FOODON_03602001
+
+http://purl.obolibrary.org/obo/FOODON_02010020  #animal carcass
+subClassOf http://purl.obolibrary.org/obo/UBERON_0008979
+
+http://purl.obolibrary.org/obo/FOODON_03301293 #fodder
+subClassOf http://purl.obolibrary.org/obo/FOODON_00004172
+http://purl.obolibrary.org/obo/FOODON_03301293 #fodder
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001261 #vegetable food product
+http://purl.obolibrary.org/obo/FOODON_00004172
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002
+http://purl.obolibrary.org/obo/FOODON_00001261 #vegetable food product
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################

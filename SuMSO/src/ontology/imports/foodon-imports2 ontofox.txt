@@ -1,0 +1,52 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/sumso/imports2/foodon_import.ofn
+[Source ontology]
+FOODON
+
+[Low level source term URIs]
+# terms
+http://purl.obolibrary.org/obo/FOODON_00004348 #raw
+includeAllChildren
+
+http://purl.obolibrary.org/obo/FOODON_03414381 #bovid
+http://purl.obolibrary.org/obo/FOODON_03414374 #bovine + some subclasses
+http://purl.obolibrary.org/obo/FOODON_00000015
+http://purl.obolibrary.org/obo/FOODON_00002531
+http://purl.obolibrary.org/obo/FOODON_00004292
+http://purl.obolibrary.org/obo/FOODON_00004293
+http://purl.obolibrary.org/obo/FOODON_00004296
+http://purl.obolibrary.org/obo/FOODON_00002518
+http://purl.obolibrary.org/obo/FOODON_00003251
+http://purl.obolibrary.org/obo/FOODON_00004294
+http://purl.obolibrary.org/obo/FOODON_00002507
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_00004295
+http://purl.obolibrary.org/obo/FOODON_03413367
+http://purl.obolibrary.org/obo/FOODON_02020892
+includeAllChildren
+http://purl.obolibrary.org/obo/NCBITaxon_30520
+http://purl.obolibrary.org/obo/NCBITaxon_30521
+http://purl.obolibrary.org/obo/NCBITaxon_9906
+http://purl.obolibrary.org/obo/NCBITaxon_9913
+
+http://purl.obolibrary.org/obo/PATO_0000047 #biological sex
+includeAllChildren
+http://purl.obolibrary.org/obo/PATO_0000169 #viability
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/FOODON_03414374 #bovine
+subClassOf http://purl.obolibrary.org/obo/FOODON_03414381
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################
+
+
+

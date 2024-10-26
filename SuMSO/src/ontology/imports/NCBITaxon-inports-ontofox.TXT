@@ -15,17 +15,6 @@ http://purl.obolibrary.org/obo/NCBITaxon_2157 #archea
 http://purl.obolibrary.org/obo/NCBITaxon_9913 #bos taurus
 http://purl.obolibrary.org/obo/NCBITaxon_4751 #fungi
 http://purl.obolibrary.org/obo/NCBITaxon_33208 #metazoa
-http://purl.obolibrary.org/obo/NCBITaxon_52152 #Elymus repens
-http://purl.obolibrary.org/obo/NCBITaxon_3859 # Lathyrus odoratus
-http://purl.obolibrary.org/obo/NCBITaxon_3860 #Lathyrus sativus
-http://purl.obolibrary.org/obo/NCBITaxon_200967 #Vicia articulata
-http://purl.obolibrary.org/obo/NCBITaxon_154498 # Vicia ervilia
-http://purl.obolibrary.org/obo/NCBITaxon_3908 # Vicia sativa
-http://purl.obolibrary.org/obo/NCBITaxon_3712 #Brassica oleracea
-includeAllChildren 
-http://purl.obolibrary.org/obo/NCBITaxon_30520 #Bos frontalis
-http://purl.obolibrary.org/obo/NCBITaxon_30521 #Bos grunniens
-http://purl.obolibrary.org/obo/NCBITaxon_9906 #Bos javanicus
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCBITaxon_131567 #cellular organism

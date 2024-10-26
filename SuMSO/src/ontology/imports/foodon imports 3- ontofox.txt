@@ -1,0 +1,83 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/sumso/imports3/foodon_import.ofn
+
+[Source ontology]
+FOODON
+
+[Low level source term URIs]
+# terms
+
+http://purl.obolibrary.org/obo/FOODON_03420116 #organism material
+http://purl.obolibrary.org/obo/FOODON_03420164 #animal material
+http://purl.obolibrary.org/obo/FOODON_02020889 #cow material
+includeAllChildren
+
+http://purl.obolibrary.org/obo/FOODON_00001134  #bovine meat food product
+http://purl.obolibrary.org/obo/FOODON_00001041  #cow food product
+includeAllChildren
+
+http://purl.obolibrary.org/obo/FOODON_00003156
+http://purl.obolibrary.org/obo/FOODON_00001010 #processed meat food product
+http://purl.obolibrary.org/obo/FOODON_00001039
+http://purl.obolibrary.org/obo/FOODON_00001696
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_00001007
+http://purl.obolibrary.org/obo/FOODON_00001605
+http://purl.obolibrary.org/obo/FOODON_03317282
+
+http://purl.obolibrary.org/obo/FOODON_00001566 #pre-evisceration carcass
+http://purl.obolibrary.org/obo/FOODON_00001565 #post-evisceration carcass
+http://purl.obolibrary.org/obo/FOODON_03317264
+http://purl.obolibrary.org/obo/FOODON_00002837
+includeAllChildren
+
+http://purl.obolibrary.org/obo/FOODON_03317170  #meat(whole or pieces)
+includeAllChildren #we will manually select only cow related ones for inclusion into current SuMSO version.
+
+http://purl.obolibrary.org/obo/FOODON_03420127 #animal(whole or parts)
+includeAllChildren #we will manually select only cow related ones for inclusion into current SuMSO version.
+
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+
+http://purl.obolibrary.org/obo/FOODON_03420164 #animal material
+subClassOf http://purl.obolibrary.org/obo/FOODON_03420116 #organism material
+http://purl.obolibrary.org/obo/FOODON_02020889 #cow material
+subClassOf http://purl.obolibrary.org/obo/FOODON_03420164 #animal material
+
+http://purl.obolibrary.org/obo/FOODON_00001041  #cow food product
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001134  #bovine meat food product
+http://purl.obolibrary.org/obo/FOODON_00001134  #bovine meat food product
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002 #food product
+
+http://purl.obolibrary.org/obo/FOODON_00001010 #processed meat food product
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001006
+http://purl.obolibrary.org/obo/FOODON_00001566 #pre-evisceration carcass
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001006
+http://purl.obolibrary.org/obo/FOODON_00001565 #post-evisceration carcass
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001006
+http://purl.obolibrary.org/obo/FOODON_03317264
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001006
+http://purl.obolibrary.org/obo/FOODON_00002837
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001006
+http://purl.obolibrary.org/obo/FOODON_00003156
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001006
+
+http://purl.obolibrary.org/obo/FOODON_03317170 #meat(whole or pieces)
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001006
+
+http://purl.obolibrary.org/obo/FOODON_03420127 #animal(whole or parts)
+subClassOf http://purl.obolibrary.org/obo/FOODON_03420164
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################
+
+
+
+
