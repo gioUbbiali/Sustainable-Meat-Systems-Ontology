@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/2024-10-14/imports1/foodon_import.ofn" uri="foodon-imports1.ofn"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/sumso/2024-10-26/imports2/foodon_import.ofn" uri="foodon-tot-imports.owx"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/sumso/2024-10-14/imports1/foodon_import.ofn" uri="foodon-tot-imports.owx"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sco/imports/2024-09-13/iao_import.ofn" uri="https://raw.githubusercontent.com/gioUbbiali/Sustainability-Core-Ontology/refs/heads/main/SCO/src/ontology/imports/iao-import.ofn"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://gioUbbiali.github.io/sumso/cco.imports.owl" uri="cco-imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://gioUbbiali.github.io/sumso/foodon.imports.tot.owl" uri="foodon%20imports-tot.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://gioUbbiali.github.io/sumso/sdgio.imports.owl" uri="sdgio-imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://gioUbbiali.github.io/sumso/trasformon.imports.owl" uri="trasformon-imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports/GSSO_import.ofn" uri="gsso-imports.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports/NCBITaxon_import.ofn" uri="NCBITaxon-imports.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports/NCIT_import.ofn" uri="ncit-imports.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports/OccO_import.ofn" uri="occo-imports.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports/agro_import.ofn" uri="agro-imports.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports/bao_import.ofn" uri="bao-imports.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports/envo_import.ofn" uri="envo-imports.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports/foodon_import.ofn" uri="foodon-imports.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports/vo_import.ofn" uri="vo-imports.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports1/foodon_import.ofn" uri="foodon-imports1.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports3/foodon_import.ofn" uri="foodon-imports3.ofn"/>
-        <uri id="Automatically generated entry, Timestamp=1730218453781" name="http://purl.obolibrary.org/obo/sumso/imports4/foodon_import.ofn" uri="foodon-imports4.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://gioUbbiali.github.io/sumso/cco.imports.owl" uri="cco-imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://gioUbbiali.github.io/sumso/foodon.tot.imports.owl" uri="foodon-tot-imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://gioUbbiali.github.io/sumso/sdgio.imports.owl" uri="sdgio-imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://gioUbbiali.github.io/sumso/trasformon.imports.owl" uri="trasformon-imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports/GSSO_import.ofn" uri="gsso-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports/NCBITaxon_import.ofn" uri="NCBITaxon-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports/NCIT_import.ofn" uri="ncit-imports.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports/OccO_import.ofn" uri="occo-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports/agro_import.ofn" uri="agro-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports/bao_import.ofn" uri="bao-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports/envo_import.ofn" uri="envo-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports/foodon_import.ofn" uri="foodon-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports/vo_import.ofn" uri="vo-imports.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports1/foodon_import.ofn" uri="foodon-imports1.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports3/foodon_import.ofn" uri="foodon-imports3.ofn"/>
+        <uri id="Automatically generated entry, Timestamp=1730221486516" name="http://purl.obolibrary.org/obo/sumso/imports4/foodon_import.ofn" uri="foodon-imports4.ofn"/>
     </group>
 </catalog>
