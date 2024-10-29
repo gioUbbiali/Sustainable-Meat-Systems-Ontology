@@ -13,6 +13,7 @@
     <owl:Ontology rdf:about="http://gioUbbiali.github.io/sumso/foodon.tot.imports.owl">
         <owl:versionIRI rdf:resource="http://gioUbbiali.github.io/sumso/2024-10-29/foodon.tot.imports.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/sumso/2024-10-14/imports1/foodon_import.ofn"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/sumso/2024-10-26/imports2/foodon_import.ofn"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/sumso/2024-10-26/imports3/foodon_import.ofn"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/sumso/2024-10-29/imports4/foodon_import.ofn"/>
     </owl:Ontology>
