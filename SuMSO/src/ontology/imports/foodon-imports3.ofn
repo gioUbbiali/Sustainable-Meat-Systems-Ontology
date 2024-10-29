@@ -2616,9 +2616,6 @@
         <Class abbreviatedIRI="obo:UBERON_0000179"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0000376"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0000456"/>
     </Declaration>
     <Declaration>
@@ -2629,9 +2626,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0000468"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0000473"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0000945"/>
@@ -2646,25 +2640,13 @@
         <Class abbreviatedIRI="obo:UBERON_0000970"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0000974"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0000978"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0001013"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0001137"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0001264"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0001474"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0001495"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0001723"/>
@@ -2689,12 +2671,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0002371"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0002387"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0003823"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0005052"/>
@@ -4851,16 +4827,6 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_02010054"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_00004436"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:UBERON_0000473"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class abbreviatedIRI="obo:FOODON_02010055"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:FOODON_00004436"/>
@@ -5352,76 +5318,6 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_02010123"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_02010107"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:UBERON_0000376"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_02010124"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_02010107"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:UBERON_0001495"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_02010125"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_02010107"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:UBERON_0003823"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_02010127"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_02010107"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:UBERON_0002387"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_02010128"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_02010107"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:UBERON_0000974"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_02010129"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_02010107"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:UBERON_0001137"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_02010130"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_02010107"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:UBERON_0000978"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class abbreviatedIRI="obo:FOODON_02010138"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:FOODON_02010123"/>
@@ -5498,16 +5394,6 @@
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
                 <Class abbreviatedIRI="obo:FOODON_02010123"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_02010158"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_02010209"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:UBERON_0001495"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -10489,13 +10375,6 @@
         <Class abbreviatedIRI="obo:FOODON_00004436"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_02010054"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:UBERON_0000473"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02010055"/>
         <Class abbreviatedIRI="obo:FOODON_00004436"/>
     </SubClassOf>
@@ -10973,13 +10852,6 @@
         <Class abbreviatedIRI="obo:FOODON_02010107"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_02010123"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:UBERON_0000376"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02010124"/>
         <Class abbreviatedIRI="obo:FOODON_00004436"/>
     </SubClassOf>
@@ -10988,66 +10860,24 @@
         <Class abbreviatedIRI="obo:FOODON_02010107"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_02010124"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:UBERON_0001495"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02010125"/>
         <Class abbreviatedIRI="obo:FOODON_02010107"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_02010125"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:UBERON_0003823"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02010127"/>
         <Class abbreviatedIRI="obo:FOODON_02010107"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_02010127"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:UBERON_0002387"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02010128"/>
         <Class abbreviatedIRI="obo:FOODON_02010107"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_02010128"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:UBERON_0000974"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02010129"/>
         <Class abbreviatedIRI="obo:FOODON_02010107"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_02010129"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:UBERON_0001137"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02010130"/>
         <Class abbreviatedIRI="obo:FOODON_02010107"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_02010130"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:UBERON_0000978"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02010138"/>
