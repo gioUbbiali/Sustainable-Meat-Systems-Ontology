@@ -1,0 +1,29 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/sumso/imports4/foodon_import.ofn
+
+[Source ontology]
+FOODON
+
+[Low level source term URIs]
+# terms 
+http://purl.obolibrary.org/obo/FOODON_00000071 
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_03430131
+http://purl.obolibrary.org/obo/FOODON_03430150 
+http://purl.obolibrary.org/obo/FOODON_02010032 
+http://purl.obolibrary.org/obo/FOODON_00004491
+includeAllChildren
+http://purl.obolibrary.org/obo/FOODON_00004531 
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FOODON_00004491
+subClassOf http://purl.obolibrary.org/obo/FOODON_02010032 
+ 
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+###########################################
