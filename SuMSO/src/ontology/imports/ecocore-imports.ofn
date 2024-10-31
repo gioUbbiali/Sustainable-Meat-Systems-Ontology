@@ -75,9 +75,12 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:AGRO_00002071"/>
+    </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ECOCORE_00000139"/>
-        <Class abbreviatedIRI="obo:BFO_0000015"/>
+        <Class abbreviatedIRI="obo:AGRO_00002071"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>

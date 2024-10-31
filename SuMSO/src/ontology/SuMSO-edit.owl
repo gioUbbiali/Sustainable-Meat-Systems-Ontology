@@ -26,6 +26,7 @@
     <Import>http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-24/trasformon.imports.owl</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/2024-10-24/imports/GSSO_import.ofn</Import>
+    <Import>http://purl.obolibrary.org/obo/sumso/2024-10-31/imports/ecocore_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn</Import>
