@@ -3827,7 +3827,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:AGRO_00000372"/>

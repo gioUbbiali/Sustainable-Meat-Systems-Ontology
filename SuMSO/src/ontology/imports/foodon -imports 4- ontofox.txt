@@ -13,13 +13,19 @@ http://purl.obolibrary.org/obo/FOODON_03430150
 http://purl.obolibrary.org/obo/FOODON_02010032 
 http://purl.obolibrary.org/obo/FOODON_00004491
 includeAllChildren
-http://purl.obolibrary.org/obo/FOODON_00004531 
-
+http://purl.obolibrary.org/obo/FOODON_00004531
+http://purl.obolibrary.org/obo/FOODON_03301750 #forage
+http://purl.obolibrary.org/obo/FOODON_03309997
+http://purl.obolibrary.org/obo/FOODON_00001002
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/FOODON_00004491
 subClassOf http://purl.obolibrary.org/obo/FOODON_02010032 
- 
+http://purl.obolibrary.org/obo/FOODON_03301750 #forage
+subClassOf http://purl.obolibrary.org/obo/FOODON_03309997
+http://purl.obolibrary.org/obo/FOODON_03309997
+subClassOf http://purl.obolibrary.org/obo/FOODON_00001002
+
 [Source term retrieval setting]
 includeNoIntermediates
 
