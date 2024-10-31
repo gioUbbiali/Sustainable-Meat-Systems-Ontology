@@ -9,6 +9,18 @@ OBI
 http://purl.obolibrary.org/obo/OBI_0000011 #planned process 
 http://purl.obolibrary.org/obo/OBI_0000260 #plan
 http://purl.obolibrary.org/obo/OBI_0000245 #organization
+http://purl.obolibrary.org/obo/OBI_0600006 #killing
+http://purl.obolibrary.org/obo/OBI_0000456
+http://purl.obolibrary.org/obo/PATO_0000169
+includeAllChildren
+http://purl.obolibrary.org/obo/OBI_0100026
+http://purl.obolibrary.org/obo/NCBITaxon_10239
+http://purl.obolibrary.org/obo/OBI_0000417
+http://purl.obolibrary.org/obo/RO_0000056
+includeAllChildren
+http://purl.obolibrary.org/obo/RO_0000057
+http://purl.obolibrary.org/obo/OBI_0000293
+http://purl.obolibrary.org/obo/OBI_0000299
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000015 # process
