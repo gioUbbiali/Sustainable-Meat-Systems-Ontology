@@ -519,6 +519,9 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000162"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000163"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
     </Declaration>
     <Declaration>
@@ -1606,8 +1609,27 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000163"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:NCBITaxon_10239"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class abbreviatedIRI="obo:IAO_0000033"/>
         <Class abbreviatedIRI="CommonCoreOntologies:DirectiveInformationContentEntity"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
+        <ObjectUnionOf>
+            <Class abbreviatedIRI="obo:NCBITaxon_10239"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_2"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_2157"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
+        </ObjectUnionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class abbreviatedIRI="obo:NCIT_C53568"/>
@@ -3827,6 +3849,14 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000161"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000163"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000163"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_10239"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
     </SubClassOf>
@@ -3903,16 +3933,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_131567"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:BFO_0000040"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
-                <ObjectUnionOf>
-                    <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000012"/>
-                    <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
-                </ObjectUnionOf>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="obo:OBI_0100026"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
@@ -4018,6 +4039,19 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000063"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OBI_0100026"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:BFO_0000040"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000012"/>
+                    <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
+                </ObjectUnionOf>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -7205,6 +7239,22 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000162</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000163</IRI>
+        <Literal xml:lang="en">The class archaea is too general and broad. Not all viruses may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific virus species distinctions is needed. Future implementations will deprecate this class and include the specific ones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000163</IRI>
+        <Literal xml:lang="en">virus-meat system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000163</IRI>
+        <Literal xml:lang="en">For class definition, see the upper-level class &quot;viruses&quot;.
+http://purl.obolibrary.org/obo/NCBITaxon_10239</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

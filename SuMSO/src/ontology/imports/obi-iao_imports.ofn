@@ -102,7 +102,7 @@ AnnotationAssertion(obo:IAO_0000232 obo:BFO_0000180 "Really of interest to devel
 AnnotationAssertion(rdfs:label obo:BFO_0000180 "BFO CLIF specification label"@en)
 SubAnnotationPropertyOf(obo:BFO_0000180 rdfs:label)
 
-# Annotation Property: obo:IAO_0000111 (editor preferred label)
+# Annotation Property: obo:IAO_0000111 (editor preferred term)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label"@en)
@@ -136,7 +136,7 @@ AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Bill Bug"@en)
 AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Melanie Courtot"@en)
 AnnotationAssertion(rdfs:label obo:IAO_0000114 "has curation status"@en)
 
-# Annotation Property: obo:IAO_0000115 (textual definition)
+# Annotation Property: obo:IAO_0000115 (definition)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition"@en)
@@ -209,7 +209,7 @@ AnnotationAssertion(obo:IAO_0000119 obo:IAO_0000117 "GROUP:OBI:<http://purl.obol
 AnnotationAssertion(rdfs:isDefinedBy obo:IAO_0000117 obo:iao.owl)
 AnnotationAssertion(rdfs:label obo:IAO_0000117 "term editor"@en)
 
-# Annotation Property: obo:IAO_0000118 (alternative label)
+# Annotation Property: obo:IAO_0000118 (alternative_term)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000118 "alternative label"@en)
 AnnotationAssertion(obo:IAO_0000115 obo:IAO_0000118 "A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like."@en)
@@ -386,7 +386,6 @@ AnnotationAssertion(obo:IAO_0000412 obo:BFO_0000015 obo:obi.owl)
 AnnotationAssertion(obo:IAO_0000602 obo:BFO_0000015 "(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] ")
 AnnotationAssertion(rdfs:isDefinedBy obo:BFO_0000015 obo:bfo.owl)
 AnnotationAssertion(rdfs:label obo:BFO_0000015 "process"@en)
-SubClassOf(obo:BFO_0000015 obo:BFO_0000001)
 
 # Class: obo:BFO_0000017 (realizable entity)
 
@@ -428,7 +427,7 @@ AnnotationAssertion(rdfs:isDefinedBy obo:BFO_0000019 obo:bfo.owl)
 AnnotationAssertion(rdfs:label obo:BFO_0000019 "quality"@en)
 SubClassOf(obo:BFO_0000019 obo:BFO_0000020)
 
-# Class: obo:BFO_0000020 (obo:BFO_0000020)
+# Class: obo:BFO_0000020 (specifically dependent continuant)
 
 SubClassOf(obo:BFO_0000020 obo:BFO_0000002)
 
@@ -604,17 +603,14 @@ SubClassOf(obo:NCBITaxon_10239 obo:OBI_0100026)
 # Class: obo:NCBITaxon_2 (Bacteria)
 
 AnnotationAssertion(rdfs:label obo:NCBITaxon_2 "Bacteria")
-SubClassOf(obo:NCBITaxon_2 obo:OBI_0100026)
 
 # Class: obo:NCBITaxon_2157 (Archaea)
 
 AnnotationAssertion(rdfs:label obo:NCBITaxon_2157 "Archaea")
-SubClassOf(obo:NCBITaxon_2157 obo:OBI_0100026)
 
 # Class: obo:NCBITaxon_2759 (Eukaryota)
 
 AnnotationAssertion(rdfs:label obo:NCBITaxon_2759 "Eukaryota")
-SubClassOf(obo:NCBITaxon_2759 obo:OBI_0100026)
 
 # Class: obo:OBI_0000011 (planned process)
 
@@ -695,7 +691,6 @@ AnnotationAssertion(obo:IAO_0000117 obo:OBI_0000245 "PERSON: Susanna Sansone")
 AnnotationAssertion(obo:IAO_0000119 obo:OBI_0000245 "GROUP: OBI")
 AnnotationAssertion(obo:IAO_0000412 obo:OBI_0000245 obo:obi.owl)
 AnnotationAssertion(rdfs:label obo:OBI_0000245 "organization"@en)
-SubClassOf(obo:OBI_0000245 obo:BFO_0000040)
 
 # Class: obo:OBI_0000260 (plan)
 
