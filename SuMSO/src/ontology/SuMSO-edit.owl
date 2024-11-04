@@ -533,9 +533,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasVersion"/>
     </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:IAO_0000030"/>
-    </Declaration>
     <EquivalentClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
         <ObjectIntersectionOf>
@@ -3929,6 +3926,20 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+            <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
+        </Annotation>
+        <Class abbreviatedIRI="obo:FOODON_00001002"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:FOODON_00002403"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000053"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00004531"/>
         <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
@@ -5102,6 +5113,11 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000046</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000047</IRI>
+        <Literal xml:lang="en">Currently, SuMSO represents meat supply chain activities and related inputs and outputs, focusing on beef cattle (adult organisms). Further implementations will expand coverage to other types of cows, species, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7363,6 +7379,89 @@ we suggest revisions to this definition. A planned process may occur in an agric
 possible axioms may be created to refer to the presence of plants, fungi, animals, and so on in agricultural fields, on necessity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:FOODON_00004530</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Future implementations will extend the characterization of cow meat items and more general meat items. For instance, implementations will deepen the account of pieces of animals as such and as food products (by-products).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_00004530</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+See also: 
+http://purl.obolibrary.org/obo/FOODON_02021348 and subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004532 and subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_00004530</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+See also: http://purl.obolibrary.org/obo/FOODON_00004335 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004332 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001134  and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001041 and subclasses.
+http://purl.obolibrary.org/obo/UBERON_0000463 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_03420127 and relevant subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:FOODON_02020889</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Future implementations will extend the characterization of cow meat items and more general meat items. For instance, implementations will deepen the account of pieces of animals as such and as food products (by-products).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_02020889</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+See also: http://purl.obolibrary.org/obo/FOODON_00001678 and subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_02020889</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+See also: http://purl.obolibrary.org/obo/FOODON_00004335 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004332 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001134  and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001041 and subclasses.
+http://purl.obolibrary.org/obo/UBERON_0000463 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_03420127 and relevant subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_02020895</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSo:
+See also: http://purl.obolibrary.org/obo/FOODON_00003083 and subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_03305517</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+See also: http://purl.obolibrary.org/obo/FOODON_00003083 and subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_03411349</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+See also: http://purl.obolibrary.org/obo/FOODON_02021290</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:FOODON_03420164</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Future implementations will extend the characterization of cow meat items and more general meat items. For instance, implementations will deepen the account of pieces of animals as such and as food products (by-products).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_03420164</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+See also: http://purl.obolibrary.org/obo/FOODON_00004335 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004332 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001134  and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001041 and subclasses.
+http://purl.obolibrary.org/obo/UBERON_0000463 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_03420127 and relevant subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:FOODON_03601066</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer:
@@ -7401,6 +7500,12 @@ We initially dedicated attention to humans and cows due to the primary role play
 See also:
 http://purl.obolibrary.org/obo/FOODON_03414374 and subclasses.
 http://purl.obolibrary.org/obo/FOODON_02020893 and subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9913</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Currently, SuMSO represents meat supply chain activities and related inputs and outputs, focusing on beef cattle (adult organisms). Further implementations will expand coverage to other types of cows, species, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

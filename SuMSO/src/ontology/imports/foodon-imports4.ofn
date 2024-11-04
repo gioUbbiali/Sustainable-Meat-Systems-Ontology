@@ -196,10 +196,6 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        <Class abbreviatedIRI="obo:BFO_0000040"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00004332"/>
         <Class abbreviatedIRI="obo:FOODON_03420116"/>
     </SubClassOf>
@@ -1339,37 +1335,37 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147484724"/>
+        <AnonymousIndividual nodeID="_:genid2147484717"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147484725"/>
+        <AnonymousIndividual nodeID="_:genid2147484718"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147484726"/>
+        <AnonymousIndividual nodeID="_:genid2147484719"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147484727"/>
+        <AnonymousIndividual nodeID="_:genid2147484720"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147484728"/>
+        <AnonymousIndividual nodeID="_:genid2147484721"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147484729"/>
+        <AnonymousIndividual nodeID="_:genid2147484722"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147484730"/>
+        <AnonymousIndividual nodeID="_:genid2147484723"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
