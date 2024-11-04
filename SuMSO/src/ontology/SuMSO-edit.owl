@@ -522,6 +522,12 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000163"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000165"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
     </Declaration>
     <Declaration>
@@ -3859,6 +3865,14 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000163"/>
         <Class abbreviatedIRI="obo:NCBITaxon_10239"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000164"/>
+        <Class abbreviatedIRI="obo:FOODON_02020910"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000165"/>
+        <Class abbreviatedIRI="obo:FOODON_00004530"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
@@ -7283,6 +7297,51 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
 http://purl.obolibrary.org/obo/NCBITaxon_10239</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000164</IRI>
+        <Literal xml:lang="en">cattle skin, beef skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000164</IRI>
+        <Literal xml:lang="en">cow skin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000164</IRI>
+        <Literal xml:lang="en">The organ covering the body of a cow that consists of the dermis and epidermis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000164</IRI>
+        <Literal>http://purl.obolibrary.org/obo/UBERON_0002097</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000164</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000165</IRI>
+        <Literal xml:lang="en">cow intestine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000165</IRI>
+        <Literal xml:lang="en">Segment of the alimentary canal extending from the abomasum to the anus and consisting of two segments, the small intestine and the large intestine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000165</IRI>
+        <Literal xml:lang="en">http://purl.obolibrary.org/obo/UBERON_0000160</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000165</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
         <Literal xml:lang="en">SuMSO developer comment:
@@ -7422,7 +7481,21 @@ See also: http://purl.obolibrary.org/obo/FOODON_00001678 and subclasses.</Litera
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <AbbreviatedIRI>obo:FOODON_02020895</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSo:
-See also: http://purl.obolibrary.org/obo/FOODON_00003083 and subclasses.</Literal>
+See also: 
+http://purl.obolibrary.org/obo/FOODON_00003083 and subclasses.
+http://purl.obolibrary.org/obo/FOODON_03420175 and subclasses.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:FOODON_03301750</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+We suggest creating a corresponding “forage” role. Discussion with subject matter experts are required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_03301750</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+http://purl.obolibrary.org/obo/ENVO_01001113</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -7464,6 +7537,15 @@ http://purl.obolibrary.org/obo/FOODON_00001092 and relevant subclasses.</Literal
         <AbbreviatedIRI>obo:FOODON_03601066</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer:
 grass-fed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+GSSO positions this class (and subclasses) and its upper class “animal material” as subclasses of the “Object” class. FoodOn also includes the class “animal material” but positions it as a subclass of the class “material entity”.
+SuMSO currently moves GSSO classes as subclasses of FoodOn “animal material” one. Discussions with subject matter experts are required to revise and update the positioning of these classes. 
+See: http://purl.obolibrary.org/obo/FOODON_03420164 
+http://purl.obolibrary.org/obo/GSSO_008726</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

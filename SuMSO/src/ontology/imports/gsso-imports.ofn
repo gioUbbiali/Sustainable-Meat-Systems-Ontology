@@ -100,9 +100,12 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="Property:P703"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000164"/>
+    </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GSSO_008727"/>
-        <Class abbreviatedIRI="obo:BFO_0000030"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000164"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GSSO_008728"/>
