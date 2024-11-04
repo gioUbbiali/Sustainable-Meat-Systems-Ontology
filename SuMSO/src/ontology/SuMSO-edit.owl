@@ -3926,20 +3926,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
-        <Annotation>
-            <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
-            <AbbreviatedIRI>obo:NCIT_C53568</AbbreviatedIRI>
-        </Annotation>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_00002403"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0000087"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000053"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00004531"/>
         <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
@@ -7390,18 +7376,18 @@ Future implementations will extend the characterization of cow meat items and mo
         <Literal xml:lang="en">SuMSO:
 See also: 
 http://purl.obolibrary.org/obo/FOODON_02021348 and subclasses.
-http://purl.obolibrary.org/obo/FOODON_00004532 and subclasses.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <AbbreviatedIRI>obo:FOODON_00004530</AbbreviatedIRI>
-        <Literal xml:lang="en">SuMSO:
-See also: http://purl.obolibrary.org/obo/FOODON_00004335 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004532 and subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004335 and relevant subclasses.
 http://purl.obolibrary.org/obo/FOODON_00004332 and relevant subclasses.
 http://purl.obolibrary.org/obo/FOODON_00001134  and relevant subclasses.
 http://purl.obolibrary.org/obo/FOODON_00001041 and subclasses.
 http://purl.obolibrary.org/obo/UBERON_0000463 and relevant subclasses.
-http://purl.obolibrary.org/obo/FOODON_03420127 and relevant subclasses.</Literal>
+http://purl.obolibrary.org/obo/FOODON_03420127 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00002403 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001002 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00002381 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004242 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001092 and relevant subclasses.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7413,18 +7399,24 @@ Future implementations will extend the characterization of cow meat items and mo
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <AbbreviatedIRI>obo:FOODON_02020889</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO:
-See also: http://purl.obolibrary.org/obo/FOODON_00001678 and subclasses.</Literal>
+See also: 
+http://purl.obolibrary.org/obo/FOODON_00004335 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004332 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001134  and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001041 and subclasses.
+http://purl.obolibrary.org/obo/UBERON_0000463 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_03420127 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00002403 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001002 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00002381 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004242 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001092 and relevant subclasses.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <AbbreviatedIRI>obo:FOODON_02020889</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO:
-See also: http://purl.obolibrary.org/obo/FOODON_00004335 and relevant subclasses.
-http://purl.obolibrary.org/obo/FOODON_00004332 and relevant subclasses.
-http://purl.obolibrary.org/obo/FOODON_00001134  and relevant subclasses.
-http://purl.obolibrary.org/obo/FOODON_00001041 and subclasses.
-http://purl.obolibrary.org/obo/UBERON_0000463 and relevant subclasses.
-http://purl.obolibrary.org/obo/FOODON_03420127 and relevant subclasses.</Literal>
+See also: http://purl.obolibrary.org/obo/FOODON_00001678 and subclasses.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -7454,12 +7446,18 @@ Future implementations will extend the characterization of cow meat items and mo
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <AbbreviatedIRI>obo:FOODON_03420164</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO:
-See also: http://purl.obolibrary.org/obo/FOODON_00004335 and relevant subclasses.
+See also: 
+http://purl.obolibrary.org/obo/FOODON_00004335 and relevant subclasses.
 http://purl.obolibrary.org/obo/FOODON_00004332 and relevant subclasses.
 http://purl.obolibrary.org/obo/FOODON_00001134  and relevant subclasses.
 http://purl.obolibrary.org/obo/FOODON_00001041 and subclasses.
 http://purl.obolibrary.org/obo/UBERON_0000463 and relevant subclasses.
-http://purl.obolibrary.org/obo/FOODON_03420127 and relevant subclasses.</Literal>
+http://purl.obolibrary.org/obo/FOODON_03420127 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00002403 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001002 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00002381 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00004242 and relevant subclasses.
+http://purl.obolibrary.org/obo/FOODON_00001092 and relevant subclasses.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
