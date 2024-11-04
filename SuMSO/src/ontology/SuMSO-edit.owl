@@ -3039,6 +3039,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000090"/>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">This axiom currently includes reference to cow well-being. Implementations may establish distinctions between diverse meat systems as not all meat systems relate necessary to cows. This axiom must be revised accordingly.</Literal>
+        </Annotation>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000091"/>
         <ObjectIntersectionOf>
             <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000090"/>
@@ -3973,7 +3977,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_9903"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
@@ -3983,7 +3987,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_9903"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <ObjectUnionOf>
@@ -3996,7 +4000,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_9903"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000088"/>
@@ -4006,7 +4010,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
+            <Class abbreviatedIRI="obo:NCBITaxon_9903"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0000091"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000110"/>
@@ -4260,7 +4264,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sco/SCO_0000003</IRI>
-        <Literal>SuMSO creator note:
+        <Literal xml:lang="en">SuMSO developer comment:
 See the comment under the corresponding indicator class labeled &quot;SuMSO creator comment&quot;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -6015,6 +6019,11 @@ https://regenscore.org/</Literal>
         <Literal xml:lang="en">cow well-being, cow wellbeing,</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000088</IRI>
+        <Literal xml:lang="en">The label may be revised to refer more generally to bovines. Additional classes may be used to specify well-being of single species.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000088</IRI>
         <Literal xml:lang="en">cow welfare</Literal>
@@ -6027,7 +6036,7 @@ https://regenscore.org/</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000088</IRI>
-        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
@@ -7255,7 +7264,7 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000163</IRI>
-        <Literal xml:lang="en">The class archaea is too general and broad. Not all viruses may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific virus species distinctions is needed. Future implementations will deprecate this class and include the specific ones.</Literal>
+        <Literal xml:lang="en">The class &quot;virus&quot; is too general and broad. Not all viruses may belong to meat systems. Thus, we include this class to restrict the focus on those who do so. We opted for this solution for reasons of practicality. Nevertheless, a deeper characterization that accounts for specific virus species distinctions is needed. Future implementations will deprecate this class and include the specific ones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7381,6 +7390,14 @@ person</Literal>
         <AbbreviatedIRI>obo:NCBITaxon_9606</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
 We initially dedicated attention to humans and cows due to the primary role played in meat systems. Future implementations will include other specific subclasses to account for additional eucaryotes that are possibly involved in meat systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:NCBITaxon_9913</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO
+See also:
+http://purl.obolibrary.org/obo/FOODON_03414374 and subclasses.
+http://purl.obolibrary.org/obo/FOODON_02020893 and subclasses.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
