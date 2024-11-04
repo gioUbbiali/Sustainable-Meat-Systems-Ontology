@@ -145,6 +145,9 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
     </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:FOODON_02020910"/>
+    </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:BFO_0000002"/>
         <Class abbreviatedIRI="obo:BFO_0000001"/>
@@ -159,7 +162,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:UBERON_0004529"/>
-        <Class abbreviatedIRI="obo:BFO_0000040"/>
+        <Class abbreviatedIRI="obo:FOODON_02020910"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:UBERON_0004765"/>
@@ -1389,7 +1392,7 @@ WHERE {
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147483881"/>
+        <AnonymousIndividual nodeID="_:genid2147483883"/>
         <AbbreviatedIRI>obo:uberon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
 </Ontology>
