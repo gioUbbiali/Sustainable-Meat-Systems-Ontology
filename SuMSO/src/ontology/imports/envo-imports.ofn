@@ -49,12 +49,6 @@
         <Class abbreviatedIRI="obo:ENVO_00003033"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:ENVO_00003859"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:ENVO_00003860"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:ENVO_00003884"/>
     </Declaration>
     <Declaration>
@@ -67,19 +61,10 @@
         <Class abbreviatedIRI="obo:ENVO_01001116"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:ENVO_01001117"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:ENVO_01001118"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:ENVO_01001119"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:ENVO_02000084"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:ENVO_03501252"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:ENVO_03501300"/>
@@ -94,13 +79,25 @@
         <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasBroadSynonym"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
@@ -110,18 +107,6 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_00000114"/>
@@ -148,14 +133,6 @@
         <Class abbreviatedIRI="obo:ENVO_00002170"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:ENVO_00003859"/>
-        <Class abbreviatedIRI="obo:ENVO_00003031"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ENVO_00003860"/>
-        <Class abbreviatedIRI="obo:ENVO_00003031"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_00003884"/>
         <Class abbreviatedIRI="obo:ENVO_00003031"/>
     </SubClassOf>
@@ -172,24 +149,12 @@
         <Class abbreviatedIRI="obo:ENVO_00003031"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:ENVO_01001117"/>
-        <Class abbreviatedIRI="obo:ENVO_00003031"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_01001118"/>
         <Class abbreviatedIRI="obo:ENVO_00003031"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_01001119"/>
         <Class abbreviatedIRI="obo:ENVO_00003031"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ENVO_02000084"/>
-        <Class abbreviatedIRI="obo:ENVO_00003031"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ENVO_03501252"/>
-        <Class abbreviatedIRI="obo:ENVO_01001117"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_03501300"/>
@@ -367,46 +332,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:ENVO_00003859</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:envo.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:ENVO_00003859</AbbreviatedIRI>
-        <Literal>https://en.wikipedia.org/wiki/Horse_manure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
-        <AbbreviatedIRI>obo:ENVO_00003859</AbbreviatedIRI>
-        <Literal>ENVO</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
-        <AbbreviatedIRI>obo:ENVO_00003859</AbbreviatedIRI>
-        <Literal>ENVO:00003859</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:ENVO_00003859</AbbreviatedIRI>
-        <Literal>horse manure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:ENVO_00003860</AbbreviatedIRI>
-        <Literal>Manure which is primarily composed of pig feces.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:ENVO_00003860</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:envo.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:ENVO_00003860</AbbreviatedIRI>
-        <Literal>pig manure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
         <AbbreviatedIRI>obo:ENVO_00003884</AbbreviatedIRI>
         <AbbreviatedIRI>obo:envo.owl</AbbreviatedIRI>
     </AnnotationAssertion>
@@ -492,21 +417,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:ENVO_01001117</AbbreviatedIRI>
-        <Literal>Manure which is composed primarily of the feces of poultry.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:ENVO_01001117</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:envo.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:ENVO_01001117</AbbreviatedIRI>
-        <Literal xml:lang="en">poultry manure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:ENVO_01001118</AbbreviatedIRI>
         <Literal>Manure which has been subjected to heat treatment for solidification and/or sterilization purposes.</Literal>
     </AnnotationAssertion>
@@ -534,51 +444,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:ENVO_01001119</AbbreviatedIRI>
         <Literal xml:lang="en">composted animal manure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:ENVO_02000084</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:envo.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
-        <AbbreviatedIRI>obo:ENVO_02000084</AbbreviatedIRI>
-        <Literal>ENVO</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
-        <AbbreviatedIRI>obo:ENVO_02000084</AbbreviatedIRI>
-        <Literal>ENVO:02000084</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:ENVO_02000084</AbbreviatedIRI>
-        <Literal>goat manure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:ENVO_03501252</AbbreviatedIRI>
-        <Literal xml:lang="en">Poultry manure made of chicken feces.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:ENVO_03501252</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:envo.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
-        <AbbreviatedIRI>obo:ENVO_03501252</AbbreviatedIRI>
-        <IRI>https://orcid.org/0000-0002-8395-2570</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
-        <AbbreviatedIRI>obo:ENVO_03501252</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-15T04:00:01.750Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:ENVO_03501252</AbbreviatedIRI>
-        <Literal xml:lang="en">chicken manure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>

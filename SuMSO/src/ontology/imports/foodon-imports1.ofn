@@ -32,31 +32,10 @@
         <Class abbreviatedIRI="obo:BFO_0000040"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:FOODON_00001006"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:FOODON_00001041"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:FOODON_00001092"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:FOODON_00001134"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:FOODON_00001261"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:FOODON_00001678"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:FOODON_00002381"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:FOODON_00002403"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:FOODON_00003083"/>
@@ -66,9 +45,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:FOODON_00004172"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:FOODON_00004242"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:FOODON_00004323"/>
@@ -404,36 +380,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
     <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_00001041"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_00001134"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_00001134"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_00001006"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:FOODON_03414374"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_00001678"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_00001041"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-                <Class abbreviatedIRI="obo:FOODON_03411349"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class abbreviatedIRI="obo:FOODON_00004536"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:FOODON_02010020"/>
@@ -514,61 +460,9 @@
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
-    <EquivalentClasses>
-        <Class abbreviatedIRI="obo:FOODON_03311126"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_00001002"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0000053"/>
-                <Class abbreviatedIRI="obo:FOODON_00004348"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
     <SubClassOf>
         <Class abbreviatedIRI="obo:BFO_0000040"/>
         <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-        <Class abbreviatedIRI="obo:FOODON_00002403"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001006"/>
-        <Class abbreviatedIRI="obo:FOODON_00001092"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001041"/>
-        <Class abbreviatedIRI="obo:FOODON_00001134"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001041"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001092"/>
-        <Class abbreviatedIRI="obo:FOODON_00004242"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001134"/>
-        <Class abbreviatedIRI="obo:FOODON_00001006"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001134"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
-            <Class abbreviatedIRI="obo:FOODON_03414374"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001261"/>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00001678"/>
-        <Class abbreviatedIRI="obo:FOODON_00001041"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00001678"/>
@@ -576,14 +470,6 @@
             <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
             <Class abbreviatedIRI="obo:FOODON_03411349"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00002381"/>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00002403"/>
-        <Class abbreviatedIRI="obo:BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00003083"/>
@@ -596,14 +482,6 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00003527"/>
         <Class abbreviatedIRI="obo:NCBITaxon_3716"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00004172"/>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00004242"/>
-        <Class abbreviatedIRI="obo:FOODON_00002381"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00004323"/>
@@ -684,10 +562,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03305517"/>
-        <Class abbreviatedIRI="obo:FOODON_00001041"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_03305517"/>
         <Class abbreviatedIRI="obo:FOODON_02010020"/>
     </SubClassOf>
     <SubClassOf>
@@ -704,10 +578,6 @@
             <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
             <Class abbreviatedIRI="obo:FOODON_03412331"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_03311126"/>
-        <Class abbreviatedIRI="obo:FOODON_00001002"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03311126"/>
@@ -1072,136 +942,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
-        <Literal xml:lang="en">Food material for humans and animals which is processed with the intention that it be consumable as a whole or added to other food products.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
-        <Literal xml:lang="en">Damion Dooley</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
-        <Literal xml:lang="en">Foodon product type</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Food</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
-        <Literal xml:lang="en">The FoodOn &quot;food product&quot; class is provided as a branch under which new food product categories and food products themselves can be placed. Here classes are provided to differentiate a food product by its food composition, processing and/or consumption characteristics. This avoids brand name products but it may include generic food dish categories. It has a much greater depth and polyhierarchy than other agency product type schemes have in an effort to group related products together.  The upper level basis of this tree originated in the environment ontology (ENVO) and from the US Code of Federal Regulations.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:FOODON_00001002</AbbreviatedIRI>
-        <Literal xml:lang="en">food product</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:FOODON_00001006</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:FOODON_00001006</AbbreviatedIRI>
-        <Literal>A food product made of meat, the skeletal muscle and associated fat, and other edible tissues such as organs, livers, skin, brains, bone marrow, kidneys, or lungs, of mammals.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <AbbreviatedIRI>obo:FOODON_00001006</AbbreviatedIRI>
-        <IRI>https://en.wikipedia.org/wiki/Meat</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:FOODON_00001006</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:FOODON_00001006</AbbreviatedIRI>
-        <IRI>https://bioregistry.io/reference/siren:F17332</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:FOODON_00001006</AbbreviatedIRI>
-        <Literal xml:lang="en">mammalian meat food product</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:FOODON_00001041</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:FOODON_00001041</AbbreviatedIRI>
-        <Literal xml:lang="en">A food product that is derived from some cow.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:FOODON_00001041</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
-        <AbbreviatedIRI>obo:FOODON_00001041</AbbreviatedIRI>
-        <Literal>https://orcid.org/0000-0001-5275-8866</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <AbbreviatedIRI>obo:FOODON_00001041</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-27T22:43:12Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:FOODON_00001041</AbbreviatedIRI>
-        <Literal xml:lang="en">cow food product</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:FOODON_00001092</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:FOODON_00001092</AbbreviatedIRI>
-        <Literal xml:lang="en">A food product which is derived from or produced by an animal that has a vertibrae.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:FOODON_00001092</AbbreviatedIRI>
-        <Literal>Damion Dooley</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:FOODON_00001092</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:FOODON_00001092</AbbreviatedIRI>
-        <Literal xml:lang="en">vertebrate animal food product</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:FOODON_00001134</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:FOODON_00001134</AbbreviatedIRI>
-        <Literal xml:lang="en">bovine meat food product</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:FOODON_00001261</AbbreviatedIRI>
         <Literal xml:lang="en">A plant food product which derives from one or more vegetables.</Literal>
     </AnnotationAssertion>
@@ -1239,71 +979,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:FOODON_00001678</AbbreviatedIRI>
         <Literal xml:lang="en">calf meat food product</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:FOODON_00002381</AbbreviatedIRI>
-        <Literal xml:lang="en">A food product consisting of food material derived primarily from a single organism.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
-        <AbbreviatedIRI>obo:FOODON_00002381</AbbreviatedIRI>
-        <Literal xml:lang="en">Damion Dooley</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:FOODON_00002381</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:FOODON_00002381</AbbreviatedIRI>
-        <Literal xml:lang="en">food product by organism</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
-        <Literal xml:lang="en">Any substance that can be consumed by an organism to satisfy nutritional or other health needs, or to provide a social or organoleptic food experience</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
-        <IRI>https://en.wikipedia.org/wiki/Food</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
-        <Literal xml:lang="en">food</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
-        <Literal xml:lang="en">foodstuff</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
-        <Literal xml:lang="en">nourishment</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
-        <Literal xml:lang="en">sustenance</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
-        <Literal xml:lang="en">This class is the top of FOODON&apos;s main food product hierarchy which is described in the https://www.foodon.org website, and can be searched in lookup services like https://www.ebi.ac.uk/ols/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:FOODON_00002403</AbbreviatedIRI>
-        <Literal xml:lang="en">food material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
@@ -1399,36 +1074,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:FOODON_00004172</AbbreviatedIRI>
         <Literal xml:lang="en">feedstuff (food for agricultural animals)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:FOODON_00004242</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:FOODON_00004242</AbbreviatedIRI>
-        <Literal xml:lang="en">A food product that is derived from some animal.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:FOODON_00004242</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:contributor"/>
-        <AbbreviatedIRI>obo:FOODON_00004242</AbbreviatedIRI>
-        <Literal>http://orcid.org/0000-0002-8844-9165</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="terms:date"/>
-        <AbbreviatedIRI>obo:FOODON_00004242</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T21:25:29Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:FOODON_00004242</AbbreviatedIRI>
-        <Literal xml:lang="en">animal food product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -5010,72 +4655,72 @@ The family is widespread, being native to Asia, Africa, Europe and North America
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590806"/>
+        <AnonymousIndividual nodeID="_:genid2147486027"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590807"/>
+        <AnonymousIndividual nodeID="_:genid2147486028"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590808"/>
+        <AnonymousIndividual nodeID="_:genid2147486029"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590809"/>
+        <AnonymousIndividual nodeID="_:genid2147486030"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590810"/>
+        <AnonymousIndividual nodeID="_:genid2147486031"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590811"/>
+        <AnonymousIndividual nodeID="_:genid2147486032"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590812"/>
+        <AnonymousIndividual nodeID="_:genid2147486033"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590813"/>
+        <AnonymousIndividual nodeID="_:genid2147486034"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590814"/>
+        <AnonymousIndividual nodeID="_:genid2147486035"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590815"/>
+        <AnonymousIndividual nodeID="_:genid2147486036"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590816"/>
+        <AnonymousIndividual nodeID="_:genid2147486037"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590817"/>
+        <AnonymousIndividual nodeID="_:genid2147486038"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590818"/>
+        <AnonymousIndividual nodeID="_:genid2147486039"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147590819"/>
+        <AnonymousIndividual nodeID="_:genid2147486040"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
