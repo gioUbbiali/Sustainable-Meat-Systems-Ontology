@@ -101,11 +101,11 @@
         <AnnotationProperty abbreviatedIRI="Property:P703"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000164"/>
+        <Class abbreviatedIRI="obo:FOODON_03420164"/>
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GSSO_008727"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000164"/>
+        <Class abbreviatedIRI="obo:FOODON_03420164"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GSSO_008728"/>

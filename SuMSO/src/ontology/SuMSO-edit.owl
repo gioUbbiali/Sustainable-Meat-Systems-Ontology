@@ -3858,11 +3858,19 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000161"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000161"/>
         <Class abbreviatedIRI="obo:GSSO_008727"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000162"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000161"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000162"/>
+        <Class abbreviatedIRI="obo:GSSO_008728"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000163"/>
