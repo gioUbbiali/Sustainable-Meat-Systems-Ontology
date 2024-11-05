@@ -5131,7 +5131,7 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000047</IRI>
-        <Literal xml:lang="en">Currently, SuMSO represents meat supply chain activities and related inputs and outputs, focusing on beef cattle (adult organisms). Further implementations will expand coverage to other types of cows, species, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
+        <Literal xml:lang="en">Currently, SuMSO represents meat supply chain activities and related inputs and outputs, focusing on beef cattle (adult organisms). Further implementations will expand coverage to other types of cows, species, animal sex, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7356,14 +7356,50 @@ http://purl.obolibrary.org/obo/NCBITaxon_10239</Literal>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000166</IRI>
+        <Literal xml:lang="en">This class aims to be a broad and general class to refer to cow’s bones and skeletal elements. Future implementations may deepen into distinguishing different types of bones, elements, and tissues. See UBERON classes for more details.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000166</IRI>
-        <Literal xml:lang="en">beef bone</Literal>
+        <Literal xml:lang="en">beef bone (skeletal element)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000166</IRI>
+        <Literal xml:lang="en">An organ consisting of skeletal tissue that belongs to a cattle. It encompasses whole bones, fused bones, cartilaginious elements, teeth, dermal denticles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000166</IRI>
+        <Literal>http://purl.obolibrary.org/obo/UBERON_0001474 
+http://purl.obolibrary.org/obo/UBERON_0004765</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000166</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000167</IRI>
         <Literal xml:lang="en">beef horn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000167</IRI>
+        <Literal xml:lang="en">A pointed projection of the skin on the head of a cattle, consisting of a covering of horn (keratin and other proteins) surrounding a core of living bone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:adaptedFrom"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000167</IRI>
+        <Literal>http://purl.obolibrary.org/obo/UBERON_0006967</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000167</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7609,7 +7645,7 @@ http://purl.obolibrary.org/obo/FOODON_02020893 and subclasses.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:NCBITaxon_9913</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
-Currently, SuMSO represents meat supply chain activities and related inputs and outputs, focusing on beef cattle (adult organisms). Further implementations will expand coverage to other types of cows, species, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
+Currently, SuMSO represents meat supply chain activities and related inputs and outputs, focusing on beef cattle (adult organisms). Further implementations will expand coverage to other types of cows, species, animal sex, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
