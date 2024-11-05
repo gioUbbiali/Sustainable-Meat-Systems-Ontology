@@ -26,7 +26,118 @@
         <Literal>2024-10-07</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRealizableEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfSpecificallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRealizableEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfSpecificallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRealizableEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfSpecificallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDisposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfGenericallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRealizableEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfSpecificallyDependentContinuant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
@@ -50,16 +161,70 @@
         <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#scopeNote"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/identifier"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000011"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000196"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000139"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000132"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
@@ -72,9 +237,262 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000117"/>
+            <ObjectUnionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000035"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000132"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000139"/>
+            <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDependentContinuant"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDisposition"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfFunction"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDisposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfQuality"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRealizableEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRole"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfSpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDependentContinuant"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDisposition"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDisposition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000016"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfFunction"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDisposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfFunction"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000101"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfQuality"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfQuality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000019"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRealizableEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRealizableEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRole"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRole"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfSpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/GainOfSpecificallyDependentContinuant"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000057"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000196"/>
+                    <Class IRI="http://purl.obolibrary.org/obo/BFO_0000020"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDependentContinuant"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDisposition"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfFunction"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDisposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfQuality"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRealizableEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRole"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfSpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDependentContinuant"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDisposition"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfFunction"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDisposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfGenericallyDependentContinuant"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfQuality"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRealizableEntity"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfSpecificallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRole"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRealizableEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfSpecificallyDependentContinuant"/>
+        <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDependentContinuant"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000035"/>
+    </DisjointClasses>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/prescribed_by"/>
         <ObjectProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_subject_of"/>
@@ -96,6 +514,161 @@
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/identifier"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000015</IRI>
+        <Literal>083-BFO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000015</IRI>
+        <Literal xml:lang="en">process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000015</IRI>
+        <Literal xml:lang="en">event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000015</IRI>
+        <Literal xml:lang="en">(Elucidation) p is a process means p is an occurrent that has some temporal proper part and for some time t, p has some material entity as participant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+        <IRI>http://purl.obolibrary.org/obo/BFO_0000015</IRI>
+        <Literal xml:lang="en">An act of selling; the life of an organism; a process of sleeping; a process of cell-division; a beating of the heart; a process of meiosis; the taxiing of an aircraft; the programming of a computer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDependentContinuant</IRI>
+        <Literal xml:lang="en">Decrease of Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDependentContinuant</IRI>
+        <Literal xml:lang="en">A Change in which some Independent Continuant has a decrease in the level of some Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDisposition</IRI>
+        <Literal xml:lang="en">Decrease of Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDisposition</IRI>
+        <Literal xml:lang="en">A Decrease of Realizable Entity in which some Independent Continuant has a decrease of some Disposition it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfFunction</IRI>
+        <Literal xml:lang="en">Decrease of Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfFunction</IRI>
+        <Literal xml:lang="en">A Decrease of Disposition in which some Independent Continuant has a decrease of some Function that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfGenericallyDependentContinuant</IRI>
+        <Literal xml:lang="en">For the most part Generically Dependent Continuants do not inhere in their bearers over some continuous scale. The primary exception is religion and this class allows annotation of those cases where an Agent is described as becoming less religious. Other cases would include the decrease of an organization&apos;s bearing of some objective.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfGenericallyDependentContinuant</IRI>
+        <Literal xml:lang="en">Decrease of Generically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfGenericallyDependentContinuant</IRI>
+        <Literal xml:lang="en">A Decrease of Dependent Continuant in which some Independent Continuant has a decrease in the level of a Generically Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfQuality</IRI>
+        <Literal xml:lang="en">Decrease of Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfQuality</IRI>
+        <Literal xml:lang="en">A Decrease of Specifically Dependent Continuant in which some Independent Continuant has a decrease of some Quality that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfQuality</IRI>
+        <Literal>Weight Loss, Decreasing Temperature, decreasing color intensity, loss of structural integrity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRealizableEntity</IRI>
+        <Literal xml:lang="en">Decrease of Realizable Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRealizableEntity</IRI>
+        <Literal xml:lang="en">A Decrease of Specifically Dependent Continuant in which some Independent Continuant has a decrease of some Realizable Entity that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRole</IRI>
+        <Literal xml:lang="en">Decrease of Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfRole</IRI>
+        <Literal xml:lang="en">A Decrease of Realizable Entity in which some Independent Continuant has a decrease of some Role that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal xml:lang="en">Decrease of Specifically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal xml:lang="en">A Decrease of Dependent Continuant in which some Independent Continuant has a decrease in some Specifically Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label"/>
         <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
         <Literal xml:lang="en">Directive ICE</Literal>
@@ -114,6 +687,401 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</IRI>
         <Literal xml:lang="en">Directive Information Content Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDependentContinuant</IRI>
+        <Literal xml:lang="en">Gain of Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDependentContinuant</IRI>
+        <Literal xml:lang="en">A Change in which an Independent Continuant becomes the bearer or carrier of some Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDisposition</IRI>
+        <Literal xml:lang="en">This class should be used to demarcate the start of the temporal interval (through the BFO &apos;occupies temporal region&apos; property) that the Entity bears the Disposition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDisposition</IRI>
+        <Literal xml:lang="en">Gain of Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDisposition</IRI>
+        <Literal xml:lang="en">A Gain of Realizable Entity in which some Independent Continuant becomes the bearer of some Disposition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfFunction</IRI>
+        <Literal xml:lang="en">This class should be used to demarcate the start of the temporal interval (through the BFO &apos;occupies temporal region&apos; property) that the Entity bears the Function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfFunction</IRI>
+        <Literal xml:lang="en">Gain of Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfFunction</IRI>
+        <Literal xml:lang="en">A Gain of Disposition in which some Independent Continuant becomes the bearer of some Function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant</IRI>
+        <Literal xml:lang="en">Gain of Generically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant</IRI>
+        <Literal xml:lang="en">A Gain of Dependent Continuant wherein some Independent Continuant becomes the carrier of some Generically Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfGenericallyDependentContinuant</IRI>
+        <Literal>A Person forms a Plan, A Person is initiated into a Religion, A photgraphic image is produced.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfQuality</IRI>
+        <Literal xml:lang="en">Gain of Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfQuality</IRI>
+        <Literal xml:lang="en">A Gain of Specifically Dependent Continuant in which an Independent Continuant becomes the bearer of some Quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfQuality</IRI>
+        <Literal>A person becoming pregnant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRealizableEntity</IRI>
+        <Literal xml:lang="en">Gain of Realizable Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRealizableEntity</IRI>
+        <Literal xml:lang="en">A Gain of Specifically Dependent Continuant in which some Independent Continuant becomes the bearer of some Realizable Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRealizableEntity</IRI>
+        <Literal>An informant becomes unreliable (disposition), A person begins to speak French (function), a person becomes a welder (role).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRole</IRI>
+        <Literal xml:lang="en">This class should be used to demarcate the start of the temporal interval (through the occurs_on property) that the Entity bears the Role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRole</IRI>
+        <Literal xml:lang="en">Gain of Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfRole</IRI>
+        <Literal xml:lang="en">A Gain of Realizable Entity in which some Independent Continuant becomes bearer of some Role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfSpecificallyDependentContinuant</IRI>
+        <Literal xml:lang="en">Gain of Specifically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfSpecificallyDependentContinuant</IRI>
+        <Literal xml:lang="en">A Gain of Dependent Continuant in which some Independent Continuant becomes the bearer of some Specifically Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/GainOfSpecificallyDependentContinuant</IRI>
+        <Literal>A Person becomes pregnant (gain of quality), A person becomes forgetful (gain of disposition), A vehicle becomes amphibious (gain of function), A Person becomes a Database Administrator (gain of role).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDependentContinuant</IRI>
+        <Literal xml:lang="en">Increase of Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDependentContinuant</IRI>
+        <Literal xml:lang="en">A Change in which some Independent Continuant has an increase in the level of some Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDisposition</IRI>
+        <Literal xml:lang="en">Increase of Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfDisposition</IRI>
+        <Literal xml:lang="en">An Increase of Realizable Entity in which some Independent Continuant has an increase of some Disposition that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfFunction</IRI>
+        <Literal xml:lang="en">Increase of Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfFunction</IRI>
+        <Literal xml:lang="en">An Increase of Disposition in which some Independent Continuant has an increase of some Function that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfGenericallyDependentContinuant</IRI>
+        <Literal xml:lang="en">Increase of Generically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfGenericallyDependentContinuant</IRI>
+        <Literal xml:lang="en">An Increase of Dependent Continuant in which some Independent Continuant has an increase of some Generically Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfQuality</IRI>
+        <Literal xml:lang="en">Increase of Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfQuality</IRI>
+        <Literal xml:lang="en">An Increase of Specifically Dependent Continuant in which some Indpendent Continuant has an increase of some Quality that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRealizableEntity</IRI>
+        <Literal xml:lang="en">Increase of Realizable Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRealizableEntity</IRI>
+        <Literal xml:lang="en">An Increase of Specifically Dependent Continuant in which some Independent Continuant has an increase of some Realizable Entity that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRole</IRI>
+        <Literal xml:lang="en">Increase of Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfRole</IRI>
+        <Literal xml:lang="en">An Increase of Realizable Entity in which some Independent Continuant has an increase of some Role that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal xml:lang="en">Increase of Specifically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/IncreaseOfSpecificallyDependentContinuant</IRI>
+        <Literal xml:lang="en">An Increase of Dependent Continuant in which some Independent Continuant has an increase of some Specifically Dependent Continuant that it bears.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDependentContinuant</IRI>
+        <Literal xml:lang="en">Loss of Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDependentContinuant</IRI>
+        <Literal xml:lang="en">A Change in which some Independent Continuant ceases to be the bearer or carrier of some Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDisposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDisposition</IRI>
+        <Literal xml:lang="en">Loss of Disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfDisposition</IRI>
+        <Literal xml:lang="en">A Loss of Realizable Entity in which some Independent Continuant ceases to be the bearer of some Disposition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfFunction</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfFunction</IRI>
+        <Literal xml:lang="en">Loss of Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfFunction</IRI>
+        <Literal xml:lang="en">A Loss of Disposition in which some Independent Continuant ceases to be the bearer of some Function.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfGenericallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfGenericallyDependentContinuant</IRI>
+        <Literal xml:lang="en">Loss of Generically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfGenericallyDependentContinuant</IRI>
+        <Literal xml:lang="en">A Loss of Dependent Continuant in which some Independent Continuant ceases to be the carrier of some Generically Dependent Continuant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfQuality</IRI>
+        <Literal xml:lang="en">Loss of Quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfQuality</IRI>
+        <Literal xml:lang="en">A Loss of Specifically Dependent Continuant in which some Independent Continuant ceases to be the bearer of some Quality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRealizableEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRealizableEntity</IRI>
+        <Literal xml:lang="en">Loss of Realizable Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRealizableEntity</IRI>
+        <Literal xml:lang="en">A Loss of Specifically Dependent Continuant in which some Independent Continuant ceases to be the bearer of some Realizable Entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRole</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRole</IRI>
+        <Literal xml:lang="en">Loss of Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfRole</IRI>
+        <Literal xml:lang="en">A Loss of Realizable Entity in which some Independent Continuant ceases to be the bearer of some Role.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfSpecificallyDependentContinuant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfSpecificallyDependentContinuant</IRI>
+        <Literal xml:lang="en">Loss of Specifically Dependent Continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://www.ontologyrepository.com/CommonCoreOntologies/LossOfSpecificallyDependentContinuant</IRI>
+        <Literal xml:lang="en">A Loss of Dependent Continuant in which some Independent Continuant ceases to be the bearer of some Specifically Dependent Continuant.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
