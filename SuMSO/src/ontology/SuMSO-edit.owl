@@ -26,6 +26,7 @@
     <Import>http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-24/trasformon.imports.owl</Import>
     <Import>http://gioUbbiali.github.io/sumso/2024-10-30/foodon.initial.imports.owl</Import>
+    <Import>http://gioUbbiali.github.io/sumso/2024-11-05/ro.imports.owl</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/2024-10-24/imports/GSSO_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/2024-10-31/imports/ecocore_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn</Import>
@@ -532,6 +533,9 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </Declaration>
     <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000168"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
@@ -3897,6 +3901,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class abbreviatedIRI="obo:FOODON_02020910"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000168"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
     </SubClassOf>
@@ -4297,6 +4305,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000007"/>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000064"/>
     </ClassAssertion>
+    <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">This property had PATO &quot;quality&quot; class as range, originally.
+PATO class corresponds to BFO&quot; quality&quot; class. Thus, we revised this axiom accordingly.
+See:http://purl.obolibrary.org/obo/PATO_0000001</Literal>
+        </Annotation>
+        <ObjectProperty abbreviatedIRI="obo:RO_0019000"/>
+        <Class abbreviatedIRI="obo:BFO_0000019"/>
+    </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sco/SCO_0000003</IRI>
@@ -7408,6 +7426,16 @@ http://purl.obolibrary.org/obo/UBERON_0004765</Literal>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000167</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000168</IRI>
+        <Literal xml:lang="en">We created this class as a grouping class. Do not use it directly.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000168</IRI>
+        <Literal xml:lang="en">increase/decrese/gain/loss of dependent continunat</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
