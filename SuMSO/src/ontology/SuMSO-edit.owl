@@ -1364,27 +1364,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000109"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000037"/>
-                <ObjectUnionOf>
-                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
-                    <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
-                </ObjectUnionOf>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
-                <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000110"/>
         <ObjectIntersectionOf>
             <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000007"/>
@@ -2685,6 +2664,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <ObjectIntersectionOf>
             <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000021"/>
             <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000071"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000021"/>
+            <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000172"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000077"/>
             </ObjectSomeValuesFrom>
@@ -2785,6 +2774,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000077"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000073"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -3493,6 +3492,27 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000109"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000037"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
+                    <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
+                <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000110"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000007"/>
     </SubClassOf>
@@ -3838,7 +3858,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
+        <Class abbreviatedIRI="obo:OBI_0000094"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000154"/>
@@ -3846,11 +3866,69 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
+        <Class abbreviatedIRI="obo:OBI_0000094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0004008"/>
+                <Class abbreviatedIRI="obo:GSSO_008728"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0004009"/>
+                <Class abbreviatedIRI="obo:GSSO_008727"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:OBI_0000094"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000077"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:OBI_0000094"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002404"/>
+                <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000156"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000156"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002404"/>
+                <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000156"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0004008"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000161"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0004009"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000162"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000159"/>
@@ -3907,6 +3985,26 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <SubClassOf>
         <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002411"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000155"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002411"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000156"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:AGRO_00000372"/>
@@ -3967,11 +4065,11 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00000071"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
+        <Class abbreviatedIRI="obo:OBI_0000094"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00004531"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
+        <Class abbreviatedIRI="obo:OBI_0000094"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03530005"/>
@@ -5055,6 +5153,11 @@ The position of the class in the hierarchy and the definition require revision. 
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
         <Literal xml:lang="en">Currently, we include the possibility that an activity has as occurrent part (up to solely consist of) only one interaction. We leave open the discussion considering whether an activity requires to have as occurrent parts at least two interactions to exist instead of one.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
+        <Literal xml:lang="en">Further implementations will cover representing plans and plan specifications related to this class, subclasses, and related ones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7204,6 +7307,11 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000155</IRI>
         <Literal xml:lang="en">tanning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000155</IRI>
+        <Literal xml:lang="en">Implementation will deepen the characterization of this activity, including classes to describe sub-activities that are its occurrent parts. Details are required to also address passages from animal skin to animal hide.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
