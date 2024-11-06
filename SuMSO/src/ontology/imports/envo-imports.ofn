@@ -108,6 +108,9 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000170"/>
+    </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_00000114"/>
         <Class abbreviatedIRI="obo:ENVO_01000352"/>
@@ -146,7 +149,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_01001116"/>
-        <Class abbreviatedIRI="obo:ENVO_00003031"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000170"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_01001118"/>
