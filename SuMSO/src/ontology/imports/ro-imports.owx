@@ -1747,10 +1747,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000057"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000031"/>
     </ObjectPropertyDomain>
@@ -1974,10 +1970,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000056"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000003"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000057"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000002"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000058"/>

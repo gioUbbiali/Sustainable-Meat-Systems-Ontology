@@ -107,10 +107,6 @@
         <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
         <Class abbreviatedIRI="obo:NCBITaxon_9605"/>
     </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
-        <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
-    </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
