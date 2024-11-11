@@ -95,9 +95,6 @@
         <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004470"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004474"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004476"/>
     </Declaration>
     <Declaration>
@@ -105,9 +102,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004530"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004531"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004556"/>
@@ -566,10 +560,6 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004470"/>
         <Class IRI="http://purl.obolibrary.org/obo/FOODON_00002574"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004474"/>
-        <Class IRI="http://purl.obolibrary.org/obo/FOODON_00000071"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/FOODON_00004476"/>
@@ -1732,31 +1722,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004474</IRI>
-        <Literal xml:lang="en">A cutting process which outputs sliced material.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004474</IRI>
-        <IRI>http://purl.obolibrary.org/obo/foodon.owl</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004474</IRI>
-        <IRI>https://orcid.org/0000-0002-8844-9165</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/date"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004474</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-08-01T23:32:07Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004474</IRI>
-        <Literal xml:lang="en">slicing process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/FOODON_00004476</IRI>
         <Literal xml:lang="en">A smaller cut of beef that is obtained from the larger primal cut of beef.</Literal>
     </AnnotationAssertion>
@@ -1849,31 +1814,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/FOODON_00004530</IRI>
         <Literal xml:lang="en">piece of cow</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004531</IRI>
-        <Literal xml:lang="en">The process of removing bone from animal meat.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000412"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004531</IRI>
-        <IRI>http://purl.obolibrary.org/obo/foodon.owl</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004531</IRI>
-        <Literal>https://orcid.org/0000-0002-8844-9165</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/terms/date"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004531</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-15T19:51:12Z</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/FOODON_00004531</IRI>
-        <Literal xml:lang="en">deboning</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
