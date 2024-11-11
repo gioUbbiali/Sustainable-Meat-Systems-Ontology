@@ -4905,7 +4905,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal xml:lang="en">The expression “animal killing” typically restricts to non-human animals. Thus here, this term does not applies to humans.
+            <Literal xml:lang="en">The expression “animal killing” typically restricts to non-human animals. Thus here, this term does not applies to humans. With regards to other ontology classes, the term also refers to humans.
 if the need arises to use the term &quot;animal&quot; with also reference to humans, additional classes and axioms may be added to revise this representation,</Literal>
         </Annotation>
         <Annotation>
@@ -5051,10 +5051,7 @@ if the need arises to use the term &quot;animal&quot; with also reference to hum
             <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000181"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000037"/>
-                <ObjectUnionOf>
-                    <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000075"/>
-                    <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
-                </ObjectUnionOf>
+                <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
@@ -9551,6 +9548,12 @@ cow slaughtering.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
         <Literal xml:lang="en">SuMSO developer comment:
+Implementations will detail the representation of cow slaughtering, with regards, for instance, to animal age and type of cow. Additional classes and axioms will be required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
 We currently referred to cow killing and carcass cutting as the two main activities part of cow slaughtering. Nevertheless, cow slaughtering includes several other activities, such as evisceration, deboning, and carcass cleaning. Implementation will improve this representation including further classes and axioms to refer to other relevant sub-activities.
 Here is a non-exhaustive list of further activities. Discussions with subject matter experts are required.  
 • Cow carcass bleeding/exsanguination.
@@ -9615,7 +9618,7 @@ possible axioms may be created to refer to the presence of plants, fungi, animal
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>obo:ENVO_00003031</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:ENVO_03501300</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
 we suggest to create a corresponding role, speciic for manure.</Literal>
     </AnnotationAssertion>
