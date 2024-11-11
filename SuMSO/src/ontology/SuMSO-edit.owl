@@ -5295,10 +5295,6 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_00004531"/>
-        <Class abbreviatedIRI="obo:OBI_0000094"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02010020"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
