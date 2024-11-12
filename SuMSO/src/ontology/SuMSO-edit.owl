@@ -1945,6 +1945,32 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000008"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000143"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000038"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000194"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000038"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000196"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000194"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000196"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002215"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000194"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000009"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000097"/>
     </SubClassOf>
@@ -3191,6 +3217,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000079"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000105"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002584"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000194"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000080"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000106"/>
     </SubClassOf>
@@ -4334,7 +4370,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000154"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
+            <Class abbreviatedIRI="obo:AGRO_00000426"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000037"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000070"/>
@@ -4356,7 +4392,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000154"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
+            <Class abbreviatedIRI="obo:AGRO_00000426"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000117"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000180"/>
@@ -4366,7 +4402,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000154"/>
         <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
+            <Class abbreviatedIRI="obo:AGRO_00000426"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0002092"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000178"/>
@@ -5184,6 +5220,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">Animal aggregation leads to variations of animal welfare. Welfare may increase, decrease or persist unchanged. Including in this axiom reference to animal welfare would not have been very informative. Thus, this axiom currently does not cover reference to animal welfare. We envision implementations that will provide more specific classes and axioms that detail the type of welfare variation.</Literal>
+        </Annotation>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000194"/>
         <ObjectIntersectionOf>
             <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
@@ -7100,7 +7140,7 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000047</IRI>
         <Literal xml:lang="en">SuMSO developer comment:
-Currently, SuMSO represents meat supply chain activities (and related planned processes) and related inputs and outputs, focusing on Bos taurus, especially beef cattle (adult organisms). Further implementations will expand coverage to other types of cows, species, animal sex, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
+Currently, SuMSO represents meat supply chain activities (and related planned processes) and related inputs and outputs, focusing on humans and cows, especially beef cattle (adult organisms). Further implementations will expand coverage to other animals. in addition, with specific reference to cows, implementations will also deal with different  types of cows, species, animal sex, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
