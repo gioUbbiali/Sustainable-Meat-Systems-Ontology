@@ -4905,8 +4905,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal xml:lang="en">The expression “animal killing” typically restricts to non-human animals. Thus here, this term does not applies to humans. With regards to other ontology classes, the term also refers to humans.
-if the need arises to use the term &quot;animal&quot; with also reference to humans, additional classes and axioms may be added to revise this representation,</Literal>
+            <Literal xml:lang="en">See comment to this class. Revisions may be required, for instance the modification of the class label.See comment to this class.</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -5169,14 +5168,6 @@ if the need arises to use the term &quot;animal&quot; with also reference to hum
                 </ObjectIntersectionOf>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:OBI_0000299"/>
-                <Class abbreviatedIRI="obo:FOODON_02010020"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0004008"/>
-                <Class abbreviatedIRI="obo:FOODON_02010020"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0004009"/>
                 <ObjectIntersectionOf>
                     <Class abbreviatedIRI="obo:NCBITaxon_33208"/>
@@ -5402,6 +5393,40 @@ if the need arises to use the term &quot;animal&quot; with also reference to hum
         <Class abbreviatedIRI="obo:OBI_0000094"/>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">This axiom may be revised according to future implementations that will provide details  for interactions specific to slaughterer and beef cattle.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+            <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+        </Annotation>
+        <Class abbreviatedIRI="obo:FOODON_00004413"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:FOODON_00002507"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000038"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000173"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000038"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000177"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000038"/>
+                <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000173"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_00004530"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:FOODON_00004328"/>
@@ -5432,6 +5457,20 @@ if the need arises to use the term &quot;animal&quot; with also reference to hum
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0001000"/>
                 <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:FOODON_02020895"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:FOODON_03305517"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000189"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -9332,7 +9371,7 @@ To represent variations of quality/realizable with respect to different processe
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000181</IRI>
-        <Literal xml:lang="en">An interaction that occurs among metazoa, of which at least one is a meat processor.</Literal>
+        <Literal xml:lang="en">An interaction that occurs among Metazoa, of which at least one is a meat processor.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -9392,7 +9431,7 @@ To represent variations of quality/realizable with respect to different processe
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000184</IRI>
-        <Literal xml:lang="en">An interaction that occurs among metazoa, of which at least one is a rancher.</Literal>
+        <Literal xml:lang="en">An interaction that occurs among Metazoa, of which at least one is a rancher.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -9403,6 +9442,11 @@ To represent variations of quality/realizable with respect to different processe
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000186</IRI>
         <Literal xml:lang="en">Currently, SuMSO uses this general class. A more specific subclass is required to restrict to animals used for human consumption.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000186</IRI>
+        <Literal xml:lang="en">In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal killing” typically restricts to non-human animals. Thus, for the purpose of this class and only of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9508,6 +9552,12 @@ To represent variations of quality/realizable with respect to different processe
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000193</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+See comment to &quot;animal killing&quot; class.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
