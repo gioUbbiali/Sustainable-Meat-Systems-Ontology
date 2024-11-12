@@ -4518,6 +4518,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">Alternatively, the object property &quot;regulates&quot; may be used here.</Literal>
+        </Annotation>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000154"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:AGRO_00000426"/>
