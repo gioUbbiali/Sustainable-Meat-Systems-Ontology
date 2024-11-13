@@ -4691,11 +4691,17 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000170"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
+        <Class abbreviatedIRI="obo:ENVO_00003031"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000170"/>
-        <Class abbreviatedIRI="obo:ENVO_00003031"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:BFO_0000040"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000170"/>
@@ -4709,11 +4715,17 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000171"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
+        <Class abbreviatedIRI="obo:FOODON_03301750"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000171"/>
-        <Class abbreviatedIRI="obo:FOODON_03301750"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:FOODON_03301750"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000171"/>
@@ -4871,6 +4883,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">This axiom must be implemented, for instance with reference to GHG emissions.</Literal>
+        </Annotation>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:ECOCORE_00000139"/>
@@ -4952,10 +4968,6 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
                 <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000179"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000179"/>
@@ -5845,10 +5857,6 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ENVO_00000114"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000024"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:ENVO_00000114"/>
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:ENVO_01000352"/>
             <ObjectSomeValuesFrom>
@@ -5867,6 +5875,23 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
                     <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000012"/>
                     <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000015"/>
                 </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ENVO_01000352"/>
+        <ObjectUnionOf>
+            <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000026"/>
+            <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000028"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:ENVO_03501300"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:BFO_0000040"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000004"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -5958,7 +5983,13 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03301750"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000024"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:BFO_0000040"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000004"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03305517"/>
@@ -9586,7 +9617,9 @@ http://purl.obolibrary.org/obo/NCBITaxon_10239</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000166</IRI>
-        <Literal xml:lang="en">This class aims to be a broad and general class to refer to cow’s bones and skeletal elements. Future implementations may deepen into distinguishing different types of bones, elements, and tissues. See UBERON classes for more details.</Literal>
+        <Literal xml:lang="en">This class aims to be a broad and general class to refer to cow’s bones and skeletal elements. Future implementations may deepen into distinguishing different types of bones, elements, and tissues. See UBERON classes for more details.
+
+This class may not be consider as a subclass of &quot;object&quot; class. To discuss.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10448,6 +10481,12 @@ grass-fed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:FOODON_03601066</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Implementations will deepen the representation of this class and related subclasses. Axioms will be add to relate these classes to others.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:FOODON_03602001</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
 we suggest to revise the label as this term applies to food.</Literal>
@@ -10457,15 +10496,6 @@ we suggest to revise the label as this term applies to food.</Literal>
         <AbbreviatedIRI>obo:FOODON_03602001</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO:
 see comments under the&quot;certification issuance process&quot; class.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>obo:GSSO_008727</AbbreviatedIRI>
-        <Literal xml:lang="en">SuMSO developer comment:
-GSSO positions this class (and subclasses) and its upper class “animal material” as subclasses of the “Object” class. FoodOn also includes the class “animal material” but positions it as a subclass of the class “material entity”.
-SuMSO currently moves GSSO classes as subclasses of FoodOn “animal material” one. Discussions with subject matter experts are required to revise and update the positioning of these classes. 
-See: http://purl.obolibrary.org/obo/FOODON_03420164 
-http://purl.obolibrary.org/obo/GSSO_008726</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10574,6 +10604,12 @@ According to OBI, SuMSO currently classifies viruses as organisms. We leave open
 This axiom (and corresponding ones referred to subclasses) also helps us to hierarchize carcasses. Nevertheless, we strongly envision discussion with subject matter experts and revisions of this branch of SuMSO.
 
 See http://purl.obolibrary.org/obo/FOODON_03411564  for consideration of an alternative classification to complement this one. Implementations will equally cover the inclusion of the “multicellular organism” class with this hierarchy, and the reorganization of other subclasses of this ontology branch.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:OBI_0100026</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+Organisms are complex systems. Thus, this ontology branch should be positioned under the “complex system” class.  We did not proceed as such because, for the current purposes of SuMSO, this representation is enough adequate. Implementations will address this aspect in accordance with SCO implementation with regard to system granularity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
