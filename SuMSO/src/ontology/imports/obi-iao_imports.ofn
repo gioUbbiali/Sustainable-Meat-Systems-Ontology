@@ -109,7 +109,7 @@ AnnotationAssertion(obo:IAO_0000232 obo:BFO_0000180 "Really of interest to devel
 AnnotationAssertion(rdfs:label obo:BFO_0000180 "BFO CLIF specification label"@en)
 SubAnnotationPropertyOf(obo:BFO_0000180 rdfs:label)
 
-# Annotation Property: obo:IAO_0000111 (editor preferred label)
+# Annotation Property: obo:IAO_0000111 (editor preferred term)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label"@en)
@@ -143,7 +143,7 @@ AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Bill Bug"@en)
 AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Melanie Courtot"@en)
 AnnotationAssertion(rdfs:label obo:IAO_0000114 "has curation status"@en)
 
-# Annotation Property: obo:IAO_0000115 (textual definition)
+# Annotation Property: obo:IAO_0000115 (definition)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition"@en)
@@ -921,12 +921,6 @@ SubClassOf(obo:PATO_0001995 obo:PATO_0001241)
 
 # Class: <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> (Information Content Entity)
 
-AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/alternative_label> <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> "ICE"@en)
-AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition> <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> "A Generically Dependent Continuant that generically depends on some Information Bearing Entity and stands in relation of aboutness to some Entity."@en)
-AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/definition_source> <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> "http://purl.obolibrary.org/obo/IAO_0000030")
-AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/elucidation> <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> "Information Content Entity is here intended to be a class of Entities whose instances are the informational content of Information Bearing Entities. For example, three instances of information bearers -- such as a bar chart, color-coded map, and a written report -- each of which lists the GDP of Countries for the year 2010 are each different carriers of the same information content. It is this content that is generically dependent upon its carrier. This treatment of Informational Content Entity (cf. the Information Artifact Ontology) leads to a principle of subtyping based upon the relationship that ICE's have with the Entity they are about rather than characteristics such as format, language, measurement scale, or media. The latter are treated here as being Qualities of bearers."@en)
-AnnotationAssertion(<http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology> <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/InformationEntityOntology"^^xsd:anyURI)
-AnnotationAssertion(rdfs:label <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> "Information Content Entity"@en)
 EquivalentClasses(<http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> ObjectIntersectionOf(obo:BFO_0000031 ObjectSomeValuesFrom(<http://www.ontologyrepository.com/CommonCoreOntologies/is_about> obo:BFO_0000001)))
 SubClassOf(<http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> obo:BFO_0000031)
 

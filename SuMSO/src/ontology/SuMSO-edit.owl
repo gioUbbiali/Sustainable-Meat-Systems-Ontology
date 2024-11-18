@@ -619,6 +619,12 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000199"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000201"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
     </Declaration>
     <Declaration>
@@ -1273,6 +1279,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">This axiom may be revised to refer more general to Bos.</Literal>
+        </Annotation>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000088"/>
         <ObjectIntersectionOf>
             <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
@@ -1707,10 +1717,20 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     <EquivalentClasses>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000180"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="CommonCoreOntologies:IncreaseOfDisposition"/>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000201"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0019001"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000088"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000201"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="CommonCoreOntologies:IncreaseOfDisposition"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0019001"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -2660,7 +2680,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000053"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000200"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000054"/>
@@ -4034,6 +4054,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000109"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000109"/>
         <ObjectIntersectionOf>
             <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000184"/>
             <ObjectSomeValuesFrom>
@@ -4639,11 +4663,11 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000159"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000200"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000160"/>
-        <Class abbreviatedIRI="obo:BFO_0000023"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000200"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000161"/>
@@ -4696,7 +4720,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000170"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:BFO_0000040"/>
+            <Class abbreviatedIRI="obo:ENVO_00003031"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
@@ -4865,6 +4889,16 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
         <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:AGRO_00002071"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002411"/>
+                <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
+        <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:ECOCORE_00000139"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000037"/>
@@ -4960,16 +4994,6 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000178"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0002411"/>
-                <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000179"/>
         <Class abbreviatedIRI="obo:ENVO_00000114"/>
     </SubClassOf>
@@ -4985,12 +5009,12 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000180"/>
-        <Class abbreviatedIRI="CommonCoreOntologies:IncreaseOfDisposition"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000201"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000180"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="CommonCoreOntologies:IncreaseOfDisposition"/>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000201"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000088"/>
@@ -5568,6 +5592,24 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000094"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000200"/>
+        <Class abbreviatedIRI="obo:BFO_0000023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000201"/>
+        <Class abbreviatedIRI="CommonCoreOntologies:IncreaseOfDisposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000201"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="CommonCoreOntologies:IncreaseOfDisposition"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -6456,6 +6498,42 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         <ObjectProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000038"/>
         <ObjectProperty abbreviatedIRI="obo:RO_0002500"/>
     </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000056"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000057"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000059"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000084"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0010001"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000101"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0010002"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000124"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0001015"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000132"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0002012"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000171"/>
+        <ObjectProperty abbreviatedIRI="obo:RO_0001025"/>
+    </EquivalentObjectProperties>
+    <EquivalentObjectProperties>
+        <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
+        <ObjectProperty abbreviatedIRI="CommonCoreOntologies:is_about"/>
+    </EquivalentObjectProperties>
     <ObjectPropertyRange>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6473,7 +6551,7 @@ http://purl.obolibrary.org/obo/RO_0019000</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sco/SCO_0000003</IRI>
         <Literal xml:lang="en">SuMSO developer comment:
-See the comment under the corresponding indicator class labeled &quot;SuMSO creator comment&quot;.</Literal>
+See the comment under the corresponding &quot;indicator&quot; class.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -6522,7 +6600,8 @@ A possible option may be the exclusion of the following axioms, in order to remo
 
 &apos;system component&apos; and (&apos;is carrier of&apos; some &apos;perspective information content entity&apos;) 
 
-we refrain from proceeding as such, choosing solely to not establish corresponding &quot;perspective&quot; classes for meat system components which are generally recognized as non-living entities. We envision discussions with subject matter experts.</Literal>
+We refrain from proceeding as such, choosing solely to not establish corresponding &quot;perspective&quot; classes for meat system components to which a perspective is not generally recognized. Among components to which a perspective is generally recognized, we currently created corresponding “perspective&quot; class only for those we primarily focused on in developing this ontology.
+We envision discussions with subject matter experts.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6730,7 +6809,7 @@ Borghini, Andrea, &amp; Piras, N. (2021). On Interpreting Something as Food. Foo
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000013</IRI>
-        <Literal xml:lang="en">Future implementations will complement meat supply chain activities and interactions that SuMSO currently covers with the corresponding ones that pertain to related companies.</Literal>
+        <Literal xml:lang="en">Future implementations will complement meat supply chain activities and interactions, that SuMSO currently covers, with the corresponding ones that pertain to related companies.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7171,6 +7250,11 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
         <Literal xml:lang="en">meat system component perspective</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000039</IRI>
+        <Literal xml:lang="en">See also the comment under the &quot;meat system component&quot; class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000039</IRI>
         <Literal xml:lang="en">A food system component perspective that is bearered by a meat system component.</Literal>
@@ -7233,9 +7317,9 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000043</IRI>
-        <Literal xml:lang="en">Currently, SuMSO hierarchically position “activity” classes as subclasses of the “planned process” one. It also describes an activity having interactions as occurrent parts(at least one).
+        <Literal xml:lang="en">Currently, SuMSO hierarchically position “activity” classes as subclasses of the “planned process” one. It also describes an activity having interactions as occurrent parts (at least one). Activities can equally have other activities as occurrent parts (sub-activities). 
 
-The position of the class in the hierarchy and the definition require revision. We envision having discussions with subject matter experts about whether an activity is not necessarily planned. We also plan to discuss if an activity requires to have at least two interactions as occurrent parts, to exist or if one is enough. Similarly, we aim to converse regarding the possibility of introducing the term “action”. Our genuine understanding is that activities have actions as occurrent  parts that have interactions as occurrent  parts.</Literal>
+The position of the class in the hierarchy and the definition require revision. We envision having discussions with subject matter experts about whether an activity is not necessarily planned. We also plan to discuss if an activity requires to have at least two interactions as occurrent parts, to exist or if one is enough.  Similarly, we aim to converse regarding the possibility of introducing the term “action”. Our genuine understanding is that activities have actions as occurrent  parts that have interactions as occurrent  parts.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7359,13 +7443,12 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000047</IRI>
-        <Literal xml:lang="en">Future implementations will complement meat supply chain activities and interactions that SuMSO currently covers with the corresponding ones that pertain to related companies.</Literal>
+        <Literal xml:lang="en">Currently, SuMSO represents meat supply chain activities (and related planned processes) and related inputs and outputs, focusing on humans and cows, especially beef cattle (adult organisms). Further implementations will expand coverage to other animals. in addition, with specific reference to cows, implementations will also deal with different  types of cows, species, animal sex, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000047</IRI>
-        <Literal xml:lang="en">SuMSO developer comment:
-Currently, SuMSO represents meat supply chain activities (and related planned processes) and related inputs and outputs, focusing on humans and cows, especially beef cattle (adult organisms). Further implementations will expand coverage to other animals. in addition, with specific reference to cows, implementations will also deal with different  types of cows, species, animal sex, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
+        <Literal xml:lang="en">Future implementations will complement meat supply chain activities and interactions that SuMSO currently covers with the corresponding ones that pertain to related companies.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7789,11 +7872,6 @@ Future implementations may address including classes to represent theories, rela
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000065</IRI>
-        <Literal xml:lang="en">Currently, SuMSO position roles correlated with involvement in supply chains, such as processor role, as both subclasses of “organization-role” and “worker-role” classes. This is because these roles apply to both humans and organizations that are involved in the supply chains. We leave open the discussion of whether we need two different hierarchy branches to distinguish specifically such roles for organizations and humans. In this case, class definitions must be revised accordingly. We envision having discussions with subject matter experts.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000065</IRI>
         <Literal xml:lang="en">The definition requires revisions, to include, for instance, reference to features such as salary or working rules. Similarly, we consider possible implementation for non-human workers, such as animals. We envision having discussions with subject matter experts to improve it.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -8202,6 +8280,11 @@ http://purl.obolibrary.org/obo/OCCO_00000118 and subclasses.</Literal>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000085</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000086</IRI>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
@@ -9386,7 +9469,7 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000153</IRI>
-        <Literal xml:lang="en">A subclass for cow meat processing can be created on necessity.</Literal>
+        <Literal xml:lang="en">A class for cow meat processing (subclass of &quot;meat processing&quot; one) can be created on necessity.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9671,7 +9754,9 @@ http://purl.obolibrary.org/obo/UBERON_0004765</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000168</IRI>
         <Literal xml:lang="en">We imported these classes as a tentative for representing variations of quality/realizable entities pertaining to meat systems and their components in relation to certain processes, such as supply chain activity. More generally, this is an initial attempt towards representing changing behaviors of behaviors. 
+
 Relations, such as http://purl.obolibrary.org/obo/RO_0019000, could also be used. 
+
 To represent variations of quality/realizable with respect to different processes, ad hoc relations may be developed. We envision discussions with subject matter experts to deepen this characterization.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -9752,7 +9837,7 @@ To represent variations of quality/realizable with respect to different processe
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000173</IRI>
-        <Literal xml:lang="en">cow killing</Literal>
+        <Literal xml:lang="en">beef cattle killing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
@@ -9812,7 +9897,7 @@ To represent variations of quality/realizable with respect to different processe
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000176</IRI>
-        <Literal xml:lang="en">A grazing process that pertin to cows.</Literal>
+        <Literal xml:lang="en">A grazing process that pertain to cows.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -10207,7 +10292,7 @@ To represent variations of quality/realizable with respect to different processe
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000198</IRI>
-        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10230,6 +10315,41 @@ To represent variations of quality/realizable with respect to different processe
         <Literal xml:lang="en">A certification issuance process that pertains to meat systems and related meat supply chains.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000199</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000200</IRI>
+        <Literal xml:lang="en">Do not use this class directly. This class has been constructed as a grouping for supply chain outcome roles to assist class retrieval and visualization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000200</IRI>
+        <Literal xml:lang="en">supply chain otcome role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000200</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000201</IRI>
+        <Literal xml:lang="en">increase of animal welfare</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000201</IRI>
+        <Literal xml:lang="en">An increase of welfare that is realized in an animal (not humans).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000201</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
         <Literal xml:lang="en">meat system animal slaughtering</Literal>
@@ -10249,7 +10369,8 @@ We proposed a definition for this class due to the absence of such in PO2/Trasfo
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3</IRI>
-        <Literal xml:lang="en">We use this class to refer to animals that are part of meat systems. The label may be revised.</Literal>
+        <Literal xml:lang="en">SuMSO developer comment:
+We use this class to refer to animals that are part of meat systems. The label may be revised.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -10345,6 +10466,12 @@ managed grazing</Literal>
         <AbbreviatedIRI>obo:AGRO_00002071</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer:
 we suggest revisions to this definition. A planned process may occur in an agricultural field but not being necessarily related to agriculture.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:ECOCORE_00000139</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+We envision implementations in the axiomatization that specify this class for grazing animals.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10506,7 +10633,7 @@ Upper-level classes, such as animal skin, animal organ, are required.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:IAO_0000033</AbbreviatedIRI>
-        <Literal xml:lang="en">SuMSO comment:
+        <Literal xml:lang="en">SuMSO developer comment:
 Both CCO and IAO cover a “directive information (content) entity” class. Despite being in line, the class definitions present slight differences. For reasons of practicality, we assumed that the two classes correspond and are equivalent. Future works will require more discussion regarding the alignment of the two classes.
 http://purl.obolibrary.org/obo/IAO_0000033
 http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</Literal>
@@ -10514,8 +10641,8 @@ http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationConte
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:IAO_0000104</AbbreviatedIRI>
-        <Literal xml:lang="en">SuMSO creator comment:
-see comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
+        <Literal xml:lang="en">SuMSO developer comment:
+See comment under &quot;complex system activity&quot; and &quot;supply chain&quot; classes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
@@ -10541,7 +10668,7 @@ http://purl.obolibrary.org/obo/FOODON_02020893 and subclasses.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:NCBITaxon_9913</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
-Currently, SuMSO represents meat supply chain activities (and related planned processes) and related inputs and outputs, focusing on Bos taurus, especially beef cattle (adult organisms). Further implementations will expand coverage to other types of cows, species, animal sex, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
+Currently, SuMSO represents meat supply chain activities (and related planned processes), related inputs and outputs, and meat system features, focusing on Bos taurus, especially beef cattle (adult organisms). Further implementations will expand coverage to other types of cows, species, animal sex, different stages of age, i.e. veal, and corresponding involvement in meat supply chains. Implementations will equally deepen the characterization of cow designation based on involvement and functions within meat supply chains and animal age.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10615,7 +10742,7 @@ Organisms are complex systems. Thus, this ontology branch should be positioned u
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:OCCO_00000124</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
-We included the other document subclasses for possible SuMSO implementations.</Literal>
+We included the other &quot;document&quot; subclasses for possible SuMSO implementations.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -10720,7 +10847,7 @@ http://opendata.inrae.fr/thesaurusINRAE/c_9065</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
-        <Literal xml:lang="en">SUmSO definition:
+        <Literal xml:lang="en">SuMSO definition:
 A disposition whose realization leads the system to express sensitivity over resilience to a certain perturbation to which it is exposed.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -10772,7 +10899,7 @@ A disposition whose realization leads the system to persist in its stable state 
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>CommonCoreOntologies:DirectiveInformationContentEntity</AbbreviatedIRI>
-        <Literal xml:lang="en">SuMSO comment:
+        <Literal xml:lang="en">SuMSO developer comment:
 Both CCO and IAO cover a “directive information (content) entity” class. Despite being in line, the class definitions present slight differences. For reasons of practicality, we assumed that the two classes correspond and are equivalent. Future works will require more discussion regarding the alignment of the two classes.
 http://purl.obolibrary.org/obo/IAO_0000033
 http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity</Literal>
