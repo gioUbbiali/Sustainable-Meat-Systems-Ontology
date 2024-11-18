@@ -30,6 +30,9 @@
         <Class abbreviatedIRI="obo:BFO_0000031"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:IAO_0000310"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:OCCO_00000118"/>
     </Declaration>
     <Declaration>
@@ -46,12 +49,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="obo:IAO_0000122"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual abbreviatedIRI="obo:IAO_0000125"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
@@ -83,9 +80,6 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
     </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:IAO_0000310"/>
-    </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OCCO_00000118"/>
         <Class abbreviatedIRI="obo:IAO_0000310"/>
@@ -110,11 +104,6 @@
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
         <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
         <Literal xml:lang="en">editor preferred term</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:IAO_0000111</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -145,11 +134,6 @@
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
         <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
         <Literal xml:lang="en">example of usage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -205,11 +189,6 @@
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
         <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
         <Literal xml:lang="en">definition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -290,11 +269,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <Literal xml:lang="en">editor note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
         <Literal xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</Literal>
@@ -323,11 +297,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
         <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
         <Literal xml:lang="en">term editor</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -365,11 +334,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <Literal xml:lang="en">definition source</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
         <Literal xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</Literal>
@@ -400,16 +364,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <Literal xml:lang="en">definition source</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000122</AbbreviatedIRI>
-        <Literal xml:lang="en">ready for release</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000125</AbbreviatedIRI>
-        <Literal xml:lang="en">pending final vetting</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
         <AbbreviatedIRI>obo:IAO_0000233</AbbreviatedIRI>
         <Literal xml:lang="en">term tracker item</Literal>
@@ -418,11 +372,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
         <AbbreviatedIRI>obo:IAO_0000233</AbbreviatedIRI>
         <Literal xml:lang="en">the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
-        <AbbreviatedIRI>obo:IAO_0000233</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:IAO_0000125</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
