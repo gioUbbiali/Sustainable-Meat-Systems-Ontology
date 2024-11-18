@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://gioUbbiali.github.io/sumso/sumso.owl"
-     versionIRI="http://gioUbbiali.github.io/sumso/v1.0.0/2024-09-27/sumso.owl">
+     versionIRI="http://gioUbbiali.github.io/sumso/v1.0.0/2024-11-18/sumso.owl">
     <Prefix name="" IRI="http://gioUbbiali.github.io/sumso/sumso.owl/"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
