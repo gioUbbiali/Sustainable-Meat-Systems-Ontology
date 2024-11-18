@@ -8367,6 +8367,11 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
         <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000098</IRI>
+        <Literal xml:lang="en">A subclass for representing worker welfare may be added, if needed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000098</IRI>
         <Literal xml:lang="en">human well-being</Literal>
