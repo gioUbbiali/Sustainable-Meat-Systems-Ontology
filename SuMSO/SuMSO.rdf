@@ -23,7 +23,7 @@
      xmlns:AnnotationVocabulary="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://gioUbbiali.github.io/sumso/sumso.owl">
-        <owl:versionIRI rdf:resource="http://gioUbbiali.github.io/sumso/v1.0.0/2024-11-18/sumso.owl"/>
+        <owl:versionIRI rdf:resource="http://gioUbbiali.github.io/sumso/v1.0.0/2024-12-05/sumso.owl"/>
         <owl:imports rdf:resource="http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl"/>
         <owl:imports rdf:resource="http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl"/>
         <owl:imports rdf:resource="http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl"/>
@@ -48,7 +48,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
         <terms:title xml:lang="en">Sustainble Meat Systems Ontology (SuMSO)</terms:title>
         <oboInOwl:hasVersion>Version 1.</oboInOwl:hasVersion>
-        <owl:versionInfo>2024-11-18</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">2024-12-05</owl:versionInfo>
         <skos:note>The most recent version of this file is available on GitHub at the following link: https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology.git</skos:note>
     </owl:Ontology>
     
@@ -1292,6 +1292,17 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
                     <rdf:Description rdf:about="http://gioUbbiali.github.io/sco/SCO_0000010"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                        <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000044"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://gioUbbiali.github.io/sco/SCO_0000010"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000117"/>
                         <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -1366,6 +1377,17 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
                         <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000117"/>
+                        <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000045"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3384,7 +3406,7 @@ https://regenscore.org/</rdfs:seeAlso>
     <!-- http://gioUbbiali.github.io/sumso/SuMSO_0000088 -->
 
     <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000088">
-        <owl:equivalentClass rdf:nodeID="genid803"/>
+        <owl:equivalentClass rdf:nodeID="genid811"/>
         <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
         <oboInOwl:hasRelatedSynonym xml:lang="en">cow well-being, cow wellbeing,</oboInOwl:hasRelatedSynonym>
         <rdfs:comment xml:lang="en">The label may be revised to refer more generally to bovines. Additional classes may be used to specify well-being of single species.</rdfs:comment>
@@ -3392,7 +3414,7 @@ https://regenscore.org/</rdfs:seeAlso>
         <skos:definition xml:lang="en">A animal welfare that is bearered by a cow.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid803">
+    <owl:Class rdf:nodeID="genid811">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
             <owl:Restriction>
@@ -3412,7 +3434,7 @@ https://regenscore.org/</rdfs:seeAlso>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000088"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
-        <owl:annotatedTarget rdf:nodeID="genid803"/>
+        <owl:annotatedTarget rdf:nodeID="genid811"/>
         <rdfs:comment xml:lang="en">This axiom may be revised to refer more general to Bos.</rdfs:comment>
     </owl:Axiom>
     
@@ -3535,12 +3557,12 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</t
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000090"/>
-        <rdfs:subClassOf rdf:nodeID="genid846"/>
+        <rdfs:subClassOf rdf:nodeID="genid854"/>
         <rdfs:label xml:lang="en">meat system well-being</rdfs:label>
         <skos:definition xml:lang="en">A food system well-being that is bearered by a meat system.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid846">
+    <owl:Class rdf:nodeID="genid854">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000090"/>
             <owl:Restriction>
@@ -3556,7 +3578,7 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</t
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000091"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid846"/>
+        <owl:annotatedTarget rdf:nodeID="genid854"/>
         <rdfs:comment xml:lang="en">This axiom currently includes reference to cow well-being. Implementations may establish distinctions between diverse meat systems as not all meat systems relate necessary to cows. This axiom must be revised accordingly.</rdfs:comment>
     </owl:Axiom>
     
@@ -3866,17 +3888,6 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</t
 
     <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03601066"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03601066"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">We adapted the upper-level calss defintion to cows.</rdfs:comment>
         <rdfs:label xml:lang="en">cow grass-fed food product claim</rdfs:label>
         <skos:definition xml:lang="en">A grass-fed food product claim that regards the cows which the food product derives from, were fed a grass or forage-based diet.</skos:definition>
@@ -5189,7 +5200,7 @@ http://id.agrisemantics.org/gacs/C3602</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
-        <rdfs:subClassOf rdf:nodeID="genid1209"/>
+        <rdfs:subClassOf rdf:nodeID="genid1213"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -5226,7 +5237,7 @@ http://id.agrisemantics.org/gacs/C3602</rdfs:seeAlso>
         <skos:definition xml:lang="en">A planned process that concerns preparing meat items for marketing or distribution, including animal slaughtering,animal carcass cutting, meat portion preparation, and meat packing for distribution.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid1209">
+    <owl:Class rdf:nodeID="genid1213">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
             <owl:Restriction>
@@ -5274,7 +5285,7 @@ http://id.agrisemantics.org/gacs/C3602</rdfs:seeAlso>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1209"/>
+        <owl:annotatedTarget rdf:nodeID="genid1213"/>
         <rdfs:comment xml:lang="en">This axiom requires implementation to refer to meat and meat-related animal materials more specifically. Revision must also apply to restrict to animals used for human consumption. 
 See also the comment to corresponding axiom for the &quot;meat processor-meat interaction&quot; class.</rdfs:comment>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
@@ -5320,7 +5331,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf rdf:nodeID="genid1255"/>
+        <rdfs:subClassOf rdf:nodeID="genid1259"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -5337,7 +5348,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         <skos:definition xml:lang="en">Regulation of grazing that specifically regards cows.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid1255">
+    <owl:Class rdf:nodeID="genid1259">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AGRO_00000426"/>
             <owl:Restriction>
@@ -5349,7 +5360,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000154"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1255"/>
+        <owl:annotatedTarget rdf:nodeID="genid1259"/>
         <rdfs:comment xml:lang="en">Alternatively, the object property &quot;regulates&quot; may be used here.</rdfs:comment>
     </owl:Axiom>
     
@@ -5884,7 +5895,7 @@ To represent variations of quality/realizable with respect to different processe
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AGRO_00002071"/>
+                    <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002411"/>
                         <owl:someValuesFrom rdf:resource="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
@@ -5914,12 +5925,12 @@ To represent variations of quality/realizable with respect to different processe
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:subClassOf rdf:nodeID="genid1395"/>
+        <rdfs:subClassOf rdf:nodeID="genid1399"/>
         <rdfs:label xml:lang="en">cow grazing</rdfs:label>
         <skos:definition xml:lang="en">A grazing process that pertain to cows.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid1395">
+    <owl:Class rdf:nodeID="genid1399">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000139"/>
             <owl:Restriction>
@@ -5931,7 +5942,7 @@ To represent variations of quality/realizable with respect to different processe
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1395"/>
+        <owl:annotatedTarget rdf:nodeID="genid1399"/>
         <rdfs:comment xml:lang="en">This axiom must be implemented, for instance with reference to GHG emissions.</rdfs:comment>
     </owl:Axiom>
     
@@ -5989,18 +6000,7 @@ To represent variations of quality/realizable with respect to different processe
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                        <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000171"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000202"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -6019,6 +6019,17 @@ To represent variations of quality/realizable with respect to different processe
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000117"/>
                         <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000175"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                        <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000171"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -6180,13 +6191,13 @@ To represent variations of quality/realizable with respect to different processe
 
     <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000183">
         <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
-        <rdfs:subClassOf rdf:nodeID="genid1466"/>
+        <rdfs:subClassOf rdf:nodeID="genid1470"/>
         <rdfs:comment>This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations.</rdfs:comment>
         <rdfs:label xml:lang="en">meat processor-meat interaction</rdfs:label>
         <skos:definition xml:lang="en">An interaction that occurs between at lest one meat processor and one cow.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid1466">
+    <owl:Class rdf:nodeID="genid1470">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000013"/>
             <owl:Restriction>
@@ -6202,7 +6213,7 @@ To represent variations of quality/realizable with respect to different processe
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000183"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1466"/>
+        <owl:annotatedTarget rdf:nodeID="genid1470"/>
         <rdfs:comment xml:lang="en">This axiom requires implementation to refer to meat and meat-related animal materials.</rdfs:comment>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Axiom>
@@ -6264,7 +6275,7 @@ To represent variations of quality/realizable with respect to different processe
 
     <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600006"/>
-        <rdfs:subClassOf rdf:nodeID="genid1489"/>
+        <rdfs:subClassOf rdf:nodeID="genid1493"/>
         <obo:IAO_0000118 xml:lang="en">meat system animal killing</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">Currently, SuMSO uses this general class. A more specific subclass is required to restrict to animals used for human consumption.</rdfs:comment>
         <rdfs:comment xml:lang="en">In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal killing” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises.</rdfs:comment>
@@ -6273,7 +6284,7 @@ To represent variations of quality/realizable with respect to different processe
         <skos:definition xml:lang="en">A protocol application in which an animal is intentionally put to death</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid1489">
+    <owl:Class rdf:nodeID="genid1493">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
             <owl:Restriction>
@@ -6352,7 +6363,7 @@ To represent variations of quality/realizable with respect to different processe
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000186"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1489"/>
+        <owl:annotatedTarget rdf:nodeID="genid1493"/>
         <rdfs:comment xml:lang="en">See comment to this class.</rdfs:comment>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Axiom>
@@ -6363,13 +6374,13 @@ To represent variations of quality/realizable with respect to different processe
 
     <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000188">
         <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000183"/>
-        <rdfs:subClassOf rdf:nodeID="genid1526"/>
+        <rdfs:subClassOf rdf:nodeID="genid1530"/>
         <rdfs:comment>This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations.</rdfs:comment>
         <rdfs:label xml:lang="en">slaughterer-meat interaction</rdfs:label>
         <skos:definition xml:lang="en">An interaction that occurs between at lest one slaughterer and one cow.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid1526">
+    <owl:Class rdf:nodeID="genid1530">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000183"/>
             <owl:Restriction>
@@ -6385,7 +6396,7 @@ To represent variations of quality/realizable with respect to different processe
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000188"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1526"/>
+        <owl:annotatedTarget rdf:nodeID="genid1530"/>
         <rdfs:comment xml:lang="en">This axiom requires implementation to refer to meat and meat-related animal materials.</rdfs:comment>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Axiom>
@@ -6571,9 +6582,9 @@ To represent variations of quality/realizable with respect to different processe
 
     <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <rdfs:subClassOf rdf:nodeID="genid1585"/>
+        <rdfs:subClassOf rdf:nodeID="genid1589"/>
         <obo:IAO_0000118 xml:lang="en">meat system animal aggregation process</obo:IAO_0000118>
-        <rdfs:comment xml:lang="en">In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal aggregation process” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises.</rdfs:comment>
+        <rdfs:comment xml:lang="en">In this ontology the term “animal” also refers to humans, as they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal aggregation process” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises.</rdfs:comment>
         <rdfs:comment xml:lang="en">Revision must restrict this class to animals used for human consumption.</rdfs:comment>
         <rdfs:comment xml:lang="en">We envision a revision of the label of this class.</rdfs:comment>
         <rdfs:comment xml:lang="en">We use this class to refer to animals that are part of meat systems.</rdfs:comment>
@@ -6581,7 +6592,7 @@ To represent variations of quality/realizable with respect to different processe
         <skos:definition xml:lang="en">A planned process that concerns the purchase of animals from smallholders for resale in large quantities to some supply chain actors or companies that participate in the downstream supply chain activities.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
     </owl:Class>
-    <owl:Class rdf:nodeID="genid1585">
+    <owl:Class rdf:nodeID="genid1589">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
             <owl:Restriction>
@@ -6650,7 +6661,7 @@ To represent variations of quality/realizable with respect to different processe
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000194"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1585"/>
+        <owl:annotatedTarget rdf:nodeID="genid1589"/>
         <rdfs:comment xml:lang="en">Animal aggregation leads to variations of animal welfare. Welfare may increase, decrease or persist unchanged. Including in this axiom reference to animal welfare would not have been very informative. Thus, this axiom currently does not cover reference to animal welfare. We envision implementations that will provide more specific classes and axioms that detail the type of welfare variation.</rdfs:comment>
     </owl:Axiom>
     
@@ -6918,11 +6929,116 @@ To represent variations of quality/realizable with respect to different processe
     
 
 
+    <!-- http://gioUbbiali.github.io/sumso/SuMSO_0000202 -->
+
+    <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000202">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000139"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                        <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000179"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000139"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000139"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301750"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Additional axioms may be added to expandand detail the representation.</rdfs:comment>
+        <rdfs:label xml:lang="en">pasture grazing</rdfs:label>
+        <skos:definition xml:lang="en">A grazing process that occurs on pasture fields.</skos:definition>
+        <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
+    </owl:Class>
+    
+
+
+    <!-- http://gioUbbiali.github.io/sumso/SuMSO_0000203 -->
+
+    <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OCCO_00000124"/>
+        <rdfs:subClassOf rdf:nodeID="genid1705"/>
+        <obo:IAO_0000118 xml:lang="en">AGA certification</obo:IAO_0000118>
+        <dc:source xml:lang="en">https://www.americangrassfed.org/become-a-certified-producer/  
+https://www.americangrassfed.org/about-us/our-standards/</dc:source>
+        <CommonCoreOntologies:definition xml:lang="en">A certification that is designed to signify that animal-derived products originate from 1) animals that are fed 100% forage all their entire life, 2) animals that are raised on pasture and not in confinement, 3) animals that do not receive hormones or antibiotics treatments, and animals raised in US family farms. Animals refer specifically to cows, pigs, and chickens.</CommonCoreOntologies:definition>
+        <rdfs:comment xml:lang="en">Possible additional upper-level classes could be added.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This class and the related axioms aim to be a starting point and example to construct a representation of certifications. We envision discussion with subject matter experts to expand the representation of certification per se and in relation to (correponding) claims.</rdfs:comment>
+        <rdfs:comment xml:lang="en">We constructed this definition based on the details provided on the AGA website, adapting the “certification” class definition. We envision possible implementations.</rdfs:comment>
+        <rdfs:label xml:lang="en">American Grassfed Association (AGA) certification</rdfs:label>
+        <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
+    </owl:Class>
+    <owl:Class rdf:nodeID="genid1705">
+        <owl:intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCCO_00000124"/>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000204"/>
+            </owl:Restriction>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
+            </owl:Restriction>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000202"/>
+            </owl:Restriction>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/prescribes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000426"/>
+            </owl:Restriction>
+        </owl:intersectionOf>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000203"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:nodeID="genid1705"/>
+        <rdfs:comment xml:lang="en">The object property “prescribes” may be substituted/complemented with some more specific/other relations.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This axiom is a starting point Additional axioms are required to complete the representation of AGA certification. Possible implementations include reference to animal raising in US family farms and prohibition of hormones or antibiotics usage as well as specification of the type of animal to which the AGA certification applies, i.e. cows, pigs, and chickens.</rdfs:comment>
+        <rdfs:comment xml:lang="en">We currently include references to animal welfare. Nevertheless, this axiom must be specified for grazing animals.</rdfs:comment>
+        <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://gioUbbiali.github.io/sumso/SuMSO_0000204 -->
+
+    <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000204">
+        <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000199"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000199"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000203"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">See comments under the &quot;certification issuance process&quot; class.</rdfs:comment>
+        <rdfs:comment xml:lang="en">We envision revisions of this definition to provide more details.</rdfs:comment>
+        <rdfs:label xml:lang="en">AGA certification issuance process</rdfs:label>
+        <skos:definition xml:lang="en">A meat system certification issuance process that regards the granting of an AGA certification.</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3 -->
 
     <rdf:Description rdf:about="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3">
         <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
-        <rdfs:subClassOf rdf:nodeID="genid1693"/>
+        <rdfs:subClassOf rdf:nodeID="genid1720"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -6947,7 +7063,7 @@ See also http://opendata.inrae.fr/ThViande/C461</rdfs:seeAlso>
         <skos:definition xml:lang="en">SuMSO definition:
 A meat processing that involves killing animals and preparing related carcasses for further (possible) processing and distribution for human consumption.</skos:definition>
     </rdf:Description>
-    <owl:Class rdf:nodeID="genid1693">
+    <owl:Class rdf:nodeID="genid1720">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
             <owl:Restriction>
@@ -7058,7 +7174,7 @@ A meat processing that involves killing animals and preparing related carcasses 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1693"/>
+        <owl:annotatedTarget rdf:nodeID="genid1720"/>
         <rdfs:comment xml:lang="en">This axiom must be implemented. Revision must apply to restrict to animals used for human consumption.</rdfs:comment>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Axiom>
@@ -7068,7 +7184,7 @@ A meat processing that involves killing animals and preparing related carcasses 
     <!-- http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R -->
 
     <rdf:Description rdf:about="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R">
-        <rdfs:subClassOf rdf:nodeID="genid1748"/>
+        <rdfs:subClassOf rdf:nodeID="genid1775"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7127,7 +7243,7 @@ See also http://opendata.inrae.fr/ThViande/C461</rdfs:seeAlso>
         <skos:definition xml:lang="en">SuMSO definition:
 Animal slaughtering that specifically regards cows.</skos:definition>
     </rdf:Description>
-    <owl:Class rdf:nodeID="genid1748">
+    <owl:Class rdf:nodeID="genid1775">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
             <owl:Restriction>
@@ -7224,7 +7340,7 @@ Animal slaughtering that specifically regards cows.</skos:definition>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1748"/>
+        <owl:annotatedTarget rdf:nodeID="genid1775"/>
         <rdfs:comment xml:lang="en">Cow slaughtering includes several other activities, such as evisceration, deboning, and carcass cleaning. Implementation of this representation will require revision of this axiom.</rdfs:comment>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Axiom>
@@ -7254,7 +7370,7 @@ we changed the label from &quot;farmer&quot; to &quot;farmer-role&quot; to avoid
     <!-- http://purl.obolibrary.org/obo/AGRO_00000426 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/AGRO_00000426">
-        <rdfs:subClassOf rdf:nodeID="genid1814"/>
+        <rdfs:subClassOf rdf:nodeID="genid1841"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7269,7 +7385,7 @@ we changed the label from &quot;farmer&quot; to &quot;farmer-role&quot; to avoid
         <oboInOwl:hasExactSynonym xml:lang="en">SuMSO developer:
 managed grazing</oboInOwl:hasExactSynonym>
     </rdf:Description>
-    <owl:Class rdf:nodeID="genid1814">
+    <owl:Class rdf:nodeID="genid1841">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
             <owl:Restriction>
@@ -7289,7 +7405,7 @@ managed grazing</oboInOwl:hasExactSynonym>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000426"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1814"/>
+        <owl:annotatedTarget rdf:nodeID="genid1841"/>
         <rdfs:comment xml:lang="en">This axioms must be restricted to grazing animals.</rdfs:comment>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Axiom>
@@ -7409,9 +7525,9 @@ We suggest to create a corresponding role, speciic for manure.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/FOODON_00004413 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00004413">
-        <rdfs:subClassOf rdf:nodeID="genid1849"/>
+        <rdfs:subClassOf rdf:nodeID="genid1876"/>
     </rdf:Description>
-    <owl:Class rdf:nodeID="genid1849">
+    <owl:Class rdf:nodeID="genid1876">
         <owl:intersectionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_00002507"/>
             <owl:Restriction>
@@ -7439,7 +7555,7 @@ We suggest to create a corresponding role, speciic for manure.</rdfs:comment>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004413"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid1849"/>
+        <owl:annotatedTarget rdf:nodeID="genid1876"/>
         <rdfs:comment xml:lang="en">This axiom may be revised according to future implementations that will provide details  for interactions specific to slaughterer and beef cattle.</rdfs:comment>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Axiom>
@@ -7497,7 +7613,7 @@ http://purl.obolibrary.org/obo/FOODON_00001092 and relevant subclasses.</rdfs:se
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420116"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03420164"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000176"/>
                         <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
@@ -7585,6 +7701,8 @@ http://purl.obolibrary.org/obo/FOODON_03420175 and subclasses.</rdfs:seeAlso>
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">SuMSO developer comment:
+We consider revising this class label to specify that it applies to grazing animals specifically. Additional axioms may be added.</rdfs:comment>
         <rdfs:comment xml:lang="en">SuMSO developer comment:
 We suggest creating a corresponding “forage” role. Discussion with subject matter experts are required.</rdfs:comment>
         <rdfs:seeAlso xml:lang="en">SuMSO:
@@ -7709,30 +7827,12 @@ http://purl.obolibrary.org/obo/FOODON_00001092 and relevant subclasses.</rdfs:se
     <!-- http://purl.obolibrary.org/obo/FOODON_03601066 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03601066">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03602001"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.ontologyrepository.com/CommonCoreOntologies/is_about"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000426"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym xml:lang="en">SuMSO developer:
 grass-fed</oboInOwl:hasExactSynonym>
         <rdfs:comment xml:lang="en">SuMSO developer comment:
-Implementations will deepen the representation of this class and related subclasses. Axioms will be add to relate these classes to others.</rdfs:comment>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FOODON_03602001 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03602001">
+Implementations will deepen the representation of this class and related subclasses. Axioms are required.</rdfs:comment>
         <rdfs:comment xml:lang="en">SuMSO developer comment:
-we suggest to revise the label as this term applies to food.</rdfs:comment>
+we envision discussion with subject matter experts to expand representation of claims and certifications.</rdfs:comment>
         <rdfs:seeAlso xml:lang="en">SuMSO:
 see comments under the&quot;certification issuance process&quot; class.</rdfs:seeAlso>
     </rdf:Description>
@@ -8152,7 +8252,7 @@ See http://purl.obolibrary.org/obo/FOODON_03411564  for consideration of an alte
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OCCO_00000118"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000033"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000056"/>
                         <owl:someValuesFrom rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000198"/>
@@ -8161,7 +8261,13 @@ See http://purl.obolibrary.org/obo/FOODON_03411564  for consideration of an alte
             </owl:Class>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">SuMSO developer comment:
+Currently, we position this class as a subclass of the “directive information entity” ones. Further implementations may reposition it as subclasses of some of the other “directive information entity” subclasses. We envision discussion with subject matter expect.</rdfs:comment>
+        <rdfs:comment xml:lang="en">SuMSO developer comment:
 We included the other &quot;document&quot; subclasses for possible SuMSO implementations.</rdfs:comment>
+        <rdfs:comment xml:lang="en">SuMSO developer comment:
+we envision discussion with subject matter experts to expand representation of claims and certifications.</rdfs:comment>
+        <rdfs:comment xml:lang="en">SuMSO:
+see comments under the&quot;certification issuance process&quot; class.</rdfs:comment>
         <rdfs:seeAlso>SuMSO:
 http://schema.org/Certification 
 http://purl.obolibrary.org/obo/OMIT_0003897 
@@ -8461,6 +8567,12 @@ This class can be filled with indicator subclasses for food and meat systems.</r
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411349">
         <rdfs:seeAlso xml:lang="en">SuMSO:
 See also: http://purl.obolibrary.org/obo/FOODON_02021290</rdfs:seeAlso>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03602001">
+        <rdfs:comment xml:lang="en">SuMSO developer comment:
+we suggest to revise the label as this term applies to food, such as &quot;food label claiim&quot;.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">SuMSO:
+see comments under the&quot;certification issuance process&quot; class.</rdfs:seeAlso>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000260">
         <rdfs:comment xml:lang="en">SuMSO creator comment:

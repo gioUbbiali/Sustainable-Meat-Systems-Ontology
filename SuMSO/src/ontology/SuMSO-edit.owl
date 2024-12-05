@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://gioUbbiali.github.io/sumso/sumso.owl"
-     versionIRI="http://gioUbbiali.github.io/sumso/v1.0.0/2024-11-18/sumso.owl">
+     versionIRI="http://gioUbbiali.github.io/sumso/v1.0.0/2024-12-04/sumso.owl">
     <Prefix name="" IRI="http://gioUbbiali.github.io/sumso/sumso.owl/"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
@@ -37,6 +37,7 @@
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/obi-iao_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-10/NCIT_import.ofn</Import>
     <Import>http://purl.obolibrary.org/obo/sumso/imports/2024-10-24/OccO_import.ofn</Import>
+    <Import>http://purl.obolibrary.org/obo/sumso/imports2/2024-11-04/uberon_import.ofn</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="terms:creator"/>
         <Literal>Giorgio A. Ubbiali</Literal>
@@ -61,7 +62,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>2024-11-18</Literal>
+        <Literal>2024-12-04</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="skos:note"/>
@@ -627,6 +628,15 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </Declaration>
     <Declaration>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000204"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000052"/>
@@ -1717,6 +1727,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000202"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:ECOCORE_00000139"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000066"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000179"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class abbreviatedIRI="obo:IAO_0000033"/>
         <Class abbreviatedIRI="CommonCoreOntologies:DirectiveInformationContentEntity"/>
     </EquivalentClasses>
@@ -2302,6 +2322,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000010"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000117"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000044"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000030"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sco/SCO_0000010"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000117"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000048"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -2325,6 +2355,16 @@ Currently, this resource provides the core ontological module of SuMSO that deal
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000033"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000030"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000117"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000045"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -3523,16 +3563,6 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <Class abbreviatedIRI="obo:FOODON_03601066"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000099"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_03601066"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="CommonCoreOntologies:is_about"/>
-                <Class abbreviatedIRI="obo:NCBITaxon_9913"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000100"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000041"/>
     </SubClassOf>
@@ -4596,7 +4626,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:AGRO_00002071"/>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:RO_0002411"/>
                 <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R"/>
@@ -4668,17 +4698,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000178"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000178"/>
-        <ObjectIntersectionOf>
-            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000047"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:RO_0002233"/>
-                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000171"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000202"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000178"/>
@@ -4697,6 +4717,16 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000117"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000175"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000178"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000176"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002233"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000171"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
@@ -5321,6 +5351,76 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000202"/>
+        <Class abbreviatedIRI="obo:ECOCORE_00000139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000202"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:ECOCORE_00000139"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:RO_0002233"/>
+                <Class abbreviatedIRI="obo:FOODON_03301750"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000203"/>
+        <Class abbreviatedIRI="obo:OCCO_00000124"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">The object property “prescribes” may be substituted/complemented with some more specific/other relations.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">This axiom is a starting point Additional axioms are required to complete the representation of AGA certification. Possible implementations include reference to animal raising in US family farms and prohibition of hormones or antibiotics usage as well as specification of the type of animal to which the AGA certification applies, i.e. cows, pigs, and chickens.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal xml:lang="en">We currently include references to animal welfare. Nevertheless, this axiom must be specified for grazing animals.</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+            <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+        </Annotation>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000203"/>
+        <ObjectIntersectionOf>
+            <Class abbreviatedIRI="obo:OCCO_00000124"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000204"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="CommonCoreOntologies:prescribes"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000087"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="CommonCoreOntologies:prescribes"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000202"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="CommonCoreOntologies:prescribes"/>
+                <Class abbreviatedIRI="obo:AGRO_00000426"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000204"/>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000199"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000204"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000199"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
+                <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000203"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3"/>
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
     </SubClassOf>
@@ -5699,7 +5799,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_02020889"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_03420116"/>
+            <Class abbreviatedIRI="obo:FOODON_03420164"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000176"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000003"/>
@@ -5806,16 +5906,6 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03530005"/>
         <Class abbreviatedIRI="obo:IAO_0000027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_03601066"/>
-        <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:FOODON_03602001"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="CommonCoreOntologies:is_about"/>
-                <Class abbreviatedIRI="obo:AGRO_00000426"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GSSO_008727"/>
@@ -6047,7 +6137,7 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     <SubClassOf>
         <Class abbreviatedIRI="obo:OCCO_00000124"/>
         <ObjectIntersectionOf>
-            <Class abbreviatedIRI="obo:OCCO_00000118"/>
+            <Class abbreviatedIRI="obo:IAO_0000033"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000198"/>
@@ -9963,7 +10053,7 @@ To represent variations of quality/realizable with respect to different processe
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000194</IRI>
-        <Literal xml:lang="en">In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal aggregation process” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises.</Literal>
+        <Literal xml:lang="en">In this ontology the term “animal” also refers to humans, as they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal aggregation process” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10124,6 +10214,87 @@ To represent variations of quality/realizable with respect to different processe
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000201</IRI>
         <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000202</IRI>
+        <Literal xml:lang="en">Additional axioms may be added to expandand detail the representation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000202</IRI>
+        <Literal xml:lang="en">pasture grazing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000202</IRI>
+        <Literal xml:lang="en">A grazing process that occurs on pasture fields.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000202</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Released</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000203</IRI>
+        <Literal xml:lang="en">AGA certification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000203</IRI>
+        <Literal xml:lang="en">https://www.americangrassfed.org/become-a-certified-producer/  
+https://www.americangrassfed.org/about-us/our-standards/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="CommonCoreOntologies:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000203</IRI>
+        <Literal xml:lang="en">A certification that is designed to signify that animal-derived products originate from 1) animals that are fed 100% forage all their entire life, 2) animals that are raised on pasture and not in confinement, 3) animals that do not receive hormones or antibiotics treatments, and animals raised in US family farms. Animals refer specifically to cows, pigs, and chickens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000203</IRI>
+        <Literal xml:lang="en">Possible additional upper-level classes could be added.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000203</IRI>
+        <Literal xml:lang="en">This class and the related axioms aim to be a starting point and example to construct a representation of certifications. We envision discussion with subject matter experts to expand the representation of certification per se and in relation to (correponding) claims.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000203</IRI>
+        <Literal xml:lang="en">We constructed this definition based on the details provided on the AGA website, adapting the “certification” class definition. We envision possible implementations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000203</IRI>
+        <Literal xml:lang="en">American Grassfed Association (AGA) certification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000203</IRI>
+        <AbbreviatedIRI>AnnotationVocabulary:Provisional</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000204</IRI>
+        <Literal xml:lang="en">See comments under the &quot;certification issuance process&quot; class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000204</IRI>
+        <Literal xml:lang="en">We envision revisions of this definition to provide more details.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000204</IRI>
+        <Literal xml:lang="en">AGA certification issuance process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000204</IRI>
+        <Literal xml:lang="en">A meat system certification issuance process that regards the granting of an AGA certification.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
@@ -10333,6 +10504,12 @@ http://purl.obolibrary.org/obo/FOODON_03420175 and subclasses.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:FOODON_03301750</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
+We consider revising this class label to specify that it applies to grazing animals specifically. Additional axioms may be added.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:FOODON_03301750</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
 We suggest creating a corresponding “forage” role. Discussion with subject matter experts are required.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -10404,13 +10581,25 @@ grass-fed</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:FOODON_03601066</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
-Implementations will deepen the representation of this class and related subclasses. Axioms will be add to relate these classes to others.</Literal>
+Implementations will deepen the representation of this class and related subclasses. Axioms are required.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:FOODON_03601066</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+we envision discussion with subject matter experts to expand representation of claims and certifications.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:FOODON_03601066</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+see comments under the&quot;certification issuance process&quot; class.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:FOODON_03602001</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
-we suggest to revise the label as this term applies to food.</Literal>
+we suggest to revise the label as this term applies to food, such as &quot;food label claiim&quot;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -10538,7 +10727,25 @@ See http://purl.obolibrary.org/obo/FOODON_03411564  for consideration of an alte
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>obo:OCCO_00000124</AbbreviatedIRI>
         <Literal xml:lang="en">SuMSO developer comment:
+Currently, we position this class as a subclass of the “directive information entity” ones. Further implementations may reposition it as subclasses of some of the other “directive information entity” subclasses. We envision discussion with subject matter expect.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:OCCO_00000124</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
 We included the other &quot;document&quot; subclasses for possible SuMSO implementations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:OCCO_00000124</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO developer comment:
+we envision discussion with subject matter experts to expand representation of claims and certifications.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:OCCO_00000124</AbbreviatedIRI>
+        <Literal xml:lang="en">SuMSO:
+see comments under the&quot;certification issuance process&quot; class.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
