@@ -23,7 +23,7 @@
      xmlns:AnnotationVocabulary="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://gioUbbiali.github.io/sumso/sumso.owl">
-        <owl:versionIRI rdf:resource="http://gioUbbiali.github.io/sumso/v1.0.0/2024-12-05/sumso.owl"/>
+        <owl:versionIRI rdf:resource="http://gioUbbiali.github.io/sumso/v1.0.0/2024-12-04/sumso.owl"/>
         <owl:imports rdf:resource="http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl"/>
         <owl:imports rdf:resource="http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl"/>
         <owl:imports rdf:resource="http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl"/>
@@ -48,7 +48,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
         <terms:title xml:lang="en">Sustainble Meat Systems Ontology (SuMSO)</terms:title>
         <oboInOwl:hasVersion>Version 1.</oboInOwl:hasVersion>
-        <owl:versionInfo xml:lang="en">2024-12-05</owl:versionInfo>
+        <owl:versionInfo>2024-12-04</owl:versionInfo>
         <skos:note>The most recent version of this file is available on GitHub at the following link: https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology.git</skos:note>
     </owl:Ontology>
     
@@ -6890,7 +6890,7 @@ To represent variations of quality/realizable with respect to different processe
     <owl:Class rdf:about="http://gioUbbiali.github.io/sumso/SuMSO_0000200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:comment xml:lang="en">Do not use this class directly. This class has been constructed as a grouping for supply chain outcome roles to assist class retrieval and visualization.</rdfs:comment>
-        <rdfs:label xml:lang="en">supply chain otcome role</rdfs:label>
+        <rdfs:label xml:lang="en">supply chain outcome role</rdfs:label>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
     </owl:Class>
     

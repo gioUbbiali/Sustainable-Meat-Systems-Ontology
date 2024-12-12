@@ -41,10 +41,10 @@
         <Class abbreviatedIRI="obo:BFO_0000040"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0004529"/>
+        <Class abbreviatedIRI="obo:FOODON_02020910"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:UBERON_0004765"/>
+        <Class abbreviatedIRI="obo:UBERON_0004529"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:UBERON_0006967"/>
@@ -145,9 +145,6 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
     </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:FOODON_02020910"/>
-    </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:BFO_0000002"/>
         <Class abbreviatedIRI="obo:BFO_0000001"/>
@@ -163,10 +160,6 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:UBERON_0004529"/>
         <Class abbreviatedIRI="obo:FOODON_02020910"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:UBERON_0004765"/>
-        <Class abbreviatedIRI="obo:BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:UBERON_0006967"/>
@@ -1037,81 +1030,6 @@ WHERE {
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>Organ consisting of skeletal tissue. Encompasses whole bones, fused bones, cartilaginious elements, teeth, dermal denticles.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <AbbreviatedIRI>obo:uberon.owl</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:UBPROP_0000001"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>Organ entity that is typically involved in mechanical support and may have different skeletal tissue compositions at different stages.[VSAO]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:UBPROP_0000001"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>Organ entity that may have different tissue compositions at different stages and is typically involved in mechanical support.[TAO]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>AAO:0011129</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>TAO:0001890</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>VSAO:0000128</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>XAO:0004012</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>ZFA:0005494</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>galen:SkeletalStructure</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>uberon</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>UBERON:0004765</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <IRI>http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#organ_slim</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:inSubset"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <IRI>http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#uberon_slim</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:UBERON_0004765</AbbreviatedIRI>
-        <Literal>skeletal element</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:UBERON_0006967</AbbreviatedIRI>
         <Literal>A pointed projection of the skin on the head of various animals, consisting of a covering of horn (keratin and other proteins) surrounding a core of living bone.</Literal>
     </AnnotationAssertion>
@@ -1392,7 +1310,7 @@ WHERE {
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147483883"/>
+        <AnonymousIndividual nodeID="_:genid2147483874"/>
         <AbbreviatedIRI>obo:uberon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
 </Ontology>
