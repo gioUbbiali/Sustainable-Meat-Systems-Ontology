@@ -15,7 +15,7 @@
 @base <http://gioUbbiali.github.io/sumso/sumso.owl/> .
 
 <http://gioUbbiali.github.io/sumso/sumso.owl> rdf:type owl:Ontology ;
-                                               owl:versionIRI <http://gioUbbiali.github.io/sumso/v1.0.0/2024-12-04/sumso.owl> ;
+                                               owl:versionIRI <http://gioUbbiali.github.io/sumso/v1.0.0/2024-12-05/sumso.owl> ;
                                                owl:imports <http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl> ,
                                                            <http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl> ,
                                                            <http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl> ,
@@ -40,7 +40,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
                                                terms:license "https://creativecommons.org/licenses/by/4.0/" ;
                                                terms:title "Sustainble Meat Systems Ontology (SuMSO)"@en ;
                                                oboInOwl:hasVersion "Version 1." ;
-                                               owl:versionInfo "2024-12-04" ;
+                                               owl:versionInfo "2024-12-05"@en ;
                                                skos:note "The most recent version of this file is available on GitHub at the following link: https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology.git" .
 
 #################################################################

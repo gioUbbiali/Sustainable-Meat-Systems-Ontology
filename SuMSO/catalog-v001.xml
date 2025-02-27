@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://gioUbbiali.github.io/sco/v1.0.0/24-09-17/sco.owl" uri="https://raw.githubusercontent.com/gioUbbiali/Sustainability-Core-Ontology/refs/heads/main/SCO%20material/SCO%20V1.0.0..owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn" uri="src/ontology/imports/vo-imports.ofn"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/sumso/imports2/2024-11-04/uberon_import.ofn" uri="src/ontology/imports/uberon-imports.ofn"/>
     <uri id="Imports Wizard Entry" name="http://gioUbbiali.github.io/sumso/2024-10-24/trasformon.imports.owl" uri="src/ontology/imports/trasformon-imports.owl"/>
