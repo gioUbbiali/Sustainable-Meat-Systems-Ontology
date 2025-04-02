@@ -63,36 +63,16 @@ oboInOwl:hasVersion rdf:type owl:AnnotationProperty .
 <http://gioUbbiali.github.io/sco/SCO_0000038> owl:equivalentProperty obo:RO_0002500 .
 
 
-###  http://purl.obolibrary.org/obo/BFO_0000056
-obo:BFO_0000056 owl:equivalentProperty obo:RO_0000056 .
-
-
 ###  http://purl.obolibrary.org/obo/BFO_0000057
 obo:BFO_0000057 owl:equivalentProperty obo:RO_0000057 .
-
-
-###  http://purl.obolibrary.org/obo/BFO_0000059
-obo:BFO_0000059 owl:equivalentProperty obo:RO_0000059 .
-
-
-###  http://purl.obolibrary.org/obo/BFO_0000084
-obo:BFO_0000084 owl:equivalentProperty obo:RO_0010001 .
 
 
 ###  http://purl.obolibrary.org/obo/BFO_0000101
 obo:BFO_0000101 owl:equivalentProperty obo:RO_0010002 .
 
 
-###  http://purl.obolibrary.org/obo/BFO_0000124
-obo:BFO_0000124 owl:equivalentProperty obo:RO_0001015 .
-
-
 ###  http://purl.obolibrary.org/obo/BFO_0000132
 obo:BFO_0000132 owl:equivalentProperty obo:RO_0002012 .
-
-
-###  http://purl.obolibrary.org/obo/BFO_0000171
-obo:BFO_0000171 owl:equivalentProperty obo:RO_0001025 .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000136
@@ -1570,7 +1550,7 @@ Depending on SCO implementations regarding system granularity, this class and re
                                                   rdfs:label "supply chain"@en ;
                                                   rdfs:seeAlso """See also:
 https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyChainProcess"""@en ;
-                                                  skos:definition "A planned process that has as proper occurrent parts some (at least one) supply chain activities that are causally concatenated and realize the plan that concretizes the plan specification that generically depends on at lest one complex system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows."@en ;
+                                                  skos:definition "A planned process that has as proper occurrent parts some (at least one) supply chain activities that are causally concatenated and realize the plan that concretizes the plan specification that generically depends on at least one complex system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows."@en ;
                                                   AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
 
@@ -2942,7 +2922,7 @@ _:genid854 owl:intersectionOf ( <http://gioUbbiali.github.io/sumso/SuMSO_0000090
                                                   rdfs:subClassOf <http://gioUbbiali.github.io/sumso/SuMSO_0000086> ;
                                                   rdfs:comment "A subclass for representing worker welfare may be added, if needed."@en ;
                                                   rdfs:label "human well-being"@en ;
-                                                  skos:definition "A well-being that is bearered by a human."@en ;
+                                                  skos:definition "A complex system component well-being that is bearered by a human."@en ;
                                                   AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
 
@@ -3773,7 +3753,7 @@ http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54072
 http://www.eionet.europa.eu/gemet/concept/15139 
 http://aims.fao.org/aos/agrovoc/c_36930 
 http://id.agrisemantics.org/gacs/C3602"""@en ;
-                                                  skos:definition "A disposition whose realization leads the system to express sensitivity over resilience to a certain perturbation to which it is exposed."@en ;
+                                                  skos:definition "A quality disposition whose realization leads the system to re-acquire its previous stable state of equilibrium after a perturbation."@en ;
                                                   AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
 
@@ -5234,7 +5214,7 @@ _:genid1589 owl:intersectionOf ( <http://gioUbbiali.github.io/sumso/SuMSO_000004
                                                   rdfs:comment "Additional classes and axioms are required to represent different types of interactions, certifications, further participants and agents, and sub-activities."@en ,
                                                                "This class aims to be a starting point to develop a representation of the certification process along supply chains. Discussions with subject matter experts are needed. Implementation will deepen into distinguishing certification verifying, certifying and assignment. The process of certification may occur at different stages of a supply chain and may concern different activities, activity participants, items or practices. Further classes and axioms will be provided to extend this representation. Further, the relation between certification and claim will be equally explored. Similarly, more details are required to deepen the role and participation of companies in this process as well as those of organizations and people with regards to awarding and recognizing certifications."@en ;
                                                   rdfs:label "certification issuance process"@en ;
-                                                  skos:definition "A planned process that concerns the assessment and attesting of compliance with a specified benchmark (criteria), prescribed by a certain certification, and the consequently assignment of the certification, If the specified benchmark (criteria) is met. This process may regard different stages of a supply chain, related activities, participants, items, inputs and outputs, and practices."@en ;
+                                                  skos:definition "A planned process that concerns the assessment and attesting of compliance with a specified benchmark (criteria), prescribed by a certain certification, and the consequent assignment of the certification, if the specified benchmark (criteria) is met. This process may regard different stages of a supply chain, related activities, participants, items, inputs and outputs, and practices."@en ;
                                                   AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
 
@@ -5923,8 +5903,7 @@ http://purl.obolibrary.org/obo/ENVO_01001113"""@en .
 
 
 ###  http://purl.obolibrary.org/obo/FOODON_03305517
-obo:FOODON_03305517 rdfs:subClassOf <http://gioUbbiali.github.io/sumso/SuMSO_0000001> ,
-                                    obo:FOODON_02020889 ,
+obo:FOODON_03305517 rdfs:subClassOf obo:FOODON_02020889 ,
                                     [ owl:intersectionOf ( obo:FOODON_02010020
                                                            [ rdf:type owl:Restriction ;
                                                              owl:onProperty obo:BFO_0000176 ;

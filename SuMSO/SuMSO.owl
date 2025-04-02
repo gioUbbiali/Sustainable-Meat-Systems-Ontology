@@ -1272,6 +1272,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </EquivalentClasses>
     <EquivalentClasses>
         <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
+        <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This axiom may be revised to refer more general to Bos.</Literal>
         </Annotation>
@@ -3394,6 +3398,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
+        <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This axiom currently includes reference to cow well-being. Implementations may establish distinctions between diverse meat systems as not all meat systems relate necessary to cows. This axiom must be revised accordingly.</Literal>
         </Annotation>
@@ -4152,6 +4160,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     </SubClassOf>
     <SubClassOf>
         <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
+        <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This axiom requires implementation to refer to meat and meat-related animal materials more specifically. Revision must also apply to restrict to animals used for human consumption. 
 See also the comment to corresponding axiom for the &quot;meat processor-meat interaction&quot; class.</Literal>
@@ -4257,6 +4269,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">Alternatively, the object property &quot;regulates&quot; may be used here.</Literal>
@@ -4655,6 +4671,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
+        <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This axiom must be implemented, for instance with reference to GHG emissions.</Literal>
         </Annotation>
@@ -4823,6 +4843,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
+        <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This axiom requires implementation to refer to meat and meat-related animal materials.</Literal>
         </Annotation>
@@ -4882,6 +4906,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         <Class abbreviatedIRI="obo:OBI_0600006"/>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">See comment to this class.</Literal>
@@ -4959,6 +4987,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000183"/>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This axiom requires implementation to refer to meat and meat-related animal materials.</Literal>
@@ -5115,6 +5147,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         <Class abbreviatedIRI="obo:OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">Animal aggregation leads to variations of animal welfare. Welfare may increase, decrease or persist unchanged. Including in this axiom reference to animal welfare would not have been very informative. Thus, this axiom currently does not cover reference to animal welfare. We envision implementations that will provide more specific classes and axioms that detail the type of welfare variation.</Literal>
@@ -5370,6 +5406,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
+        <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">The object property “prescribes” may be substituted/complemented with some more specific/other relations.</Literal>
         </Annotation>
@@ -5425,6 +5465,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000153"/>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This axiom must be implemented. Revision must apply to restrict to animals used for human consumption.</Literal>
@@ -5532,6 +5576,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">Cow slaughtering includes several other activities, such as evisceration, deboning, and carcass cleaning. Implementation of this representation will require revision of this axiom.</Literal>
@@ -5660,6 +5708,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
     </SubClassOf>
     <SubClassOf>
         <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
+        <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This axioms must be restricted to grazing animals.</Literal>
         </Annotation>
@@ -5749,6 +5801,10 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         <Class abbreviatedIRI="obo:OBI_0000094"/>
     </SubClassOf>
     <SubClassOf>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This axiom may be revised according to future implementations that will provide details  for interactions specific to slaughterer and beef cattle.</Literal>
@@ -5847,10 +5903,6 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
                 <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000004"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:FOODON_03305517"/>
-        <Class IRI="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:FOODON_03305517"/>
@@ -6357,42 +6409,26 @@ See also the comment to corresponding axiom for the &quot;meat processor-meat in
         <ObjectProperty abbreviatedIRI="obo:RO_0002500"/>
     </EquivalentObjectProperties>
     <EquivalentObjectProperties>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000056"/>
-        <ObjectProperty abbreviatedIRI="obo:RO_0000056"/>
-    </EquivalentObjectProperties>
-    <EquivalentObjectProperties>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000057"/>
         <ObjectProperty abbreviatedIRI="obo:RO_0000057"/>
-    </EquivalentObjectProperties>
-    <EquivalentObjectProperties>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000059"/>
-        <ObjectProperty abbreviatedIRI="obo:RO_0000059"/>
-    </EquivalentObjectProperties>
-    <EquivalentObjectProperties>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000084"/>
-        <ObjectProperty abbreviatedIRI="obo:RO_0010001"/>
     </EquivalentObjectProperties>
     <EquivalentObjectProperties>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000101"/>
         <ObjectProperty abbreviatedIRI="obo:RO_0010002"/>
     </EquivalentObjectProperties>
     <EquivalentObjectProperties>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000124"/>
-        <ObjectProperty abbreviatedIRI="obo:RO_0001015"/>
-    </EquivalentObjectProperties>
-    <EquivalentObjectProperties>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000132"/>
         <ObjectProperty abbreviatedIRI="obo:RO_0002012"/>
-    </EquivalentObjectProperties>
-    <EquivalentObjectProperties>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000171"/>
-        <ObjectProperty abbreviatedIRI="obo:RO_0001025"/>
     </EquivalentObjectProperties>
     <EquivalentObjectProperties>
         <ObjectProperty abbreviatedIRI="obo:IAO_0000136"/>
         <ObjectProperty abbreviatedIRI="CommonCoreOntologies:is_about"/>
     </EquivalentObjectProperties>
     <ObjectPropertyRange>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en">This property had PATO &quot;quality&quot; class as range, originally.
@@ -7404,7 +7440,7 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000050</IRI>
-        <Literal xml:lang="en">A planned process that has as proper occurrent parts some (at least one) supply chain activities that are causally concatenated and realize the plan that concretizes the plan specification that generically depends on at lest one complex system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows.</Literal>
+        <Literal xml:lang="en">A planned process that has as proper occurrent parts some (at least one) supply chain activities that are causally concatenated and realize the plan that concretizes the plan specification that generically depends on at least one complex system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -8473,7 +8509,7 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</L
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000098</IRI>
-        <Literal xml:lang="en">A well-being that is bearered by a human.</Literal>
+        <Literal xml:lang="en">A complex system component well-being that is bearered by a human.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -9217,7 +9253,7 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000146</IRI>
-        <Literal xml:lang="en">A disposition whose realization leads the system to express sensitivity over resilience to a certain perturbation to which it is exposed.</Literal>
+        <Literal xml:lang="en">A quality disposition whose realization leads the system to re-acquire its previous stable state of equilibrium after a perturbation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -10153,7 +10189,7 @@ To represent variations of quality/realizable with respect to different processe
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000198</IRI>
-        <Literal xml:lang="en">A planned process that concerns the assessment and attesting of compliance with a specified benchmark (criteria), prescribed by a certain certification, and the consequently assignment of the certification, If the specified benchmark (criteria) is met. This process may regard different stages of a supply chain, related activities, participants, items, inputs and outputs, and practices.</Literal>
+        <Literal xml:lang="en">A planned process that concerns the assessment and attesting of compliance with a specified benchmark (criteria), prescribed by a certain certification, and the consequent assignment of the certification, if the specified benchmark (criteria) is met. This process may regard different stages of a supply chain, related activities, participants, items, inputs and outputs, and practices.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -10789,6 +10825,10 @@ see also http://purl.obolibrary.org/obo/NCIT_C54131</Literal>
             <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
             <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
         </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
         <Literal xml:lang="en">system vulnerability</Literal>
@@ -10857,6 +10897,10 @@ http://opendata.inrae.fr/thesaurusINRAE/c_9065</Literal>
             <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
             <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
         </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
+        </Annotation>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
         <Literal xml:lang="en">SuMSO definition:
@@ -10866,6 +10910,10 @@ A disposition whose realization leads the system to express sensitivity over res
         <Annotation>
             <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
             <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
         <IRI>http://purl.unep.org/sdg/SDGIO_00010021</IRI>
@@ -10902,6 +10950,10 @@ We decided to include the SDGIO class as judged adequate to represent system res
         <Annotation>
             <AnnotationProperty IRI="http://gioUbbiali.github.io/sco/SCO_0000039"/>
             <IRI>http://gioUbbiali.github.io/sumso/SuMSO_0000052</IRI>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdf:type"/>
+            <AbbreviatedIRI>owl:Axiom</AbbreviatedIRI>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://purl.unep.org/sdg/SDGIO_00010021</IRI>

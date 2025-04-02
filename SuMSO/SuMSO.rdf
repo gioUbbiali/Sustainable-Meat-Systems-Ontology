@@ -98,34 +98,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000056 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000056">
-        <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000057 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000057">
         <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000059 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000059">
-        <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000084 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000084">
-        <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0010001"/>
     </rdf:Description>
     
 
@@ -138,26 +114,10 @@ Currently, this resource provides the core ontological module of SuMSO that deal
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000124 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000124">
-        <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000132 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000132">
         <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002012"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000171 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000171">
-        <owl:equivalentProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
     </rdf:Description>
     
 
@@ -2101,7 +2061,7 @@ Depending on SCO implementations regarding system granularity, this class and re
         <rdfs:label xml:lang="en">supply chain</rdfs:label>
         <rdfs:seeAlso xml:lang="en">See also:
 https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyChainProcess</rdfs:seeAlso>
-        <skos:definition xml:lang="en">A planned process that has as proper occurrent parts some (at least one) supply chain activities that are causally concatenated and realize the plan that concretizes the plan specification that generically depends on at lest one complex system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows.</skos:definition>
+        <skos:definition xml:lang="en">A planned process that has as proper occurrent parts some (at least one) supply chain activities that are causally concatenated and realize the plan that concretizes the plan specification that generically depends on at least one complex system component. At least one of the outputs of the activity(-ies) that occurs before is an input for the activity(ies) that follows.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Class>
     
@@ -3878,7 +3838,7 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion</t
         <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000086"/>
         <rdfs:comment xml:lang="en">A subclass for representing worker welfare may be added, if needed.</rdfs:comment>
         <rdfs:label xml:lang="en">human well-being</rdfs:label>
-        <skos:definition xml:lang="en">A well-being that is bearered by a human.</skos:definition>
+        <skos:definition xml:lang="en">A complex system component well-being that is bearered by a human.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
     </owl:Class>
     
@@ -5000,7 +4960,7 @@ http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54072
 http://www.eionet.europa.eu/gemet/concept/15139 
 http://aims.fao.org/aos/agrovoc/c_36930 
 http://id.agrisemantics.org/gacs/C3602</rdfs:seeAlso>
-        <skos:definition xml:lang="en">A disposition whose realization leads the system to express sensitivity over resilience to a certain perturbation to which it is exposed.</skos:definition>
+        <skos:definition xml:lang="en">A quality disposition whose realization leads the system to re-acquire its previous stable state of equilibrium after a perturbation.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Released"/>
     </owl:Class>
     
@@ -6843,7 +6803,7 @@ To represent variations of quality/realizable with respect to different processe
         <rdfs:comment xml:lang="en">Additional classes and axioms are required to represent different types of interactions, certifications, further participants and agents, and sub-activities.</rdfs:comment>
         <rdfs:comment xml:lang="en">This class aims to be a starting point to develop a representation of the certification process along supply chains. Discussions with subject matter experts are needed. Implementation will deepen into distinguishing certification verifying, certifying and assignment. The process of certification may occur at different stages of a supply chain and may concern different activities, activity participants, items or practices. Further classes and axioms will be provided to extend this representation. Further, the relation between certification and claim will be equally explored. Similarly, more details are required to deepen the role and participation of companies in this process as well as those of organizations and people with regards to awarding and recognizing certifications.</rdfs:comment>
         <rdfs:label xml:lang="en">certification issuance process</rdfs:label>
-        <skos:definition xml:lang="en">A planned process that concerns the assessment and attesting of compliance with a specified benchmark (criteria), prescribed by a certain certification, and the consequently assignment of the certification, If the specified benchmark (criteria) is met. This process may regard different stages of a supply chain, related activities, participants, items, inputs and outputs, and practices.</skos:definition>
+        <skos:definition xml:lang="en">A planned process that concerns the assessment and attesting of compliance with a specified benchmark (criteria), prescribed by a certain certification, and the consequent assignment of the certification, if the specified benchmark (criteria) is met. This process may regard different stages of a supply chain, related activities, participants, items, inputs and outputs, and practices.</skos:definition>
         <AnnotationVocabulary:maturity rdf:resource="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/Provisional"/>
     </owl:Class>
     
@@ -7714,7 +7674,6 @@ http://purl.obolibrary.org/obo/ENVO_01001113</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/FOODON_03305517 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03305517">
-        <rdfs:subClassOf rdf:resource="http://gioUbbiali.github.io/sumso/SuMSO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_02020889"/>
         <rdfs:subClassOf>
             <owl:Class>
