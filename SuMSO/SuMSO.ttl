@@ -343,7 +343,7 @@ Borghini, Andrea, & Piras, N. (2021). On Interpreting Something as Food. Food Et
                                                                                              ]
                                                                                              [ rdf:type owl:Restriction ;
                                                                                                owl:onProperty obo:BFO_0000056 ;
-                                                                                               owl:someValuesFrom <http://gioUbbiali.github.io/sumso/SuMSO_0000046>
+                                                                                               owl:someValuesFrom <http://gioUbbiali.github.io/sumso/SuMSO_0000047>
                                                                                              ]
                                                                                            ) ;
                                                                         rdf:type owl:Class
