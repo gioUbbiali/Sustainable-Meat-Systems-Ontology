@@ -7,7 +7,7 @@ This repository maintains the Sustainable Meat Systems Ontology (SuMSO). SuMSO i
 ## Material
 
 Currently, this repository hosts the SuMSO Ontological Module (SuMSO OM). SuMSO OM is a (non-exhaustive) starting basis from which to further implement a stable resource addressing meat systems sustainability in its whole. It provides a representation of the core architectural features of a sustainable meat system. 
-Cow-deriving meat systems are the SuMSO OM use-case. SuMSO OM deals with meat in a broad sense: it contemplates the liaisons with other cow-derived materials, such as leather. Future implementations will expand SuMSO representation to cover other meat systems and the interrelations among them. For further details, please refer to the publication provided in the “Publications and Documentation” section.
+Cow-deriving meat systems are the SuMSO OM use-case. SuMSO OM deals with meat in a broad sense: it contemplates the liaisons with other cow-derived materials, such as leather. Future implementations will expand SuMSO representation to cover other meat systems and the interrelations among them. For further details, please refer to [Ubbiali (2025).](https://air.unimi.it/handle/2434/1161515)
 
 SuMSO V1.0.0 is the first version and the current release of SuMSO OM. It is formalized in [Web Ontology Language (OWL)](https://www.w3.org/TR/owl2-overview/) and covers English as natural language. SuMSO V1.0.0 encompasses 473 classes, 284 object properties, 132 annotation properties, and 7 individuals. SuMSO V1.0.0  conforms to [OBO-Foundry principles](https://obofoundry.org/principles/fp-000-summary.html).
 
@@ -21,7 +21,7 @@ SuMSO OM materials can be found here:
 
 SuMSO V1.0.0 is implemented  in [OWL/XML](https://www.w3.org/TR/owl2-overview/), [RDF/XML](https://www.w3.org/TR/rdf-syntax-grammar/), and [Terse RDF Triple Language](https://www.w3.org/TR/turtle/). 
 
-The publication provided in the “Publications and Documentation” section presents the process of development of SuMSO V1.0.0. 
+[Ubbiali (2025)](https://air.unimi.it/handle/2434/1161515) presents the process of development of SuMSO V1.0.0. 
 
 Materials have been organized considering a possible future migration of this repo to the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).
 
@@ -50,7 +50,7 @@ Giorgio A. Ubbiali - Giorgio.Ubbiali@unimi.it
 
 ## Publications and Documentation
 
-Coming soon.
+Ubbiali, G. A. (2025). *Designing Foundational Strategies for Developing a Family of Food Systems Sustainability Ontologies*. PhD Thesis, UNIMI. https://air.unimi.it/handle/2434/1161515
 
 ## See Also
 
