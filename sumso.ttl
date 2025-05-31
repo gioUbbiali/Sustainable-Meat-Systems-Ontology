@@ -38,7 +38,7 @@
 
 Currently, this resource provides the core ontological module of SuMSO that deals with the essential architectural features of a sustainable meat system. This ontological module addresses meat in a broad, genuine sense focusing on cow-derived meat as a starting use-case example. It does not address features related to fish, insects, novel meats, and plant-based meats. The SuMSO core ontological module aims to be the starting basis on which to extend SuMSO to more comprehensively represent meat systems sustainability."""@en ;
                               terms:license "https://creativecommons.org/licenses/by/4.0/" ;
-                              terms:title "Sustainble Meat Systems Ontology (SuMSO)"@en ;
+                              terms:title "Sustainable Meat Systems Ontology (SuMSO)"@en ;
                               oboInOwl:hasVersion "V1.0.0." ;
                               owl:priorVersion "https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/releases/tag/v1.0.0" ;
                               owl:versionInfo "2025-05-31" ;
