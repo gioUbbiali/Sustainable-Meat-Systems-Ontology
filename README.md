@@ -15,12 +15,12 @@ SuMSO V1.0.1 is the current release of SuMSO OM. It implements SuMSO V1.0.0 by s
 
 SuMSO OM materials can be found here:
 
-- [SuMSO OM materials-total.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO)
+- [SuMSO OM materials-total.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO%20material)
 - SuMSO V1.0.1 release.
-- [SuMSO V1.0.1 final draft version prior to release.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO/src/ontology)
+- [SuMSO V1.0.1 final draft version prior to release.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO%20material/src/ontology)
 - [SuMSO V1.0.0 release.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/releases/tag/v1.0.0)
-- [SuMSO V1.0.0 imports from external ontologies. ](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO/src/ontology/imports)
-- [Materials for implementation.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO/materials%20for%20implementation)
+- [SuMSO V1.0.0 imports from external ontologies. ](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO%20material/src/ontology/imports)
+- [Materials for implementation.](https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/tree/main/SuMSO%20material/materials%20for%20implementation)
 
 [Ubbiali (2025)](https://air.unimi.it/handle/2434/1161515) presents the process of development of SuMSO V1.0.0. 
 
