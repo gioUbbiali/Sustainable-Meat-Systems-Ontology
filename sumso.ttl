@@ -25,7 +25,7 @@
                                           <http://purl.obolibrary.org/obo/sumso/2024-10-24/imports/GSSO_import.ofn> ,
                                           <http://purl.obolibrary.org/obo/sumso/2024-10-31/imports/ecocore_import.ofn> ,
                                           <http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn> ,
-                                          <http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/NCBITaxon_import.ofn> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/NCBITaxon_import.ofn> ,
                                           <http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn> ,
                                           <http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/agro_import.ofn> ,
                                           <http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/envo_import.ofn> ,
