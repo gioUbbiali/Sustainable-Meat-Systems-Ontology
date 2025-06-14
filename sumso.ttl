@@ -118,10 +118,6 @@ AnnotationVocabulary:maturity rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  http://purl.obolibrary.org/obo/IAO_0000136
-obo:IAO_0000136 owl:equivalentProperty CommonCoreOntologies:is_about .
-
-
 ###  http://purl.obolibrary.org/obo/OBI_0000293
 obo:OBI_0000293 rdf:type owl:ObjectProperty .
 
