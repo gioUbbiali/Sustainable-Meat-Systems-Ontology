@@ -11,7 +11,7 @@ See also the [SuMSO documentation webpage](https://w3id.org/sumso/docs).
 Currently, this repository hosts the SuMSO Ontological Module (SuMSO OM). SuMSO OM is a (non-exhaustive) starting basis from which to further implement a stable resource addressing meat systems sustainability in its whole. It provides a representation of the core architectural features of a sustainable meat system. 
 Cow-deriving meat systems are the SuMSO OM use-case. SuMSO OM deals with meat in a broad sense: it contemplates the liaisons with other cow-derived materials, such as leather. Future implementations will expand SuMSO representation to cover other meat systems and the interrelations among them. For further details, please refer to [Ubbiali (2025).](https://air.unimi.it/handle/2434/1161515)
 
-SuMSO V1.0.1 is the current release of SuMSO OM. It implements SuMSO V1.0.0 by supplying permanent IRIs. SuMSO V1.0.1 is formalized in [Web Ontology Language (OWL)](https://www.w3.org/TR/owl2-overview/) and covers English as natural language. SuMSO V1.0.1 encompasses 473 classes, 284 object properties, and 7 individuals. SuMSO V1.0.1.  conforms to [OBO-Foundry principles](https://obofoundry.org/principles/fp-000-summary.html).
+SuMSO V1.0.1 is the current release of SuMSO OM. It implements SuMSO V1.0.0 by supplying permanent IRIs. SuMSO V1.0.1 is formalized in [Web Ontology Language (OWL)](https://www.w3.org/TR/owl2-overview/) and covers English as natural language. SuMSO V1.0.1 encompasses 473 classes, 284 object properties, and 7 individuals. SuMSO V1.0.1. conforms to [OBO-Foundry principles](https://obofoundry.org/principles/fp-000-summary.html).
 
 SuMSO OM materials can be found here:
 
