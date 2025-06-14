@@ -40,6 +40,7 @@ Currently, this resource provides the core ontological module of SuMSO that deal
                               terms:license "https://creativecommons.org/licenses/by/4.0/" ;
                               terms:title "Sustainable Meat Systems Ontology (SuMSO)"@en ;
                               oboInOwl:hasVersion "V1.0.0." ;
+                              rdfs:seeAlso "https://air.unimi.it/handle/2434/1161515" ;
                               owl:priorVersion "https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/releases/tag/v1.0.0" ;
                               owl:versionInfo "2025-06-13" ;
                               skos:note """Repository: https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology
@@ -728,6 +729,14 @@ obo:IAO_0000005 rdf:type owl:Class .
 obo:IAO_0000027 rdf:type owl:Class .
 
 
+###  http://purl.obolibrary.org/obo/IAO_0000033
+obo:IAO_0000033 owl:equivalentClass CommonCoreOntologies:DirectiveInformationContentEntity ;
+                rdfs:comment """SuMSO developer comment:
+Both CCO and IAO cover a “directive information (content) entity” class. Despite being in line, the class definitions present slight differences. For reasons of practicality, we assumed that the two classes correspond and are equivalent. Future works will require more discussion regarding the alignment of the two classes.
+http://purl.obolibrary.org/obo/IAO_0000033
+http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"""@en .
+
+
 ###  http://purl.obolibrary.org/obo/IAO_0000104
 obo:IAO_0000104 rdf:type owl:Class ;
                 rdfs:comment """SuMSO developer comment:
@@ -1102,6 +1111,13 @@ We decided to include the SDGIO class as judged adequate to represent system res
 
 ###  http://www.ontologyrepository.com/CommonCoreOntologies/DecreaseOfDependentContinuant
 CommonCoreOntologies:DecreaseOfDependentContinuant rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000168> .
+
+
+###  http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity
+CommonCoreOntologies:DirectiveInformationContentEntity rdfs:comment """SuMSO developer comment:
+Both CCO and IAO cover a “directive information (content) entity” class. Despite being in line, the class definitions present slight differences. For reasons of practicality, we assumed that the two classes correspond and are equivalent. Future works will require more discussion regarding the alignment of the two classes.
+http://purl.obolibrary.org/obo/IAO_0000033
+http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"""@en .
 
 
 ###  http://www.ontologyrepository.com/CommonCoreOntologies/GainOfDependentContinuant
@@ -5206,24 +5222,12 @@ obo:FOODON_03411349 rdfs:seeAlso """SuMSO:
 See also: http://purl.obolibrary.org/obo/FOODON_02021290"""@en .
 
 
-obo:IAO_0000033 rdfs:comment """SuMSO developer comment:
-Both CCO and IAO cover a “directive information (content) entity” class. Despite being in line, the class definitions present slight differences. For reasons of practicality, we assumed that the two classes correspond and are equivalent. Future works will require more discussion regarding the alignment of the two classes.
-http://purl.obolibrary.org/obo/IAO_0000033
-http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"""@en .
-
-
 obo:OBI_0000260 rdfs:comment """SuMSO creator comment:
 see the comment under \"complex system activity\" and \"supply chain\" classes."""@en .
 
 
 obo:UBERON_0000061 rdfs:comment """SuMSO developer comment:
 We envision that future implementations will provide axioms and classes to deepen and further clarify the relationship between anatomical structures and organisms. See the “killing” class for some insights with regard to living beings and corresponding carcasses and the “organism class” for comments."""@en .
-
-
-CommonCoreOntologies:DirectiveInformationContentEntity rdfs:comment """SuMSO developer comment:
-Both CCO and IAO cover a “directive information (content) entity” class. Despite being in line, the class definitions present slight differences. For reasons of practicality, we assumed that the two classes correspond and are equivalent. Future works will require more discussion regarding the alignment of the two classes.
-http://purl.obolibrary.org/obo/IAO_0000033
-http://www.ontologyrepository.com/CommonCoreOntologies/DirectiveInformationContentEntity"""@en .
 
 
 sco:SCO_0000003 rdfs:comment """SuMSO developer comment:
