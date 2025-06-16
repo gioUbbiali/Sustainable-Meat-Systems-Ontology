@@ -3141,7 +3141,7 @@ Documentation webpage: https://www.w3id.org/sumso/docs</Literal>
             <Class IRI="https://w3id.org/sumso#SuMSO_0000044"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty abbreviatedIRI="obo:BFO_0000138"/>
-                <Class IRI="https://w3id.org/sumso#SuMSO_0000048"/>
+                <Class IRI="https://w3id.org/sumso#SuMSO_0000049"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
@@ -20435,12 +20435,12 @@ See comment under &quot;complex system activity&quot; and &quot;supply chain&quo
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
-        <Literal xml:lang="en">example of usage</Literal>
+        <Literal>example of usage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000112</AbbreviatedIRI>
-        <Literal>example of usage</Literal>
+        <Literal xml:lang="en">example of usage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
@@ -26100,12 +26100,12 @@ http://aims.fao.org/aos/agrovoc/c_35702</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
         <AbbreviatedIRI>obo:RO_0001018</AbbreviatedIRI>
-        <Literal xml:lang="en">Containment obtains in each case between material and immaterial continuants, for instance: lung contained_in thoracic cavity; bladder contained_in pelvic cavity. Hence containment is not a transitive relation.    If c part_of c1 at t then we have also, by our definition and by the axioms of mereology applied to spatial regions, c located_in c1 at t. Thus, many examples of instance-level location relations for continuants are in fact cases of instance-level parthood. For material continuants location and parthood coincide. Containment is location not involving parthood, and arises only where some immaterial continuant is involved. To understand this relation, we first define overlap for continuants as follows:    c1 overlap c2 at t =def for some c, c part_of c1 at t and c part_of c2 at t. The containment relation on the instance level can then be defined (see definition):</Literal>
+        <Literal>Containment is location not involving parthood, and arises only where some immaterial continuant is involved.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
         <AbbreviatedIRI>obo:RO_0001018</AbbreviatedIRI>
-        <Literal>Containment is location not involving parthood, and arises only where some immaterial continuant is involved.</Literal>
+        <Literal xml:lang="en">Containment obtains in each case between material and immaterial continuants, for instance: lung contained_in thoracic cavity; bladder contained_in pelvic cavity. Hence containment is not a transitive relation.    If c part_of c1 at t then we have also, by our definition and by the axioms of mereology applied to spatial regions, c located_in c1 at t. Thus, many examples of instance-level location relations for continuants are in fact cases of instance-level parthood. For material continuants location and parthood coincide. Containment is location not involving parthood, and arises only where some immaterial continuant is involved. To understand this relation, we first define overlap for continuants as follows:    c1 overlap c2 at t =def for some c, c part_of c1 at t and c part_of c2 at t. The containment relation on the instance level can then be defined (see definition):</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
@@ -27885,12 +27885,12 @@ WHERE {
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:RO_0002175</AbbreviatedIRI>
-        <Literal>S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S.</Literal>
+        <Literal>S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:RO_0002175</AbbreviatedIRI>
-        <Literal>S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S</Literal>
+        <Literal>S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -29504,12 +29504,12 @@ If you need an axiom that says &apos;has_participant min 2 object&apos;, you sho
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
         <AbbreviatedIRI>obo:RO_0002297</AbbreviatedIRI>
-        <Literal xml:lang="en">every &quot;endocardial cushion formation&quot; (GO:0003272) results_in_formation_of some &quot;endocardial cushion&quot; (UBERON:0002062)</Literal>
+        <Literal>an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
         <AbbreviatedIRI>obo:RO_0002297</AbbreviatedIRI>
-        <Literal>an annotation of gene X to anatomical structure formation with results_in_formation_of UBERON:0000007 (pituitary gland) means that at the beginning of the process a pituitary gland does not exist and at the end of the process a pituitary gland exists.</Literal>
+        <Literal xml:lang="en">every &quot;endocardial cushion formation&quot; (GO:0003272) results_in_formation_of some &quot;endocardial cushion&quot; (UBERON:0002062)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
@@ -29529,12 +29529,12 @@ If you need an axiom that says &apos;has_participant min 2 object&apos;, you sho
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
         <AbbreviatedIRI>obo:RO_0002298</AbbreviatedIRI>
-        <Literal xml:lang="en">tongue morphogenesis (GO:0043587) results in morphogenesis of tongue (UBERON:0001723)</Literal>
+        <Literal>an annotation of gene X to cell morphogenesis with results_in_morphogenesis_of CL:0000540 (neuron) means that at the end of the process an input neuron has attained its shape.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
         <AbbreviatedIRI>obo:RO_0002298</AbbreviatedIRI>
-        <Literal>an annotation of gene X to cell morphogenesis with results_in_morphogenesis_of CL:0000540 (neuron) means that at the end of the process an input neuron has attained its shape.</Literal>
+        <Literal xml:lang="en">tongue morphogenesis (GO:0043587) results in morphogenesis of tongue (UBERON:0001723)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
@@ -29559,12 +29559,12 @@ If you need an axiom that says &apos;has_participant min 2 object&apos;, you sho
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
         <AbbreviatedIRI>obo:RO_0002299</AbbreviatedIRI>
-        <Literal xml:lang="en">bone maturation (GO:0070977) results_in_maturation_of bone (UBERON:0001474)</Literal>
+        <Literal> an annotation of gene X to cell maturation with results_in_maturation_of CL:0000057 (fibroblast) means that the fibroblast is mature at the end of the process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
         <AbbreviatedIRI>obo:RO_0002299</AbbreviatedIRI>
-        <Literal> an annotation of gene X to cell maturation with results_in_maturation_of CL:0000057 (fibroblast) means that the fibroblast is mature at the end of the process</Literal>
+        <Literal xml:lang="en">bone maturation (GO:0070977) results_in_maturation_of bone (UBERON:0001474)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
@@ -29731,12 +29731,12 @@ where
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
         <AbbreviatedIRI>obo:RO_0002310</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">An exposure event in which a plant is provided with fertilizer. The exposure receptor is the root system of the plant, the stimulus is the fertilizing chemical, the route is via the soil, possibly mediated by symbotic microbes.</Literal>
+        <Literal>An exposure event in which a human is exposed to particulate matter in the air. Here the exposure stimulus/stress is the particulate matter, the receptor is the airways and lungs of the human,</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000112"/>
         <AbbreviatedIRI>obo:RO_0002310</AbbreviatedIRI>
-        <Literal>An exposure event in which a human is exposed to particulate matter in the air. Here the exposure stimulus/stress is the particulate matter, the receptor is the airways and lungs of the human,</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">An exposure event in which a plant is provided with fertilizer. The exposure receptor is the root system of the plant, the stimulus is the fertilizing chemical, the route is via the soil, possibly mediated by symbotic microbes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -39183,12 +39183,12 @@ We decided to include the SDGIO class as judged adequate to represent system res
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
-        <Literal>An alternative label for a given entity such as a commonly used abbreviation or synonym. </Literal>
+        <Literal>An alternative label for a class or property which has the exact same meaning than the preferred name/primary label.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
-        <Literal>An alternative label for a class or property which has the exact same meaning than the preferred name/primary label.</Literal>
+        <Literal>An alternative label for a given entity such as a commonly used abbreviation or synonym. </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -40513,14 +40513,14 @@ See the comment under the corresponding worth-role class labeled &quot;SuMSO cre
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>sco:SCO_0000019</AbbreviatedIRI>
-        <Literal xml:lang="en">SuMSO developer comment:
-Implementations will extend the representation, including proving insights into different types of value, such as economic and cultural ones.</Literal>
+        <Literal>SuMSO creator comment:
+To follow SCO comment to this class for distinguish and account for what is considered worthy of value with regrd to food and meat systems.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <AbbreviatedIRI>sco:SCO_0000019</AbbreviatedIRI>
-        <Literal>SuMSO creator comment:
-To follow SCO comment to this class for distinguish and account for what is considered worthy of value with regrd to food and meat systems.</Literal>
+        <Literal xml:lang="en">SuMSO developer comment:
+Implementations will extend the representation, including proving insights into different types of value, such as economic and cultural ones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -45480,12 +45480,12 @@ Guizzardi, G., de Almeida Falbo, R., &amp; Guizzardi, R. (2008). Grounding softw
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>https://www.w3id.org/sco#SCO_0000027</IRI>
-        <Literal xml:lang="en">comments to https://www.w3id.org/sco/sco-u#SCO_0000027 and https://www.w3id.org/sco/sco-u#SCO_0000029</Literal>
+        <Literal>See information under the &quot;has agent at t&quot; property.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>https://www.w3id.org/sco#SCO_0000027</IRI>
-        <Literal>See information under the &quot;has agent at t&quot; property.</Literal>
+        <Literal xml:lang="en">comments to https://www.w3id.org/sco/sco-u#SCO_0000027 and https://www.w3id.org/sco/sco-u#SCO_0000029</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
@@ -45591,12 +45591,12 @@ Guizzardi, G., de Almeida Falbo, R., &amp; Guizzardi, R. (2008). Grounding softw
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>https://www.w3id.org/sco#SCO_0000029</IRI>
-        <Literal xml:lang="en">comments to https://www.w3id.org/sco/sco-u#SCO_0000027 and https://www.w3id.org/sco/sco-u#SCO_0000029</Literal>
+        <Literal>See information under the &quot;has agent at t&quot; property.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>https://www.w3id.org/sco#SCO_0000029</IRI>
-        <Literal>See information under the &quot;has agent at t&quot; property.</Literal>
+        <Literal xml:lang="en">comments to https://www.w3id.org/sco/sco-u#SCO_0000027 and https://www.w3id.org/sco/sco-u#SCO_0000029</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
@@ -45841,12 +45841,12 @@ Guizzardi, G., de Almeida Falbo, R., &amp; Guizzardi, R. (2008). Grounding softw
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://www.w3id.org/sco#SCO_0000035</IRI>
-        <Literal xml:lang="en">SCO indicator classes have been designed referring to the characterization of sustainable development indicators (SDGs indicators) proposed by SDGIO. we aimed to deepen this characterization and establish upper-level classes for SDGIO ones.</Literal>
+        <Literal>Due to the SCO focus on complex systems, indicator classes have been designed referring specifically to complex systems. Nevertheless, future implementations may broaden the space of application to also systems.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://www.w3id.org/sco#SCO_0000035</IRI>
-        <Literal>Due to the SCO focus on complex systems, indicator classes have been designed referring specifically to complex systems. Nevertheless, future implementations may broaden the space of application to also systems.</Literal>
+        <Literal xml:lang="en">SCO indicator classes have been designed referring to the characterization of sustainable development indicators (SDGs indicators) proposed by SDGIO. we aimed to deepen this characterization and establish upper-level classes for SDGIO ones.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -45931,17 +45931,6 @@ Guizzardi, G., de Almeida Falbo, R., &amp; Guizzardi, R. (2008). Grounding softw
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>https://www.w3id.org/sco#SCO_0000037</IRI>
-        <Literal xml:lang="en">We envision revisions of the current SCO theory of agency. This is due to the limited power of explainability of present representation. A sounder and deeper interpretation of the causal role of an agent in an interaction, compared to other participants, is required.
-
-Tentative proposal: a possible direction of implementation is towards a telic vision of agency intended as end-point driven. On this more fundamental neutral vision, a second layer of representation may be constructed to model intentionality, goals, and plans in relation to agency. Here, SCO may harmonize and align with UFO-C representation. 
-
-For insight for discussion see: 
-Guarino, N., &amp; Guizzardi, G. (2024). Processes as variable embodiments. Synthese, 203(4), 104. https://doi.org/10.1007/s11229-024-04505-2
-Guizzardi, G., de Almeida Falbo, R., &amp; Guizzardi, R. (2008). Grounding software domain ontologies in the unified foundational ontology (UFO): The case of the ODE. Memorias de la XI Conferencia Iberoamericana de Software Engineering (CIbSE 2008), Recife, Pernambuco, Brasil, February 13-17, 2008, 127–140.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://www.w3id.org/sco#SCO_0000037</IRI>
         <Literal>Common Core Ontologies (CC) provide corresponding properties for this and the “agent at time t” relations. See “see also” annotation”. As these relations apply specifically to the CCO “Agent” class and lack reference to time, the SCO creator decided to establish SCO&apos;s own versions of these relations, directly referring to the original source. See “adapted from” annotation.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -45955,6 +45944,17 @@ http://www.ontologyrepository.com/CommonCoreOntologies/Agent
 http://www.ontologyrepository.com/CommonCoreOntologies/AgentCapability 
 
 The aim is to align SCO and CCO “agent” classes in order to have a shared theory of agency.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>https://www.w3id.org/sco#SCO_0000037</IRI>
+        <Literal xml:lang="en">We envision revisions of the current SCO theory of agency. This is due to the limited power of explainability of present representation. A sounder and deeper interpretation of the causal role of an agent in an interaction, compared to other participants, is required.
+
+Tentative proposal: a possible direction of implementation is towards a telic vision of agency intended as end-point driven. On this more fundamental neutral vision, a second layer of representation may be constructed to model intentionality, goals, and plans in relation to agency. Here, SCO may harmonize and align with UFO-C representation. 
+
+For insight for discussion see: 
+Guarino, N., &amp; Guizzardi, G. (2024). Processes as variable embodiments. Synthese, 203(4), 104. https://doi.org/10.1007/s11229-024-04505-2
+Guizzardi, G., de Almeida Falbo, R., &amp; Guizzardi, R. (2008). Grounding software domain ontologies in the unified foundational ontology (UFO): The case of the ODE. Memorias de la XI Conferencia Iberoamericana de Software Engineering (CIbSE 2008), Recife, Pernambuco, Brasil, February 13-17, 2008, 127–140.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -46036,12 +46036,12 @@ Guizzardi, G., de Almeida Falbo, R., &amp; Guizzardi, R. (2008). Grounding softw
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>https://www.w3id.org/sco#SCO_0000038</IRI>
-        <Literal xml:lang="en">comments to https://www.w3id.org/sco/sco-u#SCO_0000027 and https://www.w3id.org/sco/sco-u#SCO_0000029</Literal>
+        <Literal>See information under the inverse &quot;has agent at t&quot; property.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>https://www.w3id.org/sco#SCO_0000038</IRI>
-        <Literal>See information under the inverse &quot;has agent at t&quot; property.</Literal>
+        <Literal xml:lang="en">comments to https://www.w3id.org/sco/sco-u#SCO_0000027 and https://www.w3id.org/sco/sco-u#SCO_0000029</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
@@ -46352,32 +46352,32 @@ Calhau, R. F., Prince Sales, T., Oliveira, Í., Kokkula, S., Ferreira Pires, L.,
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147490469"/>
+        <AnonymousIndividual nodeID="_:genid2147487115"/>
         <AbbreviatedIRI>obo:agro.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147490470"/>
+        <AnonymousIndividual nodeID="_:genid2147487116"/>
         <AbbreviatedIRI>obo:uberon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147490696"/>
+        <AnonymousIndividual nodeID="_:genid2147487117"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147490697"/>
+        <AnonymousIndividual nodeID="_:genid2147487118"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147490698"/>
+        <AnonymousIndividual nodeID="_:genid2147487119"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147490699"/>
+        <AnonymousIndividual nodeID="_:genid2147487120"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
