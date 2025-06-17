@@ -43725,7 +43725,7 @@ To represent variations of quality/realizable with respect to different processe
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://w3id.org/sumso#SuMSO_0000169</IRI>
-        <Literal xml:lang="en">supply chain otcome role</Literal>
+        <Literal xml:lang="en">supply chain outcome role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -46352,32 +46352,32 @@ Calhau, R. F., Prince Sales, T., Oliveira, Í., Kokkula, S., Ferreira Pires, L.,
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147487115"/>
+        <AnonymousIndividual nodeID="_:genid2147488495"/>
         <AbbreviatedIRI>obo:agro.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147487116"/>
+        <AnonymousIndividual nodeID="_:genid2147488496"/>
         <AbbreviatedIRI>obo:uberon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147487117"/>
+        <AnonymousIndividual nodeID="_:genid2147488497"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147487118"/>
+        <AnonymousIndividual nodeID="_:genid2147488498"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147487119"/>
+        <AnonymousIndividual nodeID="_:genid2147488499"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147487120"/>
+        <AnonymousIndividual nodeID="_:genid2147488500"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>

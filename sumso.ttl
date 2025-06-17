@@ -4664,7 +4664,7 @@ To represent variations of quality/realizable with respect to different processe
 <https://w3id.org/sumso#SuMSO_0000169> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:BFO_0000023 ;
                                        rdfs:comment "Do not use this class directly. This class has been constructed as a grouping for supply chain outcome roles to assist class retrieval and visualization."@en ;
-                                       rdfs:label "supply chain otcome role"@en ;
+                                       rdfs:label "supply chain outcome role"@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
 
