@@ -1077,7 +1077,9 @@ http://purl.bioontology.org/ontology/MESH/D055500
 http://www.eionet.europa.eu/gemet/concept/15275 
 http://aims.fao.org/aos/agrovoc/c_1374480530924 
 http://data.loterre.fr/ark:/67375/BLH-RNSMBMMC-V 
-http://opendata.inrae.fr/thesaurusINRAE/c_9065"""@en .
+http://opendata.inrae.fr/thesaurusINRAE/c_9065"""@en ;
+                                          skos:definition """SuMSO definition:
+A disposition whose realization leads the meat system to express sensitivity over resilience to a certain perturbation to which it is exposed."""@en .
 
 
 ###  http://purl.unep.org/sdg/SDGIO_00010021
@@ -1101,7 +1103,9 @@ Currently, we focused on complex systems but this class may be refer directly to
 Further classes are needed to represent system states and perturbations. Implementations will cover these aspects.
 Revisions will be carried out in accordance with SCO implementations regarding system behaviors."""@en ,
                                                        """SuMSO developer comment:
-We decided to include the SDGIO class as judged adequate to represent system resilience. We, however, decided to provide an alternative definition, more focused on complex systems as considered useful in the context of sustainability and complexity."""@en .
+We decided to include the SDGIO class as judged adequate to represent system resilience. We, however, decided to provide an alternative definition, more focused on complex systems as considered useful in the context of sustainability and complexity."""@en ;
+                                          skos:definition """SuMSO definition:
+A disposition whose realization leads a meat system to persist in its stable state of equilibrium in response to a perturbation before moving to a different system state."""@en .
 
 
 ###  http://www.bioassayontology.org/bao#BAO_0000605
@@ -4240,7 +4244,7 @@ http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54072
 http://www.eionet.europa.eu/gemet/concept/15139 
 http://aims.fao.org/aos/agrovoc/c_36930 
 http://id.agrisemantics.org/gacs/C3602"""@en ;
-                                       skos:definition "A disposition whose realization leads the system to express sensitivity over resilience to a certain perturbation to which it is exposed."@en ;
+                                       skos:definition "A disposition whose realization leads the meat system to re-acquire its previous stable state of equilibrium after a perturbation."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
 
