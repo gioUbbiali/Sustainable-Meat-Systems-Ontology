@@ -39032,7 +39032,7 @@ http://opendata.inrae.fr/thesaurusINRAE/c_9065</Literal>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://purl.unep.org/sdg/SDGIO_00000024</IRI>
         <Literal xml:lang="en">SuMSO definition:
-A disposition whose realization leads the meat system to express sensitivity over resilience to a certain perturbation to which it is exposed.</Literal>
+A disposition whose realization leads the complex system to express sensitivity over resilience to a certain perturbation to which it is exposed.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000114"/>
@@ -39090,7 +39090,7 @@ We decided to include the SDGIO class as judged adequate to represent system res
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>http://purl.unep.org/sdg/SDGIO_00010021</IRI>
         <Literal xml:lang="en">SuMSO definition:
-A disposition whose realization leads a meat system to persist in its stable state of equilibrium in response to a perturbation before moving to a different system state.</Literal>
+A disposition whose realization leads a complex system to persist in its stable state of equilibrium in response to a perturbation before moving to a different system state.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -43316,7 +43316,7 @@ http://id.agrisemantics.org/gacs/C3602</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="skos:definition"/>
         <IRI>https://w3id.org/sumso#SuMSO_0000146</IRI>
-        <Literal xml:lang="en">A disposition whose realization leads the system to express sensitivity over resilience to a certain perturbation to which it is exposed.</Literal>
+        <Literal xml:lang="en">A disposition whose realization leads the complex system to express sensitivity over resilience to a certain perturbation to which it is exposed.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="AnnotationVocabulary:maturity"/>
@@ -46364,32 +46364,32 @@ Calhau, R. F., Prince Sales, T., Oliveira, Í., Kokkula, S., Ferreira Pires, L.,
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147484335"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
         <AbbreviatedIRI>obo:agro.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147484336"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
         <AbbreviatedIRI>obo:uberon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147484337"/>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147484338"/>
+        <AnonymousIndividual nodeID="_:genid2147483651"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147484339"/>
+        <AnonymousIndividual nodeID="_:genid2147483652"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:minQualifiedCardinality"/>
-        <AnonymousIndividual nodeID="_:genid2147484340"/>
+        <AnonymousIndividual nodeID="_:genid2147483653"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</Literal>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
