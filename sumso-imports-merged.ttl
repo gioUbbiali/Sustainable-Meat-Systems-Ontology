@@ -17,118 +17,19 @@
 
 <https://www.w3id.org/sumso> rdf:type owl:Ontology ;
                               owl:versionIRI sumso:v1.0.1 ;
-                              dc:contributor "Alan Ruttenberg" ,
-                                             "Albert Goldfain" ,
-                                             "Barry Smith" ,
-                                             "Bill Duncan" ,
-                                             "Bjoern Peters" ,
-                                             "Chris Mungall" ,
-                                             "David Osumi-Sutherland" ,
-                                             "Fabian Neuhaus" ,
-                                             "James A. Overton" ,
-                                             "Janna Hastings" ,
-                                             "Jie Zheng" ,
-                                             "John Beverley" ,
-                                             "Jonathan Bona" ,
-                                             "Larry Hunter" ,
-                                             "Leonard Jacuzzo" ,
-                                             "Ludger Jansen" ,
-                                             "Mark Jensen" ,
-                                             "Mark Ressler" ,
-                                             "Mathias Brochhausen" ,
-                                             "Mauricio Almeida" ,
-                                             "Melanie Courtot" ,
-                                             "Neil Otte" ,
-                                             "Pierre Grenon" ,
-                                             "Randall Dipert" ,
-                                             "Robert Rovetto" ,
-                                             "Ron Rudnicki" ,
-                                             "Stefan Schulz" ,
-                                             "Thomas Bittner" ,
-                                             "Werner Ceusters" ,
-                                             "Yongqun \"Oliver\" He" ;
                               terms:creator "Giorgio A. Ubbiali" ;
-                              terms:description "A temporal extension of Basic Formal Ontology implemented in the Web Ontology Language (OWL 2) with direct semantics."@en ,
-                                                """SCO V1.1.0 aligns with two Top-Level Ontologies (TLOs), Basic Formal Ontology (BFO) and Unified Foundational Ontology (UFO). SCO V1.1.0 is comprised of two segments: SCO-B (B for BFO) and SCO-U (U for UFO). SCO-B aligns the SCO vocabulary with BFO (as SCO V1.0.0). SCO-U aligns the SCO vocabulary with gUFO (UFO implementation in the Web Ontology Language (OWL)). This file provides SCO-B segment.
-
-References – TLOs:  
-https://github.com/BFO-ontology/BFO-2020 
-https://ontouml.readthedocs.io/en/latest/intro/ufo.html 
-https://nemo-ufes.github.io/gufo/"""@en-au ,
-                                                """SCO is a middle-level ontology, representing the major theoretical challenges to sustainability:
-1) The polysemy of the term sustainability.
-2) The relationship between sustainability and sustainable development.
-3) The complexity underlying sustainability.
-SCO aims to play a pivotal role in harmonizing and integrating top-level and domain ontologies regarding sustainability."""@en ,
-                                                """SuMSO is a domain of ontology, representing meat systems sustainability.
+                              terms:description """SuMSO is a domain of ontology, representing meat systems sustainability.
 
 Currently, this resource provides the core ontological module of SuMSO that deals with the essential architectural features of a sustainable meat system. This ontological module addresses meat in a broad, genuine sense focusing on cow-derived meat as a starting use-case example. It does not address features related to fish, insects, novel meats, and plant-based meats. The SuMSO core ontological module aims to be the starting basis on which to extend SuMSO to more comprehensively represent meat systems sustainability."""@en ;
-                              terms:license <https://creativecommons.org/licenses/by/4.0/> ,
-                                            "https://creativecommons.org/licenses/by/4.0/" ;
-                              terms:title "L'ontologia fondazionale della sostenibilità"@it ,
-                                          "L'ontologie fondationnelle de la durabilité"@fr ,
-                                          "Sustainability Core Ontology (SCO)"@en ,
-                                          "Sustainable Meat Systems Ontology (SuMSO)"@en ,
-                                          "BFO 2020" ;
-                              oboInOwl:hasVersion "V1.0.0." ;
-                              CommonCoreOntologies:definition "This file contains SuMSO imports from the Common Core Ontology suite (CCO). Imports were manually collected and revised."@en ;
-                              rdfs:comment "Despite SDGIO being one of the resources covered by OntoFox, we were not able to fetch these terms. These terms do not show up either in OntoBee, even if SDGIO is one of the resources stored there. We suppose this is due to OntoFox and OntoBee's reference to an old version of this resource. Thus, we manually collected these terms and included them in SuMSO."@en ,
-                                           "This file contains SuMSO imports from the Relational Ontology (RO). Imports were manually collected and revised. We did not use OntoFox because during the import retrieval several object properties were duplicated as annotation properties. Removal of the latter caused the deletion of the labels of the corresponding object properties."@en ,
-                                           "This file contains the imports fetched from the Agronomy Ontology (AgrO) via OntoFox (https://ontofox.hegroup.org/index.php). Imports have been subjected to manual revision."@en ,
-                                           "This file contains the imports fetched from the BioAssay Ontology (BAO) via OntoFox (https://ontofox.hegroup.org/index.php)."@en ,
-                                           "This file contains the imports fetched from the Environment Ontology (EnvO) via OntoFox (https://ontofox.hegroup.org/index.php). Imports have been subjected to manual revision."@en ,
-                                           "This file contains the imports fetched from the Gender, Sex, and Sexual Orientation (GSSO) ontology via OntoFox (https://ontofox.hegroup.org/index.php)."@en ,
-                                           "This file contains the imports fetched from the NCBI organismal classification (NCBITaxon), via OntoFox (https://ontofox.hegroup.org/index.php)."@en ,
-                                           "This file contains the imports fetched from the Occupation Ontology (OccO) via OntoFox (https://ontofox.hegroup.org/index.php)."@en ,
-                                           "This file contains the imports fetched from the Ontology for Biomedical Investigations (OBI) and Information Artifact Ontology (IAO) via OntoFox (https://ontofox.hegroup.org/index.php). Imports have been subjected to manual revision."@en ,
-                                           "This file contains the imports fetched from the Uber-anatomy ONtology (UBERON) via OntoFox (https://ontofox.hegroup.org/index.php)."@en ,
-                                           "This file contains the imports fetched from the Vaccine ontology (VO) via OntoFox (https://ontofox.hegroup.org/index.php). Imports have been subjected to manual revision."@en ,
-                                           "This file contains the imports fetched from the ontology of core ecological entities (ECOCORE) via OntoFox (https://ontofox.hegroup.org/index.php)."@en ,
-                                           "This file contains the imports from TransformON_V9.0. Currently, these imports have been collected and revised manually ."@en ,
-                                           "This file contains the imports selected from the “FoodOn tot imports file” that currently SuMSO reuses."@en ,
-                                           "We adapted the axiomatization of the class \"agricultural process\" excluding reference to \"agricultural experimental plot\" as not pertainig to SuMSO scope."@en ,
-                                           "The most recent version of this file will always be in the GitHub repository https://github.com/bfo-ontology/bfo-2020" ,
-                                           """This import included the  IAO “information content entity” class. Extending SCO, however, SuMSO V1.0.0 already covers the class “information content entity” from the Common Core Ontologies (CCO) Suite. IAO and CCO classes correspond. Thus, we removed the IAO “information content entity” class from this import and sustitute it with the corresponding CCO one. 
-
-IAO “information content entity” class: http://purl.obolibrary.org/obo/IAO_0000030 
-CCO “information content entity” class: http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity""" ;
-                              rdfs:seeAlso "See also the FoodOn tot imports file."@en ,
-                                           "See also the OntoFox text input file we created."@en ,
-                                           "See also the correspoding OntoFox text imput file."@en ,
-                                           "See also the corresponding OntoFox text input file."@en ,
-                                           "See also the corresponding OntoFox text input file." ,
-                                           "Ubbiali, G. A., Borghini, A., & Lange, M. C. (2024). Ontologies for Sustainability: Theoretical Challenges. https://doi.org/10.31219/osf.io/z8uqr" ,
-                                           "http://purl.obolibrary.org/obo/ro.owl" ,
-                                           "https://air.unimi.it/handle/2434/1161515" ,
-                                           "https://github.com/CommonCoreOntology/CommonCoreOntologies/tree/develop" ,
-                                           """https://www.w3id.org/sco/sco-u
-https://www.w3id.org/sco/sco-u-b-mapping""" ;
-                              owl:priorVersion """SCO V1.0.1. constitutes the prior version of this resources.
-SCO V1.0.1. is available on GitHub at the following link: https://github.com/gioUbbiali/Sustainability-Core-Ontology/releases/tag/v1.0.1-revisions"""@en ,
-                                               "2024-11-04" ,
-                                               "https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/releases/tag/v1.0.0" ;
-                              owl:versionInfo "2024-09-24"@en ,
-                                              "2024-10-01"@en ,
-                                              "2025-03-19"@en ,
-                                              "Version 1.1.0. ; segment B."@en ,
-                                              "2024-09-17" ,
-                                              "2024-09-27" ,
-                                              "2024-10-03" ,
-                                              "2024-10-07" ,
-                                              "2024-10-18" ,
-                                              "2024-10-24" ,
-                                              "2024-10-30" ,
-                                              "2024-10-31" ,
-                                              "2024-11-05" ,
-                                              "2025-06-13" ;
-                              skos:note "Currently, this resource includes labels and definitions in the following three natural languages: English, Italian, and French. In the next version of this resource, the creator intends to also encompass Italian and French translations of the remaining pieces of information as well as to cover other natural languages."@en ,
-                                        """Repository: https://github.com/gioUbbiali/Sustainability-Core-Ontology 
-Documentation webpage: https://www.w3id.org/sco/docs"""@en ,
-                                        """Repository: https://www.w3id.org/sumso/repo
+                              terms:license "https://creativecommons.org/licenses/by/4.0/" ;
+                              terms:title "Sustainable Meat Systems Ontology (SuMSO)"@en ;
+                              rdfs:seeAlso "https://air.unimi.it/handle/2434/1161515" ,
+                                           "https://doi.org/10.1002/sd.70562" ;
+                              owl:priorVersion "https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/releases/tag/v1.0.0" ;
+                              owl:versionInfo "V1.0.1." ;
+                              skos:note """Repository: https://www.w3id.org/sumso/repo
 Documentation webpage: https://www.w3id.org/sumso/docs"""@en ,
-                                        "The current version of SCO does not cover classes and object properties accounting for systems granularity, scales, and levels. A deeper representation of system change and behaviors is equally required. These themes will be topics of inclusion in the next version of this resource."@en ,
                                         "The current version of this resource does not include semi-formal natural language definitions or First Order Logics definitions. In the next version of this resource, the creator intends to also include them."@en ,
-                                        "The most recent version of this file is available on GitHub at the following link: https://www.w3id.org/sco"@en ,
                                         "The most recent version of this file is available on GitHub at the following link: https://www.w3id.org/sumso" .
 
 #################################################################
@@ -14903,10 +14804,10 @@ Future implementations may address including classes to represent theories, rela
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
 
-[ obo:IAO_0000412 obo:agro.owl
+[ obo:IAO_0000412 obo:uberon.owl
 ] .
 
-[ obo:IAO_0000412 obo:uberon.owl
+[ obo:IAO_0000412 obo:agro.owl
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
