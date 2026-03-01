@@ -29,7 +29,7 @@ The most recent version of SuMSO can be always found at [https://w3id.org/sumso]
 ### SuMSO - Useful Links
 
 - SuMSO V1.0.1.: [https://w3id.org/sumso](https://w3id.org/sumso)
-- SuMSO V1.0.1. - imports merged:[https://w3id.org/sumso/sumso-imports-merged](https://w3id.org/sumso/sumso-imports-merged)
+- SuMSO V1.0.1. - imports merged: [https://w3id.org/sumso/sumso-imports-merged](https://w3id.org/sumso/sumso-imports-merged)
 - SuMSO releases: [https://w3id.org/sumso/releases](https://w3id.org/sumso/releases)
 - SuMSO documentation webpage:[https://w3id.org/sumso/docs](https://w3id.org/sumso/docs)
 - SuMSO repository: [https://w3id.org/sumso/repo](https://w3id.org/sumso/repo)
