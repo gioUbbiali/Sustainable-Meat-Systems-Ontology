@@ -26,6 +26,14 @@ SuMSO OM materials can be found here:
 
 The most recent version of SuMSO can be always found at [https://w3id.org/sumso](https://w3id.org/sumso). SuMSO is also accessible on [AgroPortal](https://agroportal.lirmm.fr/ontologies/SUMSO), [EarthPortal](https://earthportal.eu/ontologies/SUMSO), [EcoPortal](https://ecoportal.lifewatch.eu/ontologies/SUMSO), and [BiodivPortal](https://biodivportal.gfbio.org/ontologies/SUMSO).
 
+### SuMSO - Useful Links
+
+- SuMSO V1.0.1.: [https://w3id.org/sumso](https://w3id.org/sumso)
+- SuMSO V1.0.1. - imports merged:[https://w3id.org/sumso/sumso-imports-merged](https://w3id.org/sumso/sumso-imports-merged)
+- SuMSO releases: [https://w3id.org/sumso/releases](https://w3id.org/sumso/releases)
+- SuMSO documentation webpage:[https://w3id.org/sumso/docs](https://w3id.org/sumso/docs)
+- SuMSO repository: [https://w3id.org/sumso/repo](https://w3id.org/sumso/repo)
+   
 ##  SuMSO Developer   
 
 [Giorgio A.Ubbiali](https://orcid.org/0000-0001-7872-1770)
