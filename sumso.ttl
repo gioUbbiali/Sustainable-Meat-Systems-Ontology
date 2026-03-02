@@ -31,7 +31,7 @@
                                           <http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/envo_import.ofn> ,
                                           <http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/obi-iao_import.ofn> ,
                                           <http://purl.obolibrary.org/obo/sumso/imports/2024-10-24/OccO_import.ofn> ,
-                                          <http://purl.obolibrary.org/obo/sumso/uberon-imports> ,
+                                          <http://purl.obolibrary.org/obo/sumso/uberon-imports/2024-11-04> ,
                                           <https://www.w3id.org/sco/sco-b#v1.1.0/sco-b> ;
                               terms:creator "Giorgio A. Ubbiali" ;
                               terms:description """SuMSO is a domain of ontology, representing meat systems sustainability.
