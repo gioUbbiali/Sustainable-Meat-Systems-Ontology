@@ -17,7 +17,7 @@
 
 <https://www.w3id.org/sumso> rdf:type owl:Ontology ;
                               owl:versionIRI sumso:v1.0.1 ;
-                              owl:imports <http://gioUbbiali.github.io/sumso/2024-10-07/cco.imports.owl> ,
+                              owl:imports <http://gioUbbiali.github.io/sumso/2024-10-07/cco-imports.owl> ,
                                           <http://gioUbbiali.github.io/sumso/2024-10-18/sdgio.imports.owl> ,
                                           <http://gioUbbiali.github.io/sumso/2024-10-24/trasformon.imports.owl> ,
                                           <http://gioUbbiali.github.io/sumso/2024-10-30/foodon.initial.imports.owl> ,
