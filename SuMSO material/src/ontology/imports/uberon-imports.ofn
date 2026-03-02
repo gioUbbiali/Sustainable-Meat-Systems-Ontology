@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://purl.obolibrary.org/obo/sumso/imports2/uberon_import.ofn"
+     xml:base="http://purl.obolibrary.org/obo/sumso/imports/uberon-imports"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://purl.obolibrary.org/obo/sumso/imports2/uberon_import.ofn"
-     versionIRI="http://purl.obolibrary.org/obo/sumso/imports2/2024-11-04/uberon_import.ofn">
-    <Prefix name="" IRI="http://purl.obolibrary.org/obo/sumso/imports2/uberon_import.ofn#"/>
+     ontologyIRI="http://purl.obolibrary.org/obo/sumso/imports/uberon-imports"
+     versionIRI="http://purl.obolibrary.org/obo/sumso/imports/uberon-imports/2024-11-04">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/sumso/imports/uberon-imports#"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
