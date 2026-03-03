@@ -29,7 +29,7 @@
                                           <http://purl.obolibrary.org/obo/sumso/envo-imports/2024-10-03> ,
                                           <http://purl.obolibrary.org/obo/sumso/gsso-imports/2024-10-24> ,
                                           <http://purl.obolibrary.org/obo/sumso/obi-iao-imports/2024-10-03> ,
-                                          <http://purl.obolibrary.org/obo/sumso/occo-imports/2024-10-24> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/occo-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/vo-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/cco-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/uberon-imports.owl> ,
