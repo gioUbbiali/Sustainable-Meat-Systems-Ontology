@@ -17,7 +17,7 @@
 
 <https://www.w3id.org/sumso> rdf:type owl:Ontology ;
                               owl:versionIRI sumso:v1.0.1 ;
-                              owl:imports <http://gioUbbiali.github.io/sumso/foodon-initial-imports/2024-10-30> ,
+                              owl:imports <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/foodon-initial-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/ro-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/sdgio-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/trasformon-imports.owl> ,
