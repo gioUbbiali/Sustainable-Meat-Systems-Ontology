@@ -30,7 +30,7 @@
                                           <http://purl.obolibrary.org/obo/sumso/gsso-imports/2024-10-24> ,
                                           <http://purl.obolibrary.org/obo/sumso/obi-iao-imports/2024-10-03> ,
                                           <http://purl.obolibrary.org/obo/sumso/occo-imports/2024-10-24> ,
-                                          <http://purl.obolibrary.org/obo/sumso/vo-imports/2024-09-10> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/vo-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/cco-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/uberon-imports.owl> ,
                                           <https://www.w3id.org/sco/sco-b#v1.1.0/sco-b> ;
