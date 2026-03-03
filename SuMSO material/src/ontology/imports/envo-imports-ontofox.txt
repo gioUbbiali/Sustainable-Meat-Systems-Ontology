@@ -1,5 +1,5 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/sumso/imports/envo_import.ofn
+http://purl.obolibrary.org/obo/sumso/envo-imports
 [Source ontology]
 ENVO
 

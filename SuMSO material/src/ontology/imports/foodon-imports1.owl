@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://purl.obolibrary.org/obo/sumso/imports1/foodon_import.ofn"
+     xml:base="http://purl.obolibrary.org/obo/sumso/foodon-imports1"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://purl.obolibrary.org/obo/sumso/imports1/foodon_import.ofn"
-     versionIRI="http://purl.obolibrary.org/obo/sumso/2024-10-14/imports1/foodon_import.ofn">
-    <Prefix name="" IRI="http://purl.obolibrary.org/obo/sumso/imports/foodon_import.ofn#"/>
+     ontologyIRI="http://purl.obolibrary.org/obo/sumso/foodon-imports1"
+     versionIRI="http://purl.obolibrary.org/obo/sumso/foodon-imports1">
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -4655,72 +4654,72 @@ The family is widespread, being native to Asia, Africa, Europe and North America
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486027"/>
+        <AnonymousIndividual nodeID="_:genid2147509673"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486028"/>
+        <AnonymousIndividual nodeID="_:genid2147509674"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486029"/>
+        <AnonymousIndividual nodeID="_:genid2147509675"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486030"/>
+        <AnonymousIndividual nodeID="_:genid2147509676"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486031"/>
+        <AnonymousIndividual nodeID="_:genid2147509677"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486032"/>
+        <AnonymousIndividual nodeID="_:genid2147509678"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486033"/>
+        <AnonymousIndividual nodeID="_:genid2147509679"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486034"/>
+        <AnonymousIndividual nodeID="_:genid2147509680"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486035"/>
+        <AnonymousIndividual nodeID="_:genid2147509681"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486036"/>
+        <AnonymousIndividual nodeID="_:genid2147509682"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486037"/>
+        <AnonymousIndividual nodeID="_:genid2147509683"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486038"/>
+        <AnonymousIndividual nodeID="_:genid2147509684"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486039"/>
+        <AnonymousIndividual nodeID="_:genid2147509685"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
-        <AnonymousIndividual nodeID="_:genid2147486040"/>
+        <AnonymousIndividual nodeID="_:genid2147509686"/>
         <AbbreviatedIRI>obo:foodon.owl</AbbreviatedIRI>
     </AnnotationAssertion>
     <SubAnnotationPropertyOf>
@@ -4743,5 +4742,5 @@ The family is widespread, being native to Asia, Africa, Europe and North America
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 

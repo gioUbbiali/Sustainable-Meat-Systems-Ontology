@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://purl.obolibrary.org/obo/sumso/imports/bao_import.ofn"
+     xml:base="http://purl.obolibrary.org/obo/sumso/bao-imports"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://purl.obolibrary.org/obo/sumso/imports/bao_import.ofn"
-     versionIRI="http://purl.obolibrary.org/obo/sumso/imports/2024-09-27/bao_import.ofn">
-    <Prefix name="" IRI="http://purl.obolibrary.org/obo/sumso/imports/bao_import.ofn#"/>
+     ontologyIRI="http://purl.obolibrary.org/obo/sumso/bao-imports"
+     versionIRI="http://purl.obolibrary.org/obo/sumso/bao-imports/2024-09-27">
     <Prefix name="bao" IRI="http://www.bioassayontology.org/bao#"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -250,6 +249,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
+        <Literal>has curation status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
         <Literal xml:lang="en">has curation status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -261,11 +265,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
         <Literal xml:lang="zh">有管理状态</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000114</AbbreviatedIRI>
-        <Literal>has curation status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
@@ -315,17 +314,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
         <Literal xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
         <Literal xml:lang="zh">官方的定义，解释类或属性的含义。应该是亚里士多德式的，形式化和规范化的。 可以通过口语定义进行扩充。</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
-        <Literal>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
@@ -398,7 +397,17 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal>definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
         <Literal xml:lang="en">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal>textual definition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -424,16 +433,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
         <Literal xml:lang="zh">文本定义</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
-        <Literal>definition</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
-        <Literal>textual definition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
@@ -473,12 +472,17 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:hasDbXref"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal xml:lang="en">IAO:0000116</Literal>
+        <Literal>IAO:0000116</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:hasDbXref"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal>IAO:0000116</Literal>
+        <Literal xml:lang="en">IAO:0000116</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal>uberon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:hasOBONamespace"/>
@@ -486,9 +490,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <Literal xml:lang="en">uberon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:hasOBONamespace"/>
+        <AnnotationProperty abbreviatedIRI="obo:id"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal>uberon</Literal>
+        <Literal>editor_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:id"/>
@@ -499,11 +503,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <AnnotationProperty abbreviatedIRI="obo:id"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
         <Literal xml:lang="zh">编辑_注释</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:id"/>
-        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal>editor_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:is_metadata_tag"/>
@@ -513,6 +512,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:shorthand"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal>editor_note</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:shorthand"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
         <Literal xml:lang="en">editor_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -521,9 +525,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <Literal xml:lang="zh">编辑_注释</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:shorthand"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal>editor_note</Literal>
+        <Literal>IAO:0000116</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
@@ -531,9 +535,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <Literal xml:lang="en">IAO:0000116</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal>IAO:0000116</Literal>
+        <Literal>uberon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
@@ -541,19 +545,14 @@ We also have the outstanding issue of how to aim different definitions to differ
         <Literal xml:lang="en">uberon</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal>uberon</Literal>
+        <Literal>editor_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
         <Literal xml:lang="en">editor_note</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
-        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal>editor_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:is_metadata_tag"/>
@@ -563,17 +562,22 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:shorthand"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal xml:lang="en">editor_note</Literal>
+        <Literal>editor_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:shorthand"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal>editor_note</Literal>
+        <Literal xml:lang="en">editor_note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
         <AbbreviatedIRI>obo:iao.owl</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
+        <Literal>editor note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -589,11 +593,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
         <Literal xml:lang="zh">编者注</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000116</AbbreviatedIRI>
-        <Literal>editor note</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
@@ -673,6 +672,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
+        <Literal>term editor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
         <Literal xml:lang="en">term editor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -684,11 +688,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
         <Literal xml:lang="zh">术语编辑者</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:IAO_0000117</AbbreviatedIRI>
-        <Literal>term editor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
@@ -723,6 +722,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
+        <Literal>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
         <Literal xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -734,11 +738,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
         <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
         <Literal xml:lang="zh">论OBO-讨论邮件-列表，请参阅http://bit.ly/hgm99w</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <AbbreviatedIRI>obo:IAO_0000119</AbbreviatedIRI>
-        <Literal>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
@@ -803,6 +802,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>oboInOwl:hasDbXref</AbbreviatedIRI>
+        <Literal>database_cross_reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasDbXref</AbbreviatedIRI>
         <Literal xml:lang="en">database_cross_reference</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -814,11 +818,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>oboInOwl:hasDbXref</AbbreviatedIRI>
         <Literal xml:lang="zh">数据库_交叉_引用</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>oboInOwl:hasDbXref</AbbreviatedIRI>
-        <Literal>database_cross_reference</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -863,6 +862,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>oboInOwl:hasOBONamespace</AbbreviatedIRI>
+        <Literal>has_obo_namespace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasOBONamespace</AbbreviatedIRI>
         <Literal xml:lang="en">has_obo_namespace</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -877,23 +881,18 @@ We also have the outstanding issue of how to aim different definitions to differ
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>oboInOwl:hasOBONamespace</AbbreviatedIRI>
-        <Literal>has_obo_namespace</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>oboInOwl:id</AbbreviatedIRI>
         <Literal>id</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>oboInOwl:shorthand</AbbreviatedIRI>
-        <Literal xml:lang="en">shorthand</Literal>
+        <Literal>shorthand</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>oboInOwl:shorthand</AbbreviatedIRI>
-        <Literal>shorthand</Literal>
+        <Literal xml:lang="en">shorthand</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000111"/>
@@ -919,5 +918,5 @@ We also have the outstanding issue of how to aim different definitions to differ
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 

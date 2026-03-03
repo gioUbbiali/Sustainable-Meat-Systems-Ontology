@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/sumso/imports/obi-iao_import.ofn#>)
+Prefix(:=<http://purl.obolibrary.org/obo/sumso/obi-iao-imports#>)
 Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
@@ -7,8 +7,8 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/sumso/imports/obi-iao_import.ofn>
-<http://purl.obolibrary.org/obo/sumso/imports/2024-10-03/obi-iao_import.ofn>
+Ontology(<http://purl.obolibrary.org/obo/sumso/obi-iao-imports>
+<http://purl.obolibrary.org/obo/sumso/obi-iao-imports/2024-10-03>
 Annotation(rdfs:comment "This file contains the imports fetched from the Ontology for Biomedical Investigations (OBI) and Information Artifact Ontology (IAO) via OntoFox (https://ontofox.hegroup.org/index.php). Imports have been subjected to manual revision."@en)
 Annotation(rdfs:comment "This import included the  IAO “information content entity” class. Extending SCO, however, SuMSO V1.0.0 already covers the class “information content entity” from the Common Core Ontologies (CCO) Suite. IAO and CCO classes correspond. Thus, we removed the IAO “information content entity” class from this import and sustitute it with the corresponding CCO one. 
 
@@ -109,7 +109,7 @@ AnnotationAssertion(obo:IAO_0000232 obo:BFO_0000180 "Really of interest to devel
 AnnotationAssertion(rdfs:label obo:BFO_0000180 "BFO CLIF specification label"@en)
 SubAnnotationPropertyOf(obo:BFO_0000180 rdfs:label)
 
-# Annotation Property: obo:IAO_0000111 (editor preferred term)
+# Annotation Property: obo:IAO_0000111 (editor preferred label)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000111 "editor preferred label"@en)
@@ -143,7 +143,7 @@ AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Bill Bug"@en)
 AnnotationAssertion(obo:IAO_0000117 obo:IAO_0000114 "PERSON:Melanie Courtot"@en)
 AnnotationAssertion(rdfs:label obo:IAO_0000114 "has curation status"@en)
 
-# Annotation Property: obo:IAO_0000115 (definition)
+# Annotation Property: obo:IAO_0000115 (textual definition)
 
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition")
 AnnotationAssertion(obo:IAO_0000111 obo:IAO_0000115 "definition"@en)
@@ -539,7 +539,7 @@ AnnotationAssertion(rdfs:isDefinedBy obo:BFO_0000019 obo:bfo.owl)
 AnnotationAssertion(rdfs:label obo:BFO_0000019 "quality"@en)
 SubClassOf(obo:BFO_0000019 obo:BFO_0000020)
 
-# Class: obo:BFO_0000020 (specifically dependent continuant)
+# Class: obo:BFO_0000020 (obo:BFO_0000020)
 
 SubClassOf(obo:BFO_0000020 obo:BFO_0000002)
 
@@ -733,8 +733,6 @@ AnnotationAssertion(obo:IAO_0000115 obo:OBI_0000011 "A process that realizes a p
 AnnotationAssertion(obo:IAO_0000116 obo:OBI_0000011 "'Plan' includes a future direction sense. That can be problematic if plans are changed during their execution. There are however implicit contingencies for protocols that an agent has in his mind that can be considered part of the plan, even if the agent didn't have them in mind before. Therefore, a planned process can diverge from what the agent would have said the plan was before executing it, by adjusting to problems encountered during execution (e.g. choosing another reagent with equivalent properties, if the originally planned one has run out.)")
 AnnotationAssertion(obo:IAO_0000116 obo:OBI_0000011 "We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process, the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some 
 objectives is a planned process.")
-AnnotationAssertion(obo:IAO_0000116 obo:OBI_0000011 "We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process, the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some 
-objectives is a planned process.")
 AnnotationAssertion(obo:IAO_0000117 obo:OBI_0000011 "Bjoern Peters")
 AnnotationAssertion(obo:IAO_0000119 obo:OBI_0000011 "branch derived")
 AnnotationAssertion(obo:IAO_0000232 obo:OBI_0000011 "6/11/9: Edited at workshop. Used to include: is initiated by an agent")
@@ -919,7 +917,7 @@ AnnotationAssertion(obo:IAO_0000412 obo:PATO_0001995 obo:pato.owl)
 AnnotationAssertion(rdfs:label obo:PATO_0001995 "organismal quality")
 SubClassOf(obo:PATO_0001995 obo:PATO_0001241)
 
-# Class: <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> (Information Content Entity)
+# Class: <http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> (<http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity>)
 
 EquivalentClasses(<http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> ObjectIntersectionOf(obo:BFO_0000031 ObjectSomeValuesFrom(<http://www.ontologyrepository.com/CommonCoreOntologies/is_about> obo:BFO_0000001)))
 SubClassOf(<http://www.ontologyrepository.com/CommonCoreOntologies/InformationContentEntity> obo:BFO_0000031)

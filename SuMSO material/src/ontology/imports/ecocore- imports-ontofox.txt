@@ -1,5 +1,5 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/sumso/imports/ecocore_import.ofn
+http://purl.obolibrary.org/obo/sumso/ecocore-imports
 
 [Source ontology]
 ECOCORE

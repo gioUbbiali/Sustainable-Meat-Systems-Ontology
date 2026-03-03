@@ -1,5 +1,6 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/sumso/imports/foodon_import.ofn
+http://purl.obolibrary.org/obo/sumso/foodon-imports
+
 [Source ontology]
 FOODON
 
