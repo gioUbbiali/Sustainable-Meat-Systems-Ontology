@@ -18,10 +18,10 @@
 <https://www.w3id.org/sumso> rdf:type owl:Ontology ;
                               owl:versionIRI sumso:v1.0.1 ;
                               owl:imports <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/cco-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/ro-imports.owl>                                          
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/sdgio-imports.owl> ,
                                           <http://gioUbbiali.github.io/sumso/2024-10-24/trasformon.imports.owl> ,
                                           <http://gioUbbiali.github.io/sumso/2024-10-30/foodon.initial.imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/ro-imports.owl> ,
                                           <http://purl.obolibrary.org/obo/sumso/2024-10-24/imports/GSSO_import.ofn> ,
                                           <http://purl.obolibrary.org/obo/sumso/2024-10-31/imports/ecocore_import.ofn> ,
                                           <http://purl.obolibrary.org/obo/sumso/imports/2024-09-10/vo_import.ofn> ,
