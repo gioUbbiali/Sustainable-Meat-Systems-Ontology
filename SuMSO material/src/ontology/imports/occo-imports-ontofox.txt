@@ -1,5 +1,5 @@
 [URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/sumso/imports/OccO_import.ofn
+http://gioUbbiali.github.io/sumso/occo-imports
 
 [Source ontology]
 OCCO
