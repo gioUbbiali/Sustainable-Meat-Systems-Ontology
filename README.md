@@ -38,13 +38,13 @@ The most recent version of SuMSO can be always found at [https://w3id.org/sumso]
 
 [Giorgio A.Ubbiali](https://orcid.org/0000-0001-7872-1770)
 
-##  Supervisors  
+##  Contributors   
 
 [Andrea Borghini](https://orcid.org/0000-0002-2239-1482)
 
 [Matthew C. Lange](https://orcid.org/0000-0002-6148-7962)
 
-## Currently Involved Institutions
+## Institutions involved in the development of SuMSO V1.0.1.
 
 [UNIMI](https://www.unimi.it/it)
 
