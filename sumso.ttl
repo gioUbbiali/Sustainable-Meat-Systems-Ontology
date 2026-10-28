@@ -16,23 +16,23 @@
 @base <https://www.w3id.org/sumso#> .
 
 <https://www.w3id.org/sumso> rdf:type owl:Ontology ;
-                              owl:versionIRI sumso:v1.0.1 ;
-                              owl:imports <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/foodon-initial-imports.owl> ,
+                              owl:versionIRI sumso:v1.0.2 ;
+                              owl:imports <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/NCBITaxon-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/agro-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/bao-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/cco-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/ecocore-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/envo-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/foodon-initial-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/gsso-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/ncit-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/obi-iao-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/occo-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/ro-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/sdgio-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/trasformon-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/NCBITaxon-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/ncit-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/agro-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/bao-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/ecocore-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/envo-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/gsso-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/obi-iao-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/occo-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/vo-imports.owl> ,
-                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/cco-imports.owl> ,
                                           <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/uberon-imports.owl> ,
+                                          <https://raw.githubusercontent.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/refs/heads/main/SuMSO%20material/src/ontology/imports/vo-imports.owl> ,
                                           <https://www.w3id.org/sco/sco-b#v1.1.0/sco-b> ;
                               terms:creator "Giorgio A. Ubbiali" ;
                               terms:description """SuMSO is a domain of ontology, representing meat systems sustainability.
@@ -40,11 +40,12 @@
 Currently, this resource provides the core ontological module of SuMSO that deals with the essential architectural features of a sustainable meat system. This ontological module addresses meat in a broad, genuine sense focusing on cow-derived meat as a starting use-case example. It does not address features related to fish, insects, novel meats, and plant-based meats. The SuMSO core ontological module aims to be the starting basis on which to extend SuMSO to more comprehensively represent meat systems sustainability."""@en ;
                               terms:license "https://creativecommons.org/licenses/by/4.0/" ;
                               terms:title "Sustainable Meat Systems Ontology (SuMSO)"@en ;
-                              oboInOwl:hasVersion "V1.0.1." ;
+                              oboInOwl:hasVersion "V1.0.2." ;
                               rdfs:seeAlso "https://air.unimi.it/handle/2434/1161515" ,
-                                           "https://doi.org/10.1002/sd.70562" ;
-                              owl:priorVersion "https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/releases/tag/v1.0.0" ;
-                              owl:versionInfo "2026-02-28" ;
+                                           "https://doi.org/10.1002/sd.70562" ,
+                                           "https://doi.org/10.1186/s40066-026-00632-w" ;
+                              owl:priorVersion "https://github.com/gioUbbiali/Sustainable-Meat-Systems-Ontology/releases/tag/v1.0.1" ;
+                              owl:versionInfo "2026-10-22" ;
                               skos:note """Repository: https://www.w3id.org/sumso/repo
 Documentation webpage: https://www.w3id.org/sumso/docs"""@en ,
                                         "The most recent version of this file is available on GitHub at the following link: https://www.w3id.org/sumso" .
@@ -124,19 +125,6 @@ AnnotationVocabulary:maturity rdf:type owl:AnnotationProperty .
 ###  http://purl.obolibrary.org/obo/BFO_0000167
 obo:BFO_0000167 rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf obo:BFO_0000057 ;
-                rdfs:domain obo:BFO_0000015 ;
-                rdfs:range [ rdf:type owl:Class ;
-                             owl:unionOf ( obo:BFO_0000020
-                                           obo:BFO_0000031
-                                           [ owl:intersectionOf ( obo:BFO_0000004
-                                                                  [ rdf:type owl:Class ;
-                                                                    owl:complementOf obo:BFO_0000006
-                                                                  ]
-                                                                ) ;
-                                             rdf:type owl:Class
-                                           ]
-                                         )
-                           ] ;
                 dc:identifier "249-BFO" ;
                 rdfs:label "has participant at all times"@en ;
                 skos:definition "p has participant c at all times =Def for all times t, p exists at t implies (p is a process, c is a continuant, and c participates in p some way at t)"@en ;
@@ -243,23 +231,6 @@ obo:RO_0004008 rdf:type owl:ObjectProperty .
 obo:RO_0004009 rdf:type owl:ObjectProperty .
 
 
-###  http://purl.obolibrary.org/obo/RO_0019000
-obo:RO_0019000 rdf:type owl:ObjectProperty ;
-               rdfs:range obo:BFO_0000020 .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource obo:RO_0019000 ;
-   owl:annotatedProperty rdfs:range ;
-   owl:annotatedTarget obo:BFO_0000020 ;
-   rdfs:comment """This property had PATO \"quality\" class as range, originally.
-Nevertheless, RO reuses the term “characteristic” from BFO 2, where it is a synonym of specific dependent continuant. 
-Thus, we revised this axiom accordingly, indicating the “specific dependent continuant” class as the range of this property.
-See:
-http://purl.obolibrary.org/obo/PATO_0000001
-http://purl.obolibrary.org/obo/RO_0019000"""@en
- ] .
-
-
 ###  http://purl.obolibrary.org/obo/RO_0019001
 obo:RO_0019001 rdf:type owl:ObjectProperty .
 
@@ -291,6 +262,7 @@ CommonCoreOntologies:prescribes rdf:type owl:ObjectProperty .
 ###  http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3
 <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3> rdf:type owl:Class ;
                                                                    rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000153> ,
+                                                                                   _:genid1 ,
                                                                                    [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000153>
                                                                                                           [ rdf:type owl:Restriction ;
                                                                                                             owl:onProperty obo:RO_0002411 ;
@@ -312,10 +284,111 @@ See also http://opendata.inrae.fr/ThViande/C461"""@en ;
                                                                    skos:definition """SuMSO definition:
 A meat processing that involves killing animals and preparing related carcasses for further (possible) processing and distribution for human consumption."""@en .
 
+_:genid1 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000153>
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty obo:BFO_0000057 ;
+                                 owl:someValuesFrom obo:FOODON_02010020
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty obo:BFO_0000057 ;
+                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty obo:BFO_0000057 ;
+                                 owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                           [ rdf:type owl:Class ;
+                                                                             owl:complementOf obo:NCBITaxon_9606
+                                                                           ]
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty obo:BFO_0000176 ;
+                                                                             owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                           ]
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ]
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty obo:BFO_0000057 ;
+                                 owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty obo:BFO_0000176 ;
+                                                                             owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                           ]
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ]
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty obo:BFO_0000117 ;
+                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000186>
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty obo:BFO_0000117 ;
+                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000191>
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty obo:BFO_0000117 ;
+                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000193>
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty obo:OBI_0000293 ;
+                                 owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                           [ rdf:type owl:Class ;
+                                                                             owl:complementOf obo:NCBITaxon_9606
+                                                                           ]
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty obo:BFO_0000176 ;
+                                                                             owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                           ]
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ]
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty obo:RO_0004009 ;
+                                 owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                           [ rdf:type owl:Class ;
+                                                                             owl:complementOf obo:NCBITaxon_9606
+                                                                           ]
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty obo:BFO_0000176 ;
+                                                                             owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                           ]
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ]
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                               ]
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                 owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                           [ rdf:type owl:Restriction ;
+                                                                             owl:onProperty obo:BFO_0000176 ;
+                                                                             owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                           ]
+                                                                         ) ;
+                                                      rdf:type owl:Class
+                                                    ]
+                               ]
+                             ) ;
+          rdf:type owl:Class .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3> ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget _:genid1 ;
+   rdfs:comment "This axiom must be implemented. Revision must apply to restrict to animals used for human consumption."@en ;
+   AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
+ ] .
+
 
 ###  http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R
 <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R> rdf:type owl:Class ;
-                                                                   rdfs:subClassOf [ owl:intersectionOf ( <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3>
+                                                                   rdfs:subClassOf _:genid56 ,
+                                                                                   [ owl:intersectionOf ( <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3>
                                                                                                           [ rdf:type owl:Restriction ;
                                                                                                             owl:onProperty obo:RO_0002404 ;
                                                                                                             owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000154>
@@ -364,6 +437,95 @@ See also http://opendata.inrae.fr/ThViande/C461"""@en ;
                                                                    skos:definition """SuMSO definition:
 Animal slaughtering that specifically regards cows."""@en .
 
+_:genid56 owl:intersectionOf ( <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3>
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:BFO_0000057 ;
+                                  owl:someValuesFrom obo:FOODON_00004413
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:BFO_0000057 ;
+                                  owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:BFO_0000117 ;
+                                  owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000173>
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:BFO_0000117 ;
+                                  owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000177>
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:BFO_0000117 ;
+                                  owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000188>
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:BFO_0000117 ;
+                                  owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000189>
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:BFO_0000117 ;
+                                  owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000193>
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:OBI_0000293 ;
+                                  owl:someValuesFrom obo:FOODON_00004413
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:OBI_0000299 ;
+                                  owl:someValuesFrom [ rdf:type owl:Class ;
+                                                       owl:unionOf ( obo:FOODON_02000403
+                                                                     obo:FOODON_02020910
+                                                                     obo:FOODON_03302092
+                                                                     obo:FOODON_03306306
+                                                                     <https://w3id.org/sumso#SuMSO_0000165>
+                                                                   )
+                                                     ]
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:RO_0002505 ;
+                                  owl:someValuesFrom [ rdf:type owl:Class ;
+                                                       owl:unionOf ( obo:FOODON_02020910
+                                                                     obo:FOODON_03302092
+                                                                     obo:FOODON_03305517
+                                                                     obo:FOODON_03306306
+                                                                     <https://w3id.org/sumso#SuMSO_0000165>
+                                                                   )
+                                                     ]
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:RO_0004008 ;
+                                  owl:someValuesFrom [ rdf:type owl:Class ;
+                                                       owl:unionOf ( obo:FOODON_02000403
+                                                                     obo:FOODON_02020910
+                                                                     obo:FOODON_03302092
+                                                                     obo:FOODON_03306306
+                                                                     <https://w3id.org/sumso#SuMSO_0000165>
+                                                                   )
+                                                     ]
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty obo:RO_0004009 ;
+                                  owl:someValuesFrom obo:FOODON_00004413
+                                ]
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                  owl:someValuesFrom [ rdf:type owl:Class ;
+                                                       owl:unionOf ( obo:FOODON_00004413
+                                                                     <https://w3id.org/sumso#SuMSO_0000075>
+                                                                   )
+                                                     ]
+                                ]
+                              ) ;
+           rdf:type owl:Class .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R> ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget _:genid56 ;
+   rdfs:comment "Cow slaughtering includes several other activities, such as evisceration, deboning, and carcass cleaning. Implementation of this representation will require revision of this axiom."@en ;
+   AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
+ ] .
+
 
 ###  http://purl.obolibrary.org/obo/AGRO_00000372
 obo:AGRO_00000372 rdf:type owl:Class ;
@@ -382,14 +544,6 @@ we changed the label from \"farmer\" to \"farmer-role\" to avoid reasoner error 
 
 ###  http://purl.obolibrary.org/obo/AGRO_00000426
 obo:AGRO_00000426 rdf:type owl:Class ;
-                  rdfs:subClassOf [ owl:intersectionOf ( obo:AGRO_00002071
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty obo:BFO_0000066 ;
-                                                           owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000179>
-                                                         ]
-                                                       ) ;
-                                    rdf:type owl:Class
-                                  ] ;
                   oboInOwl:hasExactSynonym """SuMSO developer:
 managed grazing"""@en .
 
@@ -681,14 +835,6 @@ obo:FOODON_03530005 rdf:type owl:Class ;
 
 ###  http://purl.obolibrary.org/obo/FOODON_03601066
 obo:FOODON_03601066 rdf:type owl:Class ;
-                    rdfs:subClassOf [ owl:intersectionOf ( obo:FOODON_03602001
-                                                           [ rdf:type owl:Restriction ;
-                                                             owl:onProperty CommonCoreOntologies:is_about ;
-                                                             owl:someValuesFrom obo:AGRO_00000426
-                                                           ]
-                                                         ) ;
-                                      rdf:type owl:Class
-                                    ] ;
                     oboInOwl:hasExactSynonym """SuMSO developer:
 grass-fed"""@en ;
                     rdfs:comment """SuMSO developer comment:
@@ -1180,7 +1326,19 @@ CommonCoreOntologies:LossOfDisposition rdf:type owl:Class .
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000024> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000024> ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0000091 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000039>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0010002 ;
+                                                                                owl:someValuesFrom <https://www.w3id.org/sco#SCO_0000004>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
+                                       owl:disjointWith <https://w3id.org/sumso#SuMSO_0000019> ;
                                        rdfs:comment """Currently, SuMSO refers to meat systems as covering different components, including humans, cows, manure, pieces of meat, and hides. Following SCO, meat system components present perspectives.
 Nevertheless, we may want to restrict perspectives to living beings.
 A possible option may be the exclusion of the following axioms, in order to remove the necessary condition of having a perspective from “meat systems component” class.
@@ -1198,7 +1356,26 @@ We envision discussions with subject matter experts."""@en ;
 
 ###  https://w3id.org/sumso#SuMSO_0000002
 <https://w3id.org/sumso#SuMSO_0000002> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000026> ;
+                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000024>
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty obo:RO_0000087 ;
+                                                                                    owl:someValuesFrom <https://www.w3id.org/sco#SCO_0000018>
+                                                                                  ]
+                                                                                ) ;
+                                                             rdf:type owl:Class
+                                                           ] ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000026> ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0000091 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000007>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0010002 ;
+                                                                                owl:someValuesFrom <https://www.w3id.org/sco#SCO_0000040>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:label "meat system stakeholder"@en ;
                                        skos:definition "A meat system component with a stakeholder role."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
@@ -1214,7 +1391,39 @@ We envision discussions with subject matter experts."""@en ;
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
+                                                       ] ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000110 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000001>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000111 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000010>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000166 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000033>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000185 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000016>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000211 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000011>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0002163 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000012>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000185 ;
+                                                                                owl:allValuesFrom <https://w3id.org/sumso#SuMSO_0000016>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
                                                        ] ;
+                                       owl:disjointWith <https://w3id.org/sumso#SuMSO_0000012> ;
                                        rdfs:comment "See the comment under the ontology header for details regarding the meaning of the term “meat”, currently covered by SuMSO."@en ;
                                        rdfs:label "meat system"@it ;
                                        skos:definition "A food system that pertains to meat, to some extent."@en ;
@@ -1231,7 +1440,39 @@ We envision discussions with subject matter experts."""@en ;
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
+                                                       ] ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000110 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000024>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000111 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000022>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000166 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000030>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000185 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000037>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000211 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000023>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0002163 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000018>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000185 ;
+                                                                                owl:allValuesFrom <https://w3id.org/sumso#SuMSO_0000037>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
                                                        ] ;
+                                       owl:disjointWith <https://w3id.org/sumso#SuMSO_0000018> ;
                                        rdfs:comment """Here, the term “food” is used genuinely in a broad and over-comprehensive sense. 
 To delve more into the meanings of “food”, we refer to Borghini et al. (2021) and Borghini and Piras (2020,2021).
 
@@ -1248,7 +1489,20 @@ Borghini, Andrea, & Piras, N. (2021). On Interpreting Something as Food. Food Et
 
 ###  https://w3id.org/sumso#SuMSO_0000005
 <https://w3id.org/sumso#SuMSO_0000005> rdf:type owl:Class ;
+                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000024>
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000038> ;
+                                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                         owl:unionOf ( <https://w3id.org/sumso#SuMSO_0000013>
+                                                                                                                       <https://w3id.org/sumso#SuMSO_0000015>
+                                                                                                                     )
+                                                                                                       ]
+                                                                                  ]
+                                                                                ) ;
+                                                             rdf:type owl:Class
+                                                           ] ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000025> ;
+                                       owl:disjointWith <https://w3id.org/sumso#SuMSO_0000017> ;
                                        rdfs:label "meat system agent"@en ;
                                        skos:definition "A meat system component that is an agent in an interaction among meat  system components or in an interaction between meat system components and meat system environment components."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
@@ -1503,6 +1757,18 @@ Borghini, Andrea, & Piras, N. (2021). On Interpreting Something as Food. Food Et
 
 ###  https://w3id.org/sumso#SuMSO_0000017
 <https://w3id.org/sumso#SuMSO_0000017> rdf:type owl:Class ;
+                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000019>
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000038> ;
+                                                                                    owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                         owl:unionOf ( <https://w3id.org/sumso#SuMSO_0000014>
+                                                                                                                       <https://w3id.org/sumso#SuMSO_0000015>
+                                                                                                                     )
+                                                                                                       ]
+                                                                                  ]
+                                                                                ) ;
+                                                             rdf:type owl:Class
+                                                           ] ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000032> ;
                                        rdfs:label "meat system environment agent"@en ;
                                        skos:definition "A meat system environment component that is an agent in an interaction among meat system environment components or in an interaction between meat system components and meat system environment components."@en ;
@@ -1543,7 +1809,18 @@ Borghini, Andrea, & Piras, N. (2021). On Interpreting Something as Food. Food Et
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000031> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000031> ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0000091 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000040>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0010002 ;
+                                                                                owl:someValuesFrom <https://www.w3id.org/sco#SCO_0000004>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:label "meat system environment component"@en ;
                                        skos:definition "A food system evironment component that belongs to the food system environment of a meat system."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
@@ -1634,7 +1911,19 @@ Borghini, Andrea, & Piras, N. (2021). On Interpreting Something as Food. Food Et
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://www.w3id.org/sco#SCO_0000028> ;
+                                       rdfs:subClassOf <https://www.w3id.org/sco#SCO_0000028> ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0000091 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000038>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0010002 ;
+                                                                                owl:someValuesFrom <https://www.w3id.org/sco#SCO_0000004>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
+                                       owl:disjointWith <https://w3id.org/sumso#SuMSO_0000031> ;
                                        rdfs:comment """Currently, SuMSO refers to food systems as covering different components. Following SCO, meat system components present perspectives.
 Nevertheless, we may want to restrict perspectives to living beings.
 A possible option may be the exclusion of the following axioms, in order to remove the necessary condition of having a perspective from “food systems component” class.
@@ -1664,6 +1953,7 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
                                                              rdf:type owl:Class
                                                            ] ;
                                        rdfs:subClassOf <https://www.w3id.org/sco#SCO_0000034> ;
+                                       owl:disjointWith <https://w3id.org/sumso#SuMSO_0000032> ;
                                        rdfs:label "food system agent"@en ;
                                        skos:definition "A food system component that is an agent in an interaction among food system components or in an interaction between food system components and food system environment components."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
@@ -1679,7 +1969,18 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://www.w3id.org/sco#SCO_0000036> ;
+                                       rdfs:subClassOf <https://www.w3id.org/sco#SCO_0000036> ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0000091 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000035>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0010002 ;
+                                                                                owl:someValuesFrom <https://www.w3id.org/sco#SCO_0000040>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:label "food system stakeholder"@en ;
                                        skos:definition "A food system component with a stakeholder role."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
@@ -1787,16 +2088,16 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
                                        rdfs:subClassOf <https://www.w3id.org/sco#SCO_0000010> ,
                                                        [ owl:intersectionOf ( <https://www.w3id.org/sco#SCO_0000010>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000057 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000004>
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000048>
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
                                                        [ owl:intersectionOf ( <https://www.w3id.org/sco#SCO_0000010>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000117 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000048>
+                                                                                owl:onProperty obo:BFO_0000167 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000004>
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
@@ -1816,7 +2117,18 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://www.w3id.org/sco#SCO_0000026> ;
+                                       rdfs:subClassOf <https://www.w3id.org/sco#SCO_0000026> ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0000091 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000034>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0010002 ;
+                                                                                owl:someValuesFrom <https://www.w3id.org/sco#SCO_0000004>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:label "food system environment component"@en ;
                                        skos:definition "A complex system evironment component that belongs to the complex system environment of a food system."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
@@ -1847,16 +2159,16 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000030> ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000030>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000057 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000049>
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000030>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000117 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000049>
+                                                                                owl:onProperty obo:BFO_0000167 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
@@ -2220,7 +2532,7 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000051> ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000051>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:onProperty obo:BFO_0000167 ;
                                                                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000036>
                                                                               ]
                                                                             ) ;
@@ -2244,7 +2556,7 @@ https://spec.industrialontologies.org/ontology/supplychain/SupplyChain/SupplyCha
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000046> ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000046>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:onProperty obo:BFO_0000167 ;
                                                                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000006>
                                                                               ]
                                                                             ) ;
@@ -3216,7 +3528,7 @@ https://regenscore.org/""" ;
 
 ###  https://w3id.org/sumso#SuMSO_0000088
 <https://w3id.org/sumso#SuMSO_0000088> rdf:type owl:Class ;
-                                       owl:equivalentClass _:genid785 ;
+                                       owl:equivalentClass _:genid947 ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000087> ;
                                        oboInOwl:hasRelatedSynonym "cow well-being, cow wellbeing,"@en ;
                                        rdfs:comment "The label may be revised to refer more generally to bovines. Additional classes may be used to specify well-being of single species."@en ;
@@ -3224,7 +3536,7 @@ https://regenscore.org/""" ;
                                        skos:definition "A animal welfare that is bearered by a cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid785 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000087>
+_:genid947 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000087>
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty obo:BFO_0000059 ;
                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000093>
@@ -3243,7 +3555,7 @@ _:genid785 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000087>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000088> ;
    owl:annotatedProperty owl:equivalentClass ;
-   owl:annotatedTarget _:genid785 ;
+   owl:annotatedTarget _:genid947 ;
    rdfs:comment "This axiom may be revised to refer more general to Bos."@en
  ] .
 
@@ -3341,12 +3653,12 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion"""
                                                              rdf:type owl:Class
                                                            ] ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000090> ,
-                                                       _:genid828 ;
+                                                       _:genid990 ;
                                        rdfs:label "meat system well-being"@en ;
                                        skos:definition "A food system well-being that is bearered by a meat system."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid828 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
+_:genid990 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty obo:BFO_0000178 ;
                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000088>
@@ -3361,7 +3673,7 @@ _:genid828 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000091> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid828 ;
+   owl:annotatedTarget _:genid990 ;
    rdfs:comment "This axiom currently includes reference to cow well-being. Implementations may establish distinctions between diverse meat systems as not all meat systems relate necessary to cows. This axiom must be revised accordingly."@en
  ] .
 
@@ -3555,8 +3867,7 @@ _:genid828 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
 
 ###  https://w3id.org/sumso#SuMSO_0000099
 <https://w3id.org/sumso#SuMSO_0000099> rdf:type owl:Class ;
-                                       rdfs:subClassOf obo:FOODON_03601066 ,
-                                                       [ owl:intersectionOf ( obo:FOODON_03601066
+                                       rdfs:subClassOf [ owl:intersectionOf ( obo:FOODON_03601066
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty CommonCoreOntologies:is_about ;
                                                                                 owl:someValuesFrom obo:NCBITaxon_9913
@@ -3815,7 +4126,27 @@ _:genid828 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
 
 ###  https://w3id.org/sumso#SuMSO_0000109
 <https://w3id.org/sumso#SuMSO_0000109> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000184> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000184> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000184>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000070>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                     owl:unionOf ( obo:NCBITaxon_9913
+                                                                                                                   <https://w3id.org/sumso#SuMSO_0000070>
+                                                                                                                 )
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations."@en ;
                                        rdfs:label "rancher-cow interaction"@en ;
                                        skos:definition "An interaction that occurs between at least one rancher and at one cow."@en ;
@@ -4320,7 +4651,27 @@ This class and related subclasses also require axiomatizations to cover referenc
 
 ###  https://w3id.org/sumso#SuMSO_0000145
 <https://w3id.org/sumso#SuMSO_0000145> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000198> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000198> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000020>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000094>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000020>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000094>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:comment "See comments under the \"certification issuance process\" class."@en ,
                                                     "We envision revisions of this definition to provide more details."@en ;
                                        rdfs:label "meat system certification issuance process"@en ;
@@ -4496,6 +4847,7 @@ http://id.agrisemantics.org/gacs/C3602"""@en ;
 ###  https://w3id.org/sumso#SuMSO_0000153
 <https://w3id.org/sumso#SuMSO_0000153> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:OBI_0000094 ,
+                                                       _:genid1329 ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:BFO_0000117 ;
@@ -4523,6 +4875,53 @@ http://id.agrisemantics.org/gacs/C3602"""@en ;
                                        skos:definition "A planned process that concerns preparing meat items for marketing or distribution, including animal slaughtering,animal carcass cutting, meat portion preparation, and meat packing for distribution."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
+_:genid1329 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom obo:FOODON_02010020
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000176 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ]
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000176 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ]
+                                  ]
+                                ) ;
+             rdf:type owl:Class .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000153> ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget _:genid1329 ;
+   rdfs:comment """This axiom requires implementation to refer to meat and meat-related animal materials more specifically. Revision must also apply to restrict to animals used for human consumption. 
+See also the comment to corresponding axiom for the \"meat processor-meat interaction\" class."""@en ;
+   AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
+ ] .
+
 
 ###  https://w3id.org/sumso#SuMSO_0000154
 <https://w3id.org/sumso#SuMSO_0000154> rdf:type owl:Class ;
@@ -4535,11 +4934,39 @@ http://id.agrisemantics.org/gacs/C3602"""@en ;
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
-                                                       _:genid1161 ,
+                                                       _:genid1365 ,
                                                        [ owl:intersectionOf ( obo:AGRO_00000426
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:RO_0002411 ;
                                                                                 owl:someValuesFrom <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000070>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000109>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000180>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0002411 ;
+                                                                                owl:someValuesFrom <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000070>
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
@@ -4549,7 +4976,7 @@ http://id.agrisemantics.org/gacs/C3602"""@en ;
                                        skos:definition "Regulation of grazing that specifically regards cows."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1161 owl:intersectionOf ( obo:AGRO_00000426
+_:genid1365 owl:intersectionOf ( obo:AGRO_00000426
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:RO_0002092 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000178>
@@ -4560,7 +4987,7 @@ _:genid1161 owl:intersectionOf ( obo:AGRO_00000426
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000154> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1161 ;
+   owl:annotatedTarget _:genid1365 ;
    rdfs:comment "Alternatively, the object property \"regulates\" may be used here."@en
  ] .
 
@@ -4580,6 +5007,18 @@ _:genid1161 owl:intersectionOf ( obo:AGRO_00000426
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:RO_0002404 ;
                                                                                 owl:someValuesFrom <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000174>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000077>
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
@@ -4859,6 +5298,54 @@ To represent variations of quality/realizable with respect to different processe
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000186> ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000186>
                                                                               [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:FOODON_00004413
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000177>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000192>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:OBI_0000293 ;
+                                                                                owl:someValuesFrom obo:FOODON_00004413
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:OBI_0000299 ;
+                                                                                owl:someValuesFrom obo:FOODON_03305517
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0004008 ;
+                                                                                owl:someValuesFrom obo:FOODON_03305517
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0004009 ;
+                                                                                owl:someValuesFrom obo:FOODON_00004413
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                     owl:unionOf ( obo:FOODON_00004413
+                                                                                                                   <https://w3id.org/sumso#SuMSO_0000075>
+                                                                                                                 )
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000186>
+                                                                              [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:RO_0002411 ;
                                                                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000189>
                                                                               ]
@@ -4873,7 +5360,23 @@ To represent variations of quality/realizable with respect to different processe
 
 ###  https://w3id.org/sumso#SuMSO_0000174
 <https://w3id.org/sumso#SuMSO_0000174> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:GSSO_008727
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000077>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000077>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations."@en ;
                                        rdfs:label "tanner-animal hide interaction"@en ;
                                        skos:definition "An interaction that occurs between at least one tanner and animal hides."@en ;
@@ -4882,7 +5385,23 @@ To represent variations of quality/realizable with respect to different processe
 
 ###  https://w3id.org/sumso#SuMSO_0000175
 <https://w3id.org/sumso#SuMSO_0000175> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000171>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "cow-forage interaction"@en ;
                                        skos:definition "An interaction that occurs between cows (at least one) and their forage."@en ;
@@ -4892,14 +5411,6 @@ To represent variations of quality/realizable with respect to different processe
 ###  https://w3id.org/sumso#SuMSO_0000176
 <https://w3id.org/sumso#SuMSO_0000176> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:ECOCORE_00000139 ,
-                                                       [ owl:intersectionOf ( obo:AGRO_00002071
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0002411 ;
-                                                                                owl:someValuesFrom <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
-                                                       ] ,
                                                        [ owl:intersectionOf ( obo:ECOCORE_00000139
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:BFO_0000057 ;
@@ -4908,12 +5419,20 @@ To represent variations of quality/realizable with respect to different processe
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
-                                                       _:genid1250 ;
+                                                       _:genid1511 ,
+                                                       [ owl:intersectionOf ( obo:ECOCORE_00000139
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0002411 ;
+                                                                                owl:someValuesFrom <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:label "cow grazing"@en ;
                                        skos:definition "A grazing process that pertain to cows."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
+_:genid1511 owl:intersectionOf ( obo:ECOCORE_00000139
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:RO_0002234 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000172>
@@ -4924,15 +5443,34 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000176> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1250 ;
+   owl:annotatedTarget _:genid1511 ;
    rdfs:comment "This axiom must be implemented, for instance with reference to GHG emissions."@en
  ] .
 
 
 ###  https://w3id.org/sumso#SuMSO_0000177
 <https://w3id.org/sumso#SuMSO_0000177> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000182> ,
-                                                       <https://w3id.org/sumso#SuMSO_0000191> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000191> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000182>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                     owl:unionOf ( obo:NCBITaxon_9913
+                                                                                                                   <https://w3id.org/sumso#SuMSO_0000075>
+                                                                                                                 )
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        CommonCoreOntologies:definition "An interaction that occurs between at lest one slaughterer and one cow."@en ;
                                        rdfs:label "slaughterer-cow interaction"@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
@@ -4959,16 +5497,16 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
                                                        ] ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000176>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000057 ;
-                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000175>
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000176>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000117 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000175>
+                                                                                owl:onProperty obo:BFO_0000167 ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
@@ -4998,18 +5536,10 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000180
 <https://w3id.org/sumso#SuMSO_0000180> rdf:type owl:Class ;
-                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000190>
-                                                                                  [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty obo:RO_0019001 ;
-                                                                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000088>
-                                                                                  ]
-                                                                                ) ;
-                                                             rdf:type owl:Class
-                                                           ] ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000190> ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000190>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:onProperty obo:BFO_0000167 ;
                                                                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000088>
                                                                               ]
                                                                             ) ;
@@ -5022,7 +5552,37 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000181
 <https://w3id.org/sumso#SuMSO_0000181> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                            owl:onProperty obo:BFO_0000176 ;
+                                                                                                                            owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                                                          ]
+                                                                                                                        ) ;
+                                                                                                     rdf:type owl:Class
+                                                                                                   ]
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                            owl:onProperty obo:BFO_0000176 ;
+                                                                                                                            owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                                                          ]
+                                                                                                                        ) ;
+                                                                                                     rdf:type owl:Class
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "meat processor-meat system Metazoa interaction"@en ;
                                        skos:definition "An interaction that occurs among Metazoa, that are part of a meat system, of which at least one is a meat processor."@en ;
@@ -5031,7 +5591,27 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000182
 <https://w3id.org/sumso#SuMSO_0000182> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000181> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000181> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000181>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                     owl:unionOf ( obo:NCBITaxon_9913
+                                                                                                                   <https://w3id.org/sumso#SuMSO_0000100>
+                                                                                                                 )
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "meat processor-cow interaction"@en ;
                                        skos:definition "An interaction that occurs between at lest one meat processor and one cow."@en ;
@@ -5040,16 +5620,67 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000183
 <https://w3id.org/sumso#SuMSO_0000183> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ,
+                                                       _:genid1582 ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "meat processor-meat interaction"@en ;
                                        skos:definition "An interaction that occurs between at lest one meat processor and one cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
+_:genid1582 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
+                                  ]
+                                ) ;
+             rdf:type owl:Class .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000183> ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget _:genid1582 ;
+   rdfs:comment "This axiom requires implementation to refer to meat and meat-related animal materials."@en ;
+   AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
+ ] .
+
 
 ###  https://w3id.org/sumso#SuMSO_0000184
 <https://w3id.org/sumso#SuMSO_0000184> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000070>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                            owl:onProperty obo:BFO_0000176 ;
+                                                                                                                            owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                                                          ]
+                                                                                                                        ) ;
+                                                                                                     rdf:type owl:Class
+                                                                                                   ]
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                            owl:onProperty obo:BFO_0000176 ;
+                                                                                                                            owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                                                          ]
+                                                                                                                        ) ;
+                                                                                                     rdf:type owl:Class
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "rancher-meat system Metazoa interaction"@en ;
                                        skos:definition "An interaction that occurs among Metazoa, that are part of a meat system, of which at least one is a rancher."@en ;
@@ -5058,7 +5689,8 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000186
 <https://w3id.org/sumso#SuMSO_0000186> rdf:type owl:Class ;
-                                       rdfs:subClassOf obo:OBI_0600006 ;
+                                       rdfs:subClassOf obo:OBI_0600006 ,
+                                                       _:genid1605 ;
                                        obo:IAO_0000118 "meat system animal killing"@en ;
                                        rdfs:comment "Currently, SuMSO uses this general class. A more specific subclass is required to restrict to animals used for human consumption."@en ,
                                                     "In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal killing” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises."@en ,
@@ -5067,19 +5699,145 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
                                        skos:definition "A protocol application in which an animal is intentionally put to death"@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
+_:genid1605 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom obo:NCBITaxon_33208
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                              [ rdf:type owl:Class ;
+                                                                                owl:complementOf obo:NCBITaxon_9606
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ]
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000117 ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000191>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000117 ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000193>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:OBI_0000293 ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                              [ rdf:type owl:Class ;
+                                                                                owl:complementOf obo:NCBITaxon_9606
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ]
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:OBI_0000299 ;
+                                    owl:someValuesFrom obo:FOODON_02010020
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:RO_0004008 ;
+                                    owl:someValuesFrom obo:FOODON_02010020
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:RO_0004009 ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                              [ rdf:type owl:Class ;
+                                                                                owl:complementOf obo:NCBITaxon_9606
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ]
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                    owl:someValuesFrom obo:NCBITaxon_33208
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                  ]
+                                ) ;
+             rdf:type owl:Class .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000186> ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget _:genid1605 ;
+   AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
+ ] .
+
 
 ###  https://w3id.org/sumso#SuMSO_0000188
 <https://w3id.org/sumso#SuMSO_0000188> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000183> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000183> ,
+                                                       _:genid1642 ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "slaughterer-meat interaction"@en ;
                                        skos:definition "An interaction that occurs between at lest one slaughterer and one cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
+_:genid1642 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                  ]
+                                ) ;
+             rdf:type owl:Class .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000188> ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget _:genid1642 ;
+   rdfs:comment "This axiom requires implementation to refer to meat and meat-related animal materials."@en ;
+   AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
+ ] .
+
 
 ###  https://w3id.org/sumso#SuMSO_0000189
 <https://w3id.org/sumso#SuMSO_0000189> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:FOODON_00000071 ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:FOODON_03305517
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000188>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:OBI_0000293 ;
+                                                                                owl:someValuesFrom obo:FOODON_03305517
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0002234 ;
+                                                                                owl:someValuesFrom obo:FOODON_02020895
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0004009 ;
+                                                                                owl:someValuesFrom obo:FOODON_03305517
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:RO_0002404 ;
@@ -5097,18 +5855,10 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000190
 <https://w3id.org/sumso#SuMSO_0000190> rdf:type owl:Class ;
-                                       owl:equivalentClass [ owl:intersectionOf ( CommonCoreOntologies:IncreaseOfDisposition
-                                                                                  [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty obo:RO_0019001 ;
-                                                                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000087>
-                                                                                  ]
-                                                                                ) ;
-                                                             rdf:type owl:Class
-                                                           ] ;
                                        rdfs:subClassOf CommonCoreOntologies:IncreaseOfDisposition ,
                                                        [ owl:intersectionOf ( CommonCoreOntologies:IncreaseOfDisposition
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:onProperty obo:BFO_0000167 ;
                                                                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000087>
                                                                               ]
                                                                             ) ;
@@ -5121,7 +5871,37 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000191
 <https://w3id.org/sumso#SuMSO_0000191> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000181> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000181> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000181>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                            owl:onProperty obo:BFO_0000176 ;
+                                                                                                                            owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                                                          ]
+                                                                                                                        ) ;
+                                                                                                     rdf:type owl:Class
+                                                                                                   ]
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                            owl:onProperty obo:BFO_0000176 ;
+                                                                                                                            owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                                                          ]
+                                                                                                                        ) ;
+                                                                                                     rdf:type owl:Class
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        CommonCoreOntologies:definition "An interaction that occurs between amon Metazoa, that are part of a meat system, of which one is a slaughterer."@en ;
                                        rdfs:label "slaughterer-meat system Metazoa interaction"@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
@@ -5133,14 +5913,6 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000193>
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:BFO_0000057 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000088>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
-                                                       ] ,
-                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000193>
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0019000 ;
                                                                                 owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000088>
                                                                               ]
                                                                             ) ;
@@ -5161,14 +5933,6 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
-                                                       ] ,
-                                                       [ owl:intersectionOf ( CommonCoreOntologies:LossOfDisposition
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0019000 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000087>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
                                                        ] ;
                                        rdfs:label "loss of animal welfare"@en ;
                                        skos:definition "A loss of welfare that is realized in an animal."@en ;
@@ -5177,7 +5941,8 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000194
 <https://w3id.org/sumso#SuMSO_0000194> rdf:type owl:Class ;
-                                       rdfs:subClassOf obo:OBI_0000011 ;
+                                       rdfs:subClassOf obo:OBI_0000011 ,
+                                                       _:genid1697 ;
                                        obo:IAO_0000118 "meat system animal aggregation process"@en ;
                                        rdfs:comment "In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal aggregation process” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises."@en ,
                                                     "Revision must restrict this class to animals used for human consumption."@en ,
@@ -5187,10 +5952,112 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
                                        skos:definition "A planned process that concerns the purchase of animals from smallholders for resale in large quantities to some supply chain actors or companies that participate in the downstream supply chain activities."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
+_:genid1697 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000008>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                              [ rdf:type owl:Class ;
+                                                                                owl:complementOf obo:NCBITaxon_9606
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000176 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ]
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000057 ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000176 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ]
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000117 ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000196>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:RO_0002411 ;
+                                    owl:someValuesFrom <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/Ee0HX3>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000008>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000176 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ]
+                                  ]
+                                ) ;
+             rdf:type owl:Class .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000194> ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget _:genid1697 ;
+   rdfs:comment "Animal aggregation leads to variations of animal welfare. Welfare may increase, decrease or persist unchanged. Including in this axiom reference to animal welfare would not have been very informative. Thus, this axiom currently does not cover reference to animal welfare. We envision implementations that will provide more specific classes and axioms that detail the type of welfare variation."@en
+ ] .
+
 
 ###  https://w3id.org/sumso#SuMSO_0000195
 <https://w3id.org/sumso#SuMSO_0000195> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000194> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000194> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000194>
+                                                                              [ rdf:type owl:Class ;
+                                                                                owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty obo:RO_0002092 ;
+                                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000154>
+                                                                                              ]
+                                                                                              [ rdf:type owl:Restriction ;
+                                                                                                owl:onProperty obo:RO_0002404 ;
+                                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000154>
+                                                                                              ]
+                                                                                            )
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000008>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000117 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000197>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:RO_0002411 ;
+                                                                                owl:someValuesFrom <http://opendata.inrae.fr/PO2/Ontology/TransformON/Process/gmoO8R>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000008>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:comment "We envision a revision of the label of this class."@en ;
                                        rdfs:label "cow aggregation process"@en ;
                                        skos:definition "An animal aggregation process that specifically regards cows."@en ;
@@ -5199,7 +6066,37 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000196
 <https://w3id.org/sumso#SuMSO_0000196> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                            owl:onProperty obo:BFO_0000176 ;
+                                                                                                                            owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                                                          ]
+                                                                                                                        ) ;
+                                                                                                     rdf:type owl:Class
+                                                                                                   ]
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom [ owl:intersectionOf ( obo:NCBITaxon_33208
+                                                                                                                          [ rdf:type owl:Restriction ;
+                                                                                                                            owl:onProperty obo:BFO_0000176 ;
+                                                                                                                            owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                                                          ]
+                                                                                                                        ) ;
+                                                                                                     rdf:type owl:Class
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:label "meat aggregator-meat system Metazoa interaction"@en ;
                                        skos:definition "An interaction that occurs among Metazoa, that are part of a meat system, of which at least one is a meat aggregator."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
@@ -5207,7 +6104,27 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000197
 <https://w3id.org/sumso#SuMSO_0000197> rdf:type owl:Class ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000196> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000196> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000196>
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:NCBITaxon_9913
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom [ rdf:type owl:Class ;
+                                                                                                     owl:unionOf ( obo:NCBITaxon_9913
+                                                                                                                   <https://w3id.org/sumso#SuMSO_0000100>
+                                                                                                                 )
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:label "meat aggregator-cow interaction"@en ;
                                        skos:definition "An interaction that occurs between at lest one meat aggregator and a cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
@@ -5215,7 +6132,31 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
 
 ###  https://w3id.org/sumso#SuMSO_0000198
 <https://w3id.org/sumso#SuMSO_0000198> rdf:type owl:Class ;
-                                       rdfs:subClassOf obo:OBI_0000011 ;
+                                       rdfs:subClassOf obo:OBI_0000011 ,
+                                                       [ owl:intersectionOf ( obo:OBI_0000011
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom obo:OCCO_00000124
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000009>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000068>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000009>
+                                                                              ]
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty <https://www.w3id.org/sco#SCO_0000037> ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000068>
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
                                        rdfs:comment "Additional classes and axioms are required to represent different types of interactions, certifications, further participants and agents, and sub-activities."@en ,
                                                     "This class aims to be a starting point to develop a representation of the certification process along supply chains. Discussions with subject matter experts are needed. Implementation will deepen into distinguishing certification verifying, certifying and assignment. The process of certification may occur at different stages of a supply chain and may concern different activities, activity participants, items or practices. Further classes and axioms will be provided to extend this representation. Further, the relation between certification and claim will be equally explored. Similarly, more details are required to deepen the role and participation of companies in this process as well as those of organizations and people with regards to awarding and recognizing certifications."@en ;
                                        rdfs:label "certification issuance process"@en ;
@@ -5223,52 +6164,91 @@ _:genid1250 owl:intersectionOf ( obo:ECOCORE_00000139
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
 
-###  https://www.w3id.org/sco#SCO_0000015
-<https://www.w3id.org/sco#SCO_0000015> rdf:type owl:Class ;
-                                       rdfs:subClassOf [ owl:intersectionOf ( obo:RO_0002577
+###  https://w3id.org/sumso#SuMSO_0000202
+<https://w3id.org/sumso#SuMSO_0000202> rdf:type owl:Class ;
+                                       owl:equivalentClass [ owl:intersectionOf ( obo:ECOCORE_00000139
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty obo:BFO_0000066 ;
+                                                                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000179>
+                                                                                  ]
+                                                                                ) ;
+                                                             rdf:type owl:Class
+                                                           ] ;
+                                       rdfs:subClassOf obo:ECOCORE_00000139 ,
+                                                       [ owl:intersectionOf ( obo:ECOCORE_00000139
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0000091 ;
-                                                                                owl:someValuesFrom <http://purl.unep.org/sdg/SDGIO_00000024>
+                                                                                owl:onProperty obo:RO_0002233 ;
+                                                                                owl:someValuesFrom obo:FOODON_03301750
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
-                                                       ] ,
-                                                       [ owl:intersectionOf ( obo:RO_0002577
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0000091 ;
-                                                                                owl:someValuesFrom <http://purl.unep.org/sdg/SDGIO_00010021>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
-                                                       ] ,
-                                                       [ owl:intersectionOf ( obo:RO_0002577
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0000091 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000089>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
-                                                       ] ,
-                                                       [ owl:intersectionOf ( obo:RO_0002577
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0000091 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000146>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
-                                                       ] .
+                                                       ] ;
+                                       rdfs:comment "Additional axioms may be added to expandand detail the representation."@en ;
+                                       rdfs:label "pasture grazing"@en ;
+                                       skos:definition "A grazing process that occurs on pasture fields."@en ;
+                                       AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
 
-###  https://www.w3id.org/sco#SCO_0000028
-<https://www.w3id.org/sco#SCO_0000028> rdf:type owl:Class ;
-                                       rdfs:subClassOf [ owl:intersectionOf ( <https://www.w3id.org/sco#SCO_0000013>
+###  https://w3id.org/sumso#SuMSO_0000203
+<https://w3id.org/sumso#SuMSO_0000203> rdf:type owl:Class ;
+                                       rdfs:subClassOf obo:OCCO_00000124 ,
+                                                       _:genid1795 ;
+                                       obo:IAO_0000118 "AGA certification"@en ;
+                                       dc:source """https://www.americangrassfed.org/become-a-certified-producer/  
+https://www.americangrassfed.org/about-us/our-standards/"""@en ;
+                                       CommonCoreOntologies:definition "A certification that is designed to signify that animal-derived products originate from 1) animals that are fed 100% forage all their entire life, 2) animals that are raised on pasture and not in confinement, 3) animals that do not receive hormones or antibiotics treatments, and animals raised in US family farms. Animals refer specifically to cows, pigs, and chickens."@en ;
+                                       rdfs:comment "Possible additional upper-level classes could be added."@en ,
+                                                    "This class and the related axioms aim to be a starting point and example to construct a representation of certifications. We envision discussion with subject matter experts to expand the representation of certification per se and in relation to (correponding) claims."@en ,
+                                                    "We constructed this definition based on the details provided on the AGA website, adapting the “certification” class definition. We envision possible implementations."@en ;
+                                       rdfs:label "American Grassfed Association (AGA) certification"@en ;
+                                       AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
+
+_:genid1795 owl:intersectionOf ( obo:OCCO_00000124
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty obo:BFO_0000056 ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000204>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty CommonCoreOntologies:prescribes ;
+                                    owl:someValuesFrom obo:AGRO_00000426
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty CommonCoreOntologies:prescribes ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000087>
+                                  ]
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty CommonCoreOntologies:prescribes ;
+                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000202>
+                                  ]
+                                ) ;
+             rdf:type owl:Class .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000203> ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget _:genid1795 ;
+   rdfs:comment "The object property “prescribes” may be substituted/complemented with some more specific/other relations."@en ,
+                "This axiom is a starting point Additional axioms are required to complete the representation of AGA certification. Possible implementations include reference to animal raising in US family farms and prohibition of hormones or antibiotics usage as well as specification of the type of animal to which the AGA certification applies, i.e. cows, pigs, and chickens."@en ,
+                "We currently include references to animal welfare. Nevertheless, this axiom must be specified for grazing animals."@en ;
+   AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
+ ] .
+
+
+###  https://w3id.org/sumso#SuMSO_0000204
+<https://w3id.org/sumso#SuMSO_0000204> rdf:type owl:Class ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000145> ,
+                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000145>
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0000091 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000086>
+                                                                                owl:onProperty obo:BFO_0000057 ;
+                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000203>
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
-                                                       ] .
+                                                       ] ;
+                                       rdfs:comment "See comments under the \"certification issuance process\" class."@en ,
+                                                    "We envision revisions of this definition to provide more details."@en ;
+                                       rdfs:label "AGA certification issuance process"@en ;
+                                       skos:definition "A meat system certification issuance process that regards the granting of an AGA certification."@en .
 
 
 #################################################################
