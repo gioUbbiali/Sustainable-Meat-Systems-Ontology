@@ -3025,14 +3025,10 @@ http://purl.obolibrary.org/obo/OMRSE_00000051""" ;
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000041> ,
-                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000041>
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0000091 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000112>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000097> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty obo:RO_0000091 ;
+                                                         owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000112>
                                                        ] ;
                                        rdfs:comment "Future implementations may include classes to also represent farmer and rancher companies."@en ;
                                        rdfs:label "farmer"@en ;
@@ -3047,7 +3043,7 @@ http://purl.obolibrary.org/obo/OCCO_45000000"""@en ;
 
 ###  https://w3id.org/sumso#SuMSO_0000070
 <https://w3id.org/sumso#SuMSO_0000070> rdf:type owl:Class ;
-                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
+                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000205>
                                                                                   [ rdf:type owl:Restriction ;
                                                                                     owl:onProperty obo:RO_0000087 ;
                                                                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000072>
@@ -3055,9 +3051,8 @@ http://purl.obolibrary.org/obo/OCCO_45000000"""@en ;
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000069> ,
-                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
-                                                                              [ rdf:type owl:Restriction ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000205> ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:BFO_0000056 ;
                                                                                 owl:someValuesFrom obo:AGRO_00000426
                                                                               ]
@@ -3068,21 +3063,13 @@ http://purl.obolibrary.org/obo/OCCO_45000000"""@en ;
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
-                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0000091 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000113>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty obo:RO_0000091 ;
+                                                         owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000113>
                                                        ] ,
-                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0002215 ;
-                                                                                owl:someValuesFrom obo:AGRO_00000426
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty obo:RO_0002215 ;
+                                                         owl:someValuesFrom obo:AGRO_00000426
                                                        ] ;
                                        oboInOwl:hasExactSynonym "cattleman"@en ;
                                        oboInOwl:hasRelatedSynonym "producer"@en ;
@@ -6249,6 +6236,22 @@ _:genid1795 owl:intersectionOf ( obo:OCCO_00000124
                                                     "We envision revisions of this definition to provide more details."@en ;
                                        rdfs:label "AGA certification issuance process"@en ;
                                        skos:definition "A meat system certification issuance process that regards the granting of an AGA certification."@en .
+
+
+###  https://w3id.org/sumso#SuMSO_0000205
+<https://w3id.org/sumso#SuMSO_0000205> rdf:type owl:Class ;
+                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty obo:BFO_0000176 ;
+                                                                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                  ]
+                                                                                ) ;
+                                                             rdf:type owl:Class
+                                                           ] ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000069> ;
+                                       rdfs:label "meat system farmer"@en ;
+                                       skos:definition "A farmer that is part of a meat system and engages in at least one meat supply chain activitiy."@en ;
+                                       AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
 
 #################################################################

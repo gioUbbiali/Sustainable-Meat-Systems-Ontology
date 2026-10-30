@@ -62,30 +62,30 @@ obo:BFO_0000180 rdf:type owl:AnnotationProperty ;
 
 ###  http://purl.obolibrary.org/obo/IAO_0000111
 obo:IAO_0000111 rdf:type owl:AnnotationProperty ;
-                obo:IAO_0000111 "editor preferred label" ,
-                                "editor preferred label"@en ,
-                                "editor preferred term" ,
+                obo:IAO_0000111 "editor preferred label"@en ,
                                 "editor preferred term"@en ,
-                                "editor preferred term~editor preferred label" ,
                                 "编辑首选术语"@zh ,
-                                "编辑首选标签"@zh ;
+                                "编辑首选标签"@zh ,
+                                "editor preferred label" ,
+                                "editor preferred term" ,
+                                "editor preferred term~editor preferred label" ;
                 obo:IAO_0000114 obo:IAO_0000122 ;
                 obo:IAO_0000115 "The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)"@en ,
                                 "对于一类或属性的简洁的、有意义的、与人类友好的名称由本体开发商首选。 （美国英语）"@zh ;
                 obo:IAO_0000117 "PERSON:Daniel Schober"@en ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "editor preferred label" ,
-                           "editor preferred label"@en ,
-                           "editor preferred term" ,
+                rdfs:label "editor preferred label"@en ,
                            "editor preferred term"@en ,
-                           "editor preferred term~editor preferred label" ,
                            "editor preferred term~editor preferred label"@en ,
-                           "编辑首选术语" ,
                            "编辑首选术语"@zh ,
+                           "编辑首选标签"@zh ,
+                           "editor preferred label" ,
+                           "editor preferred term" ,
+                           "editor preferred term~editor preferred label" ,
+                           "编辑首选术语" ,
                            "编辑首选术语~编辑首选标签" ,
-                           "编辑首选标签" ,
-                           "编辑首选标签"@zh .
+                           "编辑首选标签" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000112
@@ -101,8 +101,8 @@ obo:IAO_0000112 rdf:type owl:AnnotationProperty ;
                 oboInOwl:is_metadata_tag "true"^^xsd:boolean ;
                 oboInOwl:shorthand "example_of_usage" ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "example of usage" ,
-                           "example of usage"@en .
+                rdfs:label "example of usage"@en ,
+                           "example of usage" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000114
@@ -114,26 +114,26 @@ obo:IAO_0000114 rdf:type owl:AnnotationProperty ;
                                 "PERSON:Melanie Courtot"@en ;
                 obo:IAO_0000119 "OBI_0000281"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "has curation status" ,
-                           "has curation status"@en ,
-                           "有管理状态" ,
-                           "有管理状态"@zh .
+                rdfs:label "has curation status"@en ,
+                           "有管理状态"@zh ,
+                           "has curation status" ,
+                           "有管理状态" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000115
 obo:IAO_0000115 rdf:type owl:AnnotationProperty ;
-                obo:IAO_0000111 "definition" ,
-                                "definition"@en ,
-                                "textual definition" ,
+                obo:IAO_0000111 "definition"@en ,
                                 "textual definition"@en ,
-                                "定义"@zh ;
+                                "定义"@zh ,
+                                "definition" ,
+                                "textual definition" ;
                 obo:IAO_0000114 obo:IAO_0000122 ;
-                obo:IAO_0000115 "A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software." ,
-                                "OBI的官方定义，解释类或属性的含义。应该是亚里士多德式的，形式化和规范化的。 可以通过口语定义进行扩充。"@zh ,
+                obo:IAO_0000115 "OBI的官方定义，解释类或属性的含义。应该是亚里士多德式的，形式化和规范化的。 可以通过口语定义进行扩充。"@zh ,
                                 "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en ,
-                                "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions." ,
                                 "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en ,
-                                "官方的定义，解释类或属性的含义。应该是亚里士多德式的，形式化和规范化的。 可以通过口语定义进行扩充。"@zh ;
+                                "官方的定义，解释类或属性的含义。应该是亚里士多德式的，形式化和规范化的。 可以通过口语定义进行扩充。"@zh ,
+                                "A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software." ,
+                                "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions." ;
                 obo:IAO_0000116 """2012-04-05: 
 Barry Smith
 
@@ -198,14 +198,14 @@ We also have the outstanding issue of how to aim different definitions to differ
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 oboInOwl:hasExactSynonym "DEFINITION" ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "definition" ,
-                           "definition"@en ,
-                           "textual definition" ,
+                rdfs:label "definition"@en ,
                            "textual definition"@en ,
-                           "定义" ,
                            "定义"@zh ,
-                           "文本定义" ,
-                           "文本定义"@zh .
+                           "文本定义"@zh ,
+                           "definition" ,
+                           "textual definition" ,
+                           "定义" ,
+                           "文本定义" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000116
@@ -218,32 +218,32 @@ obo:IAO_0000116 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000117 "PERSON:Daniel Schober"@en ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obfoundry.org/obo/obi>"@en ,
                                 "GROUP:OBI:<http://purl.obofoundry.org/obo/obi>"@en ;
-                obo:hasDbXref "IAO:0000116" ,
-                              "IAO:0000116"@en ;
-                obo:hasOBONamespace "uberon" ,
-                                    "uberon"@en ;
-                obo:id "editor_note" ,
-                       "editor_note"@en ,
-                       "编辑_注释"@zh ;
+                obo:hasDbXref "IAO:0000116"@en ,
+                              "IAO:0000116" ;
+                obo:hasOBONamespace "uberon"@en ,
+                                    "uberon" ;
+                obo:id "editor_note"@en ,
+                       "编辑_注释"@zh ,
+                       "editor_note" ;
                 obo:is_metadata_tag "true"^^xsd:boolean ;
-                obo:shorthand "editor_note" ,
-                              "editor_note"@en ,
-                              "编辑_注释"@zh ;
-                oboInOwl:hasDbXref "IAO:0000116" ,
-                                   "IAO:0000116"@en ;
-                oboInOwl:hasOBONamespace "uberon" ,
-                                         "uberon"@en ;
-                oboInOwl:id "editor_note" ,
-                            "editor_note"@en ;
+                obo:shorthand "editor_note"@en ,
+                              "编辑_注释"@zh ,
+                              "editor_note" ;
+                oboInOwl:hasDbXref "IAO:0000116"@en ,
+                                   "IAO:0000116" ;
+                oboInOwl:hasOBONamespace "uberon"@en ,
+                                         "uberon" ;
+                oboInOwl:id "editor_note"@en ,
+                            "editor_note" ;
                 oboInOwl:is_metadata_tag "true"^^xsd:boolean ,
                                          1 ;
-                oboInOwl:shorthand "editor_note" ,
-                                   "editor_note"@en ;
+                oboInOwl:shorthand "editor_note"@en ,
+                                   "editor_note" ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "editor note" ,
-                           "editor note"@en ,
-                           "编者注" ,
-                           "编者注"@zh .
+                rdfs:label "editor note"@en ,
+                           "编者注"@zh ,
+                           "editor note" ,
+                           "编者注" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000117
@@ -261,12 +261,12 @@ obo:IAO_0000117 rdf:type owl:AnnotationProperty ;
                 obo:IAO_0000117 "PERSON:Daniel Schober"@en ;
                 obo:IAO_0000119 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "definition editor" ,
-                           "definition editor"@en ,
-                           "term editor" ,
+                rdfs:label "definition editor"@en ,
                            "term editor"@en ,
-                           "术语编辑者" ,
-                           "术语编辑者"@zh .
+                           "术语编辑者"@zh ,
+                           "definition editor" ,
+                           "term editor" ,
+                           "术语编辑者" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000118
@@ -290,15 +290,15 @@ obo:IAO_0000119 rdf:type owl:AnnotationProperty ;
                                 "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007"@en ,
                                 "正式引用，例如在外部数据库中的标识符，用于表示/定义的属性源（S）。自由文本表示/为定义属性源（S）。实例：在2007年1月31日的作者姓名，URI，MeSH术语C04，PUBMEDID，维基uri"@zh ;
                 obo:IAO_0000117 "PERSON:Daniel Schober"@en ;
-                obo:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w" ,
-                                "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"@en ,
+                obo:IAO_0000119 "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"@en ,
                                 "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"@en ,
-                                "论OBO-讨论邮件-列表，请参阅http://bit.ly/hgm99w"@zh ;
+                                "论OBO-讨论邮件-列表，请参阅http://bit.ly/hgm99w"@zh ,
+                                "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w" ;
                 rdfs:isDefinedBy obo:iao.owl ;
-                rdfs:label "definition source" ,
-                           "definition source"@en ,
-                           "定义来源" ,
-                           "定义来源"@zh .
+                rdfs:label "definition source"@en ,
+                           "定义来源"@zh ,
+                           "definition source" ,
+                           "定义来源" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000232
@@ -325,8 +325,8 @@ obo:IAO_0000233 rdf:type owl:AnnotationProperty ;
                 oboInOwl:is_metadata_tag "true"^^xsd:boolean ;
                 oboInOwl:shorthand "term_tracker_item" ;
                 rdfs:comment "The 'tracker item' can associate a tracker with a specific ontology term."@en ;
-                rdfs:label "term tracker item" ,
-                           "term tracker item"@en .
+                rdfs:label "term tracker item"@en ,
+                           "term tracker item" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000412
@@ -362,8 +362,8 @@ Annotations: expand_assertion_to \"DisjointClasses: (http://purl.obolibrary.org/
 """@en ;
                 obo:IAO_0000115 "A macro expansion tag applied to an annotation property which can be expanded into a more detailed axiom."@en ;
                 obo:IAO_0000117 "Chris Mungall"@en ;
-                rdfs:label "expand assertion to" ,
-                           "expand assertion to"@en .
+                rdfs:label "expand assertion to"@en ,
+                           "expand assertion to" .
 
 
 ###  http://purl.obolibrary.org/obo/IAO_0000589
@@ -827,11 +827,11 @@ oboInOwl:hasBroadSynonym rdf:type owl:AnnotationProperty ;
 ###  http://www.geneontology.org/formats/oboInOwl#hasDbXref
 oboInOwl:hasDbXref rdf:type owl:AnnotationProperty ;
                    rdfs:isDefinedBy <http://www.geneontology.org/formats/oboinowl.owl> ;
-                   rdfs:label "database_cross_reference" ,
-                              "database_cross_reference"@en ,
+                   rdfs:label "database_cross_reference"@en ,
                               "has database cross reference"@en ,
-                              "数据库_交叉_引用" ,
-                              "数据库_交叉_引用"@zh .
+                              "数据库_交叉_引用"@zh ,
+                              "database_cross_reference" ,
+                              "数据库_交叉_引用" .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasDefinition
@@ -847,9 +847,9 @@ oboInOwl:hasExactSynonym rdf:type owl:AnnotationProperty ;
                          obo:IAO_0000233 "https://github.com/information-artifact-ontology/ontology-metadata/issues/20" ;
                          oboInOwl:hasExactSynonym "FULL_SYN" ,
                                                   "Synonym with Source Data" ;
-                         rdfs:label "alternative_term" ,
+                         rdfs:label "has exact synonym"@en ,
+                                    "alternative_term" ,
                                     "has exact synonym" ,
-                                    "has exact synonym"@en ,
                                     "has_exact_synonym" ;
                          rdfs:seeAlso "https://github.com/information-artifact-ontology/ontology-metadata/issues/20" ;
                          rdfs:subPropertyOf obo:IAO_0000118 .
@@ -869,10 +869,10 @@ oboInOwl:hasNarrowSynonym rdf:type owl:AnnotationProperty ;
 ###  http://www.geneontology.org/formats/oboInOwl#hasOBONamespace
 oboInOwl:hasOBONamespace rdf:type owl:AnnotationProperty ;
                          rdfs:comment "disease_ontology" ;
-                         rdfs:label "has_obo_namespace" ,
-                                    "has_obo_namespace"@en ,
-                                    "有_obo_命名空间" ,
-                                    "有_obo_命名空间"@zh .
+                         rdfs:label "has_obo_namespace"@en ,
+                                    "有_obo_命名空间"@zh ,
+                                    "has_obo_namespace" ,
+                                    "有_obo_命名空间" .
 
 
 ###  http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
@@ -918,8 +918,8 @@ oboInOwl:is_metadata_tag rdf:type owl:AnnotationProperty .
 
 ###  http://www.geneontology.org/formats/oboInOwl#shorthand
 oboInOwl:shorthand rdf:type owl:AnnotationProperty ;
-                   rdfs:label "shorthand" ,
-                              "shorthand"@en .
+                   rdfs:label "shorthand"@en ,
+                              "shorthand" .
 
 
 ###  http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#python_name
@@ -968,8 +968,8 @@ rdfs:label rdf:type owl:AnnotationProperty ;
            obo:IAO_0000111 "label" ;
            rdfs:comment "A human-readable name for the subject."@en ;
            rdfs:isDefinedBy <http://www.w3.org/2000/01/rdf-schema.owl> ;
-           rdfs:label "label" ,
-                      "label"@en ,
+           rdfs:label "label"@en ,
+                      "label" ,
                       "标签" .
 
 
@@ -1293,8 +1293,8 @@ obo:BFO_0000050 rdf:type owl:ObjectProperty ,
 
 A continuant cannot be part of an occurrent: use 'participates in'. An occurrent cannot be part of a continuant: use 'has participant'. A material entity cannot be part of an immaterial entity: use 'has location'. A specifically dependent continuant cannot be part of an independent continuant: use 'inheres in'. An independent continuant cannot be part of a specifically dependent continuant: use 'bearer of'."""@en ;
                 obo:IAO_0000118 "part_of"@en ;
-                rdfs:label "part of" ,
-                           "part of"@en ,
+                rdfs:label "part of"@en ,
+                           "part of" ,
                            "part_of" .
 
 
@@ -2545,8 +2545,8 @@ obo:RO_0000086 rdf:type owl:ObjectProperty ;
                obo:IAO_0000115 "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence"@en ;
                obo:IAO_0000116 "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."@en ;
                obo:IAO_0000118 "has_quality"@en ;
-               rdfs:label "has quality" ,
-                          "has quality"@en .
+               rdfs:label "has quality"@en ,
+                          "has quality" .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0000087
@@ -3072,8 +3072,8 @@ obo:RO_0002221 rdf:type owl:ObjectProperty ;
                obo:IAO_0000114 obo:IAO_0000125 ;
                obo:IAO_0000115 "inverse of surrounded by" ;
                obo:IAO_0000117 <https://orcid.org/0000-0002-6601-2165> ;
-               rdfs:label "surrounds" ,
-                          "surrounds"@en .
+               rdfs:label "surrounds"@en ,
+                          "surrounds" .
 
 
 ###  http://purl.obolibrary.org/obo/RO_0002222
@@ -3766,8 +3766,8 @@ obo:RO_0002434 rdf:type owl:ObjectProperty ,
                rdfs:domain obo:BFO_0000040 ;
                rdfs:range obo:BFO_0000040 ;
                obo:IAO_0000115 "A relationship that holds between two entities in which the processes executed by the two entities are causally connected." ;
-               obo:IAO_0000116 "This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact." ,
-                               "Considering relabeling as 'pairwise interacts with'"^^xsd:anyURI ;
+               obo:IAO_0000116 "Considering relabeling as 'pairwise interacts with'"^^xsd:anyURI ,
+                               "This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact." ;
                obo:IAO_0000117 <https://orcid.org/0000-0002-6601-2165> ;
                obo:IAO_0000232 "Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules." ;
                oboInOwl:hasExactSynonym "in pairwise interaction with" ;
@@ -5478,8 +5478,8 @@ obo:BFO_0000003 rdf:type owl:Class ;
                                 ] ;
                 obo:BFO_0000179 "occurrent" ;
                 obo:BFO_0000180 "Occurrent" ;
-                obo:IAO_0000115 "An entity that has temporal parts and that happens, unfolds or develops through time." ,
-                                "An entity that has temporal parts and that happens, unfolds or develops through time."@en ;
+                obo:IAO_0000115 "An entity that has temporal parts and that happens, unfolds or develops through time."@en ,
+                                "An entity that has temporal parts and that happens, unfolds or develops through time." ;
                 obo:IAO_0000116 "BFO 2 Reference: every occurrent that is not a temporal or spatiotemporal region is s-dependent on some independent continuant that is not a spatial region"@en ,
                                 "BFO 2 Reference: s-dependence obtains between every process and its participants in the sense that, as a matter of necessity, this process could not have existed unless these or those participants existed also. A process may have a succession of participants at different phases of its unfolding. Thus there may be different players on the field at different times during the course of a football game; but the process which is the entire game s-depends_on all of these players nonetheless. Some temporal parts of this process will s-depend_on on only some of the players."@en ,
                                 "Occurrent doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. An example would be the sum of a process and the process boundary of another process."@en ,
@@ -5492,8 +5492,8 @@ obo:BFO_0000003 rdf:type owl:Class ;
                                 "(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] " ;
                 dc:identifier "077-BFO" ;
                 rdfs:isDefinedBy obo:bfo.owl ;
-                rdfs:label "occurrent" ,
-                           "occurrent"@en ;
+                rdfs:label "occurrent"@en ,
+                           "occurrent" ;
                 skos:definition "(Elucidation) An occurrent is an entity that unfolds itself in time or it is the start or end of such an entity or it is a temporal or spatiotemporal region"@en ;
                 skos:example "As for process, history, process boundary, spatiotemporal region, zero-dimensional temporal region, one-dimensional temporal region, temporal interval, temporal instant."@en ;
                 skos:prefLabel "occurrent"@en .
@@ -7532,14 +7532,14 @@ obo:IAO_0000027 rdf:type owl:Class ;
                 obo:IAO_0000116 "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers."@en ,
                                 "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum."@en ,
                                 "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym."@en ,
-                                "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/" ,
                                 """JAR: datum     -- well, this will be very tricky to define, but maybe some 
 information-like stuff that might be put into a computer and that is 
 meant, by someone, to denote and/or to be interpreted by some 
 process... I would include lists, tables, sentences... I think I might 
 defer to Barry, or to Brian Cantwell Smith
 
-JAR: A data item is an approximately justified approximately true approximate belief"""@en ;
+JAR: A data item is an approximately justified approximately true approximate belief"""@en ,
+                                "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/" ;
                 obo:IAO_0000117 "PERSON: Alan Ruttenberg"@en ,
                                 "PERSON: Chris Stoeckert"@en ,
                                 "PERSON: Jonathan Rees"@en ;
@@ -7784,9 +7784,9 @@ obo:NCBITaxon_30520 rdf:type owl:Class ;
                                        <http://www.langual.org/langual_thesaurus.asp?termid=B4851> ,
                                        "MSW3:14200675" ;
                     oboInOwl:hasExactSynonym "Bos frontalis"@en ,
+                                             "mithun"@en ,
                                              "gayal" ,
-                                             "mithun" ,
-                                             "mithun"@en ;
+                                             "mithun" ;
                     oboInOwl:hasNarrowSynonym "Bos frontalis Lambert, 1804" ;
                     oboInOwl:hasSynonym "mithan"@en ;
                     rdfs:label "Bos frontalis" .
@@ -7910,8 +7910,8 @@ obo:NCBITaxon_9906 rdf:type owl:Class ;
                                       <http://www.langual.org/langual_thesaurus.asp?termid=B4850> ,
                                       "MSW3:14200683" ;
                    oboInOwl:hasExactSynonym "Bos javanicus"@en ,
-                                            "banteng" ,
                                             "tembadau"@en ,
+                                            "banteng" ,
                                             "wild banteng" ;
                    oboInOwl:hasNarrowSynonym "Bos javanicus d'Alton, 1823" ;
                    rdfs:label "Bos javanicus" .
@@ -7975,8 +7975,8 @@ obo:NCBITaxon_9913 rdf:type owl:Class ;
                    oboInOwl:hasDbXref <http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=183838> ,
                                       <http://www.langual.org/langual_thesaurus.asp?termid=B1161> ,
                                       <https://eol.org/pages/328699> ,
-                                      "GC_ID:1" ,
-                                      "MSW3:14200687"@en ;
+                                      "MSW3:14200687"@en ,
+                                      "GC_ID:1" ;
                    oboInOwl:hasExactSynonym "Bos taurus Linnaeus, 1758"@en ,
                                             "bovine" ,
                                             "cattle" ,
@@ -8048,8 +8048,8 @@ obo:OBI_0000011 rdf:type owl:Class ;
 objectives is a planned process.""" ;
                 obo:IAO_0000117 "Bjoern Peters" ;
                 obo:IAO_0000119 "branch derived" ;
-                obo:IAO_0000232 "6/11/9: Edited at workshop. Used to include: is initiated by an agent" ,
-                                "This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)"@en ;
+                obo:IAO_0000232 "This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)"@en ,
+                                "6/11/9: Edited at workshop. Used to include: is initiated by an agent" ;
                 obo:IAO_0000412 obo:obi.owl ;
                 rdfs:comment """SuMSO creator comment:
 see also https://spec.industrialontologies.org/ontology/core/Core/PlannedProcess"""@en ,
@@ -10541,7 +10541,7 @@ we refrain from proceeding as such, choosing solely to not establish correspondi
                                        owl:disjointWith <https://w3id.org/sumso#SuMSO_0000067> ;
                                        rdfs:comment "We use this class to group workers that belong to meat systems."@en ;
                                        rdfs:label "meat system worker"@en ;
-                                       skos:definition "A worker that is part of a meat system and engages in at least one meat supply chain activitiy.."@en ;
+                                       skos:definition "A worker that is part of a meat system and engages in at least one meat supply chain activitiy."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
 
@@ -11181,14 +11181,10 @@ http://purl.obolibrary.org/obo/OMRSE_00000051""" ;
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000041> ,
-                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000041>
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0000091 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000112>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000097> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty obo:RO_0000091 ;
+                                                         owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000112>
                                                        ] ;
                                        rdfs:comment "Future implementations may include classes to also represent farmer and rancher companies."@en ;
                                        rdfs:label "farmer"@en ;
@@ -11203,7 +11199,7 @@ http://purl.obolibrary.org/obo/OCCO_45000000"""@en ;
 
 ###  https://w3id.org/sumso#SuMSO_0000070
 <https://w3id.org/sumso#SuMSO_0000070> rdf:type owl:Class ;
-                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
+                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000205>
                                                                                   [ rdf:type owl:Restriction ;
                                                                                     owl:onProperty obo:RO_0000087 ;
                                                                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000072>
@@ -11211,9 +11207,8 @@ http://purl.obolibrary.org/obo/OCCO_45000000"""@en ;
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000069> ,
-                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
-                                                                              [ rdf:type owl:Restriction ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000205> ,
+                                                       [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:BFO_0000056 ;
                                                                                 owl:someValuesFrom obo:AGRO_00000426
                                                                               ]
@@ -11224,21 +11219,13 @@ http://purl.obolibrary.org/obo/OCCO_45000000"""@en ;
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
-                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0000091 ;
-                                                                                owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000113>
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty obo:RO_0000091 ;
+                                                         owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000113>
                                                        ] ,
-                                                       [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty obo:RO_0002215 ;
-                                                                                owl:someValuesFrom obo:AGRO_00000426
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty obo:RO_0002215 ;
+                                                         owl:someValuesFrom obo:AGRO_00000426
                                                        ] ;
                                        oboInOwl:hasExactSynonym "cattleman"@en ;
                                        oboInOwl:hasRelatedSynonym "producer"@en ;
@@ -11684,7 +11671,7 @@ https://regenscore.org/""" ;
 
 ###  https://w3id.org/sumso#SuMSO_0000088
 <https://w3id.org/sumso#SuMSO_0000088> rdf:type owl:Class ;
-                                       owl:equivalentClass _:genid1351 ;
+                                       owl:equivalentClass _:genid1341 ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000087> ;
                                        oboInOwl:hasRelatedSynonym "cow well-being, cow wellbeing,"@en ;
                                        rdfs:comment "The label may be revised to refer more generally to bovines. Additional classes may be used to specify well-being of single species."@en ;
@@ -11692,7 +11679,7 @@ https://regenscore.org/""" ;
                                        skos:definition "A animal welfare that is bearered by a cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid1351 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000087>
+_:genid1341 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000087>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000059 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000093>
@@ -11711,7 +11698,7 @@ _:genid1351 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000087>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000088> ;
    owl:annotatedProperty owl:equivalentClass ;
-   owl:annotatedTarget _:genid1351 ;
+   owl:annotatedTarget _:genid1341 ;
    rdfs:comment "This axiom may be revised to refer more general to Bos."@en
  ] .
 
@@ -11809,12 +11796,12 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion"""
                                                              rdf:type owl:Class
                                                            ] ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000090> ,
-                                                       _:genid1394 ;
+                                                       _:genid1384 ;
                                        rdfs:label "meat system well-being"@en ;
                                        skos:definition "A food system well-being that is bearered by a meat system."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1394 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
+_:genid1384 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000178 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000088>
@@ -11829,7 +11816,7 @@ _:genid1394 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000091> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1394 ;
+   owl:annotatedTarget _:genid1384 ;
    rdfs:comment "This axiom currently includes reference to cow well-being. Implementations may establish distinctions between diverse meat systems as not all meat systems relate necessary to cows. This axiom must be revised accordingly."@en
  ] .
 
@@ -13003,7 +12990,7 @@ http://id.agrisemantics.org/gacs/C3602"""@en ;
 ###  https://w3id.org/sumso#SuMSO_0000153
 <https://w3id.org/sumso#SuMSO_0000153> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:OBI_0000094 ,
-                                                       _:genid1733 ,
+                                                       _:genid1723 ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:BFO_0000117 ;
@@ -13031,7 +13018,7 @@ http://id.agrisemantics.org/gacs/C3602"""@en ;
                                        skos:definition "A planned process that concerns preparing meat items for marketing or distribution, including animal slaughtering,animal carcass cutting, meat portion preparation, and meat packing for distribution."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1733 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+_:genid1723 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom obo:FOODON_02010020
@@ -13072,7 +13059,7 @@ _:genid1733 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000153> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1733 ;
+   owl:annotatedTarget _:genid1723 ;
    rdfs:comment """This axiom requires implementation to refer to meat and meat-related animal materials more specifically. Revision must also apply to restrict to animals used for human consumption. 
 See also the comment to corresponding axiom for the \"meat processor-meat interaction\" class."""@en ;
    AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
@@ -13090,7 +13077,7 @@ See also the comment to corresponding axiom for the \"meat processor-meat intera
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
-                                                       _:genid1769 ,
+                                                       _:genid1759 ,
                                                        [ owl:intersectionOf ( obo:AGRO_00000426
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:RO_0002411 ;
@@ -13132,7 +13119,7 @@ See also the comment to corresponding axiom for the \"meat processor-meat intera
                                        skos:definition "Regulation of grazing that specifically regards cows."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1769 owl:intersectionOf ( obo:AGRO_00000426
+_:genid1759 owl:intersectionOf ( obo:AGRO_00000426
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:RO_0002092 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000178>
@@ -13143,7 +13130,7 @@ _:genid1769 owl:intersectionOf ( obo:AGRO_00000426
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000154> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1769 ;
+   owl:annotatedTarget _:genid1759 ;
    rdfs:comment "Alternatively, the object property \"regulates\" may be used here."@en
  ] .
 
@@ -13575,7 +13562,7 @@ To represent variations of quality/realizable with respect to different processe
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
-                                                       _:genid1915 ,
+                                                       _:genid1905 ,
                                                        [ owl:intersectionOf ( obo:ECOCORE_00000139
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:RO_0002411 ;
@@ -13588,7 +13575,7 @@ To represent variations of quality/realizable with respect to different processe
                                        skos:definition "A grazing process that pertain to cows."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1915 owl:intersectionOf ( obo:ECOCORE_00000139
+_:genid1905 owl:intersectionOf ( obo:ECOCORE_00000139
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:RO_0002234 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000172>
@@ -13599,7 +13586,7 @@ _:genid1915 owl:intersectionOf ( obo:ECOCORE_00000139
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000176> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1915 ;
+   owl:annotatedTarget _:genid1905 ;
    rdfs:comment "This axiom must be implemented, for instance with reference to GHG emissions."@en
  ] .
 
@@ -13777,13 +13764,13 @@ _:genid1915 owl:intersectionOf ( obo:ECOCORE_00000139
 ###  https://w3id.org/sumso#SuMSO_0000183
 <https://w3id.org/sumso#SuMSO_0000183> rdf:type owl:Class ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ,
-                                                       _:genid1986 ;
+                                                       _:genid1976 ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "meat processor-meat interaction"@en ;
                                        skos:definition "An interaction that occurs between at lest one meat processor and one cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid1986 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
+_:genid1976 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
@@ -13798,7 +13785,7 @@ _:genid1986 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000183> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1986 ;
+   owl:annotatedTarget _:genid1976 ;
    rdfs:comment "This axiom requires implementation to refer to meat and meat-related animal materials."@en ;
    AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
  ] .
@@ -13846,7 +13833,7 @@ _:genid1986 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
 ###  https://w3id.org/sumso#SuMSO_0000186
 <https://w3id.org/sumso#SuMSO_0000186> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:OBI_0600006 ,
-                                                       _:genid2009 ;
+                                                       _:genid1999 ;
                                        obo:IAO_0000118 "meat system animal killing"@en ;
                                        rdfs:comment "Currently, SuMSO uses this general class. A more specific subclass is required to restrict to animals used for human consumption."@en ,
                                                     "In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal killing” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises."@en ,
@@ -13855,7 +13842,7 @@ _:genid1986 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
                                        skos:definition "A protocol application in which an animal is intentionally put to death"@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid2009 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+_:genid1999 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom obo:NCBITaxon_33208
@@ -13924,7 +13911,7 @@ _:genid2009 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000186> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid2009 ;
+   owl:annotatedTarget _:genid1999 ;
    AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
  ] .
 
@@ -13932,13 +13919,13 @@ _:genid2009 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 ###  https://w3id.org/sumso#SuMSO_0000188
 <https://w3id.org/sumso#SuMSO_0000188> rdf:type owl:Class ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000183> ,
-                                                       _:genid2046 ;
+                                                       _:genid2036 ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "slaughterer-meat interaction"@en ;
                                        skos:definition "An interaction that occurs between at lest one slaughterer and one cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid2046 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
+_:genid2036 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
@@ -13953,7 +13940,7 @@ _:genid2046 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000188> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid2046 ;
+   owl:annotatedTarget _:genid2036 ;
    rdfs:comment "This axiom requires implementation to refer to meat and meat-related animal materials."@en ;
    AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
  ] .
@@ -14098,7 +14085,7 @@ _:genid2046 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
 ###  https://w3id.org/sumso#SuMSO_0000194
 <https://w3id.org/sumso#SuMSO_0000194> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:OBI_0000011 ,
-                                                       _:genid2101 ;
+                                                       _:genid2091 ;
                                        obo:IAO_0000118 "meat system animal aggregation process"@en ;
                                        rdfs:comment "In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal aggregation process” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises."@en ,
                                                     "Revision must restrict this class to animals used for human consumption."@en ,
@@ -14108,7 +14095,7 @@ _:genid2046 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
                                        skos:definition "A planned process that concerns the purchase of animals from smallholders for resale in large quantities to some supply chain actors or companies that participate in the downstream supply chain activities."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid2101 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+_:genid2091 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000008>
@@ -14167,7 +14154,7 @@ _:genid2101 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000194> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid2101 ;
+   owl:annotatedTarget _:genid2091 ;
    rdfs:comment "Animal aggregation leads to variations of animal welfare. Welfare may increase, decrease or persist unchanged. Including in this axiom reference to animal welfare would not have been very informative. Thus, this axiom currently does not cover reference to animal welfare. We envision implementations that will provide more specific classes and axioms that detail the type of welfare variation."@en
  ] .
 
@@ -14348,7 +14335,7 @@ _:genid2101 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 ###  https://w3id.org/sumso#SuMSO_0000203
 <https://w3id.org/sumso#SuMSO_0000203> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:OCCO_00000124 ,
-                                                       _:genid2199 ;
+                                                       _:genid2189 ;
                                        obo:IAO_0000118 "AGA certification"@en ;
                                        dc:source """https://www.americangrassfed.org/become-a-certified-producer/  
 https://www.americangrassfed.org/about-us/our-standards/"""@en ;
@@ -14359,7 +14346,7 @@ https://www.americangrassfed.org/about-us/our-standards/"""@en ;
                                        rdfs:label "American Grassfed Association (AGA) certification"@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid2199 owl:intersectionOf ( obo:OCCO_00000124
+_:genid2189 owl:intersectionOf ( obo:OCCO_00000124
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000056 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000204>
@@ -14382,7 +14369,7 @@ _:genid2199 owl:intersectionOf ( obo:OCCO_00000124
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000203> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid2199 ;
+   owl:annotatedTarget _:genid2189 ;
    rdfs:comment "The object property “prescribes” may be substituted/complemented with some more specific/other relations."@en ,
                 "This axiom is a starting point Additional axioms are required to complete the representation of AGA certification. Possible implementations include reference to animal raising in US family farms and prohibition of hormones or antibiotics usage as well as specification of the type of animal to which the AGA certification applies, i.e. cows, pigs, and chickens."@en ,
                 "We currently include references to animal welfare. Nevertheless, this axiom must be specified for grazing animals."@en ;
@@ -14407,9 +14394,25 @@ _:genid2199 owl:intersectionOf ( obo:OCCO_00000124
                                        skos:definition "A meat system certification issuance process that regards the granting of an AGA certification."@en .
 
 
+###  https://w3id.org/sumso#SuMSO_0000205
+<https://w3id.org/sumso#SuMSO_0000205> rdf:type owl:Class ;
+                                       owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000069>
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty obo:BFO_0000176 ;
+                                                                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000003>
+                                                                                  ]
+                                                                                ) ;
+                                                             rdf:type owl:Class
+                                                           ] ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000069> ;
+                                       rdfs:label "meat system farmer"@en ;
+                                       skos:definition "A farmer that is part of a meat system and engages in at least one meat supply chain activitiy."@en ;
+                                       AnnotationVocabulary:maturity AnnotationVocabulary:Released .
+
+
 ###  https://www.w3id.org/sco#SCO_0000001
 <https://www.w3id.org/sco#SCO_0000001> rdf:type owl:Class ;
-                                       owl:equivalentClass _:genid2214 ;
+                                       owl:equivalentClass _:genid2208 ;
                                        rdfs:subClassOf obo:BFO_0000015 ,
                                                        [ owl:intersectionOf ( obo:BFO_0000015
                                                                               [ rdf:type owl:Restriction ;
@@ -14453,7 +14456,7 @@ http://purl.obolibrary.org/obo/INO_0000016""" ;
                                        AnnotationVocabulary:adaptedFrom "http://purl.obolibrary.org/obo/INO_0000002" ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid2214 rdf:type owl:Class ;
+_:genid2208 rdf:type owl:Class ;
              owl:unionOf ( <https://www.w3id.org/sco#SCO_0000007>
                            <https://www.w3id.org/sco#SCO_0000008>
                            <https://www.w3id.org/sco#SCO_0000009>
@@ -14462,7 +14465,7 @@ _:genid2214 rdf:type owl:Class ;
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://www.w3id.org/sco#SCO_0000001> ;
    owl:annotatedProperty owl:equivalentClass ;
-   owl:annotatedTarget _:genid2214 ;
+   owl:annotatedTarget _:genid2208 ;
    rdfs:comment "This class has been restricted to those specific subclasses for the purposes of SCO."@en
  ] .
 
@@ -14499,7 +14502,7 @@ Related axioms must be revised accordingly.""" ;
 
 ###  https://www.w3id.org/sco#SCO_0000003
 <https://www.w3id.org/sco#SCO_0000003> rdf:type owl:Class ;
-                                       owl:equivalentClass _:genid2239 ;
+                                       owl:equivalentClass _:genid2233 ;
                                        rdfs:subClassOf CommonCoreOntologies:RepresentationalInformationContentEntity ,
                                                        [ owl:intersectionOf ( CommonCoreOntologies:RepresentationalInformationContentEntity
                                                                               [ rdf:type owl:Restriction ;
@@ -14522,7 +14525,7 @@ http://purl.unep.org/sdg/SDGIO_00000003""" ;
                                                        "Un contenuto informativo rappresentativo che genericamente dipende da un indicatore e riguarda, fornisce informazioni sul, sistema complesso a cui l'indicatore appartiene."@it ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid2239 owl:intersectionOf ( CommonCoreOntologies:RepresentationalInformationContentEntity
+_:genid2233 owl:intersectionOf ( CommonCoreOntologies:RepresentationalInformationContentEntity
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty CommonCoreOntologies:is_about ;
                                     owl:someValuesFrom <https://www.w3id.org/sco#SCO_0000015>
@@ -14537,7 +14540,7 @@ _:genid2239 owl:intersectionOf ( CommonCoreOntologies:RepresentationalInformatio
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://www.w3id.org/sco#SCO_0000003> ;
    owl:annotatedProperty owl:equivalentClass ;
-   owl:annotatedTarget _:genid2239 ;
+   owl:annotatedTarget _:genid2233 ;
    rdfs:comment """Discussion with subject matter experts is required to revise this axiom with regard to the “represents” object property. This was the most appropriate object property among those pertaining to OBO-Foundry and compliant ontologies to use in constructing this axiom. 
 Nevertheless, implementations seem necessary to deepen the characterization, for instance with regard to representing and measuring the complex system of interest.. Revisions may regard adapting this object property or even further creating a new ad hoc object property. 
 
@@ -14599,7 +14602,7 @@ http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of"""
                                                              rdf:type owl:Class
                                                            ] ;
                                        rdfs:subClassOf CommonCoreOntologies:InformationContentEntity ,
-                                                       _:genid2269 ,
+                                                       _:genid2263 ,
                                                        [ owl:intersectionOf ( CommonCoreOntologies:InformationContentEntity
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:BFO_0000165 ;
@@ -14616,7 +14619,7 @@ http://www.ontologyrepository.com/CommonCoreOntologies/is_a_measurement_of"""
                                                        "Un contenuto informativo che dipende genericamente dal sistema complesso o dall'ambiente del sistema complesso (o una o più parti di essi) e riguarda il valore (che lo concretizza) che una componente del sistema complesso del suo ambiente riconosce di avere a quel sistema complesso o ambiente del sistema complesso (o una o più parti di essi)."@it ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid2269 owl:intersectionOf ( CommonCoreOntologies:InformationContentEntity
+_:genid2263 owl:intersectionOf ( CommonCoreOntologies:InformationContentEntity
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000084 ;
                                     owl:someValuesFrom [ rdf:type owl:Class ;
@@ -14633,7 +14636,7 @@ _:genid2269 owl:intersectionOf ( CommonCoreOntologies:InformationContentEntity
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://www.w3id.org/sco#SCO_0000005> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid2269 ;
+   owl:annotatedTarget _:genid2263 ;
    rdfs:comment "To amend this axiom in case worth is associated with some object aggregate that is part of the complex system or complex system environment of interest. To extend this axiom to also cover the \"object aggregate\" class."
  ] .
 
