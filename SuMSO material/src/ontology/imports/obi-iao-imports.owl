@@ -801,6 +801,7 @@ AnnotationAssertion(obo:IAO_0000117 obo:OBI_0000245 "PERSON: Susanna Sansone")
 AnnotationAssertion(obo:IAO_0000119 obo:OBI_0000245 "GROUP: OBI")
 AnnotationAssertion(obo:IAO_0000412 obo:OBI_0000245 obo:obi.owl)
 AnnotationAssertion(rdfs:label obo:OBI_0000245 "organization"@en)
+SubClassOf(obo:OBI_0000245 obo:BFO_0000040)
 
 # Class: obo:OBI_0000260 (plan)
 
