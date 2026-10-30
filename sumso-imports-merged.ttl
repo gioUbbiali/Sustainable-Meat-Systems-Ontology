@@ -11172,11 +11172,7 @@ http://purl.obolibrary.org/obo/OMRSE_00000051""" ;
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000097> ,
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty obo:RO_0000091 ;
-                                                         owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000112>
-                                                       ] ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000097> ;
                                        rdfs:comment "Future implementations may include classes to also represent farmer and rancher companies."@en ;
                                        rdfs:label "farmer"@en ;
                                        rdfs:seeAlso """See also: 
@@ -11662,7 +11658,7 @@ https://regenscore.org/""" ;
 
 ###  https://w3id.org/sumso#SuMSO_0000088
 <https://w3id.org/sumso#SuMSO_0000088> rdf:type owl:Class ;
-                                       owl:equivalentClass _:genid1337 ;
+                                       owl:equivalentClass _:genid1336 ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000087> ;
                                        oboInOwl:hasRelatedSynonym "cow well-being, cow wellbeing,"@en ;
                                        rdfs:comment "The label may be revised to refer more generally to bovines. Additional classes may be used to specify well-being of single species."@en ;
@@ -11670,7 +11666,7 @@ https://regenscore.org/""" ;
                                        skos:definition "A animal welfare that is bearered by a cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid1337 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000087>
+_:genid1336 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000087>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000059 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000093>
@@ -11689,7 +11685,7 @@ _:genid1337 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000087>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000088> ;
    owl:annotatedProperty owl:equivalentClass ;
-   owl:annotatedTarget _:genid1337 ;
+   owl:annotatedTarget _:genid1336 ;
    rdfs:comment "This axiom may be revised to refer more general to Bos."@en
  ] .
 
@@ -11787,12 +11783,12 @@ https://scholar.harvard.edu/sen/publications/development-capability-expansion"""
                                                              rdf:type owl:Class
                                                            ] ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000090> ,
-                                                       _:genid1380 ;
+                                                       _:genid1379 ;
                                        rdfs:label "meat system well-being"@en ;
                                        skos:definition "A food system well-being that is bearered by a meat system."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1380 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
+_:genid1379 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000178 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000088>
@@ -11807,7 +11803,7 @@ _:genid1380 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000091> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1380 ;
+   owl:annotatedTarget _:genid1379 ;
    rdfs:comment "This axiom currently includes reference to cow well-being. Implementations may establish distinctions between diverse meat systems as not all meat systems relate necessary to cows. This axiom must be revised accordingly."@en
  ] .
 
@@ -12324,14 +12320,14 @@ _:genid1380 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000090>
                                        owl:equivalentClass [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000111>
                                                                                   [ rdf:type owl:Restriction ;
                                                                                     owl:onProperty obo:RO_0000092 ;
-                                                                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000069>
+                                                                                    owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000205>
                                                                                   ]
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000111> ;
-                                       rdfs:label "farmer perspective"@en ;
-                                       skos:definition "A meat system worker perspective that is bearered by a farmer."@en ;
+                                       rdfs:label "meat system farmer perspective"@en ;
+                                       skos:definition "A meat system worker perspective that is bearered by a farmer part of a meat system."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
 
@@ -12985,7 +12981,7 @@ http://id.agrisemantics.org/gacs/C3602"""@en ;
 ###  https://w3id.org/sumso#SuMSO_0000153
 <https://w3id.org/sumso#SuMSO_0000153> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:OBI_0000094 ,
-                                                       _:genid1720 ,
+                                                       _:genid1719 ,
                                                        [ owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:BFO_0000117 ;
@@ -13013,7 +13009,7 @@ http://id.agrisemantics.org/gacs/C3602"""@en ;
                                        skos:definition "A planned process that concerns preparing meat items for marketing or distribution, including animal slaughtering,animal carcass cutting, meat portion preparation, and meat packing for distribution."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1720 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+_:genid1719 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom obo:FOODON_02010020
@@ -13054,7 +13050,7 @@ _:genid1720 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000153> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1720 ;
+   owl:annotatedTarget _:genid1719 ;
    rdfs:comment """This axiom requires implementation to refer to meat and meat-related animal materials more specifically. Revision must also apply to restrict to animals used for human consumption. 
 See also the comment to corresponding axiom for the \"meat processor-meat interaction\" class."""@en ;
    AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
@@ -13072,7 +13068,7 @@ See also the comment to corresponding axiom for the \"meat processor-meat intera
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
-                                                       _:genid1756 ,
+                                                       _:genid1755 ,
                                                        [ owl:intersectionOf ( obo:AGRO_00000426
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:RO_0002411 ;
@@ -13114,7 +13110,7 @@ See also the comment to corresponding axiom for the \"meat processor-meat intera
                                        skos:definition "Regulation of grazing that specifically regards cows."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1756 owl:intersectionOf ( obo:AGRO_00000426
+_:genid1755 owl:intersectionOf ( obo:AGRO_00000426
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:RO_0002092 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000178>
@@ -13125,7 +13121,7 @@ _:genid1756 owl:intersectionOf ( obo:AGRO_00000426
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000154> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1756 ;
+   owl:annotatedTarget _:genid1755 ;
    rdfs:comment "Alternatively, the object property \"regulates\" may be used here."@en
  ] .
 
@@ -13557,7 +13553,7 @@ To represent variations of quality/realizable with respect to different processe
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ] ,
-                                                       _:genid1902 ,
+                                                       _:genid1901 ,
                                                        [ owl:intersectionOf ( obo:ECOCORE_00000139
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty obo:RO_0002411 ;
@@ -13570,7 +13566,7 @@ To represent variations of quality/realizable with respect to different processe
                                        skos:definition "A grazing process that pertain to cows."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1902 owl:intersectionOf ( obo:ECOCORE_00000139
+_:genid1901 owl:intersectionOf ( obo:ECOCORE_00000139
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:RO_0002234 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000172>
@@ -13581,7 +13577,7 @@ _:genid1902 owl:intersectionOf ( obo:ECOCORE_00000139
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000176> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1902 ;
+   owl:annotatedTarget _:genid1901 ;
    rdfs:comment "This axiom must be implemented, for instance with reference to GHG emissions."@en
  ] .
 
@@ -13759,13 +13755,13 @@ _:genid1902 owl:intersectionOf ( obo:ECOCORE_00000139
 ###  https://w3id.org/sumso#SuMSO_0000183
 <https://w3id.org/sumso#SuMSO_0000183> rdf:type owl:Class ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000013> ,
-                                                       _:genid1973 ;
+                                                       _:genid1972 ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "meat processor-meat interaction"@en ;
                                        skos:definition "An interaction that occurs between at lest one meat processor and one cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid1973 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
+_:genid1972 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000100>
@@ -13780,7 +13776,7 @@ _:genid1973 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000183> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1973 ;
+   owl:annotatedTarget _:genid1972 ;
    rdfs:comment "This axiom requires implementation to refer to meat and meat-related animal materials."@en ;
    AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
  ] .
@@ -13828,7 +13824,7 @@ _:genid1973 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
 ###  https://w3id.org/sumso#SuMSO_0000186
 <https://w3id.org/sumso#SuMSO_0000186> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:OBI_0600006 ,
-                                                       _:genid1996 ;
+                                                       _:genid1995 ;
                                        obo:IAO_0000118 "meat system animal killing"@en ;
                                        rdfs:comment "Currently, SuMSO uses this general class. A more specific subclass is required to restrict to animals used for human consumption."@en ,
                                                     "In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal killing” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises."@en ,
@@ -13837,7 +13833,7 @@ _:genid1973 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000013>
                                        skos:definition "A protocol application in which an animal is intentionally put to death"@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid1996 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+_:genid1995 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom obo:NCBITaxon_33208
@@ -13906,7 +13902,7 @@ _:genid1996 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000186> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid1996 ;
+   owl:annotatedTarget _:genid1995 ;
    AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
  ] .
 
@@ -13914,13 +13910,13 @@ _:genid1996 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 ###  https://w3id.org/sumso#SuMSO_0000188
 <https://w3id.org/sumso#SuMSO_0000188> rdf:type owl:Class ;
                                        rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000183> ,
-                                                       _:genid2033 ;
+                                                       _:genid2032 ;
                                        rdfs:comment "This class is general. Subclasses providing specific types of interactions may be added in future implementations.This class is general. Subclasses providing specific types of interactions may be added in future implementations." ;
                                        rdfs:label "slaughterer-meat interaction"@en ;
                                        skos:definition "An interaction that occurs between at lest one slaughterer and one cow."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid2033 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
+_:genid2032 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000075>
@@ -13935,7 +13931,7 @@ _:genid2033 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000188> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid2033 ;
+   owl:annotatedTarget _:genid2032 ;
    rdfs:comment "This axiom requires implementation to refer to meat and meat-related animal materials."@en ;
    AnnotationVocabulary:maturity AnnotationVocabulary:Provisional
  ] .
@@ -14080,7 +14076,7 @@ _:genid2033 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
 ###  https://w3id.org/sumso#SuMSO_0000194
 <https://w3id.org/sumso#SuMSO_0000194> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:OBI_0000011 ,
-                                                       _:genid2088 ;
+                                                       _:genid2087 ;
                                        obo:IAO_0000118 "meat system animal aggregation process"@en ;
                                        rdfs:comment "In this ontology the term “animal” also refers to humans, as  they are Metazoa (animals).Nevertheless, with regard to meat systems, the expression “animal aggregation process” typically restricts to non-human animals. Thus, for the purpose of this class, the term “animal” does not apply to humans. Additional classes and axioms may be added to revise this representation if the need arises."@en ,
                                                     "Revision must restrict this class to animals used for human consumption."@en ,
@@ -14090,7 +14086,7 @@ _:genid2033 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000183>
                                        skos:definition "A planned process that concerns the purchase of animals from smallholders for resale in large quantities to some supply chain actors or companies that participate in the downstream supply chain activities."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
 
-_:genid2088 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
+_:genid2087 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000057 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000008>
@@ -14149,7 +14145,7 @@ _:genid2088 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000194> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid2088 ;
+   owl:annotatedTarget _:genid2087 ;
    rdfs:comment "Animal aggregation leads to variations of animal welfare. Welfare may increase, decrease or persist unchanged. Including in this axiom reference to animal welfare would not have been very informative. Thus, this axiom currently does not cover reference to animal welfare. We envision implementations that will provide more specific classes and axioms that detail the type of welfare variation."@en
  ] .
 
@@ -14330,7 +14326,7 @@ _:genid2088 owl:intersectionOf ( <https://w3id.org/sumso#SuMSO_0000047>
 ###  https://w3id.org/sumso#SuMSO_0000203
 <https://w3id.org/sumso#SuMSO_0000203> rdf:type owl:Class ;
                                        rdfs:subClassOf obo:OCCO_00000124 ,
-                                                       _:genid2186 ;
+                                                       _:genid2185 ;
                                        obo:IAO_0000118 "AGA certification"@en ;
                                        dc:source """https://www.americangrassfed.org/become-a-certified-producer/  
 https://www.americangrassfed.org/about-us/our-standards/"""@en ;
@@ -14341,7 +14337,7 @@ https://www.americangrassfed.org/about-us/our-standards/"""@en ;
                                        rdfs:label "American Grassfed Association (AGA) certification"@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
-_:genid2186 owl:intersectionOf ( obo:OCCO_00000124
+_:genid2185 owl:intersectionOf ( obo:OCCO_00000124
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty obo:BFO_0000056 ;
                                     owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000204>
@@ -14364,7 +14360,7 @@ _:genid2186 owl:intersectionOf ( obo:OCCO_00000124
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <https://w3id.org/sumso#SuMSO_0000203> ;
    owl:annotatedProperty rdfs:subClassOf ;
-   owl:annotatedTarget _:genid2186 ;
+   owl:annotatedTarget _:genid2185 ;
    rdfs:comment "The object property “prescribes” may be substituted/complemented with some more specific/other relations."@en ,
                 "This axiom is a starting point Additional axioms are required to complete the representation of AGA certification. Possible implementations include reference to animal raising in US family farms and prohibition of hormones or antibiotics usage as well as specification of the type of animal to which the AGA certification applies, i.e. cows, pigs, and chickens."@en ,
                 "We currently include references to animal welfare. Nevertheless, this axiom must be specified for grazing animals."@en ;
@@ -14399,7 +14395,11 @@ _:genid2186 owl:intersectionOf ( obo:OCCO_00000124
                                                                                 ) ;
                                                              rdf:type owl:Class
                                                            ] ;
-                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000069> ;
+                                       rdfs:subClassOf <https://w3id.org/sumso#SuMSO_0000069> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty obo:RO_0000091 ;
+                                                         owl:someValuesFrom <https://w3id.org/sumso#SuMSO_0000112>
+                                                       ] ;
                                        rdfs:label "meat system farmer"@en ;
                                        skos:definition "A farmer that is part of a meat system and engages in at least one meat supply chain activitiy."@en ;
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Released .
@@ -15918,10 +15918,10 @@ Future implementations may address including classes to represent theories, rela
                                        AnnotationVocabulary:maturity AnnotationVocabulary:Provisional .
 
 
-[ obo:IAO_0000412 obo:agro.owl
+[ obo:IAO_0000412 obo:uberon.owl
 ] .
 
-[ obo:IAO_0000412 obo:uberon.owl
+[ obo:IAO_0000412 obo:agro.owl
  ] .
 
 [ owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger
